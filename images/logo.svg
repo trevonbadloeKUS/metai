@@ -1,29 +1,29 @@
 
-<svg height="600" width="800" xmlns="http://www.w3.org/2000/svg">
+</svg><svg height="100" width="300" xmlns="http://www.w3.org/2000/svg">
 
   
- <path id="lineAC" d="M 0 300 q 40 -300 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0 " stroke="blue" fill="none" stroke-width="4">
+ <path id="lineAC" d="M 0 50 q 40 -50 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0 " stroke="blue" fill="none" stroke-width="4">
       <animate attributeName="d"
-        values=" M 0 300 q 40 -300 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0;
-        M 0 300 q 40 300 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0;
-        M 0 300 q 40 -300 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0"
+        values=" M 0 50 q 40 -50 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0;
+        M 0 50 q 40 50 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0;
+        M 0 50 q 40 -50 80 0 t 80 0 80 0 80 0  80 0  80 0  80 0  80 0  80 0  80 0"
          dur="1.5s" repeatCount="indefinite" />
   </path>
 
 
-  <path id="lineAC" d="M -100 300 q 75 -300 150 0 t 150 0 150 0 150 0 150 0 150 0 150 0 " stroke="green" fill="none" stroke-width="4">
+  <path id="line" d="M -100 50 q 75 -50 50 0 t 50 0 50 0 50 0 50 0 50 0 50 0 " stroke="green" fill="none" stroke-width="4">
 
     <animate attributeName="d"
-        values="M -100 300 q 75 -300 150 0 t 150 0 150 0 150 0 150 0 150 0 150 0; 
-        M -100 300 q 75 300 150 0 t 150 0 150 0 150 0 150 0 150 0 150 0; 
-        M -100 300 q 75 -300 150 0 t 150 0 150 0 150 0 150 0 150 0 150 0"
+        values="M -100 50 q 75 -50 50 0 t 50 0 50 0 50 0 50 0 50 0 50 0; 
+        M -100 50 q 75 50 50 0 t 50 0 50 0 50 0 50 0 50 0 50 0; 
+        M -100 50 q 75 -50 50 0 t 50 0 50 0 50 0 50 0 50 0 50 0"
          dur="2s" repeatCount="indefinite" />
   </path>
 
 
   <path id="line1" 
-  d="M -100 300 
-  q 100 -300 200 0 
+  d="M -100 50 
+  q 100 -50 200 0 
   t 200 0 
   200 0 
   200 0 
@@ -31,9 +31,9 @@
   stroke="red" fill="none" stroke-width="4">
 
     <animate attributeName="d"
-        values="M -100 300 q 100 -300 200 0 t 200 0 200 0 200 0 200 0; 
-        M -100 300 q 100 300 200 0 t 200 0 200 0 200 0 200 0; 
-        M -100 300 q 100 -300 200 0 t 200 0 200 0 200 0 200 0"
+        values="M -100 50 q 100 -50 200 0 t 200 0 200 0 200 0 200 0; 
+        M -100 50 q 100 50 200 0 t 200 0 200 0 200 0 200 0; 
+        M -100 50 q 100 -50 200 0 t 200 0 200 0 200 0 200 0"
          dur="3s" repeatCount="indefinite" />
 
   </path>

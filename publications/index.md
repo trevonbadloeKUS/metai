@@ -9,6 +9,16 @@ nav:
 
 Add some writing here for the top of the page...maybe the thing for first and corresponding authors in a box
 
+{%
+  include button.html
+  type="google-scholar"
+  text="Google Scholar"
+  tooltip="Check Google Scholar for the most up to date list of publications"
+  flip=false
+  style="bare"
+%}
+
+
 {% include section.html %}
 
 ## Highlighted
