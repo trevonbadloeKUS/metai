@@ -10,7 +10,13 @@
   data-size="wide"
 >
     <div>
-      [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
+      {%
+        include figure.html
+        image= "images/korea_university_sejong_campus_logo.png"
+        link="https://sejong.korea.ac.kr/mbshome/mbs/eng/index.do"
+        width="100%"
+      %}
+       Trevon's lab | trevon@korea.ac.kr | [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
     </div>
 
   <div>
@@ -20,6 +26,7 @@
       {% include button.html type=key text="" link=value style="bare" %}
     {% endfor %}
   </div>
+
 
  
   <input
