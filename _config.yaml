@@ -1,8 +1,8 @@
 # site properties and page defaults
 title: Trevon's research lab
-subtitle: Korea University - Sejong Campus
+subtitle: Nanophotonics | Metamaterials | AI
 description: Nanophotonics and metamaterials research at Korea University Sejong Campus
-header: images/background.jpg
+header: images/header.svg
 footer: images/background.jpg
 proofer: false
 
