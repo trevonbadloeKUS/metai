@@ -8,4 +8,4 @@ nav:
 
 # Talks
 
-{% include list.html data="talks" component="talk" %}
+{% include list.html data="talks" component="talks" %}
