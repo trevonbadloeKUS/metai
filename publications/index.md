@@ -2,7 +2,7 @@
 <<<<<<< HEAD:publications/index.md
 title: Publications
 =======
-title: Research
+title: Publications
 description: Check out the work published by our team
 >>>>>>> 255895e6e77a89a65b4481f5425c52d2e6035775:research/index.md
 nav:
