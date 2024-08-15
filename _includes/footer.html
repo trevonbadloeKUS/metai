@@ -9,31 +9,33 @@
   {% endif %}
   data-size="wide"
 >
-    <div>
-      {%
-        include figure.html
-        image= "images/korea_university_sejong_campus_logo.png"
-        link="https://sejong.korea.ac.kr/mbshome/mbs/eng/index.do"
-        width="10%"
-      %}
-       Trevon's lab | trevon@korea.ac.kr | [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
-    </div>
 
-  <div>
-    {% for link in site.links %}
-      {% assign key = link[0] %}
-      {% assign value = link[1] %}
-      {% include button.html type=key text="" link=value style="bare" %}
-    {% endfor %}
-  </div>
+<input
+type="checkbox"
+class="dark-toggle"
+data-tooltip="Dark mode"
+aria-label="toggle dark mode"
+oninput="onDarkToggleChange(event)"
+>
+
+<div>
+  {% for link in site.links %}
+    {% assign key = link[0] %}
+    {% assign value = link[1] %}
+    {% include button.html type=key text="" link=value style="bare" %}
+  {% endfor %}
+</div>
+
+<div>
+  {%
+    include figure.html
+    image= "images/korea_university_sejong_campus_logo.png"
+    link="https://sejong.korea.ac.kr/mbshome/mbs/eng/index.do"
+    width="900px"
+  %}
+    Trevon's lab | trevon@korea.ac.kr | Korea University - Sejong Campus - Department of Electronics and Information Engineering
+    [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
+</div>
 
 
- 
-  <input
-    type="checkbox"
-    class="dark-toggle"
-    data-tooltip="Dark mode"
-    aria-label="toggle dark mode"
-    oninput="onDarkToggleChange(event)"
-  >
 </footer>
