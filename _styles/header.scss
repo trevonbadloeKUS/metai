@@ -111,6 +111,28 @@ nav > a:hover {
   color: var(--primary);
 }
 
+
+header{
+  @media (max-width: $collapse) {
+    justify-content: flex-end;
+
+    .nav-toggle {
+      display: flex;
+    }
+
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
+
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}
+
+/*
 header:not([data-big]) {
   @media (max-width: $collapse) {
     justify-content: flex-end;
@@ -164,3 +186,4 @@ header[data-big] {
     font-size: var(--large);
   }
 }
+/*
