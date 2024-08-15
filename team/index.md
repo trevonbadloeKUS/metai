@@ -15,17 +15,17 @@ nav:
 {% include section.html %}
 
 # Researchers
-{% include list.html data="members" component="portrait" filters="role: researcher" %}
+{% include list.html data="members" component="portrait" filters="role: postdoc" %}
 
 {% include section.html %}
 
 # Graduate students
-{% include list.html data="members" component="portrait" filters="role: graduate student" %}
+{% include list.html data="members" component="portrait" filters="role: grad" %}
 
 {% include section.html %}
 
 # Undergraduate researchers
-{% include list.html data="members" component="portrait" filters="role: undergraduate student" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
 
 {% include section.html background="images/background.jpg" dark=true %}
