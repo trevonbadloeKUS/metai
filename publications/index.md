@@ -20,7 +20,7 @@ Add some writing here for the top of the page...maybe the thing for first and co
 {%
   include alert.html
   type="info"
-  content= *first author +corresponding author
+  content= "*first author +corresponding author"
 %}
 
 ## All
