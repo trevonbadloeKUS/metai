@@ -59,8 +59,8 @@
             
           {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
-      </div>
 
+        <!-- 
         {{
           citation.authors
           | join: ","
@@ -72,11 +72,9 @@
           | default: "[no author info]"
         }}
       </div>
-
+-->
       <div class="citation-details">
         
-
-
         <span class="citation-publisher">
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
@@ -95,7 +93,6 @@
       <div class="journal-details">
     
         <span class="journal-IF">
-          add some random text here because we can
           {{ publisher_info.IF }}
         </span>
 
