@@ -1,7 +1,7 @@
 ---
 name: John Doe
-image: images/photo.jpg
-role: undergraduate researcher
+image: https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png
+role: researcher
 group: Undergraduate Student
 links:
   github: john-doe

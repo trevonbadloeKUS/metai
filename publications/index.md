@@ -1,16 +1,11 @@
 ---
-<<<<<<< HEAD:publications/index.md
 title: Publications
-=======
-title: Publications
-description: Check out the work published by our team
->>>>>>> 255895e6e77a89a65b4481f5425c52d2e6035775:research/index.md
 nav:
   order: 1
   tooltip: Published work
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
 Add some writing here for the top of the page...maybe the thing for first and corresponding authors in a box
 
@@ -18,9 +13,15 @@ Add some writing here for the top of the page...maybe the thing for first and co
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode Metalens" style="rich" %}
 
 {% include section.html %}
+
+{%
+  include alert.html
+  type="info"
+  content= *first author +corresponding author
+%}
 
 ## All
 

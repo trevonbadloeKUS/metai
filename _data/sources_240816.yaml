@@ -305,6 +305,12 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.3c02471/asset/images/medium/nn3c02471_0006.gif
+  tags: 
+  - metalens
+  - liquid crystals
+  - tunable
+  - bioimaging
 - id: doi:10.1002/advs.202204469
   title: "Humidity\u2010Responsive RGB\u2010Pixels via Swelling of 3D Nanoimprinted\
     \ Polyvinyl Alcohol"
