@@ -1,7 +1,7 @@
 ---
 ---
 
-# trevonbadloeKUSDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# This is a short description about the research at my lab. Contact me for more information~
 
 
 
@@ -11,7 +11,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Recent research from our lab
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+What is this nonesense writing...?
 
 {%
   include button.html
