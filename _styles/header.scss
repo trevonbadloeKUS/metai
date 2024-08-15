@@ -1,8 +1,8 @@
 ---
 ---
 
-$logo-big: 80px;
-$logo: 40px;
+$logo-big: 100px;
+$logo: 50px;
 $big-padding: 100px;
 $collapse: 700px;
 $sticky: true;
@@ -10,7 +10,7 @@ $sticky: true;
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;

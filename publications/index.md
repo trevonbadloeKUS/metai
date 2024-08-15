@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD:publications/index.md
 title: Publications
+=======
+title: Research
+description: Check out the work published by our team
+>>>>>>> 255895e6e77a89a65b4481f5425c52d2e6035775:research/index.md
 nav:
   order: 1
   tooltip: Published work
@@ -7,8 +12,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Add some writing here for the top of the page...maybe the thing for first and corresponding authors in a box
 
 {% include section.html %}
 
