@@ -60,6 +60,9 @@
       </div>
 
       <div class="citation-details">
+        
+
+
         <span class="citation-publisher">
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
@@ -72,6 +75,40 @@
           {{- citation.id | default: "[no id info]" -}}
         </span>
       </div>
+
+
+      <div class="journal-details">
+        {% assign publisher_key = citation.publisher %}
+        {% assign publisher_info = site.data.journal_details_24[publisher_key] %}
+
+        <span class="journal-IF">
+          {{ publisher_info.IF }}
+        </span>
+
+        {% if publisher_info.JCR %}
+        &nbsp;·&nbsp;
+        <span class="journal-JCR">
+          {{ publisher_info.JCR }}
+        </span>
+      {% endif %}
+    </div>
+
+
+<!--- 
+      <div class="citation-details">
+        <span class="citation-publisher">
+          {{- citation.publisher | default: "[no publisher info]" -}}
+        </span>
+        &nbsp;·&nbsp;
+        <span class="citation-date">
+          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+        </span>
+        &nbsp;·&nbsp;
+        <span class="citation-id">
+          {{- citation.id | default: "[no id info]" -}}
+        </span>
+      </div>
+-->
 
       {% if include.style == "rich" %}
         {% if citation.description %}

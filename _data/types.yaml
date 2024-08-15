@@ -84,10 +84,10 @@ orcid:
   link: https://orcid.org/$VALUE
 
 google-scholar:
-  icon: fa-brands fa-google
+  icon: fa-brands fa-google-scholar
   text: Google Scholar
   tooltip: Google Scholar
-  link: https://scholar.google.com/citations?user=$VALUE
+  link: https://scholar.google.com/citations?user=aVP_G7oAAAAJ&hl=en
 
 github:
   icon: fa-brands fa-github
@@ -123,7 +123,7 @@ linkedin:
   icon: fa-brands fa-linkedin
   text: LinkedIn
   tooltip: LinkedIn
-  link: https://www.linkedin.com/in/$VALUE
+  link: https://www.linkedin.com/in/trevonbadloe 
 
 # alerts
 
