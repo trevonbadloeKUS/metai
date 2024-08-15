@@ -1,6 +1,6 @@
 ---
 name: Trevon Badloe
-image: team/photos/trevon_photo.jpeg
+image: team/photos/professor/trevon_photo.jpeg
 role: pi
 affiliation: Korea University - Department of Electronics and Information Engineering
 aliases:
