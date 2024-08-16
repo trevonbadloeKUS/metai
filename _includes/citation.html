@@ -89,7 +89,7 @@
         </span>
       </div>
 
-      {% if citation.type != book chapter %}
+      {% if citation.type != "book chapter" %}
         {% assign publisher_key = citation.publisher %}
         {% assign publisher_info = site.data.journal_details_24[publisher_key] %}
         <div class="journal-details">

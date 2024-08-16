@@ -20,7 +20,8 @@ nav:
 {% include section.html %}
 
 # Graduate students
-{% include list.html data="members" component="portrait" filters="role: grad" %}
+{% include list.html data="members" component="portrait" filters="role: phd" %}
+{% include list.html data="members" component="portrait" filters="role: combined" %}
 
 {% include section.html %}
 
