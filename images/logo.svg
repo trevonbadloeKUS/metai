@@ -1,6 +1,5 @@
-<svg height="100" width="200" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
 
-  
  <path id="blue" d="M 0 50" stroke="blue" fill="none" stroke-width="3">
    
       <animate attributeName="d"

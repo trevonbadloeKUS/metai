@@ -10,6 +10,39 @@
   data-size="wide"
 >
 
+
+{% capture content %}
+
+<input
+type="checkbox"
+class="dark-toggle"
+data-tooltip="Dark mode"
+aria-label="toggle dark mode"
+oninput="onDarkToggleChange(event)"
+>
+
+{%
+    include figure.html
+    image= "images/korea_university_sejong_campus_logo.png"
+    link="https://sejong.korea.ac.kr/mbshome/mbs/eng/index.do"
+    width="300px"
+  %}
+    Trevon's lab | trevon@korea.ac.kr |
+    Department of Electronics and Information Engineering <br />
+
+    [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
+{% endcapture %}
+
+{%
+  include grid.html
+  content=content
+  style="square"
+%}
+
+
+
+<!-- 
+
 <input
 type="checkbox"
 class="dark-toggle"
@@ -38,6 +71,7 @@ oninput="onDarkToggleChange(event)"
 
     [30019] Korea University Sejong Campus 2511 Sejong-ro, Sejong-si, Republic of Korea 
 </div>
+-->
 
 
 </footer>
