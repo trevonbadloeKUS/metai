@@ -33,7 +33,7 @@ button {
 
 .button:hover {
   background: var(--text);
-  color: var(--background);
+  color: var(--hover);
 }
 
 .button[data-style="bare"] {
@@ -42,7 +42,7 @@ button {
   color: var(--primary);
 
   &:hover {
-    color: var(--text);
+    color: var(--hover);
   }
 }
 

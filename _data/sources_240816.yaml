@@ -127,7 +127,7 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png?as=webp
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png
   type: review
   tags:
     - review
@@ -167,7 +167,7 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-023-00609-w/MediaObjects/41378_2023_609_Fig4_HTML.png?as=webp
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-023-00609-w/MediaObjects/41378_2023_609_Fig4_HTML.png
   type: review
   tags:
    - review
@@ -217,6 +217,9 @@
   file: orcid_PI.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
+  tags:
+    - SHEL
+    - image processing
 - id: doi:10.1021/acs.nanolett.3c04064
   title: Spin-Selective Angular Dispersion Control in Dielectric Metasurfaces for
     Multichannel Meta-Holographic Displays
@@ -241,6 +244,8 @@
   file: orcid_PI.yaml
   type: research
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c04064/asset/images/medium/nl3c04064_0005.gif
+  tags:
+    - metahologram
 - id: doi:10.1038/s41378-024-00681-w
   title: Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet
     metasurfaces
@@ -258,6 +263,11 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
+  tags: 
+   - Nanoimprint
+   - UV metasurface
 - id: doi:10.1038/s41377-023-01332-x
   title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
     innovation between academia and industry'
@@ -406,23 +416,28 @@
   title: One-step printable platform for high-efficiency metasurfaces down to the
     deep-ultraviolet region
   authors:
-  - Joohoon Kim
-  - Wonjoong Kim
-  - Dong Kyo Oh
+  - Joohoon Kim*
+  - Wonjoong Kim*
+  - Dong Kyo Oh*
   - Hyunjung Kang
   - Hongyoon Kim
   - Trevon Badloe
   - Seokwoo Kim
   - Chanwoong Park
   - Hojung Choi
-  - Heon Lee
-  - Junsuk Rho
+  - Heon Lee+
+  - Junsuk Rho+
   publisher: 'Light: Science &amp; Applications'
   date: '2023-03-08'
   link: https://doi.org/gsmssm
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image:https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01086-6/MediaObjects/41377_2023_1086_Fig4_HTML.png
+  tags:
+   - UV metasurface
+   - nanoimprint
 - id: doi:10.1364/OME.499630
   title: Optimizing the design of broadband solar metamaterial absorbers based on
     titanium nitride nanorings [Invited]
@@ -438,11 +453,16 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://opg.optica.org/getimagev2.cfm?img=luPOf6Bua04sYw7lRwM%2BNcutBU3mGvgqLUGaE5Zo5TI%3D&uri=ome-13-10-2787-g001
+  tags:
+    - optimisation
+    - absorber
 - id: doi:10.1021/acs.nanolett.3c01588
   title: Trichannel Spin-Selective Metalenses
   authors:
-  - Trevon Badloe
-  - Junhwa Seong
+  - Trevon Badloe*
+  - Junhwa Seong*
   - Junsuk Rho
   publisher: Nano Letters
   date: '2023-07-21'
@@ -450,6 +470,12 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c01588/asset/images/large/nl3c01588_0003.jpeg
+  type: research
+  tags: 
+   - metalens
+   - image processing
+   - imaging
 - id: doi:10.1021/acs.nanolett.2c04193
   title: "Ultraviolet\u2013Visible Multifunctional Vortex Metaplates by Breaking Conventional\
     \ Rotational Symmetry"
