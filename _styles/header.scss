@@ -27,14 +27,12 @@ header a {
   color: var(--text);
   text-decoration: none;
 }
-
 .background {
   position: relative;
   background: var(--header_colour);
   color: var(--text);
   z-index: 1;
 }
-
 
 .home {
   display: flex;
@@ -48,10 +46,12 @@ header a {
 
 .logo {
   height: $logo;
+  align-items: center;
 }
 
 .logo > * {
   height: 100%;
+  align-items: center;
 }
 
 .title-text {
