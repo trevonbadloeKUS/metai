@@ -108,6 +108,9 @@
   file: orcid_PI.yaml
   image: https://cms.iopscience.org/ead6444d-2bbb-11e9-9390-0131eabbf6de/journal_cover?guest=true
   type: review
+  tags: 
+    - review
+    - roadmap
 - id: doi:10.1007/s40684-023-00580-x
   title: "Cost-Effective and Environmentally\_Friendly Mass Manufacturing of Optical\
     \ Metasurfaces Towards Practical Applications and Commercialization"
@@ -126,6 +129,8 @@
   file: orcid_PI.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png?as=webp
   type: review
+  tags:
+    - review
 - id: doi:10.1515/nanoph-2024-0100
   title: Enabling new frontiers of nanophotonics with metamaterials, photonic crystals,
     and plasmonics
@@ -140,6 +145,7 @@
   file: orcid_PI.yaml
   image: https://www.degruyter.com/document/cover/journal_key/NANOPH/product_pages
   type: editorial
+  tags: editorial
 - id: doi:10.1038/s41378-023-00609-w
   title: Hydrogels for active photonics
   authors:

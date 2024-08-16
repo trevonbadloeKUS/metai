@@ -76,21 +76,25 @@
         </span>
       </div>
 
-      {% unless citation.type == "book chapter" %}
+      {% if citation.type != "book chapter" %}
         {% assign journal_key = citation.publisher %}
-        {% assign journal_info = site.data.journal_details_24.Journal[journal_key] %}
+        {% assign journal_data = site.data.journal_details_24 | where: "Journal", journal_key | first %}
+
+        {% if journal_data %}
+
         <div class="journal-details">
           <span class="journal-IF">
-            <strong>[IF: {{ journal_info.IF }}]</strong>
+            <strong>[IF: {{ journal_data.IF }}]</strong>
           </span>
 
-          {% unless journal_info.etc %}
+          {% if journal_data.etc != '' %}
           &nbsp;·&nbsp;
           <span class="journal-JCR">
-            (JCR: {{ journal_info.JCR }} in {{ journal_info.JCR Cetagory}})
+            (JCR: {{ journal_data.etc }} in {{ journal_data['JCR Category'] }})
           </span>
-        {% endunless %}
-      {% endunless %}
+          {% endif %}
+
+      {% endif %}
 
     </div>
 
