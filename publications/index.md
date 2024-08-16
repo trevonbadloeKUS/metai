@@ -18,22 +18,25 @@ Have a look at our publications...
   style="bare"
 %}
 
-<!---
+<!--
 {% include section.html %}
-
 ## Highlighted
-
 {% include citation.html lookup="Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode Metalens" style="rich" %}
-
-{% include section.html %}
 -->
 
+
 {% include section.html %}
+
+{% capture content %}
+
+  "* Equal Contribution || + Corresponding Author"
+
+{% end capture %}
 
 {%
   include alert.html
   type="info"
-  content= "* Equal Contribution || + Corresponding Author"
+  content= content
 %}
 
 {% include section.html %}
