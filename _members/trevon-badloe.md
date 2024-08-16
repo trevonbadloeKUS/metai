@@ -5,7 +5,7 @@ role: pi
 
 current:
   - date: '2024/9 - current'
-  - position: Postdoctoral Researcher
+  - position: Assitant Professor
   - department: Department of Electronics and Information Engineering  
   - link: https://kueie.korea.ac.kr
 
@@ -23,6 +23,8 @@ phd:
   - department: Department of Mechanical Engeering
   - degree: Ph.D.
   - link: https://me.postech.ac.kr/
+  - advisor: Junsuk Rho
+  - dissertation: 
 
 experience:
   - date: "2023/3 - 2024/8"
@@ -42,9 +44,33 @@ links:
   email: trevon@korea.ac.kr
 ---
 
-What is this? Should I write a bio in here or something?
-How do I format it? 
 
-# is this a heading? 
+## Current Position
 
-and write some **bold text** 
+- **Date:** 2024/9 - current  
+- **Position:** Assitant Professor  
+- **Department:** [Department of Electronics and Information Engineering](https://kueie.korea.ac.kr)  
+
+## Experience
+
+- **Date:** 2023/3 - 2024/8  
+- **School:** [Pohang University of Science and Technology (POSTECH)](https://ai.postech.ac.kr/)  
+- **Department:** Graduate School of AI  
+- **Position:** Postdoctoral Researcher  
+- **Additional Role:** PIURI fellow
+
+## Education
+
+### PhD Degree
+
+- **Date:** 2017 - 2023  
+- **School:** [Pohang University of Science and Technology (POSTECH)](https://me.postech.ac.kr/)  
+- **Department:** Department of Mechanical Engineering  
+- **Degree:** Ph.D.
+
+### Master's Degree
+
+- **Date:** 2008 - 2012  
+- **School:** [The University of Sheffield](https://www.sheffield.ac.uk/mps/study-physics)  
+- **Department:** Department of Physics & Astronomy  
+- **Degree:** MPhys.
