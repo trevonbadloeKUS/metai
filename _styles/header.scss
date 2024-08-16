@@ -1,8 +1,7 @@
 ---
 ---
 
-$logo-big: 100px;
-$logo-width: 200px;
+$logo-big: 80px;
 $logo: 50px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -129,7 +128,6 @@ nav > a:hover {
 header{
   .logo {
     height: $logo-big;
-    width: $logo-width;
     align-items: center;
     vertical-align: middle;
   }
