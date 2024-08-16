@@ -113,6 +113,11 @@ nav > a:hover {
 
 
 header{
+  .logo {
+    height: $logo-big;
+  }
+
+  
   @media (max-width: $collapse) {
     justify-content: flex-end;
 
