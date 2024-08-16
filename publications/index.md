@@ -7,8 +7,6 @@ nav:
 
 # Publications
 
-Have a look at our publications...
-
 {%
   include button.html
   type="google-scholar"
@@ -21,7 +19,9 @@ Have a look at our publications...
 {% include section.html %}
 {% capture content %}
 
-  \* Equal Contribution  \+ Corresponding Author
+  \* Equal Contribution  
+  
+  \+ Corresponding Author
 
 {% endcapture %}
 
@@ -32,8 +32,6 @@ Have a look at our publications...
 %}
 
 {% include section.html %}
-
-## All
 
 {% include search-box.html %}
 

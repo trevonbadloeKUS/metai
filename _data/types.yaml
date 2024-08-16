@@ -137,7 +137,7 @@ help:
 
 info:
   icon: fa-solid fa-circle-info
-  color: "#0ea5e9"
+  color: "#872535"
 
 success:
   icon: fa-solid fa-circle-check
