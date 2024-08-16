@@ -169,6 +169,9 @@
   - Jaekyung Kim
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-023-00609-w/MediaObjects/41378_2023_609_Fig4_HTML.png?as=webp
   type: review
+  tags:
+  - review
+  - hydrogels
 - id: doi:10.1016/j.solmat.2024.112848
   title: Inverse design of colored daytime radiative coolers using deep neural networks
   authors:
