@@ -82,17 +82,19 @@
 
         {% if journal_data %}
 
-        <div class="journal-details">
-          <span class="journal-IF">
-            <strong>[IF: {{ journal_data.IF }}]</strong>
-          </span>
+           <div class="journal-details">
+             <span class="journal-IF">
+             <strong>[IF: {{ journal_data.IF }}]</strong>
+              </span>
 
-          {% if journal_data.etc != '' %}
-          &nbsp;·&nbsp;
-          <span class="journal-JCR">
-            (JCR: {{ journal_data.etc }} in {{ journal_data['JCR Category'] }})
-          </span>
-          {% endif %}
+            {% if journal_data.etc != '' %}
+             &nbsp;·&nbsp;
+             <span class="journal-JCR">
+             (JCR: {{ journal_data.etc }} in {{ journal_data['JCR Category'] }})
+               </span>
+            {% endif %}
+        {% endif %}
+
 
       {% endif %}
 
