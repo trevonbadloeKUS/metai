@@ -755,7 +755,7 @@
   tags:
    - review
    - hyperbolic metamaterials
-   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
 - id: doi:10.1016/B978-0-323-85796-3.00001-9
   title: 'Inverse design meets nanophotonics: From computational optimization to artificial
     neural network'
