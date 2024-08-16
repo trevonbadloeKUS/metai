@@ -1,11 +1,11 @@
 ---
-name: Trevon Badloe
-image: team/photos/professor/trevon_photo.jpeg
-role: pi
+name: Postdoc 1
+image: https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png
+role: postdoc
 
 current:
   - date: '2024/9 - current'
-  - position: Postdoctoral Researcher
+  - position: Assistant Professor
   - department: Department of Electronics and Information Engineering  
   - link: https://kueie.korea.ac.kr
 
@@ -34,17 +34,16 @@ experience:
 
 
 links:
-  home-page: https://trevonbadloekus.github.io/trevons-lab-website
-  orcid: 0000-0001-9458-6062
-  google-scholar: aVP_G7oAAAAJ
-  instagram: kimchi_and_tea
-  linkedin: trevonbadloe
-  email: trevon@korea.ac.kr
+  home-page: 
+  orcid: 
+  google-scholar: 
+  instagram: 
+  linkedin: 
+  email: xxxxxx@korea.ac.kr
 ---
 
-What is this? Should I write a bio in here or something?
-How do I format it? 
+ write a bio in here 
 
-# is this a heading? 
+#  heading
 
 and write some **bold text** 

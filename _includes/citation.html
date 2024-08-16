@@ -54,7 +54,7 @@
         {% for author in authors %}
           {% assign formatted_author = author %}
           
-          {%- if author == "Trevon Badloe" -%}
+          {%- if author contains "Trevon" -%}
             {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
           {%- endif -%}
             
@@ -89,20 +89,22 @@
         </span>
       </div>
 
-      {% assign publisher_key = citation.publisher %}
-      {% assign publisher_info = site.data.journal_details_24[publisher_key] %}
-      <div class="journal-details">
-    
-        <span class="journal-IF">
-          <strong>[IF: {{ publisher_info.IF }}]</strong>
-        </span>
+      {% if citation.type != book chapter %}
+        {% assign publisher_key = citation.publisher %}
+        {% assign publisher_info = site.data.journal_details_24[publisher_key] %}
+        <div class="journal-details">
+          <span class="journal-IF">
+            <strong>[IF: {{ publisher_info.IF }}]</strong>
+          </span>
 
-        {% if publisher_info.JCR %}
-        &nbsp;·&nbsp;
-        <span class="journal-JCR">
-          (JCR: {{ publisher_info.JCR }})
-        </span>
+          {% if publisher_info.JCR %}
+          &nbsp;·&nbsp;
+          <span class="journal-JCR">
+            (JCR: {{ publisher_info.JCR }})
+          </span>
+        {% endif %}
       {% endif %}
+
     </div>
 
 

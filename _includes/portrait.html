@@ -47,5 +47,12 @@
         {{ member.affiliation }}
       </span>
     {% endif %}
+
+    {% if member.links.email %}
+      <span class="portrait-email">
+        email: {{ member.links.email }}
+      </span>
+    {% endif %}
+
   </a>
 </div>

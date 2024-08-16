@@ -14,13 +14,17 @@ phd:
   icon: 
   description: PhD Student
 
-undergrad:
+combined:
   icon: 
-  description: Undergraduate Student
+  description: Combined masters & PhD Student
 
 masters:
   icon: 
   description: Masters Student
+
+undergrad:
+  icon: 
+  description: Undergraduate Student
 
 alumni:
   icon: 
