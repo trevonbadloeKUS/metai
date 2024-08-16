@@ -7,28 +7,28 @@ pi:
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-atom
+  icon: 
   description: Postdoctoral Researcher
 
 phd:
-  icon: fa-solid fa-graduation-cap
+  icon: 
   description: PhD Student
 
 undergrad:
-  icon: fa-solid fa-book-open-reader
+  icon: 
   description: Undergraduate Student
 
 masters:
-  icon: fa-solid fa-code
+  icon: 
   description: Masters Student
 
 alumni:
-  icon: fa-solid fa-graduation-cap
+  icon: 
   description: Alumni
 
 
 mascot:
-  icon: fa-solid fa-dog
+  icon: 
   description: Lab Mascot
 
 # general
