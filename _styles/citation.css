@@ -1,5 +1,6 @@
 .citation-container {
   container-type: inline-size;
+  background: var(--background);
 }
 
 .citation {
@@ -82,6 +83,10 @@
   display: inline-flex;
   justify-content: flex-start;
   margin: 0;
+}
+
+.journal-details {
+  color: var(--primary);
 }
 
 @container (max-width: 800px) {

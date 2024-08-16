@@ -1,6 +1,6 @@
 .background {
   position: relative;
-  background: var(--header_colour);
+  background: var(--background);
   color: var(--text);
   z-index: 1;
 }
