@@ -61,19 +61,6 @@
           {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
 
-<!---
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
-      </div>
--->
       <div class="citation-details">
         
         <span class="citation-publisher">
@@ -89,21 +76,21 @@
         </span>
       </div>
 
-      {% if citation.type != "book chapter" %}
+      {% unless citation.type == "book chapter" %}
         {% assign journal_key = citation.publisher %}
-        {% assign journal_info = site.data.journal_details_24[journal_key] %}
+        {% assign journal_info = site.data.journal_details_24.Journal[journal_key] %}
         <div class="journal-details">
           <span class="journal-IF">
             <strong>[IF: {{ journal_info.IF }}]</strong>
           </span>
 
-          {% if journal_info.etc != '' %}
+          {% unless journal_info.etc %}
           &nbsp;·&nbsp;
           <span class="journal-JCR">
-            (JCR: {{ journal_info.JCR }} in {{ jounral_info.JCR Cetagory}})
+            (JCR: {{ journal_info.JCR }} in {{ journal_info.JCR Cetagory}})
           </span>
-        {% endif %}
-      {% endif %}
+        {% endunless %}
+      {% endunless %}
 
     </div>
 
