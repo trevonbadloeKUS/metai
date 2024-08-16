@@ -93,13 +93,13 @@
       <div class="journal-details">
     
         <span class="journal-IF">
-          <strong>[IF: {{ publisher_info.IF }}]</strong>
+          <p style=“color: #872535> <strong>[IF: {{ publisher_info.IF }}]</strong> </p>
         </span>
 
         {% if publisher_info.JCR %}
         &nbsp;·&nbsp;
         <span class="journal-JCR">
-          [JCR: {{ publisher_info.JCR }}]
+          <p style=“color: #872535> (JCR: {{ publisher_info.JCR }}) </p>
         </span>
       {% endif %}
     </div>

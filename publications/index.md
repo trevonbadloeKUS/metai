@@ -5,9 +5,9 @@ nav:
   tooltip: Published work
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Publications
+# Publications
 
-Add some writing here for the top of the page...maybe the thing for first and corresponding authors in a box
+Have a look at our publications...
 
 {%
   include button.html
@@ -18,7 +18,7 @@ Add some writing here for the top of the page...maybe the thing for first and co
   style="bare"
 %}
 
-
+<!---
 {% include section.html %}
 
 ## Highlighted
@@ -26,12 +26,17 @@ Add some writing here for the top of the page...maybe the thing for first and co
 {% include citation.html lookup="Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode Metalens" style="rich" %}
 
 {% include section.html %}
+-->
+
+{% include section.html %}
 
 {%
   include alert.html
   type="info"
-  content= "*first author +corresponding author"
+  content= "* Equal Contribution || + Corresponding Author"
 %}
+
+{% include section.html %}
 
 ## All
 
