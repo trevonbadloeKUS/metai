@@ -245,8 +245,7 @@
   tags:
     - metahologram
 - id: doi:10.1038/s41378-024-00681-w
-  title: Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet
-    metasurfaces
+  title: Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces
   authors:
   - Hyunjung Kang*
   - Dongkyo Oh*
@@ -263,9 +262,9 @@
   file: orcid_PI.yaml
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
-  tags: 
-   - Nanoimprint
-   - UV metasurface
+  tags:
+    - SHEL
+    - image processing
 - id: doi:10.1038/s41377-023-01332-x
   title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
     innovation between academia and industry'
@@ -434,8 +433,8 @@
   type: research
   image:https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01086-6/MediaObjects/41377_2023_1086_Fig4_HTML.png
   tags:
-   - UV metasurface
-   - nanoimprint
+  - UV metasurface
+  - nanoimprint
 - id: doi:10.1364/OME.499630
   title: Optimizing the design of broadband solar metamaterial absorbers based on
     titanium nitride nanorings [Invited]
