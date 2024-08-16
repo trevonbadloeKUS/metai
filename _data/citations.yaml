@@ -154,6 +154,10 @@
   orcid: 0000-0001-9458-6062
   plugin: sources.py
   file: sources_240816.yaml
+  first authors:
+  - Byoungsu Ko
+  - Nara Jeon
+  - Jaekyung Kim
 - id: doi:10.1016/j.solmat.2024.112848
   title: Inverse design of colored daytime radiative coolers using deep neural networks
   authors:
