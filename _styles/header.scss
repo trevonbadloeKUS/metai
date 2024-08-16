@@ -13,8 +13,11 @@ header {
   align-items: left;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 5px;
   box-shadow: var(--shadow);
+  height:fit-content
+  vertical-align: middle;
+
 
   @if $sticky {
     position: sticky !important;
