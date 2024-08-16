@@ -16,6 +16,13 @@ header a {
   text-decoration: none;
 }
 
+.background {
+  position: relative;
+  background: var(--header_colour);
+  color: var(--text);
+  z-index: 1;
+}
+
 .home {
   display: flex;
   justify-content: flex-start;
