@@ -193,6 +193,7 @@
   - radiative cooling
   - colour
   - machine learning
+  - inverse design
   type: research
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
 - id: doi:10.1364/OE.521661
@@ -281,6 +282,10 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+   - review
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01332-x/MediaObjects/41377_2023_1332_Fig1_HTML.png
 - id: doi:10.1002/9783527833030.ch9
   title: Active, Tunable, and Reconfigurable Nanophotonics
   authors:
@@ -303,6 +308,7 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: book chapter
 - id: doi:10.1186/s43593-023-00052-4
   title: Arbitrarily structured quantum emission with a multifunctional metalens
   authors:
@@ -325,6 +331,10 @@
   file: orcid_PI.yaml
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-023-00052-4/MediaObjects/43593_2023_52_Fig1_HTML.png?as=webp
+  tags:
+   - metalens
+   - quantum
+   - OAM
 - id: doi:10.1021/acsnano.3c02471
   title: Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode
     Metalens
@@ -350,8 +360,8 @@
   tags: 
   - metalens
   - liquid crystals
-  - tunable
   - bioimaging
+  - OAM
   type: research
 - id: doi:10.1002/advs.202204469
   title: "Humidity\u2010Responsive RGB\u2010Pixels via Swelling of 3D Nanoimprinted\
@@ -374,6 +384,12 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://onlinelibrary.wiley.com/cms/asset/cbe8d373-e9e6-4e89-af11-4741dd92cd9e/advs4616-fig-0004-m.jpg
+  tags:
+   - colour
+   - hydrogel
+   - nanoimprint
 - id: doi:10.1016/b978-0-323-85796-3.00001-9
   title: 'Inverse design meets nanophotonics: From computational optimization to artificial
     neural network'
@@ -410,6 +426,9 @@
   file: orcid_PI.yaml
   image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2Fabs%2F10.1002%2Fadma.202208520&psig=AOvVaw0VOs3LeZmpcqiiQRRLGC9t&ust=1723903984071000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDFj_fY-YcDFQAAAAAdAAAAABAE
   type: research
+  tags:
+   - metahologram
+   - inverse design
 - id: doi:10.1038/s41377-023-01086-6
   title: One-step printable platform for high-efficiency metasurfaces down to the
     deep-ultraviolet region
@@ -472,29 +491,34 @@
   type: research
   tags: 
    - metalens
-   - image processing
+   - OAM
    - imaging
 - id: doi:10.1021/acs.nanolett.2c04193
   title: "Ultraviolet\u2013Visible Multifunctional Vortex Metaplates by Breaking Conventional\
     \ Rotational Symmetry"
   authors:
-  - Nasir Mahmood
-  - Joohoon Kim
-  - Muhammad Ashar Naveed
+  - Nasir Mahmood*
+  - Joohoon Kim*
+  - Muhammad Ashar Naveed*
   - Yeseul Kim
   - Junhwa Seong
   - Seokwoo Kim
   - Trevon Badloe
   - Muhammad Zubair
-  - Muhammad Qasim Mehmood
-  - Yehia Massoud
-  - Junsuk Rho
+  - Muhammad Qasim Mehmood+
+  - Yehia Massoud+
+  - Junsuk Rho+
   publisher: Nano Letters
   date: '2023-01-09'
   link: https://doi.org/grxpvt
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c04193/asset/images/medium/nl2c04193_0006.gif
+  tags:
+   - OAM
+   - UV metasurface
 - id: doi:10.1117/1.AP.5.3.030501
   title: Writing nanometer-scale structures for centimeter-scale color printing
   authors:
@@ -507,6 +531,11 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: editorial
+  tags:
+   - editorial
+   - colour
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/5/3/030501/FigureImages/AP_5_3_030501_f001.png
 - id: doi:10.1364/PRJ.470004
   title: High numerical aperture RGB achromatic metalens in the visible
   authors:
@@ -524,6 +553,11 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://opg.optica.org/getimagev2.cfm?img=EEXs6K1017EPntf1gZoCoI4nafLBGsxlZfQTEeZoaHs%3D&uri=prj-10-12-B30-g006
+  tags:
+   - metalens
+   - achromatic
 - id: doi:10.1515/nanoph-2022-0075
   title: Gap-plasmon-driven spin angular momentum selection of chiral metasurfaces
     for intensity-tunable metaholography working at visible frequencies
@@ -538,13 +572,19 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  tags:
+   - chirality
+   - OAM
+   - plasmonics
+   - metahologram
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0075/asset/graphic/j_nanoph-2022-0075_fig_001.jpg
 - id: doi:10.1002/lpor.202200098
   title: "Metasurface Holography Reaching the Highest Efficiency Limit in the Visible\
     \ via One\u2010Step Nanoparticle\u2010Embedded\u2010Resin Printing"
   authors:
-  - Joohoon Kim
-  - Dong Kyo Oh
-  - Hongyoon Kim
+  - Joohoon Kim*
+  - Dong Kyo Oh*
+  - Hongyoon Kim*
   - Gwanho Yoon
   - Chunghwan Jung
   - Jaekyung Kim
@@ -554,14 +594,19 @@
   - Younghwan Yang
   - Jihae Lee
   - Byoungsu Ko
-  - Jong G. Ok
-  - Junsuk Rho
+  - Jong G. Ok+
+  - Junsuk Rho+
   publisher: Laser &amp; Photonics Reviews
   date: '2022-06-09'
   link: https://doi.org/gt668k
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+   - metahologram
+   - nanoimprint
+  image: https://www.e-jfpe.org/journal/jfpe/jfpe-2-1/gif/jfpe-2-1-97-g6.gif
 - id: doi:10.1038/s41378-022-00403-0
   title: Thermally-curable nanocomposite printing for the scalable manufacturing of
     dielectric metasurfaces
@@ -573,31 +618,43 @@
   - Yeseul Kim
   - Hojung Choi
   - Trevon Badloe
-  - Junsuk Rho
-  - Heon Lee
+  - Junsuk Rho+
+  - Heon Lee+
   publisher: Microsystems &amp; Nanoengineering
   date: '2022-07-04'
   link: https://doi.org/gt668m
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+   - nanoimprint
+   - nanofabrication
+   - metahologram
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-022-00403-0/MediaObjects/41378_2022_403_Fig8_HTML.png?as=webp
 - id: doi:10.1038/s41377-022-00806-8
   title: Liquid crystal-powered Mie resonators for electrically tunable photorealistic
     color gradients and dark blacks
   authors:
-  - Trevon Badloe
-  - Joohoon Kim
-  - Inki Kim
-  - Won-Sik Kim
+  - Trevon Badloe*
+  - Joohoon Kim*
+  - Inki Kim*
+  - Won-Sik Kim*
   - Wook Sung Kim
-  - Young-Ki Kim
-  - Junsuk Rho
+  - Young-Ki Kim+
+  - Junsuk Rho+
   publisher: 'Light: Science &amp; Applications'
   date: '2022-04-29'
   link: https://doi.org/gts8q7
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+   - colour
+   - liquid crystals
+   - Mie resonator
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-022-00806-8/MediaObjects/41377_2022_806_Fig3_HTML.png?as=webp
 - id: doi:10.3390/nano12010153
   title: "Enhancement of Luminous Intensity Emission from Incoherent LED Light Sources\
     \ within the Detection Angle of 10\xB0 Using Metalenses"
@@ -606,13 +663,18 @@
   - Heonyeong Jeong
   - Younghwan Yang
   - Trevon Badloe
-  - Junsuk Rho
+  - Junsuk Rho 
   publisher: Nanomaterials
   date: '2022-01-01'
   link: https://doi.org/gt668n
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://pub.mdpi-res.com/nanomaterials/nanomaterials-12-00153/article_deploy/html/images/nanomaterials-12-00153-g001.png?1641551020
+  tags:
+   - metalens
+   - incoherent light
 - id: doi:10.1038/s41467-022-34566-1
   title: 'Author Correction: Tunable metasurfaces via the humidity responsive swelling
     of single-step imprinted polyvinyl alcohol nanostructures'
@@ -636,23 +698,28 @@
   title: "Broadband Chiro\u2010Optical Effects for Futuristic Meta\u2010Holographic\
     \ Displays"
   authors:
-  - Hafiz Saad Khaliq
-  - Joohoon Kim
-  - Taimoor Naeem
+  - Hafiz Saad Khaliq*
+  - Joohoon Kim*
+  - Taimoor Naeem*
   - Kashif Riaz
   - Trevon Badloe
   - Junhwa Seong
   - Jehan Akbar
   - Muhammad Zubair
-  - Muhammad Qasim Mehmood
-  - Yehia Massoud
-  - Junsuk Rho
+  - Muhammad Qasim Mehmood+
+  - Yehia Massoud+
+  - Junsuk Rho+
   publisher: Advanced Optical Materials
   date: '2022-08-21'
   link: https://doi.org/gt668q
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://onlinelibrary.wiley.com/cms/asset/58a57b40-2e39-4a67-b8a9-addb457d9549/adom202201175-gra-0001-m.jpg?trick=1717413695154
+  tags:
+   - chirality
+   - metahologram
 - id: doi:10.1117/1.AP.4.6.064002
   title: 'Computation at the speed of light: metamaterials for all-optical calculations
     and neural networks'
@@ -669,22 +736,26 @@
 - id: doi:10.1186/s43593-021-00008-6
   title: 'Hyperbolic metamaterials: fusing artificial structures to natural 2D materials'
   authors:
-  - Dasol Lee
-  - Sunae So
-  - Guangwei Hu
+  - Dasol Lee*
+  - Sunae So*
+  - Guangwei Hu*
   - Minkyung Kim
   - Trevon Badloe
   - Hanlyun Cho
   - Jaekyung Kim
   - Hongyoon Kim
-  - Cheng-Wei Qiu
-  - Junsuk Rho
+  - Cheng-Wei Qiu+
+  - Junsuk Rho+
   publisher: eLight
   date: '2022-01-10'
   link: https://doi.org/gt668r
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  tags:
+   - review
+   - hyperbolic metamaterials
+   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
 - id: doi:10.1016/B978-0-323-85796-3.00001-9
   title: 'Inverse design meets nanophotonics: From computational optimization to artificial
     neural network'
@@ -701,12 +772,19 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: book chapter
+  tags:
+   - book chapter
+   - inverse design
+   - optimisation
+   - machine learning
+  image: https://ars.els-cdn.com/content/image/3-s2.0-C20200030409-cov200h.gif
 - id: doi:10.1038/s41467-022-32117-2
   title: Metasurface-driven full-space structured light for three-dimensional imaging
   authors:
   - Gyeongtae Kim
   - Yeseul Kim
-  - Jooyeong Yun
+  - Jooyeong Yun  
   - Seong-Won Moon
   - Seokwoo Kim
   - Jaekyung Kim
@@ -720,6 +798,12 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+   - structured light
+   - metasurface
+   - 3D imaging
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32117-2/MediaObjects/41467_2022_32117_Fig1_HTML.png?as=webp
 - id: doi:10.1039/d1nr07909c
   title: Metasurface-empowered spectral and spatial light modulation for disruptive
     holographic displays
@@ -736,31 +820,42 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+   - review
+   - metahologram
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR07909C&imageInfo.ImageIdentifier.Year=2022
 - id: doi:10.1021/acsami.1c19223
   title: Multilevel Absorbers via the Integration of Undoped and Tungsten-Doped Multilayered
     Vanadium Dioxide Thin Films
   authors:
-  - Byoungsu Ko
-  - Ji-Yeon Chae
-  - Trevon Badloe
+  - Byoungsu Ko*
+  - Ji-Yeon Chae*
+  - Trevon Badloe*
   - Hongyoon Kim
   - Soo-Jung Kim
-  - Sung-Hoon Hong
-  - Taejong Paik
-  - Junsuk Rho
+  - Sung-Hoon Hong+
+  - Taejong Paik+
+  - Junsuk Rho+
   publisher: ACS Applied Materials &amp; Interfaces
   date: '2022-01-03'
   link: https://doi.org/gt668s
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+   - VO2
+   - multilayer
+   - absorber
+  image: https://pubs.acs.org/cms/10.1021/acsami.1c19223/asset/images/medium/am1c19223_0007.gif
 - id: doi:10.1039/d1nr08400c
   title: Nanostructured chromium-based broadband absorbers and emitters to realize
     thermally stable solar thermophotovoltaic systems
   authors:
-  - Muhammad Aamir Abbas
-  - Joohoon Kim
-  - Ahsan Sarwar Rana
+  - Muhammad Aamir Abbas*
+  - Joohoon Kim*
+  - Ahsan Sarwar Rana*
   - Inki Kim
   - Bacha Rehman
   - Zubair Ahmad
@@ -768,15 +863,20 @@
   - Junhwa Seong
   - Trevon Badloe
   - Keunhan Park
-  - Muhammad Qasim Mehmood
-  - Muhammad Zubair
-  - Junsuk Rho
+  - Muhammad Qasim Mehmood+
+  - Muhammad Zubair+
+  - Junsuk Rho+
   publisher: Nanoscale
   date: '2022-01-01'
   link: https://doi.org/gr4xn8
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  image: https://pubs.rsc.org/image/article/2022/nr/d1nr08400c/d1nr08400c-f1_hi-res.gif
+  tags:
+   - absorber
+   - solar
 - id: doi:10.1002/adom.202200196
   title: "Novel Spin\u2010Decoupling Strategy in Liquid Crystal\u2010Integrated Metasurfaces\
     \ for Interactive Metadisplays"
