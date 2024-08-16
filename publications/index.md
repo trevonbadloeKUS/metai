@@ -33,7 +33,7 @@ nav:
 
 {% include section.html %}
 
-{% include tags.html tags=site.tags %}
+{% include tags.html %}
 
 {% include search-box.html %}
 
