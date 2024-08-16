@@ -19,7 +19,7 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
-  {% assign data = site.data.items | sort: 'date' | reverse %}
+
   
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
@@ -59,7 +59,6 @@
       venue=d.venue
       awarder=d.awarder
       etc=d.etc
-      number=d.number
       
     %}
   {% endfor %}
