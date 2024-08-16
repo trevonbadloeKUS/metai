@@ -29,6 +29,15 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
 
+
+{% include section.html %}
+
+# Alumni
+{% include list.html data="members" component="portrait" filters="role: alumni" %}
+
+
+
+
 {% include section.html background="images/background.jpg" dark=true %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
