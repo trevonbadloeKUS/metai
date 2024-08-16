@@ -2,6 +2,7 @@
 ---
 
 $logo-big: 100px;
+$logo-width: 200px;
 $logo: 50px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -15,7 +16,7 @@ header {
   gap: 20px;
   padding: 5px;
   box-shadow: var(--shadow);
-  height:fit-content;
+  height: 
   vertical-align: middle;
 
 
@@ -126,6 +127,7 @@ nav > a:hover {
 header{
   .logo {
     height: $logo-big;
+    width: $logo-width;
   }
 
   @media (max-width: $collapse) {
