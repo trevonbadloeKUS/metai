@@ -90,17 +90,17 @@
       </div>
 
       {% if citation.type != "book chapter" %}
-        {% assign publisher_key = citation.publisher %}
-        {% assign publisher_info = site.data.journal_details_24[publisher_key] %}
+        {% assign journal_key = citation.publisher %}
+        {% assign journal_info = site.data.journal_details_24[journal_key] %}
         <div class="journal-details">
           <span class="journal-IF">
-            <strong>[IF: {{ publisher_info.IF }}]</strong>
+            <strong>[IF: {{ journal_info.IF }}]</strong>
           </span>
 
-          {% if publisher_info.JCR %}
+          {% if journal_info.etc != '' %}
           &nbsp;·&nbsp;
           <span class="journal-JCR">
-            (JCR: {{ publisher_info.JCR }})
+            (JCR: {{ journal_info.JCR }} in {{ jounral_info.JCR Cetagory}})
           </span>
         {% endif %}
       {% endif %}
