@@ -36,21 +36,9 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
-      <span class="portrait-description">
-        {{ member.description | default: type.description }}
-      </span>
-    {% endif %}
-
-    {% if member.affiliation %}
-      <span class="portrait-affiliation">
-        {{ member.affiliation }}
-      </span>
-    {% endif %}
-
-    {% if member.links.email %}
+    {% if member.email %}
       <span class="portrait-email">
-        email: {{ member.links.email }}
+        email: {{ member.email }}
       </span>
     {% endif %}
 
