@@ -6,7 +6,11 @@
 %}
 {% assign total_items = data.size %}
 
-{% assign sorted_items = site.data[include.data] | sort: 'date' | reverse %}
+{% assign sorted_items = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
 
 {% for item in sorted_items %}
   {% assign index = forloop.index %}
