@@ -4,26 +4,12 @@
   | default: emptyarray
   | data_filter: include.filters
 %}
-{% assign total_items = data.size %}
-
-{% assign sorted_items = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
-
-{% for item in sorted_items %}
-  {% assign index = forloop.index %}
-  {% assign number = total_items | minus: index | plus: 1 %}
-{% endfor %}
-
 
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
   | reverse
 %}
-
 
 {% for year in years %}
   {% assign data = year.items %}
