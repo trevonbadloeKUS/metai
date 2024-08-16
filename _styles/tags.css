@@ -23,11 +23,11 @@
 }
 
 .tag:hover {
-  background: var(--light-gray);
+  background: var(--primary);
 }
 
 .tag[data-active] {
-  background: var(--light-gray);
+  background: var(--primary);
 }
 
 /*# sourceMappingURL=tags.css.map */
