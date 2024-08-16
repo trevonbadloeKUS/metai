@@ -31,7 +31,7 @@ Have a look at our publications...
 
   "* Equal Contribution || + Corresponding Author"
 
-{% end capture %}
+{% endcapture %}
 
 {%
   include alert.html
