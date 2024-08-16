@@ -106,6 +106,7 @@
   orcid: 0000-0001-9458-6062
   plugin: sources.py
   file: sources_240816.yaml
+  image: https://cms.iopscience.org/ead6444d-2bbb-11e9-9390-0131eabbf6de/journal_cover?guest=true
 - id: doi:10.1007/s40684-023-00580-x
   title: "Cost-Effective and Environmentally\_Friendly Mass Manufacturing of Optical\
     \ Metasurfaces Towards Practical Applications and Commercialization"
@@ -122,6 +123,7 @@
   orcid: 0000-0001-9458-6062
   plugin: sources.py
   file: sources_240816.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png?as=webp
 - id: doi:10.1515/nanoph-2024-0100
   title: Enabling new frontiers of nanophotonics with metamaterials, photonic crystals,
     and plasmonics
