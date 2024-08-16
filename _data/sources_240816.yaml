@@ -263,8 +263,9 @@
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
   tags:
-    - SHEL
-    - image processing
+    - UV metasurface
+    - nanoimprint
+    - fabrication
 - id: doi:10.1038/s41377-023-01332-x
   title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
     innovation between academia and industry'
