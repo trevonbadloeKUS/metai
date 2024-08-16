@@ -185,14 +185,14 @@
   title: "Polarization-independent edge detection based on the spin\u2013orbit interaction\
     \ of light"
   authors:
-  - Peng Tang
-  - Yeseul Kim
-  - Trevon Badloe
+  - Peng Tang*
+  - Yeseul Kim*
+  - Trevon Badloe*
   - Linlin Xiao
   - Younghwan Yang
-  - Minkyung Kim
-  - Junsuk Rho
-  - Guoqiang Li
+  - Minkyung Kim+
+  - Junsuk Rho+
+  - Guoqiang Li+
   publisher: Optics Express
   date: '2024-04-29'
   link: https://doi.org/gt6676
