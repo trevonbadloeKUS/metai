@@ -20,7 +20,9 @@ Have a look at our publications...
 
 {% include section.html %}
 {% capture content %}
-  \* Equal Contribution || \+ Corresponding Author
+
+  \* Equal Contribution  \+ Corresponding Author
+
 {% endcapture %}
 
 {%
