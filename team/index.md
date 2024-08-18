@@ -52,4 +52,4 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-<p>Please <a href="mailto:youremail@example.com">contact us</a> if you are interested in joining our team~!</p>
+<p>Please <a href="mailto:trevon@korea.ac.kr">contact us</a> if you are interested in joining our team~!</p>
