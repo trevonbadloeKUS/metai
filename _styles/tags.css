@@ -24,10 +24,12 @@
 
 .tag:hover {
   background: var(--primary);
+  color: var(--text);
 }
 
 .tag[data-active] {
   background: var(--primary);
+  color: var(--text);
 }
 
 /*# sourceMappingURL=tags.css.map */
