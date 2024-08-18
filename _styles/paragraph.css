@@ -4,4 +4,10 @@ p {
   line-height: var(--spacing);
 }
 
+p.main {
+  margin: 5px 0;
+  text-align: justify;
+  line-height: var(--spacing);
+}
+
 /*# sourceMappingURL=paragraph.css.map */
