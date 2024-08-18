@@ -38,7 +38,7 @@ button {
   color: var(--primary);
 }
 .button[data-style=bare]:hover {
-  color: var(--hover);
+  color: var(--text);
 }
 
 .button[data-flip] {
