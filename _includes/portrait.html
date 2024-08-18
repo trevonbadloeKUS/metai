@@ -30,17 +30,17 @@
       {% include fallback.html %}
     >
 
-    {% if team.name %}
-      <span class="portrait-name">
-        {{ team.name }}
-      </span>
-    {% endif %}
+    <span class="portrait-name">
+      {{ team.name }}
+  
+    <span class="portrait-position">
+      {{ team.current.position }}
 
-    {% if team.email %}
-      <span class="portrait-email">
-        email: {{ team.email }}
-      </span>
-    {% endif %}
+    <span class="portrait-department">
+      {{ team.current.department }}
+
+
+
 
   </a>
 </div>

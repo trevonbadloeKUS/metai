@@ -5,7 +5,7 @@ role: postdoc
 
 current:
   - date: '2024/9 - current'
-  - position: Assistant Professor
+  - position: Postdoctoral Researcher
   - department: Department of Electronics and Information Engineering  
   - link: https://kueie.korea.ac.kr
 

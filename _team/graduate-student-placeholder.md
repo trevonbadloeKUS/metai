@@ -7,6 +7,7 @@ current:
   - date: '2024/9 - current'
   - department: Department of Electronics and Information Engineering  
   - link: https://kueie.korea.ac.kr
+  - position: Combined Ph.D. & Masters Student
   - etc: 
 
 bachelor:

@@ -69,7 +69,21 @@
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   color: var(--primary);
+  font-size: var(--large);
 }
+
+.portrait-position {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+}
+
+.portrait-department {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+}
+
 
 .portrait[data-style="tiny"] {
   .portrait-description,
