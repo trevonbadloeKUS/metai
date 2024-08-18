@@ -2,56 +2,60 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+{% assign pi_members = site.members | where: "role", "pi" %}
+{% assign researcher_members = site.members | where: "role", "postdoc" %}
+{% assign phd_members = site.members | where: "role", "phd" %}
+{% assign comb_members = site.members | where: "role", "combined" %}
+{% assign masters_members = site.members | where: "role", "masters" %}
+{% assign undergrad_members = site.members | where: "role", "undergrad" %}
+{% assign alumni_members = site.members | where: "role", "alumni" %}
+
+# Team
+
+{% if pi_members.size > 0 %}
+  {% include section.html %}
+  # PI
+  {% include list.html data="members" component="portrait" filters="role: pi" %}
+{% endif %}
+
+{% if researcher_members.size > 0 %}
+  {% include section.html %}
+  # Researchers
+  {% include list.html data="members" component="portrait" filters="role: postdoc" %}
+{% endif %}
+
+{% if phd_members.size > 0 or comb_members.size > 0 or master_members.size > 0 %}
+  {% include section.html %}
+  # Graduate students
+    {% if phd_members.size > 0 }
+  ## Ph.D. students
+    {% include list.html data="members" component="portrait" filters="role: phd" %}
+    {% include list.html data="members" component="portrait" filters="role: combined" %}
+    {% endif %}
+
+    {% if masters_members.size > 0 }
+  ## Masters students
+    {% include list.html data="members" component="portrait" filters="role: masters" %}
+    {% endif %}
+
+{% endif %}
 
 
-{% include section.html %}
-# PI
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+  {% if undergrad_members.size > 0 }
 
-{% include section.html %}
+## Undergraduate students
+    {% include list.html data="members" component="portrait" filters="role: undergrad" %}
+{% endif %}
 
-# Researchers
-{% include list.html data="members" component="portrait" filters="role: postdoc" %}
-
-{% include section.html %}
-
-# Graduate students
-{% include list.html data="members" component="portrait" filters="role: phd" %}
-{% include list.html data="members" component="portrait" filters="role: combined" %}
-
-{% include section.html %}
-
-# Undergraduate researchers
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
-
-
-
-{% include section.html %}
-
-# Alumni
-{% include list.html data="members" component="portrait" filters="role: alumni" %}
-
-
+    {% if alumni_members.size > 0 }
+  ## Alumni
+    {% include list.html data="members" component="portrait" filters="role: alumni" %}
+    {% endif %}
 
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+Please [contact us] if you are interested in joining our team~!
