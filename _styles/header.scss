@@ -85,7 +85,7 @@ header a {
   width: $logo-big;;
   height: $logo-big;;
   margin: 0;
-  color: var(--hover);
+  color: var(--text);
   appearance: none;
   transition: background var(--transition);
 }
@@ -95,7 +95,7 @@ header a {
   position: absolute;
   left: 50%;
   top: 50%;
-  color: var(--hover);
+  color: var(--text);
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
