@@ -16,44 +16,60 @@ nav:
 # Team
 
 {% if pi_members.size > 0 %}
+
   {% include section.html %}
+
   # PI
+
   {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% endif %}
 
 {% if researcher_members.size > 0 %}
   {% include section.html %}
+
   # Researchers
+
   {% include list.html data="members" component="portrait" filters="role: postdoc" %}
 {% endif %}
 
 {% if phd_members.size > 0 or comb_members.size > 0 or master_members.size > 0 %}
   {% include section.html %}
+
   # Graduate students
-    {% if phd_members.size > 0 }
-  ## Ph.D. students
+
+  {% if phd_members.size > 0 }
+
+   ## Ph.D. students
+
     {% include list.html data="members" component="portrait" filters="role: phd" %}
-    {% include list.html data="members" component="portrait" filters="role: combined" %}
-    {% endif %}
+    {% include list.html data="members" component="portrait" filters="role: combined" %}  
+  
+  {% endif %}
 
-    {% if masters_members.size > 0 }
+  {% if masters_members.size > 0 }
+
   ## Masters students
-    {% include list.html data="members" component="portrait" filters="role: masters" %}
-    {% endif %}
 
+  {% include list.html data="members" component="portrait" filters="role: masters" %}
+  
+  {% endif %}
+
+  {% endif %}
+
+{% if undergrad_members.size > 0 }
+  {% include section.html %}
+
+# Undergraduate students
+    
+  {% include list.html data="members" component="portrait" filters="role: undergrad" %}
+  {% endif %}
+
+{% if alumni_members.size > 0 }
+  {% include section.html %}
+
+  # Alumni
+  {% include list.html data="members" component="portrait" filters="role: alumni" %}
 {% endif %}
-
-
-  {% if undergrad_members.size > 0 }
-
-## Undergraduate students
-    {% include list.html data="members" component="portrait" filters="role: undergrad" %}
-{% endif %}
-
-    {% if alumni_members.size > 0 }
-  ## Alumni
-    {% include list.html data="members" component="portrait" filters="role: alumni" %}
-    {% endif %}
 
 
 {% include section.html background="images/background.jpg" dark=true %}
