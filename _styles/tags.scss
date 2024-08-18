@@ -27,8 +27,10 @@
 
 .tag:hover {
   background: var(--primary);
+  color: var(--text);
 }
 
 .tag[data-active] {
   background: var(--primary);
+  color: var(--text);
 }
