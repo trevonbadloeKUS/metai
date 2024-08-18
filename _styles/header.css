@@ -104,12 +104,18 @@ nav {
 
 nav > a {
   padding: 5px;
-  color: var(--hover); /* Change this to your desired active color */
+  color: var(--text); /* Change this to your desired active color */
   font-weight: bold; /* Optional: Makes the active link stand out */
 }
 
 nav > a:hover {
   color: var(--hover);
+}
+
+nav > a:active {
+  color: var(--hover);
+  background-color: #007bff;
+  font-weight: bold;
 }
 
 header .logo {
