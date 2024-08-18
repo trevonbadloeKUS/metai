@@ -5,37 +5,25 @@ nav:
   tooltip: Published work
 ---
 
-# Publications
-
 {%
   include button.html
   type="google-scholar"
   text="Google Scholar"
-  tooltip="Check Google Scholar for the most up to date list of publications"
+  tooltip="Go to Google Scholar"
   flip=false
   style="bare"
 %}
 
 {% include section.html %}
-{% capture content %}
 
-  \* Equal Contribution  
-  
-  \+ Corresponding Author
-
-{% endcapture %}
-
-{%
-  include alert.html
-  type="info"
-  content= content
-%}
+  <h3> *Equal Contribution | +Corresponding Author</h3>
 
 {% include section.html %}
 
-{% include tags.html %}
-
 {% include search-box.html %}
+
+{% include tags.html tags=site.publications.tags %}
+
 
 {% include search-info.html %}
 
