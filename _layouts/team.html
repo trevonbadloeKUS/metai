@@ -23,6 +23,11 @@ layout: default
 
 {{ content }}
 
+
+<p class="center">
+  this is where ive got to write text....isntit....
+</p>
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
@@ -41,14 +46,15 @@ layout: default
   </a>
 </p>
 
+<!--
+
 {% capture search -%}
   news/?search={{ page.name }}
 {%- endcapture %}
 
-<!--
 <p class="center">
   <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
+    See {{ page.name | default: page.title }}'s posts on the news page
   </a>
 </p>
 -->
