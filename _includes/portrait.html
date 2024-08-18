@@ -28,13 +28,13 @@
     >
 
     <span class="portrait-name">
-    <p>Name: {{ team.name }}</p>
+    <p>{{ team.name }}</p>
     </span>
 
     <span class="portrait-details">
     {% for entry in team.current %}
-      <p>Position: {{ entry.position }}</p>
-      <p>Department: {{ entry.department }}</p>
+      <p>{{ entry.position }}</p>
+      <p>{{ entry.department }}</p>
     {% endfor %}
     </span>
 
