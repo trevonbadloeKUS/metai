@@ -16,15 +16,12 @@ nav:
 
 {% include section.html %}
 
-  <h3> *Equal Contribution | +Corresponding Author</h3>
-
-{% include section.html %}
-
 {% include search-box.html %}
 
 {% include tags.html tags=site.publications.tags %}
 
-
 {% include search-info.html %}
+
+*Equal Contribution | +Corresponding Author
 
 {% include list.html data="citations" component="citation" style="rich" %}
