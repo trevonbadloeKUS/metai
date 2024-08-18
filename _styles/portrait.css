@@ -71,8 +71,8 @@
 
 .portrait-details {
   font-family: var(--heading);
-  font-weight: var(--semi-bold);
-  color: var(--primary);
+  font-weight: var(--regular);
+  color: var(--primary_lighter);
 }
 
 .portrait[data-style=tiny] .portrait-description,

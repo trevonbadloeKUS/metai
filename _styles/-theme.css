@@ -10,6 +10,7 @@
   --overlay: #00000020;
   --header_colour: #872535;
   --hover: #ddbd2f;
+  --primary_lighter: #d55368;
 }
 
 [data-dark=true] {
@@ -24,6 +25,7 @@
   --overlay: #ffffff10;
   --header_colour: #872535;
   --hover: #ddbd2f;
+  --primary_lighter: #d55368;
 }
 
 :root {
