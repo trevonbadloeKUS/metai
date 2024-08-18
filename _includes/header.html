@@ -36,8 +36,6 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
   <nav>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
@@ -48,6 +46,7 @@
         <a
           href="{{ page.dir | relative_url }}"
           data-tooltip="{{ page.nav.tooltip }}"
+          class="{% if page.url == page.url %}active{% endif %}"
         >
           {{ page.title }}
         </a>

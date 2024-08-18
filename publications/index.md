@@ -18,9 +18,10 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.publications.tags %}
 
 {% include search-info.html %}
+
+{% include section.html %}
 
 *Equal Contribution | +Corresponding Author
 
