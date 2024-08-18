@@ -9,7 +9,7 @@
   --dark-gray: #404040;
   --overlay: #00000020;
   --header_colour: #872535;
-  --hover: #bfb275;
+  --hover: #ddbd2f;
 }
 
 [data-dark=true] {
@@ -23,7 +23,7 @@
   --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
   --header_colour: #872535;
-  --hover: #bfb275;
+  --hover: #ddbd2f;
 }
 
 :root {
