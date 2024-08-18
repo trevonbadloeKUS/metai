@@ -32,10 +32,9 @@
     </span>
 
     <span class="portrait-details">
-    {% for entry in team.current %}
-      {{ entry.position }}<br/>
-      {{ entry.department }}
-    {% endfor %}
+    {{ team.current.position }}
+      <br/>
+    {{ team.current.department }}
     </span>
 
 

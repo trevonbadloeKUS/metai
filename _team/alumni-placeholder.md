@@ -6,7 +6,7 @@ role: alumni
 current:
   - date: '2024/9 - current'
   - position: Postdoctoral Researcher
-  - department: Department of Electronics and Information Engineering  
+  - department: Department of Electronics and Information Engineering
   - link: https://kueie.korea.ac.kr
 
 bachelor:
