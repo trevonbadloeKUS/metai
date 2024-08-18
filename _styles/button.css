@@ -10,10 +10,10 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   max-width: calc(100% - 5px - 5px);
-  margin: 0px;
-  padding: 10px 0px;
+  margin: 5px;
+  padding: 10px 15px;
   border-radius: var(--rounded);
   background: var(--primary);
   color: var(--background);
