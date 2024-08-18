@@ -18,7 +18,6 @@ nav:
 
 {% include search-box.html %}
 
-
 {% include search-info.html %}
 
 {% include section.html %}
