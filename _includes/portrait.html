@@ -7,7 +7,6 @@
   {% assign team = include %}
 {% endif %}
 
-{% assign type = site.data.types[team.role] %}
 
 <div class="portrait-wrapper">
   <a
@@ -32,15 +31,12 @@
     <p>Name: {{ team.name }}</p>
     </span>
 
+    <span class="portrait-details">
     {% for entry in team.current %}
-      <span class="portrait-position">
       <p>Position: {{ entry.position }}</p>
-     </span>
-
-      <span class="portrait-department">
       <p>Department: {{ entry.department }}</p>
-      </span>
     {% endfor %}
+    </span>
 
 
   </a>
