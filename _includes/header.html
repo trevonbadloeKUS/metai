@@ -46,8 +46,8 @@
         <a
           href="{{ current_page.dir | relative_url }}"
           data-tooltip="{{ current_page.nav.tooltip }}"
-          class="{% if current_page.url == page.url %}active{% endif %}"
-        >
+          class="{% if page.url == current_page.url or page.url starts_with current_page.url %}active{% endif %}"
+          >
           {{ current_page.title }}
         </a>
       {% endif %}
