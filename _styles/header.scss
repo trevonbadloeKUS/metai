@@ -127,9 +127,10 @@ nav > a:hover {
 }
 
 nav > a:active {
-  color: var(--hover);
+  color: #ffffff;
   background-color: #007bff;
   font-weight: bold;
+  border-bottom: 3px solid #0056b3;
 }
 
 header{
