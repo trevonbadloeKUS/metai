@@ -31,15 +31,13 @@
     <p>{{ team.name }}</p>
     </span>
 
-    <span class="portrait-details">
-    {% for entry in team.current %}
-      <p>{{ entry.position }}</p>
-      <p>{{ entry.department }}</p>
+    <span class="portrait-name.details">
+      <p>{% for entry in team.current %}
+      {{ entry.position }}
+      {{ entry.department }}</p>
     {% endfor %}
     </span>
 
 
   </a>
-
-  if i add text here what happens?
 </div>
