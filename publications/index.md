@@ -23,6 +23,4 @@ nav:
 
 {% include section.html %}
 
-*Equal Contribution | +Corresponding Author
-
 {% include list.html data="citations" component="citation" style="rich" %}

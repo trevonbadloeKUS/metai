@@ -41,14 +41,14 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for current_page in pages %}
+      {% if current_page.nav %}
         <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
-          class="{% if page.url == page.url %}active{% endif %}"
+          href="{{ current_page.dir | relative_url }}"
+          data-tooltip="{{ current_page.nav.tooltip }}"
+          class="{% if current_page.url == page.url %}active{% endif %}"
         >
-          {{ page.title }}
+          {{ current_page.title }}
         </a>
       {% endif %}
     {% endfor %}
