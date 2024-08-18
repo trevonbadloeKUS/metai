@@ -13,9 +13,8 @@ header {
 }
 
 header a {
-  color: var(--hover);
+  color: var(--text);
   text-decoration: none;
-  font-weight: bold; /* Optional: Makes the active link stand out */
 }
 
 .background {
@@ -72,7 +71,7 @@ header a {
   width: 80px;
   height: 80px;
   margin: 0;
-  color: var(--text);
+  color: var(--hover);
   appearance: none;
   transition: background var(--transition);
 }
