@@ -13,7 +13,7 @@ nav:
 {% assign undergrad_team = site.team | where: "role", "undergrad" %}
 {% assign alumni_team = site.team | where: "role", "alumni" %}
 
-<h2>PI</h2>
+<h2>Principal Investigator</h2>
 {% include list.html data="team" component="portrait" filters="role: pi" %}
 
 {% if researcher_team.size > 0 %}
