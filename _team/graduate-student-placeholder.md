@@ -1,53 +1,52 @@
 ---
-name: Graduate student 1
+name: Combined 1
 image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-you-pikachu-ash-ketchum-pokemon-pikachu-mammal-dog-like-mammal-vertebrate-thumbnail.png
 role: combined
 
 current:
-  - date: '2024/9 - current'
-  - department: Department of Electronics and Information Engineering  
-  - link: https://kueie.korea.ac.kr
-  - position: Combined Ph.D. & Masters Student
-  - etc: 
-
-bachelor:
-  - date: '2022 - 2024'
-  - school: Korea University - Sejong Campus
-  - department: Department of Electronics and Information Engineering
-  - degree: B.S.
-  - link: https://kueie.korea.ac.kr
-  - etc: Award winner
-
-master:
-  - date: 
-  - school: 
-  - department: 
-  - degree: 
-  - link: 
-  
-phd:
-  - date: 
-  - school: 
-  - department: 
-  - degree: 
-  - link: 
+  position: Combined Masters & Ph.D. Student
+  department: Department of Electronics and Information Engineering
+  school:  Korea University - Sejong Campus
+  link: https://kueie.korea.ac.kr
+  date: '2024/9 - current'
 
 experience:
-  - date: 
-  - school:  
-  - department: 
-  - position: 
-  - etc: 
-  - link: 
+  position: 
+  department: 
+  school: 
+  link: 
+  date:
+  etc: 
 
+phd:
+  degree: 
+  department: 
+  school: 
+  link: 
+  advisor: Trevon Badloe
+  dissertation: 
+  date: 
+  etc:
+
+master:
+  degree: 
+  department: 
+  school: 
+  link: 
+  date: 
+
+bachelor:
+  degree: B.Sc
+  department: Department of Electronics and Information Engineering
+  school:  Korea University - Sejong Campus
+  link: https://kueie.korea.ac.kr
+  date: '2024/9 - current'
 
 links:
-  home-page: 
+  home-page: https://trevonbadloekus.github.io/trevons-lab-website
   orcid: 
-  google-scholar: 
-  instagram: 
+  google-scholar: aVP_G7oAAAAJ
+  instagram: kimchi_and_tea
   linkedin: 
-  email: xxxxx@korea.ac.kr
+  email: trevon@korea.ac.kr
 ---
-
-

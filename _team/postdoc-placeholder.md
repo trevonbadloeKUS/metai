@@ -1,49 +1,52 @@
 ---
-name: Postdoc 1
-image: https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png
+name: Postdoctoral Researcher 1
+image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-you-pikachu-ash-ketchum-pokemon-pikachu-mammal-dog-like-mammal-vertebrate-thumbnail.png
 role: postdoc
 
 current:
-  - date: '2024/9 - current'
-  - position: Postdoctoral Researcher
-  - department: Department of Electronics and Information Engineering  
-  - link: https://kueie.korea.ac.kr
-
-bachelor:
-
-master:
-  - date: '2008 - 2012'
-  - school: The University of Sheffield
-  - department: Department of Physics & Astronomy
-  - degree: MPhys.
-  - link: https://www.sheffield.ac.uk/mps/study-physics
-phd:
-  - date: '2017 - 2023'
-  - school: Pohang University of Science and Technology (POSTECH)
-  - department: Department of Mechanical Engeering
-  - degree: Ph.D.
-  - link: https://me.postech.ac.kr/
+  position: Postdoctoral Researcher
+  department: Department of Electronics and Information Engineering
+  school:  Korea University - Sejong Campus
+  link: https://kueie.korea.ac.kr
+  date: '2024/9 - current'
 
 experience:
-  - date: "2023/3 - 2024/8"
-  - school:  Pohang University of Science and Technology (POSTECH)
-  - department: Graduate School of AI
-  - position: Postdoctoral researcher
-  - etc: PIURI fellow
-  - link: https://ai.postech.ac.kr/
+  position: 
+  department: 
+  school: 
+  link: 
+  date:
+  etc: 
 
+phd:
+  degree: Ph.D.
+  department: Department of Mechanical Engeering
+  school: Pohang University of Science and Technology (POSTECH)
+  link: https://me.postech.ac.kr/
+  advisor: Junsuk Rho
+  dissertation: 
+  date: '2017 - 2023'
+  etc:
+
+master:
+  degree: MPhys.
+  department: Department of Physics & Astronomy
+  school: The University of Sheffield
+  link: https://www.sheffield.ac.uk/mps/study-physics
+  date: '2008 - 2012'
+
+bachelor:
+  degree: B.Sc
+  department: Department of Electronics and Information Engineering
+  school:  Korea University - Sejong Campus
+  link: https://kueie.korea.ac.kr
+  date: '2024/9 - current'
 
 links:
-  home-page: 
+  home-page: https://trevonbadloekus.github.io/trevons-lab-website
   orcid: 
-  google-scholar: 
-  instagram: 
+  google-scholar: aVP_G7oAAAAJ
+  instagram: kimchi_and_tea
   linkedin: 
-  email: xxxxxx@korea.ac.kr
+  email: trevon@korea.ac.kr
 ---
-
- write a bio in here 
-
-#  heading
-
-and write some **bold text** 
