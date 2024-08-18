@@ -24,11 +24,11 @@ defaults:
       path: ""
     values:
       layout: default
-  # markdown files in /_members
+  # markdown files in /_team
   - scope:
-      type: "members"
+      type: "team"
     values:
-      layout: member
+      layout: team
   # markdown files in /_posts
   - scope:
       type: "posts"
@@ -36,8 +36,8 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
-  members:
+  # generate page for each team member
+  team:
     output: true
   # generate page for each post
   posts:

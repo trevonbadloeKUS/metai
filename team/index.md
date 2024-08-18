@@ -5,49 +5,49 @@ nav:
   tooltip: Meet our team
 ---
 
-{% assign pi_members = site.members | where: "role", "pi" %}
-{% assign researcher_members = site.members | where: "role", "postdoc" %}
-{% assign phd_members = site.members | where: "role", "phd" %}
-{% assign comb_members = site.members | where: "role", "combined" %}
-{% assign masters_members = site.members | where: "role", "masters" %}
-{% assign undergrad_members = site.members | where: "role", "undergrad" %}
-{% assign alumni_members = site.members | where: "role", "alumni" %}
+{% assign pi_team = site.team | where: "role", "pi" %}
+{% assign researcher_team = site.team | where: "role", "postdoc" %}
+{% assign phd_team = site.team | where: "role", "phd" %}
+{% assign comb_team = site.team | where: "role", "combined" %}
+{% assign masters_team = site.team | where: "role", "masters" %}
+{% assign undergrad_team = site.team | where: "role", "undergrad" %}
+{% assign alumni_team = site.team | where: "role", "alumni" %}
 
 <h2>PI</h2>
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="team" component="portrait" filters="role: pi" %}
 
-{% if researcher_members.size > 0 %}
+{% if researcher_team.size > 0 %}
   {% include section.html %}
   <h2>Researchers</h2>
-  {% include list.html data="members" component="portrait" filters="role: postdoc" %}
+  {% include list.html data="team" component="portrait" filters="role: postdoc" %}
 {% endif %}
 
-{% if phd_members.size > 0 or comb_members.size > 0 or masters_members.size > 0 %}
+{% if phd_team.size > 0 or comb_team.size > 0 or masters_team.size > 0 %}
   {% include section.html %}
   <h2>Graduate students</h2>
 
-  {% if phd_members.size > 0 %}
+  {% if phd_team.size > 0 %}
   <h3>Ph.D. students</h3>
-  {% include list.html data="members" component="portrait" filters="role: phd" %}
-  {% include list.html data="members" component="portrait" filters="role: combined" %}
+  {% include list.html data="team" component="portrait" filters="role: phd" %}
+  {% include list.html data="team" component="portrait" filters="role: combined" %}
   {% endif %}
 
-  {% if masters_members.size > 0 %}
+  {% if masters_team.size > 0 %}
   <h3>Masters students</h3>
-  {% include list.html data="members" component="portrait" filters="role: masters" %}
+  {% include list.html data="team" component="portrait" filters="role: masters" %}
   {% endif %}
 {% endif %}
 
-{% if undergrad_members.size > 0 %}
+{% if undergrad_team.size > 0 %}
   {% include section.html %}
   <h2>Undergraduate students</h2>
-  {% include list.html data="members" component="portrait" filters="role: undergrad" %}
+  {% include list.html data="team" component="portrait" filters="role: undergrad" %}
 {% endif %}
 
-{% if alumni_members.size > 0 %}
+{% if alumni_team.size > 0 %}
   {% include section.html %}
   <h2>Alumni</h2>
-  {% include list.html data="members" component="portrait" filters="role: alumni" %}
+  {% include list.html data="team" component="portrait" filters="role: alumni" %}
 {% endif %}
 
 {% include section.html background="images/background.jpg" dark=true %}

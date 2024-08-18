@@ -1,44 +1,44 @@
 {% if include.lookup %}
-  {% assign member = site.members 
-    | where_exp: "member", "member.slug == include.lookup"
+  {% assign team = site.team 
+    | where_exp: "team", "team.slug == include.lookup"
     | first
   %}
 {% else %}
-  {% assign member = include %}
+  {% assign team = include %}
 {% endif %}
 
-{% assign type = site.data.types[member.role] %}
+{% assign type = site.data.types[team.role] %}
 
 <div class="portrait-wrapper">
   <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
+    {% if page.slug != team.slug %}
+      href="{{ team.url | relative_url }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
+    aria-label="{{ team.name | default: "team link" }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url }}"
+      src="{{ team.image | relative_url }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="team portrait"
       loading="lazy"
       {% include fallback.html %}
     >
 
-    {% if member.name %}
+    {% if team.name %}
       <span class="portrait-name">
-        {{ member.name }}
+        {{ team.name }}
       </span>
     {% endif %}
 
-    {% if member.email %}
+    {% if team.email %}
       <span class="portrait-email">
-        email: {{ member.email }}
+        email: {{ team.email }}
       </span>
     {% endif %}
 
