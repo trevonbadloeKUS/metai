@@ -5,10 +5,10 @@ role: masters
 
 current:
   - date: '2024/9 - current'
-  - department: Department of Electronics and Information Engineering
-  - link: https://kueie.korea.ac.kr
-  - position: Masters Student
-  - etc: 
+    department: Department of Electronics and Information Engineering
+    link: https://kueie.korea.ac.kr
+    position: Masters Student
+    etc: 
 
 bachelor:
   - date: 
