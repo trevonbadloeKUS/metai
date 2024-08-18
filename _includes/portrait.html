@@ -18,9 +18,7 @@
     data-style="{{ include.style }}"
     aria-label="{{ team.name | default: "team link" }}"
   >
-    {% if type %}
-      {% include icon.html icon=type.icon %}
-    {% endif %}
+
 
     <img
       src="{{ team.image | relative_url }}"
@@ -34,13 +32,11 @@
       {{ team.name }}
   
     <span class="portrait-position">
-      {{ team.current.position }}
+      {{ team.current[0].position }}
 
     <span class="portrait-department">
-      {{ team.current.department }}
-
-
-
+      {{ team.current[0].department }}
 
   </a>
+
 </div>

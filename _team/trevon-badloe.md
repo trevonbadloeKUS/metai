@@ -17,6 +17,7 @@ master:
   - department: Department of Physics & Astronomy
   - degree: MPhys.
   - link: https://www.sheffield.ac.uk/mps/study-physics
+  
 phd:
   - date: '2017 - 2023'
   - school: Pohang University of Science and Technology (POSTECH)
@@ -34,7 +35,6 @@ experience:
   - etc: PIURI fellow
   - link: https://ai.postech.ac.kr/
 
-
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website
   orcid: 0000-0001-9458-6062
@@ -43,34 +43,3 @@ links:
   linkedin: trevonbadloe
   email: trevon@korea.ac.kr
 ---
-
-
-## Current Position
-
-- **Date:** 2024/9 - current  
-- **Position:** Assitant Professor  
-- **Department:** [Department of Electronics and Information Engineering](https://kueie.korea.ac.kr)  
-
-## Experience
-
-- **Date:** 2023/3 - 2024/8  
-- **School:** [Pohang University of Science and Technology (POSTECH)](https://ai.postech.ac.kr/)  
-- **Department:** Graduate School of AI  
-- **Position:** Postdoctoral Researcher  
-- **Additional Role:** PIURI fellow
-
-## Education
-
-### PhD Degree
-
-- **Date:** 2017 - 2023  
-- **School:** [Pohang University of Science and Technology (POSTECH)](https://me.postech.ac.kr/)  
-- **Department:** Department of Mechanical Engineering  
-- **Degree:** Ph.D.
-
-### Master's Degree
-
-- **Date:** 2008 - 2012  
-- **School:** [The University of Sheffield](https://www.sheffield.ac.uk/mps/study-physics)  
-- **Department:** Department of Physics & Astronomy  
-- **Degree:** MPhys.
