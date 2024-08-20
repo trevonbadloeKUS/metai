@@ -5,10 +5,10 @@ role: undergrad
 
 current:
   - date: '2024/9 - current'
-  department: Department of Electronics and Information Engineering
-  link: https://kueie.korea.ac.kr
-  position: Undergraduate Researcher
-  etc: 
+    department: Department of Electronics and Information Engineering
+    link: https://kueie.korea.ac.kr
+    position: Undergraduate Researcher
+    etc: 
 
 bachelor:
   - date: 
