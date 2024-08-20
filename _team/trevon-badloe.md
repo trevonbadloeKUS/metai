@@ -4,14 +4,14 @@ image: team/photos/professor/trevon_photo.jpeg
 role: pi
 
 current:
-  position: Assitant Professor
+  - position: Assitant Professor
   department: Department of Electronics and Information Engineering
   school:  Korea University - Sejong Campus
   link: https://kueie.korea.ac.kr
   date: '2024/9 - current'
 
 experience:
-  position: Postdoctoral researcher
+  - position: Postdoctoral researcher
   department: Graduate School of AI
   school:  Pohang University of Science and Technology (POSTECH)
   link: https://ai.postech.ac.kr/
@@ -19,7 +19,7 @@ experience:
   etc: PIURI fellow
 
 phd:
-  degree: Ph.D.
+  - degree: Ph.D.
   department: Department of Mechanical Engeering
   school: Pohang University of Science and Technology (POSTECH)
   link: https://me.postech.ac.kr/
@@ -29,14 +29,14 @@ phd:
   etc:
 
 master:
-  degree: MPhys.
+  - degree: MPhys.
   department: Department of Physics & Astronomy
   school: The University of Sheffield
   link: https://www.sheffield.ac.uk/mps/study-physics
   date: '2008 - 2012'
 
 bachelor:
-  degree: 
+  - degree: 
   school: 
   department: 
   link: 
