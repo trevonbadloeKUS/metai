@@ -3,6 +3,8 @@ name: Trevon Badloe
 image: team/photos/professor/trevon_photo.jpeg
 role: pi
 
+bio: Trevon is a new professor in the department and looking to hire enthusistic members to join his team
+
 current:
   - position: Assistant Professor
     department: Department of Electronics and Information Engineering
