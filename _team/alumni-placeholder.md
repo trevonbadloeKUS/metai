@@ -50,6 +50,4 @@ links:
   linkedin: trevonbadloe
   email: trevon@korea.ac.kr
 
-bio: |
-  **Trevon Badloe** is a distinguished academic and researcher with a robust background in electronics and mechanical engineering. After completing his Ph.D. in Mechanical Engineering at Pohang University of Science and Technology, Trevon embarked on a postdoctoral research journey at Korea University - Sejong Campus. His research interests include advanced materials and their applications in electronics. Trevon has been recognized as a PIURI Fellow for his exceptional contributions to the field of artificial intelligence. In addition to his academic pursuits, he enjoys sharing his insights through various platforms and staying connected with the broader research community.
 ---
