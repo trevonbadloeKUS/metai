@@ -4,11 +4,11 @@ image: team/photos/professor/trevon_photo.jpeg
 role: pi
 
 current:
-  - position: Assitant Professor
-  - department: Department of Electronics and Information Engineering
-  - school:  Korea University - Sejong Campus
-  - link: https://kueie.korea.ac.kr
-  - date: '2024/9 - current'
+  - position: Assistant Professor
+   department: Department of Electronics and Information Engineering
+   school:  Korea University - Sejong Campus
+   link: https://kueie.korea.ac.kr
+   date: '2024/9 - current'
 
 experience:
   - position: Postdoctoral researcher
