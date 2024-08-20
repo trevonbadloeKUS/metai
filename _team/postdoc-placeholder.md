@@ -5,10 +5,10 @@ role: postdoc
 
 current:
   - position: Postdoctoral Researcher
-  department: Department of Electronics and Information Engineering
-  school:  Korea University - Sejong Campus
-  link: https://kueie.korea.ac.kr
-  date: '2024/9 - current'
+  - department: Department of Electronics and Information Engineering
+  - school:  Korea University - Sejong Campus
+  - link: https://kueie.korea.ac.kr
+  - date: '2024/9 - current'
 
 experience:
   position: 
