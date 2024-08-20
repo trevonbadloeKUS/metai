@@ -4,42 +4,41 @@ image: https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png
 role: undergrad
 
 current:
-  - date: '2024/9 - current'
+  - position: Undergraduate Researcher
     department: Department of Electronics and Information Engineering
+    school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    position: Undergraduate Researcher
-    etc: 
+    date: '2024/09 - current'
 
 bachelor:
-  - date: 
-  - school: 
-  - department: 
   - degree: 
-  - link: 
-  - etc: 
+    department: 
+    school: 
+    link: 
+    date: 
+    etc: 
 
 master:
-  - date: 
-  - school: 
-  - department: 
   - degree: 
-  - link: 
-  
+    department: 
+    school: 
+    link: 
+    date: 
+
 phd:
-  - date: 
-  - school: 
-  - department: 
   - degree: 
-  - link: 
+    department: 
+    school: 
+    link: 
+    date: 
 
 experience:
-  - date: 
-  - school:  
-  - department: 
   - position: 
-  - etc: 
-  - link: 
-
+    department: 
+    school:  
+    link: 
+    date: 
+    etc: 
 
 links:
   home-page: 
@@ -49,5 +48,3 @@ links:
   linkedin: 
   email: xxxxx@korea.ac.kr
 ---
-
-

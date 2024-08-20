@@ -4,43 +4,43 @@ image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-y
 role: combined
 
 current:
-  position: Combined Masters & Ph.D. Student
-  department: Department of Electronics and Information Engineering
-  school:  Korea University - Sejong Campus
-  link: https://kueie.korea.ac.kr
-  date: '2024/9 - current'
+  - position: Combined Masters & Ph.D. Student
+    department: Department of Electronics and Information Engineering
+    school: Korea University - Sejong Campus
+    link: https://kueie.korea.ac.kr
+    date: '2024/09 - current'
 
 experience:
-  position: 
-  department: 
-  school: 
-  link: 
-  date:
-  etc: 
+  - position: 
+    department: 
+    school: 
+    link: 
+    date: 
+    etc: 
 
 phd:
-  degree: 
-  department: 
-  school: 
-  link: 
-  advisor: Trevon Badloe
-  dissertation: 
-  date: 
-  etc:
+  - degree: 
+    department: 
+    school: 
+    link: 
+    advisor: Trevon Badloe
+    dissertation: 
+    date: 
+    etc:
 
 master:
-  degree: 
-  department: 
-  school: 
-  link: 
-  date: 
+  - degree: 
+    department: 
+    school: 
+    link: 
+    date: 
 
 bachelor:
-  degree: B.Sc
-  department: Department of Electronics and Information Engineering
-  school:  Korea University - Sejong Campus
-  link: https://kueie.korea.ac.kr
-  date: '2024/9 - current'
+  - degree: B.Sc
+    department: Department of Electronics and Information Engineering
+    school: Korea University - Sejong Campus
+    link: https://kueie.korea.ac.kr
+    date: '2024/09 - current'
 
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website

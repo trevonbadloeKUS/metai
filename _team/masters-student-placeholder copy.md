@@ -1,10 +1,10 @@
 ---
-name: Postdoctoral Researcher 1
+name: Masters student 2
 image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-you-pikachu-ash-ketchum-pokemon-pikachu-mammal-dog-like-mammal-vertebrate-thumbnail.png
-role: postdoc
+role: masters
 
 current:
-  - position: Postdoctoral Researcher
+  - position: Masters Student
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
@@ -19,24 +19,24 @@ experience:
     etc: 
 
 phd:
-  - degree: Ph.D.
-    department: Department of Mechanical Engineering
-    school: Pohang University of Science and Technology (POSTECH)
-    link: https://me.postech.ac.kr/
-    advisor: Junsuk Rho
+  - degree: 
+    department: 
+    school: 
+    link: 
+    advisor: Trevon Badloe
     dissertation: 
-    date: '2017 - 2023'
-    etc: 
+    date: 
+    etc:
 
 master:
-  - degree: MPhys
-    department: Department of Physics & Astronomy
-    school: The University of Sheffield
-    link: https://www.sheffield.ac.uk/mps/study-physics
-    date: '2008 - 2012'
+  - degree: 
+    department: 
+    school: 
+    link: 
+    date: 
 
 bachelor:
-  - degree: B.Sc.
+  - degree: B.Sc
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
@@ -44,9 +44,9 @@ bachelor:
 
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website
-  orcid: 
+  orcid: 0000-0001-9458-6062
   google-scholar: aVP_G7oAAAAJ
   instagram: kimchi_and_tea
-  linkedin: 
+  linkedin: trevonbadloe
   email: trevon@korea.ac.kr
 ---

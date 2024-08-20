@@ -4,34 +4,43 @@ image: team/photos/professor/trevon_photo.jpeg
 role: alumni
 
 current:
-  - date: '2024/9 - current'
-    position: Postdoctoral Researcher
+  - position: Postdoctoral Researcher
     department: Department of Electronics and Information Engineering
+    school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
+    date: '2024/09 - current'
 
 bachelor:
+  - degree: B.Sc
+    department: Department of Electronics and Information Engineering
+    school: Korea University - Sejong Campus
+    link: https://kueie.korea.ac.kr
+    date: '2024/09 - current'
 
 master:
-  - date: '2008 - 2012'
-  - school: The University of Sheffield
-  - department: Department of Physics & Astronomy
-  - degree: MPhys.
-  - link: https://www.sheffield.ac.uk/mps/study-physics
+  - degree: MPhys
+    department: Department of Physics & Astronomy
+    school: The University of Sheffield
+    link: https://www.sheffield.ac.uk/mps/study-physics
+    date: '2008 - 2012'
+
 phd:
-  - date: '2017 - 2023'
-  - school: Pohang University of Science and Technology (POSTECH)
-  - department: Department of Mechanical Engeering
   - degree: Ph.D.
-  - link: https://me.postech.ac.kr/
+    department: Department of Mechanical Engineering
+    school: Pohang University of Science and Technology (POSTECH)
+    link: https://me.postech.ac.kr/
+    advisor: Junsuk Rho
+    dissertation: 
+    date: '2017 - 2023'
+    etc:
 
 experience:
-  - date: "2023/3 - 2024/8"
-  - school:  Pohang University of Science and Technology (POSTECH)
-  - department: Graduate School of AI
-  - position: Postdoctoral researcher
-  - etc: PIURI fellow
-  - link: https://ai.postech.ac.kr/
-
+  - position: Postdoctoral Researcher
+    department: Graduate School of AI
+    school: Pohang University of Science and Technology (POSTECH)
+    link: https://ai.postech.ac.kr/
+    date: '2023/03 - 2024/08'
+    etc: PIURI Fellow
 
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website
@@ -40,11 +49,7 @@ links:
   instagram: kimchi_and_tea
   linkedin: trevonbadloe
   email: trevon@korea.ac.kr
+
+bio: |
+  **Trevon Badloe** is a distinguished academic and researcher with a robust background in electronics and mechanical engineering. After completing his Ph.D. in Mechanical Engineering at Pohang University of Science and Technology, Trevon embarked on a postdoctoral research journey at Korea University - Sejong Campus. His research interests include advanced materials and their applications in electronics. Trevon has been recognized as a PIURI Fellow for his exceptional contributions to the field of artificial intelligence. In addition to his academic pursuits, he enjoys sharing his insights through various platforms and staying connected with the broader research community.
 ---
-
-What is this? Should I write a bio in here or something?
-How do I format it? 
-
-# is this a heading? 
-
-and write some **bold text** 
