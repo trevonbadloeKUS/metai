@@ -46,9 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include button.html
   link="projects"
   text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
 {% endcapture %}
@@ -71,9 +69,7 @@ What is this nonesense writing...?
   include button.html
   link="team"
   text="Meet our team"
-  icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
 {% endcapture %}
