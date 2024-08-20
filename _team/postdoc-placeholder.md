@@ -4,7 +4,7 @@ image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-y
 role: postdoc
 
 current:
-  position: Postdoctoral Researcher
+  - position: Postdoctoral Researcher
   department: Department of Electronics and Information Engineering
   school:  Korea University - Sejong Campus
   link: https://kueie.korea.ac.kr
