@@ -122,14 +122,14 @@ layout: default
 
   <div class = "bio-heading"> Publications </div>
 
-    <ol class = "backward-list"> 
+    <ol reversed class = "backward-list"> 
 
       {% for pub in sorted_pubs reversed %}
 
       <li> <div class = "bio-info-etc"> 
         <a href="{{ pub.link }}">{{ pub.title }}</a>,
 
-        {% for author in authors %}
+        {% for author in pub.authors %}
           {% assign formatted_author = author %}
           
           {%- if author contains "Trevon" -%}
@@ -154,7 +154,7 @@ layout: default
 
   <div class = "bio-heading"> Talks </div>
 
-  <ol class = "backward-list"> 
+  <ol class = "backward-list" reversed> 
     {% for talk in sorted_talks reversed %}
 
       <li>   <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
