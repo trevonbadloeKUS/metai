@@ -21,13 +21,15 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-<p style= "margin-top: 20px;"> {{ page.bio }} </p>
+{% if page.bio %}
+  <p class = "bio"> {{ page.bio }} </p>
+{% endif %}
 
 {% if page.role ==  "pi" %}
-  <h5> Academic Appointments </h5>
+  <p class = "bio-heading"> Academic Appointments </h5></p>
   {% for current in page.current %}
-    <h6> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</h6>
-     <br><p>{{ current.position }} ( {{ experience.date }} )</p>
+    <p class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</p>
+    <p>{{ current.position }} ( {{ experience.date }} )</p>
   {% endfor %}
 {% endif %}
 
@@ -38,7 +40,7 @@ layout: default
   <h6> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</h6>
   <br><p>{{ experience.position }} {% if experience.etc %} [ {{ experience.etc }} ] {% endif %}
   ( {{ experience.date }} )</p> 
-  <br> [Advisor: {{ experience.advisor}} ]</p></br> 
+  <p> [Advisor: {{ experience.advisor}} ]</p></br> 
   {% endfor %}
 {% endif %}
 
@@ -68,7 +70,7 @@ layout: default
   {% endfor %}
 {% endif %}
 
-{% if page.bachelor.size > 0 %}
+{% if page.bachelor.degree != "" %}
   {% for bachelor in page.bachelor %}
 
     <p>{{ bachelor.degree }} - <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}

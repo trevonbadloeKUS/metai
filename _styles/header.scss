@@ -71,7 +71,7 @@ header a {
 }
 
 .title {
-  font-size: var(--large);
+  font-size: var(--xl);
 }
 
 .subtitle {
@@ -134,7 +134,7 @@ header{
   }
 
   @media (max-width: $collapse) {
-    justify-content: flex-end;
+    justify-content: center;
 
     .nav-toggle {
       display: flex;

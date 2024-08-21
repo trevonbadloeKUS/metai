@@ -8,14 +8,14 @@ bio: Trevon is a new professor in the department and looking to hire enthusistic
 current:
   - position: Assistant Professor
     department: Department of Electronics and Information Engineering
-    school: Korea University - Sejong Campus
+    school: Korea University - Sejong Campus, South Korea
     link: https://kueie.korea.ac.kr
     date: '2024/09 - current'
 
 experience:
   - position: Postdoctoral Researcher
     department: Graduate School of AI
-    school: Pohang University of Science and Technology (POSTECH)
+    school: POSTECH, South Korea
     link: https://ai.postech.ac.kr/
     advisor: Junsuk Rho
     date: '2023/03 - 2024/08'
@@ -24,7 +24,7 @@ experience:
 phd:
   - degree: Ph.D.
     department: Department of Mechanical Engineering
-    school: Pohang University of Science and Technology (POSTECH)
+    school: POSTECH, South Korea
     link: https://me.postech.ac.kr/
     advisor: Junsuk Rho
     dissertation: AI metasurfaces
@@ -34,7 +34,7 @@ phd:
 master:
   - degree: MPhys
     department: Department of Physics & Astronomy
-    school: The University of Sheffield
+    school: The University of Sheffield, UK
     link: https://www.sheffield.ac.uk/mps/study-physics
     date: '2008 - 2012'
 
