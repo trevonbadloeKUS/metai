@@ -49,7 +49,3 @@ nav:
   <h2>Alumni</h2>
   {% include list.html data="team" component="portrait" filters="role: alumni" %}
 {% endif %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-<p>Please <a href="mailto:trevon@korea.ac.kr">contact us</a> if you are interested in joining our team~!</p>
