@@ -21,17 +21,48 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-
-<h2> Bio </h2>
 <p> {{ page.bio }} </p>
 
-<h2 >Current Position</h2>
+
+
+
+{% for master in page.master %}
+  {% if master.size > 0 %}
+
+    <p>{{ master.date }}: {{ master.degree }} - {{ master.department }}, {{ master.school }}
+     {% if master.etc %}
+    ( {{ master.etc }} )
+     {% endif %}</p>
+  {% endif %}
+
+{% endfor %}
+
+
+
+
+{% for bachelor in page.bachelor %}
+  {% if bachelor.size > 0 %}
+
+    <p>{{ bachelor.date }}: {{ bachelor.degree }} - {{ bachelor.department }}, {{ bachelor.school }}
+     {% if bachelor.etc %}
+    ( {{ bachelor.etc }} )
+     {% endif %}</p>
+  {% endif %}
+
+{% endfor %}
+
+
+
+
+
+
+<h3 >Current Position</h3>
 <p> <strong>Position:</strong> {{ page.current[0].position }}</p>
 <p ><strong>Department:</strong> <a href="{{ page.current[0].link }}">{{ page.current[0].department }}</a></p>
 <p ><strong>School:</strong> {{ page.current[0].school }}</p>
 <p ><strong>Date:</strong> {{ page.current[0].date }}</p>
 
-<h2> </h2>Experience</h2>
+<h3> Experience</h3>
 {% for exp in page.experience %}
 <div>
     <p><strong>Position:</strong> {{ exp.position }}</p>
@@ -44,7 +75,7 @@ layout: default
 </div>
 {% endfor %}
 
-<h2>PhD</h2>
+<h3>PhD</h3>
 {% for phd in page.phd %}
 <div>
     <p><strong>Degree:</strong> {{ phd.degree }}</p>
@@ -64,7 +95,7 @@ layout: default
 {% endfor %}
 </section>
 
-<h2 >Master's</h2>
+<h3 >Master's</h3>
 {% for master in page.master %}
 <div>
     <p><strong>Degree:</strong> {{ master.degree }}</p>
@@ -77,16 +108,7 @@ layout: default
 </div>
 {% endfor %}
 
-{% for bachelor in page.bachelor %}
-<h2>Bachelor's</h2>
-<div>
-    <p><strong>Degree:</strong> {{ bachelor.degree }}</p>
-    <p><strong>Department:</strong> {{ bachelor.department }}</p>
-    <p><strong>School:</strong> {{ bachelor.school }}</p>
-    <p><strong>Date:</strong> {{ bachelor.date }}</p>
-    {% if bachelor.etc %}
-    <p><strong>Additional Information:</strong> {{ bachelor.etc }}</p>
-    {% endif %}
+
 </div>
 {% endfor %}
 
