@@ -13,7 +13,7 @@ We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships an
 
 {% include section.html size="full" %}
 
-{% include figure.html image="{{page.image}}" width="100%" %}
+{% include figure.html image="/images/news/2023/USA.jpeg" width="100%" %}
 
 {% include section.html %}
 
@@ -22,7 +22,7 @@ Continued content
 
 {%
   include figure.html
-  image="{{page.image}}"
+  image="/images/news/2023/USA.jpeg"
   caption="The team at our annual Christmas party, 2025"
   width="400px"
 %}
