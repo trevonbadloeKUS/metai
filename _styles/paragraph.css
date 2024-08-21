@@ -16,6 +16,7 @@ p.papers {
   line-height: var(--spacing);
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  padding: 10px 40px 20px 10px;
 }
 
 /*# sourceMappingURL=paragraph.css.map */
