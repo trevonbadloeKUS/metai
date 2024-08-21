@@ -13,8 +13,7 @@
   font-weight: var(--bold);
   text-align: justify;
   font-size: var(--large);
-  padding: 20px 0px;
-  border-bottom: solid 1px var(--light-gray);
+  padding: 20px 0px 5px 0px;
 }
 
 .bio-info {
@@ -29,6 +28,7 @@
   line-height: var(--compact);
   text-align: justify;
   font-weight: var(--regular);
+  padding: 0px 10px;
 }
 
 /*# sourceMappingURL=bio.css.map */
