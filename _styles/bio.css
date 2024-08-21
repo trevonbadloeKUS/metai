@@ -16,6 +16,7 @@
 .bio-info {
   font-family: var(--heading);
   font-weight: var(--regular);
+  line-height: var(--compact);
 }
 
 /*# sourceMappingURL=bio.css.map */
