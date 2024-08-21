@@ -56,7 +56,7 @@ layout: default
     <ul> 
       <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
     <div class = "bio-info-etc" >{{ phd.position }} {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})
-      <br class= "bio-info-etc"> [Advisor: {{ phd.advisor}}  | Dissertation: {{ phd.dissertation}}]
+      <br class= "bio-info-etc"> [Advisor: {{ phd.advisor}}  | Dissertation title: {{ phd.dissertation}}]
     </div></ul>
   {% endfor %}
 {% endif %}
@@ -72,6 +72,8 @@ layout: default
   {% endfor %}
 {% endif %}
 
+THIS IS BACHELOR STUFF
+{{ page.bachelor }}
 
 {% if page.bachelor.degree != "" %}
   {% for bachelor in page.bachelor %}

@@ -39,10 +39,10 @@ master:
     date: '2008 - 2012'
 
 bachelor:
-  - degree: 
-    department: 
-    school: 
-    link: 
+  - degree:
+    department:
+    school:
+    link:
     date:
 
 links:
