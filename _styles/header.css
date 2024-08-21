@@ -131,6 +131,11 @@ header .logo {
     flex-direction: row;
     width: 100%;
   }
+  header home {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 /*
