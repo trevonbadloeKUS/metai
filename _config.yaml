@@ -6,6 +6,7 @@ header: images/wave_footer_image.jpeg
 footer: images/wave_footer_image.jpeg
 proofer: false
 
+permalink: /:categories/:title/
 
 # site social media and other links
 links:
