@@ -36,55 +36,51 @@ layout: default
 {% endif %}
 
 {% if page.experience.size > 0 %}
-  <h5> Experience </h5>
+  <div class = "bio-heading"> Experience </div>
   {% for experience in page.experience %}
-
-  <h6> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</h6>
-  <br><p>{{ experience.position }} {% if experience.etc %} [ {{ experience.etc }} ] {% endif %}
-  ( {{ experience.date }} )</p> 
-  <p> [Advisor: {{ experience.advisor}} ]</p></br> 
-  {% endfor %}
+  <ul> 
+    <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</div></li>
+  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [ {{ experience.etc }} ] {% endif %}( {{ current.date }} )
+    <br class= "bio-info-etc"> [Advisor: {{ experience.advisor}} ]
+  </div></ul>
+  {% endfor %}  
 {% endif %}
 
-<h5> Education </h5>
+
+<div class = "bio-heading"> Education </div>
 
 {% if page.phd.degree != "" %}
   {% for phd in page.phd %}
-
-    <h6>{{ phd.degree }} - <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}, ( {{ phd.date }} ) 
-    </h6>
-     <p>{% if phd.etc %}
-    <br> ( {{ phd.etc }} ) </br>
-     {% endif %}
-     [Advisor: {{ phd.advisor}} | Dissertation: {{ phd.dissertation}}]</p>
+    <ul> 
+      <li> <div class = "bio-info"> <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
+    <div class = "bio-info-etc" >{{ phd.position }} {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}( {{ phd.date }} )
+      <br class= "bio-info-etc"> [Advisor: {{ phd.advisor}}  | Dissertation: {{ phd.dissertation}}] ]
+    </div></ul>
   {% endfor %}
 {% endif %}
 
 
-{% if page.master.degree %}
+{% if page.master.degree != "" %}
   {% for master in page.master %}
 
-    <p>{{ master.degree }} - <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}
-     {% if master.etc %}
-    ( {{ master.etc }} )
-     {% endif %}
-     ( {{ master.date }} ) 
+    <ul> 
+      <li> <div class = "bio-info"> <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}</div></li>
+    <div class = "bio-info-etc" >{{ master.position }} {% if master.etc %} [ {{ master.etc }} ] {% endif %}( {{ master.date }} )
+    </div></ul>
   {% endfor %}
 {% endif %}
 
-{{%  page.bachelor.degree %}}
+
+{% if page.bachelor.degree != "" %}
 
 {% if page.bachelor.degree %}
   {% for bachelor in page.bachelor %}
-
-    <p>{{ bachelor.degree }} - <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}
-     {% if bachelor.etc %}
-    ( {{ bachelor.etc }} )
-     {% endif %}
-     ( {{ bachelor.date }} ) 
+  <ul> 
+    <li> <div class = "bio-info"> <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
+  <div class = "bio-info-etc" >{{ bachelor.position }} {% if bachelor.etc %} [ {{ bachelor.etc }} ] {% endif %}( {{ bachelor.date }} )
+  </div></ul>
   {% endfor %}
 {% endif %}
-
 
 {% assign aliases = page.aliases
   | default: page.name
