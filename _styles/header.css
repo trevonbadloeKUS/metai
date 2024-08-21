@@ -4,7 +4,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 0px, 20px;
+  padding: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
   position: sticky !important;
