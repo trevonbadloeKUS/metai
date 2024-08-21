@@ -122,16 +122,25 @@ layout: default
 
   <div class = "bio-heading"> Publications </div>
 
-    <ol style="list-style-type: none;"> 
+    <ol class = "backward-list"> 
 
       {% for pub in sorted_pubs reversed %}
 
       <li> <div class = "bio-info-etc"> 
-        {{ array_size | minus: forloop.index0 }}.
         <a href="{{ pub.link }}">{{ pub.title }}</a>,
-        {% for author in pub.authors %} {{ author }}, {% endfor %}
-        {{ pub.publisher }},
-        {{ pub.id }}
+
+        {% for author in authors %}
+          {% assign formatted_author = author %}
+          
+          {%- if author contains "Trevon" -%}
+            {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
+          {%- endif -%}
+            
+          {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+
+        <strong>{{ pub.publisher }}</strong>,
+        {{ pub.id }}.
         </div></li>
       {% endfor %}
 
@@ -145,10 +154,10 @@ layout: default
 
   <div class = "bio-heading"> Talks </div>
 
-    <ol style="list-style-type: none;"> 
-      {% for talk in sorted_talks reversed %}
+  <ol class = "backward-list"> 
+    {% for talk in sorted_talks reversed %}
 
-      <li>   <div class = "bio-info-etc"> {{ array_size | minus: forloop.index0 }}. {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
+      <li>   <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
       {% endfor %}
 
     </ol>
