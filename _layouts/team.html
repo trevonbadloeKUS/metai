@@ -72,8 +72,6 @@ layout: default
 
 
 {% if page.bachelor.degree != "" %}
-
-{% if page.bachelor.degree %}
   {% for bachelor in page.bachelor %}
   <ul> 
     <li> <div class = "bio-info"> <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
