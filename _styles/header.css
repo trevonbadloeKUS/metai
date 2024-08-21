@@ -22,6 +22,7 @@ header a {
   background: var(--header_colour);
   color: var(--text);
   z-index: 1;
+  align-items: center;
 }
 
 .home {
@@ -131,7 +132,7 @@ header .logo {
     flex-direction: row;
     width: 100%;
   }
-  header home {
+  header .home {
     justify-content: center;
     align-items: center;
     width: 100%;
