@@ -1,9 +1,11 @@
 ---
 
-- venue: PIERS 2024
+- name: PIERS 2024
+  place: Chengdu, China
   date: '2024-04-25'
   etc: 2x invited talks
 
-- venue: SPP8
+- name: SPP8
+  place: Copengagen, Denmark
   date: '2020-05-05'
   etc: poster

@@ -136,7 +136,7 @@ where is my education??
 
   {% for talk in sorted_talks %}
     <ul> 
-      <li> <div class = "bio-info"> {{ talk.venue }} ({{ talk.date | date: "%b %Y" }}) {% if talk.etc %} [ {{ talk.etc }} ] {% endif %} </div></li>
+      <li> <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
     </ul>
   {% endfor %}
 {% endif %}
