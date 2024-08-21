@@ -90,7 +90,7 @@ layout: default
 
 {% if page.role ==  "pi" %}
   <div class = "bio-heading"> Talks </div>
-  {% for talk in site.talks %}
+  {% for talk in site.data.talks %}
     <ul> 
       <li> <div class = "bio-info"> {{ talk.venue }} ({{ talk.date }}) {% if talk.etc %} [ {{ talk.etc }} ] {% endif %} </div></li>
   {% endfor %}
