@@ -76,7 +76,7 @@
 
 .portrait-details {
   font-weight: var(--regular);
-  color: var(--primary-lighter);
+  color: var(--primary_lighter);
 }
 
 .portrait[data-style=tiny] .portrait-details,
