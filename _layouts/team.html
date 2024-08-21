@@ -26,10 +26,11 @@ layout: default
 {% endif %}
 
 {% if page.role ==  "pi" %}
-  <div class = "bio-heading"> Academic Appointments </h5></div>
+  <div class = "bio-heading"> Academic Appointments </div>
   {% for current in page.current %}
-    <ul> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div>
-    <div>{{ current.position }} ( {{ experience.date }} )</div></ul>
+    <ul> 
+      <li> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div></li>
+    <div class = "bio-info-etc" >{{ current.position }} ( {{ current.date }} )</div></ul>
   {% endfor %}
 {% endif %}
 
@@ -46,7 +47,7 @@ layout: default
 
 <h5> Education </h5>
 
-{% if page.phd.size > 0 %}
+{% if page.phd.degree %}
   {% for phd in page.phd %}
 
     <h6>{{ phd.degree }} - <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}, ( {{ phd.date }} ) 
@@ -59,7 +60,7 @@ layout: default
 {% endif %}
 
 
-{% if page.master.size > 0 %}
+{% if page.master.degree %}
   {% for master in page.master %}
 
     <p>{{ master.degree }} - <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}
@@ -70,7 +71,8 @@ layout: default
   {% endfor %}
 {% endif %}
 
-{% if page.bachelor.degree != "" %}
+
+{% if page.bachelor.degree %}
   {% for bachelor in page.bachelor %}
 
     <p>{{ bachelor.degree }} - <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}
