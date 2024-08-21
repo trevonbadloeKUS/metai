@@ -20,12 +20,24 @@ We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships an
 
 {{ page.title }} 
 
-{%
-  include figure.html
-  image="{{post.image}}"
-  caption="Horseshoe Canyon"
-  width="400px"
-%}
+
+{% assign url = page.url %}
+{% assign title = page.title %}
+{% assign image = page.image %}
+
+<a
+href="{{ url | relative_url }}"
+class="post-excerpt-image"
+aria-label="{{ title | default: "excerpt link" }}"
+>
+<img
+    src="{{ image | relative_url }}"
+    alt="{{ title | default: "excerpt image" }}"
+    loading="lazy"
+    {% include fallback.html %}
+>
+</a>
+
 
 
 
