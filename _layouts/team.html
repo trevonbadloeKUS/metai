@@ -138,17 +138,19 @@ layout: default
   {% include section.html %}
 
   {% assign sorted_talks = site.data.talks | sort: 'date'  %}
+  {% assign array_size = sorted_talks | size %}
 
   <div class = "bio-heading"> Talks </div>
 
-    <ol start = "{{ sorted_talks.size }}"> 
+    <ol start = "1"> 
       {% for talk in sorted_talks reversed %}
 
-      <li> <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
+      <li>  {{ array_size | minus: forloop.index0 }}. <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
       {% endfor %}
 
     </ol>
 {% endif %}
+
 
 {% assign aliases = page.aliases
   | default: page.name
