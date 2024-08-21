@@ -27,13 +27,13 @@ layout: default
 <div class="bio">
 
     <h2> Bio </h2>
-    <p> {{ bio }} </p>
+    <p> {{ page.bio }} </p>
 
     <h2 >Current Position</h2>
-    <p> <strong>Position:</strong> {{ current[0].position }}</p>
-    <p ><strong>Department:</strong> <a href="{{ current[0].link }}">{{ current[0].department }}</a></p>
-    <p ><strong>School:</strong> {{ current[0].school }}</p>
-    <p ><strong>Date:</strong> {{ current[0].date }}</p>
+    <p> <strong>Position:</strong> {{ page.current[0].position }}</p>
+    <p ><strong>Department:</strong> <a href="{{ page.current[0].link }}">{{ page.current[0].department }}</a></p>
+    <p ><strong>School:</strong> {{ page.current[0].school }}</p>
+    <p ><strong>Date:</strong> {{ page.current[0].date }}</p>
 
     <h2> </h2>Experience</h2>
     {% for exp in experience %}
