@@ -29,6 +29,8 @@ layout: default
 {% endif %}
 
 {% if page.role ==  "pi" %}
+  {% include section.html %}
+
   <div class = "bio-heading"> Academic Appointments </div>
   {% for current in page.current %}
     <ul> 
@@ -37,12 +39,18 @@ layout: default
   {% endfor %}
 {% endif %}
 
+Experience
+{{ page.experience }}
+
 {% if page.experience.size > 0 %}
+  {% include section.html %}
+
   <div class = "bio-heading"> Experience </div>
   {% for experience in page.experience %}
   <ul> 
-    <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</div></li>
-  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}({{ experience.date }})
+    <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}
+      <div class = "bio-info-etc"> ({{ experience.date }})</div></li>
+  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}
     <br class= "bio-info-etc"> Advisor: {{ experience.advisor}}
   </div></ul>
   {% endfor %}  
@@ -51,11 +59,15 @@ layout: default
 
 <div class = "bio-heading"> Education </div>
 
-{{ page.phd.degree }}
+where is my education??
+{{ page.phd }}
 
 
 {% if page.phd.degree %}
+  {% include section.html %}
+
   {% for phd in page.phd %}
+  
     <ul> 
       <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
     <div class = "bio-info-etc" >{{ phd.position }} {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})
@@ -65,8 +77,12 @@ layout: default
   {% endfor %}
 {% endif %}
 
+master
+{{ page.master }}
 
 {% if page.master.degree %}
+  {% include section.html %}
+
   {% for master in page.master %}
 
     <ul> 
@@ -78,7 +94,12 @@ layout: default
   {% endfor %}
 {% endif %}
 
+bachelor
+{{ page.bachelor }}
+
 {% if page.bachelor.degree %}
+  {% include section.html %}
+
   {% for bachelor in page.bachelor %}
   <ul> 
     <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
@@ -88,14 +109,21 @@ layout: default
 {% endif %}
 
 
+
+
 {% if page.role ==  "pi" %}
+  {% include section.html %}
+
+  {% assign sorted_talks = site.data.talks | sort: 'date' %}
+
   <div class = "bio-heading"> Talks </div>
-  {% for talk in site.data.talks %}
+
+  {% for talk in sorted_talks %}
     <ul> 
-      <li> <div class = "bio-info"> {{ talk.venue }} ({{ talk.date }}) {% if talk.etc %} [ {{ talk.etc }} ] {% endif %} </div></li>
+      <li> <div class = "bio-info"> {{ talk.venue }} ({{ talk.date | date: "%b %Y" }}) {% if talk.etc %} [ {{ talk.etc }} ] {% endif %} </div></li>
+    </ul>
   {% endfor %}
 {% endif %}
-
 
 {% assign aliases = page.aliases
   | default: page.name
