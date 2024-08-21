@@ -22,6 +22,7 @@ layout: default
 {% include float.html content=floatcontent %}
 
 {% if page.bio %}
+  BIO
   <div class = "bio" > {{ page.bio }} </div>
 {% endif %}
 
@@ -47,7 +48,7 @@ layout: default
 
 <h5> Education </h5>
 
-{% if page.phd.degree %}
+{% if page.phd.degree != "" %}
   {% for phd in page.phd %}
 
     <h6>{{ phd.degree }} - <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}, ( {{ phd.date }} ) 
@@ -71,6 +72,7 @@ layout: default
   {% endfor %}
 {% endif %}
 
+{{%  page.bachelor.degree %}}
 
 {% if page.bachelor.degree %}
   {% for bachelor in page.bachelor %}

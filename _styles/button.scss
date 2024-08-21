@@ -11,7 +11,7 @@ button {
 
 .button {
   display: inline-flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
   max-width: calc(100% - 5px - 5px);
@@ -32,7 +32,7 @@ button {
 
 .button:hover {
   background: var(--text);
-  color: var(--background);
+  color: var(--hover);
 }
 
 .button[data-style="bare"] {
@@ -41,10 +41,11 @@ button {
   color: var(--primary);
 
   &:hover {
-    color: var(--background);
+    color: var(--hover);
   }
 }
 
 .button[data-flip] {
   flex-direction: row-reverse;
 }
+ 
