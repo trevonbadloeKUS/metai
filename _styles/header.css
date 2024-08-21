@@ -1,11 +1,10 @@
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 5px;
-  margin: 20px;
+  padding: 0px, 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
   position: sticky !important;
@@ -129,7 +128,7 @@ header .logo {
   }
   header nav {
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
 }
