@@ -5,9 +5,8 @@ nav:
   tooltip: News & Events from the lab
 ---
 
-
+{% include section.html %}
 {% include search-box.html %}
-
 {% include search-info.html %}
 
 {% include section.html %}

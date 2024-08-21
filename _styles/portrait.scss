@@ -72,16 +72,17 @@
   font-size: var(--large);
 }
 
-.portrait-details {
-  font-family: var(--heading);
+.portrait-name[data-style="tiny"]{
   font-weight: var(--regular);
-  color: var(--primary_lighter);
-  text-align: center;
+  color: var(--text);
 }
 
+.portrait-details {
+  font-weight: var(--regular);
+}
 
 .portrait[data-style="tiny"] {
-  .portrait-description,
+  .portrait-details,
   .portrait-affiliation {
     display: none;
   }
