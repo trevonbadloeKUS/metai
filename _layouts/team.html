@@ -24,11 +24,85 @@ layout: default
 {{ content }}
 
 
-<p class="center">
-  this is where ive got to write text....isntit....
+<div class="bio">
 
-  {{ team.bio }}
-</p>
+    <h2> Bio </h2>
+    <p> {{ bio }} </p>
+
+  <section class="section">
+    <h2 class="section-title">Current Position</h2>
+    <p class="section-item"><strong>Position:</strong> {{ current[0].position }}</p>
+    <p class="section-item"><strong>Department:</strong> <a href="{{ current[0].link }}">{{ current[0].department }}</a></p>
+    <p class="section-item"><strong>School:</strong> {{ current[0].school }}</p>
+    <p class="section-item"><strong>Date:</strong> {{ current[0].date }}</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Experience</h2>
+    {% for exp in experience %}
+    <div class="section-item">
+        <p><strong>Position:</strong> {{ exp.position }}</p>
+        <p><strong>Department:</strong> {{ exp.department }}</p>
+        <p><strong>School:</strong> {{ exp.school }}</p>
+        <p><strong>Date:</strong> {{ exp.date }}</p>
+        {% if exp.etc %}
+        <p><strong>Additional Information:</strong> {{ exp.etc }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">PhD</h2>
+    {% for phd in phd %}
+    <div class="section-item">
+        <p><strong>Degree:</strong> {{ phd.degree }}</p>
+        <p><strong>Department:</strong> {{ phd.department }}</p>
+        <p><strong>School:</strong> {{ phd.school }}</p>
+        <p><strong>Date:</strong> {{ phd.date }}</p>
+        {% if phd.advisor %}
+        <p><strong>Advisor:</strong> {{ phd.advisor }}</p>
+        {% endif %}
+        {% if phd.dissertation %}
+        <p><strong>Dissertation:</strong> {{ phd.dissertation }}</p>
+        {% endif %}
+        {% if phd.etc %}
+        <p><strong>Additional Information:</strong> {{ phd.etc }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Master's</h2>
+    {% for master in master %}
+    <div class="section-item">
+        <p><strong>Degree:</strong> {{ master.degree }}</p>
+        <p><strong>Department:</strong> {{ master.department }}</p>
+        <p><strong>School:</strong> {{ master.school }}</p>
+        <p><strong>Date:</strong> {{ master.date }}</p>
+        {% if master.etc %}
+        <p><strong>Additional Information:</strong> {{ master.etc }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Bachelor's</h2>
+    {% for bachelor in bachelor %}
+    <div class="section-item">
+        <p><strong>Degree:</strong> {{ bachelor.degree }}</p>
+        <p><strong>Department:</strong> {{ bachelor.department }}</p>
+        <p><strong>School:</strong> {{ bachelor.school }}</p>
+        <p><strong>Date:</strong> {{ bachelor.date }}</p>
+        {% if bachelor.etc %}
+        <p><strong>Additional Information:</strong> {{ bachelor.etc }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+</div>
 
 {% assign aliases = page.aliases
   | default: page.name
