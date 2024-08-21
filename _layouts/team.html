@@ -29,7 +29,6 @@ layout: default
 {% endif %}
 
 {% if page.role ==  "pi" %}
-  {% include section.html %}
 
   <div class = "bio-heading"> Academic Appointments </div>
   {% for current in page.current %}
@@ -39,11 +38,23 @@ layout: default
   {% endfor %}
 {% endif %}
 
+{% if page.role !=  "pi" %}
+
+  <div class = "bio-heading"> Current Position </div>
+  {% for current in page.current %}
+    <ul> 
+      <li> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div></li>
+    <div class = "bio-info-etc" >{{ current.position }} ({{ current.date }})</div></ul>
+  {% endfor %}
+{% endif %}
+
+
+
 Experience
 {{ page.experience }}
+{{ page.experience.size }}
 
 {% if page.experience.size > 0 %}
-  {% include section.html %}
 
   <div class = "bio-heading"> Experience </div>
   {% for experience in page.experience %}
@@ -56,14 +67,14 @@ Experience
   {% endfor %}  
 {% endif %}
 
-
+{% if page.role !=  "undergrad" %}
 <div class = "bio-heading"> Education </div>
 
 where is my education??
 {{ page.phd }}
 
 
-{% if page.phd.degree %}
+{% if page.phd[0].degree %}
   {% include section.html %}
 
   {% for phd in page.phd %}
@@ -80,7 +91,7 @@ where is my education??
 master
 {{ page.master }}
 
-{% if page.master.degree %}
+{% if page.master[0].degree %}
   {% include section.html %}
 
   {% for master in page.master %}
@@ -97,7 +108,7 @@ master
 bachelor
 {{ page.bachelor }}
 
-{% if page.bachelor.degree %}
+{% if page.bachelor[0].degree %}
   {% include section.html %}
 
   {% for bachelor in page.bachelor %}
@@ -108,13 +119,14 @@ bachelor
   {% endfor %}
 {% endif %}
 
+{% endif %}
 
 
 
 {% if page.role ==  "pi" %}
   {% include section.html %}
 
-  {% assign sorted_talks = site.data.talks | sort: 'date' %}
+  {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
 
   <div class = "bio-heading"> Talks </div>
 
