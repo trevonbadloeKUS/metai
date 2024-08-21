@@ -105,7 +105,7 @@
   link: https://doi.org/gt6672
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://cms.iopscience.org/ead6444d-2bbb-11e9-9390-0131eabbf6de/journal_cover?guest=true
   type: review
   tags:
@@ -126,7 +126,7 @@
   link: https://doi.org/gt6673
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png
   type: review
   tags:
@@ -142,7 +142,7 @@
   link: https://doi.org/gt6674
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://www.degruyter.com/document/cover/journal_key/NANOPH/product_pages
   type: editorial
   tags: editorial
@@ -162,7 +162,7 @@
   link: https://doi.org/gtdv3p
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   first authors:
   - Byoungsu Ko
   - Nara Jeon
@@ -185,7 +185,7 @@
   link: https://doi.org/gt6675
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   first authors:
   - Harit Keawmuang
   - Trevon Badloe
@@ -215,7 +215,7 @@
   link: https://doi.org/gt6676
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
   tags:
@@ -242,7 +242,7 @@
   link: https://doi.org/gt6677
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c04064/asset/images/medium/nl3c04064_0005.gif
   tags:
@@ -263,7 +263,7 @@
   link: https://doi.org/gt6678
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
   tags:
@@ -284,7 +284,7 @@
   link: https://doi.org/gt6679
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: review
   tags:
   - review
@@ -310,7 +310,7 @@
   link: https://doi.org/gt668b
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: book chapter
 - id: doi:10.1186/s43593-023-00052-4
   title: Arbitrarily structured quantum emission with a multifunctional metalens
@@ -331,7 +331,7 @@
   link: https://doi.org/gtn7s4
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-023-00052-4/MediaObjects/43593_2023_52_Fig1_HTML.png?as=webp
   tags:
@@ -358,7 +358,7 @@
   link: https://doi.org/gs27hp
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://pubs.acs.org/cms/10.1021/acsnano.3c02471/asset/images/medium/nn3c02471_0006.gif
   tags:
   - metalens
@@ -386,7 +386,7 @@
   link: https://doi.org/gt668c
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://onlinelibrary.wiley.com/cms/asset/cbe8d373-e9e6-4e89-af11-4741dd92cd9e/advs4616-fig-0004-m.jpg
   tags:
@@ -409,7 +409,7 @@
   link: https://doi.org/gs7th8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2Fabs%2F10.1002%2Fadma.202208520&psig=AOvVaw0VOs3LeZmpcqiiQRRLGC9t&ust=1723903984071000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDFj_fY-YcDFQAAAAAdAAAAABAE
   type: research
   tags:
@@ -435,7 +435,7 @@
   link: https://doi.org/gsmssm
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01086-6/MediaObjects/41377_2023_1086_Fig4_HTML.png
   tags:
@@ -455,7 +455,7 @@
   link: https://doi.org/gt668f
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=luPOf6Bua04sYw7lRwM%2BNcutBU3mGvgqLUGaE5Zo5TI%3D&uri=ome-13-10-2787-g001
   tags:
@@ -472,7 +472,7 @@
   link: https://doi.org/gt668g
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c01588/asset/images/large/nl3c01588_0003.jpeg
   type: research
   tags:
@@ -499,7 +499,7 @@
   link: https://doi.org/grxpvt
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c04193/asset/images/medium/nl2c04193_0006.gif
   tags:
@@ -516,7 +516,7 @@
   link: https://doi.org/gt668h
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: editorial
   tags:
   - editorial
@@ -538,7 +538,7 @@
   link: https://doi.org/gtthkq
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=EEXs6K1017EPntf1gZoCoI4nafLBGsxlZfQTEeZoaHs%3D&uri=prj-10-12-B30-g006
   tags:
@@ -557,7 +557,7 @@
   link: https://doi.org/gt668j
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   tags:
   - chirality
   - OAM
@@ -587,7 +587,7 @@
   link: https://doi.org/gt668k
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   tags:
   - metahologram
@@ -611,7 +611,7 @@
   link: https://doi.org/gt668m
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   tags:
   - nanoimprint
@@ -634,7 +634,7 @@
   link: https://doi.org/gts8q7
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   tags:
   - colour
@@ -655,7 +655,7 @@
   link: https://doi.org/gt668n
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://pub.mdpi-res.com/nanomaterials/nanomaterials-12-00153/article_deploy/html/images/nanomaterials-12-00153-g001.png?1641551020
   tags:
@@ -681,7 +681,7 @@
   link: https://doi.org/gt668q
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://onlinelibrary.wiley.com/cms/asset/58a57b40-2e39-4a67-b8a9-addb457d9549/adom202201175-gra-0001-m.jpg?trick=1717413695154
   tags:
@@ -699,7 +699,7 @@
   link: https://doi.org/gsrvbp
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1186/s43593-021-00008-6
   title: 'Hyperbolic metamaterials: fusing artificial structures to natural 2D materials'
   authors:
@@ -718,7 +718,7 @@
   link: https://doi.org/gt668r
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   tags:
   - review
   - hyperbolic metamaterials
@@ -738,7 +738,7 @@
   link: https://doi.org/gt668d
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: book chapter
   tags:
   - book chapter
@@ -764,7 +764,7 @@
   link: https://doi.org/gq4trx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   tags:
   - structured light
@@ -786,7 +786,7 @@
   link: https://doi.org/gtdtfw
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: review
   tags:
   - review
@@ -809,7 +809,7 @@
   link: https://doi.org/gt668s
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   tags:
   - VO2
@@ -838,7 +838,7 @@
   link: https://doi.org/gr4xn8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://pubs.rsc.org/image/article/2022/nr/d1nr08400c/d1nr08400c-f1_hi-res.gif
   tags:
@@ -865,7 +865,7 @@
   link: https://doi.org/gt668t
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acsnano.1c10100
   title: Photonic Encryption Platform <i>via</i> Dual-Band Vectorial Metaholograms
     in the Ultraviolet and Visible
@@ -885,7 +885,7 @@
   link: https://doi.org/gp8nzm
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acsami.2c09628
   title: Single-Step Fabricable Flexible Metadisplays for Sensitive Chemical/Biomedical
     Packaging Security and Beyond
@@ -910,7 +910,7 @@
   link: https://doi.org/gqm8hq
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acs.nanolett.2c00790
   title: "Three-Dimensional Plasmonic Nanocluster-Driven Light\u2013Matter Interaction\
     \ for Photoluminescence Enhancement and Picomolar-Level Biosensing"
@@ -935,7 +935,7 @@
   link: https://doi.org/gt668v
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1117/1.AP.4.2.024001
   title: 'Tunable metasurfaces towards versatile metalenses and metaholograms: a review'
   authors:
@@ -950,7 +950,7 @@
   link: https://doi.org/gr49ng
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41467-022-32987-6
   title: Tunable metasurfaces via the humidity responsive swelling of single-step
     imprinted polyvinyl alcohol nanostructures
@@ -968,7 +968,7 @@
   link: https://doi.org/grjktj
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1063/5.0078804
   title: 'Tutorial on metalenses for advanced flat optics: Design, fabrication, and
     critical considerations'
@@ -986,7 +986,7 @@
   link: https://doi.org/gsrkd9
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/advs.202170140
   title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
     \ and Imaging at Visible Wavelengths (Adv. Sci. 21/2021)"
@@ -1001,7 +1001,7 @@
   link: https://doi.org/gt668w
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/advs.202102646
   title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
     \ and Imaging at Visible Wavelengths"
@@ -1016,7 +1016,7 @@
   link: https://doi.org/gph54j
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1109/jstqe.2021.3065826
   title: Dynamic Optical Spin Hall Effect in Chitosan-Coated All-Dielectric Metamaterials
     for a Biosensing Platform
@@ -1035,7 +1035,7 @@
   link: https://doi.org/gt668x
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41377-021-00589-4
   title: Unlocking the future of optical security with metasurfaces
   authors:
@@ -1047,7 +1047,7 @@
   link: https://doi.org/gt668z
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1364/OME.430306
   title: Inverse design of ultra-narrowband selective thermal emitters designed by
     artificial neural networks
@@ -1061,7 +1061,7 @@
   link: https://doi.org/gj6h9w
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/adpr.202000205
   title: 'Tunable Metasurfaces: The Path to Fully Active Nanophotonics'
   authors:
@@ -1074,7 +1074,7 @@
   link: https://doi.org/gmx5s3
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.3390/s21134381
   title: 'Chiroptical Metasurfaces: Principles, Classification, and Applications'
   authors:
@@ -1091,7 +1091,7 @@
   link: https://doi.org/grtdk9
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41467-021-23814-5
   title: Pixelated bifunctional metasurface-driven dynamic vectorial holographic color
     prints for photonic security platform
@@ -1108,7 +1108,7 @@
   link: https://doi.org/gsxkf2
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/adom.202100609
   title: "Dual\u2010Band Operating Metaholograms with Heterogeneous Meta\u2010Atoms\
     \ in the Visible and Near\u2010Infrared"
@@ -1126,7 +1126,7 @@
   link: https://doi.org/gt6682
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1364/prj.424477
   title: Giant chiro-optical responses in multipolar-resonances-based single-layer
     dielectric metasurfaces
@@ -1147,7 +1147,7 @@
   link: https://doi.org/gm8pf8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41565-021-00895-3
   title: Nanophotonics for light detection and ranging technology
   authors:
@@ -1166,7 +1166,7 @@
   link: https://doi.org/gjwmgd
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1126/sciadv.abe9943
   title: Holographic metasurface gas sensors for instantaneous visual alarms
   authors:
@@ -1186,7 +1186,7 @@
   link: https://doi.org/gjpkhf
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41378-020-00226-x
   title: Optical spin-symmetry breaking for high-efficiency directional helicity-multiplexed
     metaholograms
@@ -1210,7 +1210,7 @@
   link: https://doi.org/gqf5bk
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1016/j.nanoen.2020.105426
   title: Sub-ambient daytime radiative cooling by silica-coated porous anodic aluminum
     oxide
@@ -1228,7 +1228,7 @@
   link: https://doi.org/gqgccv
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/inf2.12191
   title: "Geometric and physical configurations of meta\u2010atoms for advanced metasurface\
     \ holography"
@@ -1244,7 +1244,7 @@
   link: https://doi.org/gt6683
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acs.chemrev.1c00294
   title: Metasurface-Driven Optically Variable Devices
   authors:
@@ -1261,7 +1261,7 @@
   link: https://doi.org/gmx44v
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1007/s12200-021-1121-8
   title: Nanoimprint lithography for high-throughput fabrication of metasurfaces
   authors:
@@ -1276,7 +1276,7 @@
   link: https://doi.org/gr9cf5
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acsami.1c03427
   title: Nearly Perfect Transmissive Subtractive Coloration through the Spectral Amplification
     of Mie Scattering and Lattice Resonance
@@ -1293,7 +1293,7 @@
   link: https://doi.org/gqrbkz
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1007/978-3-030-62844-4_10
   title: Realization of Artificial Chirality in Micro-/Nano-Scale Three-Dimensional
     Plasmonic Structures
@@ -1313,7 +1313,7 @@
   link: https://doi.org/gt6684
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/adma.202005893
   title: "Revealing Structural Disorder in Hydrogenated Amorphous Silicon for a Low\u2010\
     Loss Photonic Platform at Visible Frequencies"
@@ -1330,7 +1330,7 @@
   link: https://doi.org/gkzpmz
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1039/d1nr05805c
   title: Three-dimensional artificial chirality towards low-cost and ultra-sensitive
     enantioselective sensing
@@ -1346,7 +1346,7 @@
   link: https://doi.org/gt6685
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/cnma.202100060
   title: Vanadium Dioxide for Dynamically Tunable Photonics
   authors:
@@ -1358,7 +1358,7 @@
   link: https://doi.org/gt6686
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1088/2040-8986/abbc55
   title: Employing vanadium dioxide nanoparticles for flexible metasurfaces with switchable
     absorption properties at near-infrared frequencies
@@ -1373,7 +1373,7 @@
   link: https://doi.org/gt6687
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1021/acsnano.0c05656
   title: 'Spectral Modulation through the Hybridization of Mie-Scatterers and Quasi-Guided
     Mode Resonances: Realizing Full and Gradients of Structural Color'
@@ -1389,7 +1389,7 @@
   link: https://doi.org/ghhmtx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41377-020-00367-8
   title: 'Electromagnetic chirality: from fundamentals to nontraditional chiroptical
     phenomena'
@@ -1407,7 +1407,7 @@
   link: https://doi.org/gmcjhn
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1364/PRJ.395749
   title: Structural color switching with a doped indium-gallium-zinc-oxide semiconductor
   authors:
@@ -1425,7 +1425,7 @@
   link: https://doi.org/gkzpm3
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1002/adts.202000138
   title: Critical Layer Thickness Analysis of Vertically Stacked Hyperbolic Metamaterials
     for Effective Negative Refraction Generation
@@ -1440,7 +1440,7 @@
   link: https://doi.org/gt6688
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1186/s40580-020-00233-8
   title: 'Deep Q-network to produce polarization-independent perfect solar absorbers:
     a statistical report'
@@ -1454,7 +1454,7 @@
   link: https://doi.org/ghtz5d
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.3390/s20154108
   title: Scalable and High-Throughput Top-Down Manufacturing of Optical Metasurfaces
   authors:
@@ -1469,7 +1469,7 @@
   link: https://doi.org/gn6dbb
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1038/s41598-020-59729-2
   title: Moth-eye shaped on-demand broadband and switchable perfect absorbers based
     on vanadium dioxide
@@ -1482,7 +1482,7 @@
   link: https://doi.org/gt6689
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1515/nanoph-2019-0474
   title: Deep learning enabled inverse design in nanophotonics
   authors:
@@ -1496,7 +1496,7 @@
   link: https://doi.org/ghswgn
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1016/j.mee.2019.111146
   title: 'Emerging advanced metasurfaces: Alternatives to conventional bulk optical
     devices'
@@ -1513,7 +1513,7 @@
   link: https://doi.org/gr9pdg
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1039/d0nr05624c
   title: Full and gradient structural colouration by lattice amplified gallium nitride
     Mie-resonators
@@ -1531,7 +1531,7 @@
   link: https://doi.org/gkzpnc
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1039/c9na00751b
   title: 'Metasurfaces-based imaging and applications: from miniaturized optical components
     to functional imaging platforms'
@@ -1546,7 +1546,7 @@
   link: https://doi.org/gpf7zg
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1515/nanoph-2020-0440
   title: Near-zero reflection of all-dielectric structural coloration enabling polarization-sensitive
     optical encryption with enhanced switchability
@@ -1564,7 +1564,7 @@
   link: https://doi.org/gkzpnd
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1364/ome.9.003248
   title: All-dielectric metasurface imaging platform applicable to laser scanning
     microscopy with enhanced axial resolution and wavelength selection
@@ -1581,7 +1581,7 @@
   link: https://doi.org/gk48pv
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=l18Re%2FpaRgp%2BTjNhKtYnym17kMue86ayqd5mVZtAahM%3D&uri=ome-9-8-3248-g002
 - id: doi:10.1002/lpor.201900065
@@ -1603,7 +1603,7 @@
   link: https://doi.org/gkzpnx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: null
 - id: doi:10.1364/oe.27.005874
@@ -1618,7 +1618,7 @@
   link: https://doi.org/ggwbf8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=%2BNXSSnZzpXD9tx6nKjJ0mX%2BXlJQ2OuN0YkTQofCh3M8%3D&uri=oe-27-4-5874-g005
   type: research
 - id: doi:10.1038/s41598-018-28744-9
@@ -1640,7 +1640,7 @@
   link: https://doi.org/gdthtb
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-28744-9/MediaObjects/41598_2018_28744_Fig8_HTML.jpg?as=webp
   type: research
 - id: doi:10.1080/05704928.2018.1467438
@@ -1656,7 +1656,7 @@
   link: https://doi.org/gt669b
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.3390/en12010089
   title: 'Metamaterial-Based Radiative Cooling: Towards Energy-Free All-Day Cooling'
   authors:
@@ -1669,7 +1669,7 @@
   link: https://doi.org/gmdkgm
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
 - id: doi:10.1155/2017/2361042
   title: 'Metasurfaces-Based Absorption and Reflection Control: Perfect Absorbers
     and Reflectors'
@@ -1682,7 +1682,7 @@
   link: https://doi.org/gcj44d
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: review
   image: https://onlinelibrary.wiley.com/cms/asset/6a039a42-0bc7-4b7b-a3e5-e56e7d4e1e53/jona2361042-fig-0006-m.jpg
 - id: doi:10.1021/acsphotonics.7b01182
@@ -1706,6 +1706,6 @@
   link: https://doi.org/gdzx26
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_240816.yaml
+  file: sources_latest.yaml
   type: research
   image: https://pubs.acs.org/cms/10.1021/apchd5.2018.5.issue-7/asset/16915e08-2716-15e0-8271-915e08827169/apchd5.2018.5.issue-7.largecover.jpg
