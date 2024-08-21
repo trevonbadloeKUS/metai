@@ -19,7 +19,28 @@ Welcome to a space where creativity meets precision, and where your contribution
 
 {% capture text %}
 
-Recent research from our lab
+Find out more about what we do at Trevon's Research Lab
+
+{%
+  include button.html
+  link="research"
+  text="Learn about what we do"
+  flip=true
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/icon.png"
+  link="research"
+  title="Our Research Topics"
+  text=text
+%}
+
+{% capture text %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -33,29 +54,8 @@ Recent research from our lab
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  flip=true
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="publications"
+  title="Our Recent Publication"
   flip=true
   style="bare"
   text=text
@@ -63,12 +63,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-What is this nonesense writing...?
-
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Meet the team"
   flip=true
 %}
 
@@ -76,8 +74,8 @@ What is this nonesense writing...?
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="team/photos/professor/trevon_photo.jpeg"
   link="team"
-  title="Our Team"
+  title="Our Research Team"
   text=text
 %}

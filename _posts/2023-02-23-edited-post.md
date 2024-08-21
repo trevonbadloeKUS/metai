@@ -7,3 +7,7 @@ date: '2023-11-28'
 ---
 
 We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships and enjoyed a trip around California, including the grand canyon, and the horseshoe.
+
+![Horseshoe Canyon]({{ page.image }})
+
+We had an amazing trip to Horseshoe Canyon! The view was breathtaking, and we managed to capture some fantastic photos.
