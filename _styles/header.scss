@@ -15,6 +15,7 @@ header {
   flex-wrap: wrap;
   gap: 20px;
   padding: 5px;
+  margin: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
 
@@ -145,8 +146,8 @@ header{
     }
 
     nav {
-      align-items: flex-end;
-      flex-direction: row;
+      align-items: center;
+      flex-direction: column;
       width: 100%;
     }
   }
