@@ -8,4 +8,14 @@
   z-index: 0;
 }
 
+.bio-heading {
+  font-family: var(--heading);
+  font-weight: var(--bold);
+}
+
+.bio-info {
+  font-family: var(--heading);
+  font-weight: var(--regular);
+}
+
 /*# sourceMappingURL=bio.css.map */

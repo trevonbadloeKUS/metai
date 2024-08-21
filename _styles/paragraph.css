@@ -10,4 +10,10 @@ p.main {
   line-height: var(--spacing);
 }
 
+p.bio-header {
+  margin: 5px 0;
+  text-align: start;
+  line-height: var(--spacing);
+}
+
 /*# sourceMappingURL=paragraph.css.map */
