@@ -40,7 +40,7 @@ bachelor:
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    date: '2024/09 - current'
+    date: '2022/09 - 2024/09'
 
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website

@@ -31,7 +31,6 @@
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
   
-      {{ citation.number }}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url }}"
