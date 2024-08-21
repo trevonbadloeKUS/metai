@@ -17,6 +17,7 @@ experience:
     department: Graduate School of AI
     school: Pohang University of Science and Technology (POSTECH)
     link: https://ai.postech.ac.kr/
+    advisor: Junsuk Rho
     date: '2023/03 - 2024/08'
     etc: PIURI Fellow
 

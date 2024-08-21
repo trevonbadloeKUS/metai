@@ -21,41 +21,37 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-<h3> Bio </h3>
 <p style= "margin-top: 20px;"> {{ page.bio }} </p>
 
 {% if page.role ==  "pi" %}
-  <h3> Academic Appointments </h3>
+  <h5> Academic Appointments </h5>
   {% for current in page.current %}
-    <p>{{ current.position }} - <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}
-     ( {{ experience.date }} )</p>
+    <h6> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</h6>
+     <br><p>{{ current.position }} ( {{ experience.date }} )</p>
   {% endfor %}
 {% endif %}
 
 {% if page.experience.size > 0 %}
-  <h3> Experience </h3>
+  <h5> Experience </h5>
   {% for experience in page.experience %}
 
-    <p>{{ experience.position }} - <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}
-     {% if experience.etc %}
-    ( {{ experience.etc }} )
-     {% endif %}
-     ( {{ experience.date }} ) 
-     [Advisor: {{ experience.advisor}} ]</p>
+  <h6> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</h6>
+  <br><p>{{ experience.position }} {% if experience.etc %} [ {{ experience.etc }} ] {% endif %}
+  ( {{ experience.date }} )</p> 
+  <br> [Advisor: {{ experience.advisor}} ]</p></br> 
   {% endfor %}
-{% endif %}
 
-<h3> Education </h3>
+<h5> Education </h5>
 
 {% if page.phd.size > 0 %}
   {% for phd in page.phd %}
 
-    <h4>{{ phd.degree }} - <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }} </h4>
+    <h6>{{ phd.degree }} - <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}, ( {{ phd.date }} ) 
+    </h6>
      <p>{% if phd.etc %}
     <br> ( {{ phd.etc }} ) </br>
      {% endif %}
-     ( {{ phd.date }} ) 
-     [Advisor: {{ phd.advisor}} Dissertation: {{ phd.dissertation}}]</p>
+     [Advisor: {{ phd.advisor}} | Dissertation: {{ phd.dissertation}}]</p>
   {% endfor %}
 {% endif %}
 
