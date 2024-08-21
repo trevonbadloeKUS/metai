@@ -93,24 +93,6 @@ layout: default
     {% endif %}
 </div>
 {% endfor %}
-</section>
-
-<h3 >Master's</h3>
-{% for master in page.master %}
-<div>
-    <p><strong>Degree:</strong> {{ master.degree }}</p>
-    <p><strong>Department:</strong> {{ master.department }}</p>
-    <p><strong>School:</strong> {{ master.school }}</p>
-    <p><strong>Date:</strong> {{ master.date }}</p>
-    {% if master.etc %}
-    <p><strong>Additional Information:</strong> {{ master.etc }}</p>
-    {% endif %}
-</div>
-{% endfor %}
-
-
-</div>
-{% endfor %}
 
 
 {% assign aliases = page.aliases
