@@ -987,21 +987,6 @@
   orcid: 0000-0001-9458-6062
   plugin: sources.py
   file: sources_latest.yaml
-- id: doi:10.1002/advs.202170140
-  title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
-    \ and Imaging at Visible Wavelengths (Adv. Sci. 21/2021)"
-  authors:
-  - Trevon Badloe
-  - Inki Kim
-  - Yeseul Kim
-  - Joohoon Kim
-  - Junsuk Rho
-  publisher: Advanced Science
-  date: '2021-11-01'
-  link: https://doi.org/gt668w
-  orcid: 0000-0001-9458-6062
-  plugin: sources.py
-  file: sources_latest.yaml
 - id: doi:10.1002/advs.202102646
   title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
     \ and Imaging at Visible Wavelengths"
