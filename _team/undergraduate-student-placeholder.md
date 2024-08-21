@@ -11,29 +11,29 @@ current:
     date: '2024/09 - current'
 
 bachelor:
-  - degree: 
-    department: 
-    school: 
-    link: 
-    date: 
-    etc: 
+  - degree:
+    department:
+    school:
+    link:
+    date:
+    etc:
 
 master:
-  - degree: 
+  - degree:
     department: 
     school: 
     link: 
     date: 
 
 phd:
-  - degree: 
+  - degree:
     department: 
     school: 
     link: 
     date: 
 
 experience:
-  - position: 
+  - position:
     department: 
     school:  
     link: 
@@ -41,10 +41,10 @@ experience:
     etc: 
 
 links:
-  home-page: 
-  orcid: 
-  google-scholar: 
-  instagram: 
-  linkedin: 
+  home-page:
+  orcid:
+  google-scholar:
+  instagram:
+  linkedin:
   email: xxxxx@korea.ac.kr
 ---

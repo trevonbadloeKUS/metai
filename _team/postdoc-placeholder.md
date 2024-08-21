@@ -11,12 +11,12 @@ current:
     date: '2024/09 - current'
 
 experience:
-  - position: 
-    department: 
-    school: 
-    link: 
-    date: 
-    etc: 
+  - position:
+    department:
+    school:
+    link:
+    date:
+    etc:
 
 phd:
   - degree: Ph.D.
@@ -44,9 +44,9 @@ bachelor:
 
 links:
   home-page: https://trevonbadloekus.github.io/trevons-lab-website
-  orcid: 
+  orcid:
   google-scholar: aVP_G7oAAAAJ
   instagram: kimchi_and_tea
-  linkedin: 
+  linkedin:
   email: trevon@korea.ac.kr
 ---

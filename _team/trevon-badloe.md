@@ -3,7 +3,7 @@ name: Trevon Badloe
 image: team/photos/professor/trevon_photo.jpeg
 role: pi
 
-bio: 
+bio:
 
 current:
   - position: Assistant Professor

@@ -11,29 +11,29 @@ current:
     date: '2024/09 - current'
 
 experience:
-  - position: 
-    department: 
-    school: 
-    link: 
-    date: 
-    etc: 
+  - position:
+    department:
+    school:
+    link:
+    date:
+    etc:
 
 phd:
-  - degree: 
-    department: 
-    school: 
-    link: 
+  - degree:
+    department:
+    school:
+    link:
     advisor: Trevon Badloe
-    dissertation: 
-    date: 
+    dissertation:
+    date:
     etc:
 
 master:
-  - degree: 
-    department: 
-    school: 
-    link: 
-    date: 
+  - degree:
+    department:
+    school:
+    link:
+    date:
 
 bachelor:
   - degree: B.Sc
