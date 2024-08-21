@@ -63,15 +63,15 @@ layout: default
 {% endif %}
 
 {% if page.role !=  "undergrad" %}
+  {% include section.html %}
   <div class = "bio-heading"> Education </div>
 
   {% if page.phd[0].degree %}
-      {% include section.html %}
 
       {% for phd in page.phd %}
       
         <ul> 
-          <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
+          <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</li>
         <span class = "bio-info-date" > {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})</span>
           <br class= "bio-info-etc"> Advisor: {{ phd.advisor}} 
           <br class= "bio-info-etc"> Dissertation title: {{ phd.dissertation}}
@@ -80,7 +80,6 @@ layout: default
     {% endif %}
 
   {% if page.master[0].degree %}
-    {% include section.html %}
 
     {% for master in page.master %}
 
@@ -96,11 +95,10 @@ layout: default
    
 
   {% if page.bachelor[0].degree %}
-    {% include section.html %}
 
     {% for bachelor in page.bachelor %}
     <ul> 
-      <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
+      <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</li>
     <span class = "bio-info-date" > {% if bachelor.etc %} [ {{ bachelor.etc }} ] {% endif %}({{ bachelor.date }})</span>
     </div></ul>
     {% endfor %}
@@ -111,19 +109,19 @@ layout: default
 {% if page.role ==  "pi" %}
 
   {% include section.html %}
-  {% assign sorted_pubs = site.data.citations | sort: 'date' | reverse %}
+  {% assign sorted_pubs = site.data.citations | sort: 'date' %}
   
   <div class = "bio-heading"> Publications </div>
 
     <ol start = "{{ sorted_pubs.size }}"> 
-      {% for pub in sorted_pubs %}
+      {% for pub in sorted_pubs reversed %}
 
       <li> <div class = "bio-info-etc"> 
         <a href="{{ pub.link }}">{{ pub.title }}</a>,
-        {% for author in pub.authors %} {{ author }}, {% endfor %},
+        {% for author in pub.authors %} {{ author }}, {% endfor %}
         {{ pub.publisher }},
-        doi: {{ pub.doi }}
-        {{ talk.authors }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
+        {{ pub.id }}
+        </div></li>
       {% endfor %}
 
     </ol>
@@ -131,12 +129,12 @@ layout: default
 
   {% include section.html %}
 
-  {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
+  {% assign sorted_talks = site.data.talks | sort: 'date'  %}
 
   <div class = "bio-heading"> Talks </div>
 
     <ol start = "{{ sorted_talks.size }}"> 
-      {% for talk in sorted_talks %}
+      {% for talk in sorted_talks reversed %}
 
       <li> <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
       {% endfor %}
