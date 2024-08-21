@@ -26,7 +26,7 @@ phd:
     school: Pohang University of Science and Technology (POSTECH)
     link: https://me.postech.ac.kr/
     advisor: Junsuk Rho
-    dissertation: 
+    dissertation: AI metasurfaces
     date: '2017 - 2023'
     etc:
 
