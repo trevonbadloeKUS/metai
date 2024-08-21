@@ -26,7 +26,7 @@ nav:
   {% include section.html %}
   <h2>Graduate students</h2>
 
-  {% if phd_team.size > 0 %}
+  {% if phd_team.size > 0 or  comb_team.size>0 %}
   <h3>Ph.D. students</h3>
   {% include list.html data="team" component="portrait" filters="role: phd" %}
   {% include list.html data="team" component="portrait" filters="role: combined" %}
