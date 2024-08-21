@@ -15,6 +15,13 @@ We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships an
 
 {{ page.image}}
 
+![Horseshoe Canyon]( "/images/news/2023/USA.jpeg" )
+
+![Horseshoe Canyon]( /images/news/2023/USA.jpeg )
+
+
+<img src=" /images/news/2023/USA.jpeg " alt="Local Image" >
+
 
 <img src=" {{ page.image}} " alt="Local Image" >
 
