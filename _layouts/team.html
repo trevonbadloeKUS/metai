@@ -22,14 +22,14 @@ layout: default
 {% include float.html content=floatcontent %}
 
 {% if page.bio %}
-  <p class = "bio"> {{ page.bio }} </p>
+  <div class = "bio" > {{ page.bio }} </div>
 {% endif %}
 
 {% if page.role ==  "pi" %}
-  <p class = "bio-heading"> Academic Appointments </h5></p>
+  <div class = "bio-heading"> Academic Appointments </h5></div>
   {% for current in page.current %}
-    <p class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</p>
-    <p>{{ current.position }} ( {{ experience.date }} )</p>
+    <ul> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div>
+    <div>{{ current.position }} ( {{ experience.date }} )</div></ul>
   {% endfor %}
 {% endif %}
 
