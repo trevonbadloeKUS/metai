@@ -20,6 +20,14 @@ We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships an
 Continued content
 
 
+{%
+  include figure.html
+  image="{{page.image}}"
+  caption="The team at our annual Christmas party, 2025"
+  width="400px"
+%}
+
+
 
 
 We had an amazing trip to Horseshoe Canyon! The view was breathtaking, and we managed to capture some fantastic photos.
