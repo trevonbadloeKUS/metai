@@ -1,6 +1,6 @@
 ---
 title: We went to the horseshoe canyon!~
-image: news/images/USA.jpeg
+image: /news/images/USA.jpeg
 author: trevon-badloe
 tags: conference, SPIE, USA
 date: '2023-11-28'
@@ -16,13 +16,13 @@ We went to SPIE Optics and Photonics 2022 and got SPIE Education Scholarships an
 {{ page.image}}
 
 
-<img src=" {{ page.image}} " alt="Local Image" />
+<img src=" {{ page.image}} " alt="Local Image" >
 
 {{ page.title }} 
 
 {%
   include figure.html
-  image="{{page.image}}"
+  image="{{post.image}}"
   caption="Horseshoe Canyon"
   width="400px"
 %}
