@@ -21,79 +21,75 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{{ content }}
 
+<h2> Bio </h2>
+<p> {{ page.bio }} </p>
 
-<div class="bio">
+<h2 >Current Position</h2>
+<p> <strong>Position:</strong> {{ page.current[0].position }}</p>
+<p ><strong>Department:</strong> <a href="{{ page.current[0].link }}">{{ page.current[0].department }}</a></p>
+<p ><strong>School:</strong> {{ page.current[0].school }}</p>
+<p ><strong>Date:</strong> {{ page.current[0].date }}</p>
 
-    <h2> Bio </h2>
-    <p> {{ page.bio }} </p>
-
-    <h2 >Current Position</h2>
-    <p> <strong>Position:</strong> {{ page.current[0].position }}</p>
-    <p ><strong>Department:</strong> <a href="{{ page.current[0].link }}">{{ page.current[0].department }}</a></p>
-    <p ><strong>School:</strong> {{ page.current[0].school }}</p>
-    <p ><strong>Date:</strong> {{ page.current[0].date }}</p>
-
-    <h2> </h2>Experience</h2>
-    {% for exp in experience %}
-    <div>
-        <p><strong>Position:</strong> {{ exp.position }}</p>
-        <p><strong>Department:</strong> {{ exp.department }}</p>
-        <p><strong>School:</strong> {{ exp.school }}</p>
-        <p><strong>Date:</strong> {{ exp.date }}</p>
-        {% if exp.etc %}
-        <p><strong>Additional Information:</strong> {{ exp.etc }}</p>
-        {% endif %}
-    </div>
-    {% endfor %}
-
-    <h2>PhD</h2>
-    {% for phd in phd %}
-    <div>
-        <p><strong>Degree:</strong> {{ phd.degree }}</p>
-        <p><strong>Department:</strong> {{ phd.department }}</p>
-        <p><strong>School:</strong> {{ phd.school }}</p>
-        <p><strong>Date:</strong> {{ phd.date }}</p>
-        {% if phd.advisor %}
-        <p><strong>Advisor:</strong> {{ phd.advisor }}</p>
-        {% endif %}
-        {% if phd.dissertation %}
-        <p><strong>Dissertation:</strong> {{ phd.dissertation }}</p>
-        {% endif %}
-        {% if phd.etc %}
-        <p><strong>Additional Information:</strong> {{ phd.etc }}</p>
-        {% endif %}
-    </div>
-    {% endfor %}
-  </section>
-
-    <h2 >Master's</h2>
-    {% for master in master %}
-    <div>
-        <p><strong>Degree:</strong> {{ master.degree }}</p>
-        <p><strong>Department:</strong> {{ master.department }}</p>
-        <p><strong>School:</strong> {{ master.school }}</p>
-        <p><strong>Date:</strong> {{ master.date }}</p>
-        {% if master.etc %}
-        <p><strong>Additional Information:</strong> {{ master.etc }}</p>
-        {% endif %}
-    </div>
-    {% endfor %}
-
-    <h2>Bachelor's</h2>
-    {% for bachelor in bachelor %}
-    <div>
-        <p><strong>Degree:</strong> {{ bachelor.degree }}</p>
-        <p><strong>Department:</strong> {{ bachelor.department }}</p>
-        <p><strong>School:</strong> {{ bachelor.school }}</p>
-        <p><strong>Date:</strong> {{ bachelor.date }}</p>
-        {% if bachelor.etc %}
-        <p><strong>Additional Information:</strong> {{ bachelor.etc }}</p>
-        {% endif %}
-    </div>
-    {% endfor %}
+<h2> </h2>Experience</h2>
+{% for exp in page.experience %}
+<div>
+    <p><strong>Position:</strong> {{ exp.position }}</p>
+    <p><strong>Department:</strong> {{ exp.department }}</p>
+    <p><strong>School:</strong> {{ exp.school }}</p>
+    <p><strong>Date:</strong> {{ exp.date }}</p>
+    {% if exp.etc %}
+    <p><strong>Additional Information:</strong> {{ exp.etc }}</p>
+    {% endif %}
 </div>
+{% endfor %}
+
+<h2>PhD</h2>
+{% for phd in page.phd %}
+<div>
+    <p><strong>Degree:</strong> {{ phd.degree }}</p>
+    <p><strong>Department:</strong> {{ phd.department }}</p>
+    <p><strong>School:</strong> {{ phd.school }}</p>
+    <p><strong>Date:</strong> {{ phd.date }}</p>
+    {% if phd.advisor %}
+    <p><strong>Advisor:</strong> {{ phd.advisor }}</p>
+    {% endif %}
+    {% if phd.dissertation %}
+    <p><strong>Dissertation:</strong> {{ phd.dissertation }}</p>
+    {% endif %}
+    {% if phd.etc %}
+    <p><strong>Additional Information:</strong> {{ phd.etc }}</p>
+    {% endif %}
+</div>
+{% endfor %}
+</section>
+
+<h2 >Master's</h2>
+{% for master in page.master %}
+<div>
+    <p><strong>Degree:</strong> {{ master.degree }}</p>
+    <p><strong>Department:</strong> {{ master.department }}</p>
+    <p><strong>School:</strong> {{ master.school }}</p>
+    <p><strong>Date:</strong> {{ master.date }}</p>
+    {% if master.etc %}
+    <p><strong>Additional Information:</strong> {{ master.etc }}</p>
+    {% endif %}
+</div>
+{% endfor %}
+
+{% for bachelor in page.bachelor %}
+<h2>Bachelor's</h2>
+<div>
+    <p><strong>Degree:</strong> {{ bachelor.degree }}</p>
+    <p><strong>Department:</strong> {{ bachelor.department }}</p>
+    <p><strong>School:</strong> {{ bachelor.school }}</p>
+    <p><strong>Date:</strong> {{ bachelor.date }}</p>
+    {% if bachelor.etc %}
+    <p><strong>Additional Information:</strong> {{ bachelor.etc }}</p>
+    {% endif %}
+</div>
+{% endfor %}
+
 
 {% assign aliases = page.aliases
   | default: page.name
