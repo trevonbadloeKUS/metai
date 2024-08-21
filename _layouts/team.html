@@ -122,7 +122,7 @@ layout: default
 
   <div class = "bio-heading"> Publications </div>
 
-    <ol reversed class = "backward-list"> 
+    <ol reversed> 
 
       {% for pub in sorted_pubs reversed %}
 
@@ -136,7 +136,7 @@ layout: default
             {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
           {%- endif -%}
             
-          {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
+          {{ formatted_author }},{% if forloop.last == false %} {% endif %}
         {% endfor %}
 
         <strong>{{ pub.publisher }}</strong>,
@@ -154,7 +154,7 @@ layout: default
 
   <div class = "bio-heading"> Talks </div>
 
-  <ol class = "backward-list" reversed> 
+  <ol reversed> 
     {% for talk in sorted_talks reversed %}
 
       <li>   <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
