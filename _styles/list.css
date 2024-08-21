@@ -21,4 +21,22 @@ li ol {
   margin: 0;
 }
 
+.backward-list {
+  list-style-type: none;
+  counter-reset: list-counter;
+  margin: 5px 0;
+  padding-left: 10px;
+  padding-right: 40px;
+  text-align: justify;
+  line-height: var(--spacing);
+}
+
+.backward-list li {
+  counter-increment: list-counter;
+}
+
+.backward-list li::before {
+  content: counter(list-counter) ". ";
+}
+
 /*# sourceMappingURL=list.css.map */
