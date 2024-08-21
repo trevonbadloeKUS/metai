@@ -10,10 +10,12 @@ p.main {
   line-height: var(--spacing);
 }
 
-p.bio-header {
+p.papers {
   margin: 5px 0;
-  text-align: start;
+  text-align: center;
   line-height: var(--spacing);
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
 }
 
 /*# sourceMappingURL=paragraph.css.map */
