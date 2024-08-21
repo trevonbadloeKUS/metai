@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% include section.html %}
+
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}
 
-<div>
+<div style="text-align:center;">
   {% for link in page.links %}
     {% if link[1] %}
 
@@ -31,7 +33,7 @@ layout: default
   {% for current in page.current %}
     <ul> 
       <li> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div></li>
-    <div class = "bio-info-etc" >{{ current.position }} ( {{ current.date }} )</div></ul>
+    <div class = "bio-info-etc" >{{ current.position }} ({{ current.date }})</div></ul>
   {% endfor %}
 {% endif %}
 
@@ -40,8 +42,8 @@ layout: default
   {% for experience in page.experience %}
   <ul> 
     <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}</div></li>
-  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [ {{ experience.etc }} ] {% endif %}( {{ current.date }} )
-    <br class= "bio-info-etc"> [Advisor: {{ experience.advisor}} ]
+  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}({{ experience.date }})
+    <br class= "bio-info-etc"> [Advisor: {{ experience.advisor}}]
   </div></ul>
   {% endfor %}  
 {% endif %}
@@ -52,9 +54,9 @@ layout: default
 {% if page.phd.degree != "" %}
   {% for phd in page.phd %}
     <ul> 
-      <li> <div class = "bio-info"> <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
-    <div class = "bio-info-etc" >{{ phd.position }} {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}( {{ phd.date }} )
-      <br class= "bio-info-etc"> [Advisor: {{ phd.advisor}}  | Dissertation: {{ phd.dissertation}}] ]
+      <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</div></li>
+    <div class = "bio-info-etc" >{{ phd.position }} {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})
+      <br class= "bio-info-etc"> [Advisor: {{ phd.advisor}}  | Dissertation: {{ phd.dissertation}}]
     </div></ul>
   {% endfor %}
 {% endif %}
@@ -64,8 +66,8 @@ layout: default
   {% for master in page.master %}
 
     <ul> 
-      <li> <div class = "bio-info"> <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}</div></li>
-    <div class = "bio-info-etc" >{{ master.position }} {% if master.etc %} [ {{ master.etc }} ] {% endif %}( {{ master.date }} )
+      <li> <div class = "bio-info"> {{ master.degree }} <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}</div></li>
+    <div class = "bio-info-etc" >{{ master.position }} {% if master.etc %} [ {{ master.etc }} ] {% endif %}({{ master.date }})
     </div></ul>
   {% endfor %}
 {% endif %}
@@ -74,8 +76,8 @@ layout: default
 {% if page.bachelor.degree != "" %}
   {% for bachelor in page.bachelor %}
   <ul> 
-    <li> <div class = "bio-info"> <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
-  <div class = "bio-info-etc" >{{ bachelor.position }} {% if bachelor.etc %} [ {{ bachelor.etc }} ] {% endif %}( {{ bachelor.date }} )
+    <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</div></li>
+  <div class = "bio-info-etc" >{{ bachelor.position }} {% if bachelor.etc %} [ {{ bachelor.etc }} ] {% endif %}({{ bachelor.date }})
   </div></ul>
   {% endfor %}
 {% endif %}
