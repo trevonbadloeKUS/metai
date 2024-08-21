@@ -48,6 +48,13 @@ layout: default
   {% endfor %}
 {% endif %}
 
+<p class="papers">
+  <a href="{{ search | relative_url }}">
+    See {{ page.name | default: page.title }}'s papers on the Publications page
+  </a>
+</p>
+
+
 {% if page.experience[0].position %}
   {% include section.html %}
 
@@ -57,13 +64,14 @@ layout: default
     <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}
       <span class = "bio-info-date"> ({{ experience.date }})</span></li>
   <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}
-    <br class= "bio-info-etc"> Advisor: {{ experience.advisor}}
+    <br class= "bio-info-etc"> Advisor: {{ experience.advisor}}</div>
   </div></ul>
   {% endfor %}  
 {% endif %}
 
 {% if page.role !=  "undergrad" %}
   {% include section.html %}
+
   <div class = "bio-heading"> Education </div>
 
   {% if page.phd[0].degree %}
@@ -73,8 +81,8 @@ layout: default
         <ul> 
           <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</li>
         <span class = "bio-info-date" > {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})</span>
-          <br class= "bio-info-etc"> Advisor: {{ phd.advisor}} 
-          <br class= "bio-info-etc"> Dissertation title: {{ phd.dissertation}}
+          <div class= "bio-info-etc"> Advisor: {{ phd.advisor}} </div>
+          <div class= "bio-info-etc"> Dissertation title: {{ phd.dissertation}}</div>
         </div></ul>
       {% endfor %}
     {% endif %}
@@ -154,11 +162,6 @@ layout: default
   publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s papers on the Publications page
-  </a>
-</p>
 
 <!--
 

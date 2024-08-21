@@ -1519,17 +1519,22 @@
 - id: doi:10.1515/nanoph-2019-0474
   title: Deep learning enabled inverse design in nanophotonics
   authors:
-  - Sunae So
-  - Trevon Badloe
-  - Jaebum Noh
-  - Jorge Bravo-Abad
-  - Junsuk Rho
+  - Sunae So*
+  - Trevon Badloe*
+  - Jaebum Noh*
+  - Jorge Bravo-Abad+
+  - Junsuk Rho+
   publisher: Nanophotonics
   date: '2020-02-17'
   link: https://doi.org/ghswgn
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+    - review
+    - machine learning
+    - inverse design
 - id: doi:10.1016/j.mee.2019.111146
   title: 'Emerging advanced metasurfaces: Alternatives to conventional bulk optical
     devices'
@@ -1547,24 +1552,34 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+    - review
+    - metasurface
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0167931719303028-ga1.jpg
 - id: doi:10.1039/d0nr05624c
   title: Full and gradient structural colouration by lattice amplified gallium nitride
     Mie-resonators
   authors:
-  - Jaehyuck Jang
-  - Trevon Badloe
-  - Young Chul Sim
+  - Jaehyuck Jang*
+  - Trevon Badloe*
+  - Young Chul Sim*
   - Younghwan Yang
   - Jungho Mun
   - Taejun Lee
-  - Yong-Hoon Cho
-  - Junsuk Rho
+  - Yong-Hoon Cho+
+  - Junsuk Rho+
   publisher: Nanoscale
   date: '2020-01-01'
   link: https://doi.org/gkzpnc
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  tags:
+    - colour
+    - GaN
+  type: research
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NR05624C&imageInfo.ImageIdentifier.Year=2020
 - id: doi:10.1039/c9na00751b
   title: 'Metasurfaces-based imaging and applications: from miniaturized optical components
     to functional imaging platforms'
@@ -1584,8 +1599,8 @@
   title: Near-zero reflection of all-dielectric structural coloration enabling polarization-sensitive
     optical encryption with enhanced switchability
   authors:
-  - Chunghwan Jung
-  - Younghwan Yang
+  - Chunghwan Jung+
+  - Younghwan Yang+
   - Jaehyuck Jang
   - Trevon Badloe
   - Taejun Lee
@@ -1598,6 +1613,12 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: research
+  tags:
+    - colour
+    - encryption
+    - polarisation
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0440/asset/graphic/j_nanoph-2020-0440_fig_001.jpg
 - id: doi:10.1364/ome.9.003248
   title: All-dielectric metasurface imaging platform applicable to laser scanning
     microscopy with enhanced axial resolution and wavelength selection
@@ -1617,20 +1638,23 @@
   file: orcid_PI.yaml
   type: research
   image: https://opg.optica.org/getimagev2.cfm?img=l18Re%2FpaRgp%2BTjNhKtYnym17kMue86ayqd5mVZtAahM%3D&uri=ome-9-8-3248-g002
+  tags:
+    - metasurface
+    - imaging
 - id: doi:10.1002/lpor.201900065
   title: "A Spin\u2010Encoded All\u2010Dielectric Metahologram for Visible Light"
   authors:
-  - Muhammad Afnan Ansari
-  - Inki Kim
+  - Muhammad Afnan Ansari*
+  - Inki Kim*
   - Dasol Lee
   - Muhammad Hamza Waseem
   - Muhammad Zubair
   - Nasir Mahmood
   - Trevon Badloe
-  - Selcuk Yerci
-  - Tauseef Tauqeer
-  - Muhammad Qasim Mehmood
-  - Junsuk Rho
+  - Selcuk Yerci+
+  - Tauseef Tauqeer+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
   publisher: Laser &amp; Photonics Reviews
   date: '2019-04-08'
   link: https://doi.org/gkzpnx
@@ -1639,6 +1663,9 @@
   file: orcid_PI.yaml
   type: research
   image: 
+  tags:
+    - metahologram
+    - spin
 - id: doi:10.1364/oe.27.005874
   title: Optimisation of colour generation from dielectric nanostructures using reinforcement
     learning
@@ -1654,6 +1681,11 @@
   file: orcid_PI.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=%2BNXSSnZzpXD9tx6nKjJ0mX%2BXlJQ2OuN0YkTQofCh3M8%3D&uri=oe-27-4-5874-g005
   type: research
+  tags:
+    - optimisation
+    - machine learning
+    - reinforcement learning
+    - colour
 - id: doi:10.1038/s41598-018-28744-9
   title: Effect of temperature on the oxidation of Cu nanowires and development of
     an easy to produce, oxidation-resistant transparent conducting electrode using
@@ -1676,6 +1708,9 @@
   file: orcid_PI.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-28744-9/MediaObjects/41598_2018_28744_Fig8_HTML.jpg?as=webp
   type: research
+  tags:
+    - nanowires
+    - transparent electrode
 - id: doi:10.1080/05704928.2018.1467438
   title: 'Surface-enhanced spectroscopy: Toward practical analysis probe'
   authors:
@@ -1690,6 +1725,11 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+    - review
+    - SERS
+  image: https://www.tandfonline.com/cms/asset/824198bd-d4dc-4f5e-9098-e8f60aa1cb15/laps20.v059.i07.cover.jpg
 - id: doi:10.3390/en12010089
   title: 'Metamaterial-Based Radiative Cooling: Towards Energy-Free All-Day Cooling'
   authors:
@@ -1703,6 +1743,11 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  type: review
+  tags:
+    - review
+    - radiative cooling
+  image: https://pub.mdpi-res.com/energies/energies-12-00089/article_deploy/html/images/energies-12-00089-g001.png?1570884646
 - id: doi:10.1155/2017/2361042
   title: 'Metasurfaces-Based Absorption and Reflection Control: Perfect Absorbers
     and Reflectors'
@@ -1718,6 +1763,9 @@
   file: orcid_PI.yaml
   type: review
   image: https://onlinelibrary.wiley.com/cms/asset/6a039a42-0bc7-4b7b-a3e5-e56e7d4e1e53/jona2361042-fig-0006-m.jpg
+  tags:
+    - review
+    - absorbers
 - id: doi:10.1021/acsphotonics.7b01182
   title: Realization of Wafer-Scale Hyperlens Device for Sub-diffractional Biomolecular
     Imaging
@@ -1732,8 +1780,8 @@
   - Trevon Badloe
   - Jong G. Ok
   - Kyunghoon Kim
-  - Heon Lee
-  - Junsuk Rho
+  - Heon Lee+
+  - Junsuk Rho+
   publisher: ACS Photonics
   date: '2017-12-12'
   link: https://doi.org/gdzx26
@@ -1742,64 +1790,6 @@
   file: orcid_PI.yaml
   type: research
   image: https://pubs.acs.org/cms/10.1021/apchd5.2018.5.issue-7/asset/16915e08-2716-15e0-8271-915e08827169/apchd5.2018.5.issue-7.largecover.jpg
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-  plugin: sources.py
-  file: sources.yaml
-  remove: true
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-  remove: true
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
-  remove: true
+  tags: 
+    - hyperbolic metasurface
+    - hyperlens
