@@ -59,6 +59,7 @@
             
           {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
+      </div>
 
       <div class="citation-details">
         
@@ -92,12 +93,15 @@
              (JCR: {{ journal_data.etc }} in {{ journal_data['JCR Category'] }})
                </span>
             {% endif %}
+          </div>
+
         {% endif %}
 
 
       {% endif %}
 
     </div>
+  </div>
 
 
 
