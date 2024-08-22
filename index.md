@@ -81,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 
-{% assign sorted_publications = site.data.publications | sort: 'date' | reverse %}
+{% assign sorted_publications = site.data.citations | sort: 'date' | reverse %}
 {% assign latest_publications = sorted_publications | slice: 0, 3 %}
 
 <div class="publication-carousel">
