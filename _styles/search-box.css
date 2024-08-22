@@ -1,6 +1,7 @@
 .search-box {
   position: relative;
   height: 40px;
+  margin: 20px 0px;
 }
 
 .search-box .search-input {
