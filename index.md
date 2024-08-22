@@ -84,16 +84,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign sorted_publications = site.data.citations | sort: 'date' | reverse %}
 {% assign latest_publications = sorted_publications | slice: 0, 3 %}
 
+{% capture carousel %}
+
 <div class="publication-carousel">
     {% for publication in latest_publications %}
         <div class="publication-slide">
             <a href="{{ publication.link }}">
                 <img src="{{ publication.image }}" alt="{{ publication.title }}">
                 <h3>{{ publication.title }}</h3>
-                <p>by {{ publication.author }}</p>
-                <p>{{ publication.date | date: "%d %B %Y" }}</p>
             </a>
         </div>
     {% endfor %}
 </div>
 
+
+
+{% endcapture %}
+
+{%
+  include feature.html
+  text=carousel
+%}
