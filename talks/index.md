@@ -8,11 +8,12 @@ nav:
 
 # Talks
 
+<!--> 
 <div id="map"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
-    
+
   <script>
       // Initialize the map
       var map = L.map('map').setView([51.505, -0.09], 13);
@@ -28,7 +29,7 @@ nav:
       // Add a popup to the marker
       marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
   </script>
-
+</!--> 
 
 
 
