@@ -15,7 +15,7 @@ Welcome to a space where creativity meets precision, and where your contribution
 
 {% include section.html %}
 
-## Highlights
+## About our lab
 
 {% capture text %}
 
@@ -24,7 +24,7 @@ Find out more about what we do at Trevon's Research Lab
 {%
   include button.html
   link="research"
-  text="Learn about what we do"
+  text="See what we do"
   flip=true
 %}
 
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="publications"
-  text="See all publications"
+  text="See our publications"
   flip=true
 %}
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="publications"
-  title="Our Recent Publication"
+  title="Our Recent Publications"
   flip=true
   style="bare"
   text=text
