@@ -153,6 +153,10 @@
   
 
   
+    <link href="/trevons-lab-website/_styles/carousel.css" rel="stylesheet">
+  
+
+  
     <link href="/trevons-lab-website/_styles/checkbox.css" rel="stylesheet">
   
 
@@ -346,6 +350,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -360,6 +366,8 @@
 
 
   <script src="/trevons-lab-website/_scripts/anchors.js"></script>
+
+  <script src="/trevons-lab-website/_scripts/carousel.js"></script>
 
   <script src="/trevons-lab-website/_scripts/dark-mode.js"></script>
 
@@ -586,14 +594,19 @@
   </div>
 </div>
 
+<div class="feature">
+  <a class="feature-image" aria-label="feature link">
+    <img src="" loading="lazy" alt="feature image" onerror="this.src = '/trevons-lab-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+    
 <div class="publication-carousel">
     
         <div class="publication-slide">
             <a href="https://doi.org/gt6675">
                 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg" alt="Inverse design of colored daytime radiative coolers using deep neural networks">
                 <h3>Inverse design of colored daytime radiative coolers using deep neural networks</h3>
-                <p>by </p>
-                <p>01 July 2024</p>
             </a>
         </div>
     
@@ -601,8 +614,6 @@
             <a href="https://doi.org/gt6676">
                 <img src="https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004" alt="Polarization-independent edge detection based on the spin–orbit interaction of light">
                 <h3>Polarization-independent edge detection based on the spin–orbit interaction of light</h3>
-                <p>by </p>
-                <p>29 April 2024</p>
             </a>
         </div>
     
@@ -610,11 +621,13 @@
             <a href="https://doi.org/gt6678">
                 <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png" alt="Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces">
                 <h3>Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces</h3>
-                <p>by </p>
-                <p>22 April 2024</p>
             </a>
         </div>
     
+</div>
+
+
+  </div>
 </div>
   </section>
 
@@ -803,19 +816,4 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
   </body>
-</html><html>
-<script type="text/javascript">
-  $(document).ready(function(){
-      $('.publication-carousel').slick({
-          dots: true,
-          infinite: true,
-          speed: 300,
-          slidesToShow: 1,
-          adaptiveHeight: true,
-          autoplay: true,
-          autoplaySpeed: 3000,
-      });
-  });
-</script>
-
 </html>
