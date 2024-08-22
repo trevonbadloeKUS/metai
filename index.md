@@ -89,7 +89,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <div class="publication-slide">
             <a href="{{ publication.link }}">
                 <img src="{{ publication.image }}" alt="{{ publication.title }}">
-                <h3>{{ publication.title }}</h3>
+                <span class="bio-info-etc"> -{{ publication.title }}</span>
             </a>
         </div>
     {% endfor %}
