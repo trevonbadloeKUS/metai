@@ -43,6 +43,10 @@ Contact me for any enquiries or to arrange a visit or meeting
   caption="Lorem ipsum"
 %}
 
+Lorem ipsum dolor sit amet  
+consectetur adipiscing elit  
+sed do eiusmod tempor
+
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
