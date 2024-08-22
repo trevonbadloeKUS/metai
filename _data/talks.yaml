@@ -4,8 +4,12 @@
   place: Chengdu, China
   date: '2024-04-25'
   etc: 2x invited talks
+  latitude: 51.5074
+  longitude: -0.1278:
 
 - name: SPP8
   place: Copengagen, Denmark
   date: '2020-05-05'
   etc: poster
+  latitude: 31.2304
+  longitude: 121.4737
