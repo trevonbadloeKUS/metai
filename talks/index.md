@@ -28,7 +28,6 @@ nav:
   // Add a popup to the marker
   marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 </script>
-</!--> 
 
 <h3>My Leaflet.js Map</h3>
 <div id="map"></div>
@@ -44,6 +43,7 @@ nav:
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 </script>
+
 
 
 {% include section.html %}
