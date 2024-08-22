@@ -21,7 +21,7 @@ nav:
     }).addTo(map);
 
     // Add markers based on the YAML data
-    {% for location in site.talks %}
+    {% for location in site.data.talks %}
         L.marker([{{ location.latitude }}, {{ location.longitude }}])
             .addTo(map)
             .bindPopup("<b>{{ location.place }}</b><br>{{ location.name }}");
