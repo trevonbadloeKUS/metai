@@ -1,19 +1,16 @@
----
-layout: default
----
+{% if include.lookup %}
+  {% assign talks = site.data.talks
+    | where_exp: "talks",
+      "talks.id == include.lookup or talks.title contains talks.lookup"
+    | first
+  %}
+{% else %}
+  {% assign talks = include %}
+{% endif %}
+
 
 {% include section.html %}
 
 
-{% assign sorted_talks = site.data.talks | sort: 'date'  %}
-{% assign array_size = sorted_talks | size %}
+<div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div>
 
-<div class = "bio-heading"> Talks </div>
-
-<ol reversed> 
-  {% for talk in sorted_talks reversed %}
-
-    <li>   <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
-    {% endfor %}
-
-  </ol>

@@ -3,7 +3,7 @@
 
 .tags {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
@@ -23,6 +23,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: background var(--transition), color var(--transition);
+  border: 2px solid var(--primary); /* Adjust width, style, and color as needed */
 }
 
 .tag:hover {

@@ -54,6 +54,11 @@ $wrap: 800px;
   width: 100%;
 }
 
+
+.citation-details {
+  gap: 10px;
+}
+
 .citation-title {
   font-weight: var(--semi-bold);
 }
@@ -70,6 +75,7 @@ $wrap: 800px;
 
 .citation-publisher {
   text-transform: capitalize;
+  font-weight: var(--semi-bold);
 }
 
 .citation-description {
