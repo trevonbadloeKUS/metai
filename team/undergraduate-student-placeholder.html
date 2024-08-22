@@ -417,6 +417,9 @@
   </nav>
 </header>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+
     <main>
       <!--
   modify main content of page:
@@ -729,5 +732,24 @@
 
 </footer>
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
   </body>
+</html><html>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.publication-carousel').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+      });
+  });
+</script>
+
 </html>
