@@ -9,8 +9,5 @@
 {% endif %}
 
 
-{% include section.html %}
-
-
-<div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div>
+<div class = "bio-info-etc"> {{ talks.name }}, {{ talks.place }}, {{ talks.date | date: "%b %Y" }} {% if talks.etc %} [{{ talks.etc }}] {% endif %} </div>
 
