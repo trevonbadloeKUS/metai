@@ -481,6 +481,7 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 
     <main>
       <!--
@@ -501,6 +502,22 @@
 
   <section class="background" data-size="page">
     <h1 id="talks">Talks</h1>
+
+<div id="map" style="height: 500px;"></div>
+
+<script>
+    // Initialize the map and set its view
+    var map = L.map('map').setView([51.505, -0.09], 2); // Default view set to a world map
+
+    // Add OpenStreetMap tiles to the map
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // Add markers based on the YAML data
+    
+</script>
 
 <h3 id="2024">2024</h3>
 
@@ -698,6 +715,7 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   </body>
 </html>
