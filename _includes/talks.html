@@ -8,7 +8,7 @@
   {% assign talks = include %}
 {% endif %}
 
-<ul reversed>
+<ul>
   <li class = "bio-info-etc"> {{ talks.name }}, {{ talks.place }}, {{ talks.date | date: "%b %Y" }} {% if talks.etc %} [{{ talks.etc }}] {% endif %} </li>
 </ul>
 
