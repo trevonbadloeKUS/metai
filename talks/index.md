@@ -8,25 +8,28 @@ nav:
 
 # Talks
 
-<div id="map" style="height: 500px;"></div>
+<div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    
+  <script>
+      // Initialize the map
+      var map = L.map('map').setView([51.505, -0.09], 13);
 
-<script>
-    // Initialize the map and set its view
-    var map = L.map('map').setView([51.505, -0.09], 2); // Default view set to a world map
+      // Add OpenStreetMap tile layer
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
 
-    // Add OpenStreetMap tiles to the map
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
-        attribution: '© OpenStreetMap'
-    }).addTo(map);
+      // Add a marker at a specific location
+      var marker = L.marker([51.5, -0.09]).addTo(map);
 
-    // Add markers based on the YAML data
-    {% for location in site.data.talks %}
-        L.marker([{{ location.latitude }}, {{ location.longitude }}])
-            .addTo(map)
-            .bindPopup("<b>{{ location.place }}</b><br>{{ location.name }}");
-    {% endfor %}
-</script>
+      // Add a popup to the marker
+      marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  </script>
+
+
 
 
 {% include section.html %}
