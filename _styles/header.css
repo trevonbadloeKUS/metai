@@ -1,19 +1,19 @@
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  vertical-align: middle;
   /*
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
     padding: 20px;
-    box-shadow: var(--shadow);
-    vertical-align: middle;
   */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  padding: 20px;
   position: sticky !important;
   top: 0;
   z-index: 10 !important;
@@ -125,7 +125,7 @@ header .logo {
   align-items: center;
   vertical-align: middle;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header {
     justify-content: center;
   }
