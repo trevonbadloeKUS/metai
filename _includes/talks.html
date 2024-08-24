@@ -9,10 +9,13 @@
   {% assign talks = include %}
 {% endif %}
 
+
+{% include section.html %}
+
 <ul>
   <li class = "bio-info-etc"> 
     
-    <a href="{{ talk.website }}">{{ talk.name }}</a>, 
+    <a href="{{ talks.website }}">{{ talks.name }}</a>, 
     {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
     {% if talks.etc %} [{{ talks.etc }}] {% endif %} 
   

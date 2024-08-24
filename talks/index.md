@@ -29,13 +29,21 @@ var locations = {{ site.data.talks | jsonify }};
 locations.forEach(function(location) {
     var marker = L.marker([location.latitude, location.longitude]).addTo(map);
 
-    // Add a popup with information from the YAML file
-    marker.bindPopup("<b>" + location.name + "</b><br>" +
-                    location.location + "<br>" +
-                    location.date + "<br>" +
-                    location.etc);
+    // Create the popup content with the required fields
+    var popupContent = "<b>" + location.name + "</b><br>" +
+                       location.location + "<br>" +
+                       location.date;
+
+    // Add the 'etc' field only if it exists
+    if (location.etc) {
+        popupContent += "<br>" + location.etc;
+    }
+
+    // Bind the popup to the marker
+    marker.bindPopup(popupContent);
 });
 </script>
 
 {% include section.html %}
 {% include list.html data="talks" component="talks" %}
+
