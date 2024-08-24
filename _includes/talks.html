@@ -10,5 +10,11 @@
 {% endif %}
 
 <ul>
-  <li class = "bio-info-etc"> {{ talks.name }}, {{ talks.location }}, {{ talks.date | date: "%b %Y" }} {% if talks.etc %} [{{ talks.etc }}] {% endif %} </li>
+  <li class = "bio-info-etc"> 
+    
+    <a href="{{ talk.website }}">{{ talk.name }}</a>, 
+    {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
+    {% if talks.etc %} [{{ talks.etc }}] {% endif %} 
+  
+  </li>
 </ul>

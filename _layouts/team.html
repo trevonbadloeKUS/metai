@@ -157,12 +157,54 @@ layout: default
   <ol reversed> 
     {% for talk in sorted_talks reversed %}
 
-      <li>   <div class = "bio-info-etc"> {{ talk.name }}, {{ talk.place }}, {{ talk.date | date: "%b %Y" }} {% if talk.etc %} [{{ talk.etc }}] {% endif %} </div></li>
-      {% endfor %}
+      <li>   
+        
+        <a href="{{ talk.website }}">{{ talk.name }}</a>, 
+        {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
+        {% if talks.etc %} [{{ talks.etc }}] {% endif %} 
+        
+      </li>
 
-    </ol>
+    {% endfor %}
+  </ol>
+
+
+  {% include section.html %}
+  {% assign sorted_awards = site.data.awards | sort: 'date'  %}
+  {% assign array_size = sorted_awards | size %}
+
+  <div class = "bio-heading"> Awards </div>
+  <ol reversed> 
+    {% for award in sorted_awards reversed %}
+
+    <li>   
+        
+      {{ award.name }}, 
+      {{ award.awarder }}, ({{ award.date | date: "%b %Y" }})     
+    </li>
+
+    {% endfor %}
+  </ol>
+
+  {% include section.html %}
+  {% assign service = site.data.service  %}
+  {% assign array_size = service | size %}
+
+  <div class = "bio-heading"> Service </div>
+
+    {% for roles in service %}
+    {{ roles.role }}
+    {% if roles.journals %}
+      <ul>
+        {% for journal in role.journals %}
+          <li>{{ journals }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+
+
 {% endif %}
-
 
 {% assign aliases = page.aliases
   | default: page.name
@@ -175,7 +217,6 @@ layout: default
 {% capture search -%}
   publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
-
 
 <!--
 

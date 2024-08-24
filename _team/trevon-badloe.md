@@ -27,12 +27,12 @@ phd:
     school: POSTECH, South Korea
     link: https://me.postech.ac.kr/
     advisor: Junsuk Rho
-    dissertation: AI metasurfaces
+    dissertation: Tunable Phase and Amplitude Modulation of Light using Metasurfaces and their Inverse Design using Machine Learning
     date: '2017 - 2023'
     etc:
 
 master:
-  - degree: MPhys
+  - degree: MPhys. (hons)
     department: Department of Physics & Astronomy
     school: The University of Sheffield, UK
     link: https://www.sheffield.ac.uk/mps/study-physics

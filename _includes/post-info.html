@@ -1,4 +1,5 @@
 <div class="post-info">
+  
   {% if include.author %}
     {% assign member = site.team
       | where_exp: "member", "member.slug == include.author"
