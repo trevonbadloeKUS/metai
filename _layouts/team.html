@@ -183,7 +183,8 @@ layout: default
   {% assign roles = site.data.service.roles %}
   
   <div class="bio-heading">Service</div>
-  
+  {{ roles }}
+
   <ul>
     {% for role in roles %}
       <li>{{ role }}</li>
