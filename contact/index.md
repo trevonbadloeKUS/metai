@@ -29,10 +29,10 @@ size=full
 #### Trevon Badloe
 
 - Korea University Sejong Campus, 2511 Sejong-ro, Sejong-si, Republic of Korea
-- Tel: +82-44-860-1444
-- E-mail: [trevon\@korea.ac.kr](mailto:trevon@korea.ac.kr)
+- Tel: +82-xxxx-xxxx
+- E-mail: [trevon@korea.ac.kr](mailto:trevon@korea.ac.kr)
 
-Please feel free to contact us~
+Please feel free to get in touch at any time.
 
 {% endcapture %}
 
