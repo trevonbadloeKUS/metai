@@ -40,6 +40,7 @@ header a {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  white-space: nowrap;
 }
 
 .logo {
@@ -124,7 +125,7 @@ header .logo {
   align-items: center;
   vertical-align: middle;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   header {
     justify-content: center;
   }
