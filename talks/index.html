@@ -543,15 +543,105 @@ locations.forEach(function(location) {
 
 <h3 id="2024">2024</h3>
 
+<!--
+
+
+
 <ul>
-  <li class="bio-info-etc"> PIERS 2024, Chengdu, China, Apr 2024  [2x invited talks]  </li>
+  <li class = "bio-info-etc"> PIERS 2024, Chengdu, China, Apr 2024  [2x invited talks]  </li>
 </ul>
+
+-->
+
+<div id="map" style="height: 500px; width: 100%;"></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2024-04-25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Chengdu, China&lt;/p&gt;
+  
+&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2020-05-05&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Copengagen, Denmark&lt;/p&gt;
+</code></pre></div></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([20.0, 0.0], 2); // Centered on the world map
+
+  // Add the tile layer (map layer)
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add the locations from the YAML data
+  var locations = [{"name":"PIERS 2024","location":"Chengdu, China","latitude":40.7128,"longitude":-74.006,"date":"2024-04-25","etc":"2x invited talks"},{"name":"SPP8","location":"Copengagen, Denmark","latitude":48.8566,"longitude":2.3522,"date":"2020-05-05","etc":"poster"}];
+
+  locations.forEach(function(location) {
+    var marker = L.marker([location.latitude, location.longitude]).addTo(map);
+
+    // Add a popup with information from the YAML file
+    marker.bindPopup("<b>" + location.title + "</b><br>" +
+                     location.location + "<br>" +
+                     location.date + "<br>" +
+                     location.description);
+  });
+</script>
 
 <h3 id="2020">2020</h3>
 
+<!--
+
+
+
 <ul>
-  <li class="bio-info-etc"> SPP8, Copengagen, Denmark, May 2020  [poster]  </li>
+  <li class = "bio-info-etc"> SPP8, Copengagen, Denmark, May 2020  [poster]  </li>
 </ul>
+
+-->
+
+<div id="map" style="height: 500px; width: 100%;"></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2024-04-25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Chengdu, China&lt;/p&gt;
+  
+&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2020-05-05&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Copengagen, Denmark&lt;/p&gt;
+</code></pre></div></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([20.0, 0.0], 2); // Centered on the world map
+
+  // Add the tile layer (map layer)
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add the locations from the YAML data
+  var locations = [{"name":"PIERS 2024","location":"Chengdu, China","latitude":40.7128,"longitude":-74.006,"date":"2024-04-25","etc":"2x invited talks"},{"name":"SPP8","location":"Copengagen, Denmark","latitude":48.8566,"longitude":2.3522,"date":"2020-05-05","etc":"poster"}];
+
+  locations.forEach(function(location) {
+    var marker = L.marker([location.latitude, location.longitude]).addTo(map);
+
+    // Add a popup with information from the YAML file
+    marker.bindPopup("<b>" + location.title + "</b><br>" +
+                     location.location + "<br>" +
+                     location.date + "<br>" +
+                     location.description);
+  });
+</script>
   </section>
 
 
