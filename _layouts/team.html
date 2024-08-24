@@ -186,7 +186,7 @@ layout: default
 
   <ul>
     {% for service in services %}
-    <li>{{ service.role }}</li>
+    <li class="bio-info-etc">{{ service.role }}</li>
     {% if service.journals %}
     <span class="bio-info-etc">{{ service.journals | join: ", " }}</span>
       {% endif %}
