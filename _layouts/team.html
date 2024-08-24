@@ -153,7 +153,7 @@ layout: default
   
   <ol reversed>
     {% for talk in sorted_talks reversed %}
-      <li>
+      <li class="bio-info-etc">
         <a href="{{ talk.website }}">{{ talk.name }}</a>,
         <span class="bio-info-etc">{{ talk.location }}, {{ talk.date | date: "%b %Y" }}
         {% if talk.etc %} [{{ talk.etc }}] {% endif %}</span>
@@ -170,8 +170,8 @@ layout: default
   
   <ol reversed>
     {% for award in sorted_awards reversed %}
-      <li>
-        <span class="bio-info-etc"> {{ award.name }},
+      <li class="bio-info-etc">
+        <span class="bio-info-etc">{{ award.name }},
         {{ award.awarder }} ({{ award.date | date: "%b %Y" }})</span>
       </li>
     {% endfor %}
