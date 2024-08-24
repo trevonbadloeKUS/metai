@@ -180,20 +180,15 @@ layout: default
   {% include section.html %}
   
   <!-- Display Service Roles -->
-  {% assign roles = site.data.service.roles %}
+  {% assign services = site.data.service %}
   
   <div class="bio-heading">Service</div>
-  {{ roles }}
 
   <ul>
-    {% for role in roles %}
-      <li>{{ role }}</li>
-      {% if role.journals %}
-        <ul>
-          {% for journal in role.journals %}
-            <li>{{ journal }}{% if forloop.last == false %}, {% endif %}</li>
-          {% endfor %}
-        </ul>
+    {% for service in services %}
+    <li>{{ service.role }}</li>
+    {% if service.journals %}
+          {{ service.journals | join: ", " }}
       {% endif %}
     {% endfor %}
   </ul>

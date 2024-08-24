@@ -1,23 +1,21 @@
----
-
 - role: Guest Editor
   journals:
-    - Nanophotonics
+  - Nanophotonics
 
 - role: Peer Reviewer
   journals:
-      - "Light: Science & Applications"
-      - Nature Communications
-      - Optical Materials Express
-      - njp Nanophotonics
-      - Optics Express
-      - Nanophotonics
-      - Scientific Reports
-      - Optics Letters
-      - Results in Physics
-      - Optics & Lasers in Engineering
-      - Applied Optics
-      - APL Photonics
-      - Photonics Research
-      - Advanced Photonics Nexus
-      - JOSA B
+  - "Light: Science & Applications"
+  - Nature Communications
+  - Optical Materials Express
+  - njp Nanophotonics
+  - Optics Express
+  - Nanophotonics
+  - Scientific Reports
+  - Optics Letters
+  - Results in Physics
+  - Optics & Lasers in Engineering
+  - Applied Optics
+  - APL Photonics
+  - Photonics Research
+  - Advanced Photonics Nexus
+  - JOSA B
