@@ -19,7 +19,7 @@
 .bio-info {
   font-family: var(--heading);
   line-height: var(--compact);
-  text-align: justify;
+  text-align: start;
   font-weight: var(--bold);
 }
 
