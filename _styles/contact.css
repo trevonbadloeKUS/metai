@@ -17,6 +17,7 @@
 @media (max-width: 800px) {
   .contact-container {
     flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center;
   }
   .map, .contact-info {
     margin-right: 0;
