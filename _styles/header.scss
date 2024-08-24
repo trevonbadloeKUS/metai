@@ -5,11 +5,10 @@
 $logo-big: 80px;
 $logo: 50px;
 $big-padding: 100px;
-$collapse: 600px;
+$collapse: 800px;
 $sticky: true;
 
 header {
-  /*
 
   display: flex;
   justify-content: center;
@@ -19,13 +18,15 @@ header {
   padding: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
-*/ 
 
+
+  /*
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   padding: 20px;
+*/ 
 
   @if $sticky {
     position: sticky !important;
