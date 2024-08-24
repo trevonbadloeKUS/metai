@@ -155,8 +155,8 @@ layout: default
     {% for talk in sorted_talks reversed %}
       <li>
         <a href="{{ talk.website }}">{{ talk.name }}</a>,
-        {{ talk.location }}, {{ talk.date | date: "%b %Y" }}
-        {% if talk.etc %} [{{ talk.etc }}] {% endif %}
+        <span class="bio-info-etc">{{ talk.location }}, {{ talk.date | date: "%b %Y" }}
+        {% if talk.etc %} [{{ talk.etc }}] {% endif %}</span>
       </li>
     {% endfor %}
   </ol>
@@ -171,8 +171,8 @@ layout: default
   <ol reversed>
     {% for award in sorted_awards reversed %}
       <li>
-        {{ award.name }},
-        {{ award.awarder }} ({{ award.date | date: "%b %Y" }})
+        <span class="bio-info-etc"> {{ award.name }},
+        {{ award.awarder }} ({{ award.date | date: "%b %Y" }})</span>
       </li>
     {% endfor %}
   </ol>
@@ -188,7 +188,7 @@ layout: default
     {% for service in services %}
     <li>{{ service.role }}</li>
     {% if service.journals %}
-          {{ service.journals | join: ", " }}
+    <span class="bio-info-etc">{{ service.journals | join: ", " }}</span>
       {% endif %}
     {% endfor %}
   </ul>
