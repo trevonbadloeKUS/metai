@@ -534,7 +534,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Add the locations from the YAML data
-var locations = [{"name":"PIERS 2024","location":"Chengdu, China","venue":null,"latitude":null,"longitude":null,"date":"2024-04-25","etc":"2x invited talks"},{"name":"SPP8","location":"Copengagen, Denmark","venue":null,"latitude":null,"longitude":null,"date":"2020-05-05","etc":"poster"}];
+var locations = [{"name":"The 45th Photonics and Electromagnetics Research Symposium (PIERS-2024)","location":"Chengdu, China","venue":"Chengdu Century City International Convention & Exhibition Center","latitude":30.5595,"longitude":104.0678,"date":"2024-04-25","etc":"Invited oral presentation x2","website":"http://www.piers.org/piers2024Chengdu/"},{"name":"The 9th International Conference on Surface Plasmon Photonics (SPP9)","location":"Copenhagen, Denmark","venue":"The Royal Danish Academy of Sciences and Letters","latitude":55.6867,"longitude":12.5768,"date":"2019-06-23","etc":"Poster","website":"https://www.spp9.dk"},{"name":"SPIE Optics and Photonics","location":"San Diego, USA","venue":"San Diego Convention Center","latitude":32.7067,"longitude":-117.1611,"date":"2022-08-21","etc":"Oral presentation x4","website":"https://spie.org/conferences-and-exhibitions/optics-and-photonics"},{"name":"Materials Research Society (MRS) Spring Meeting","location":"Honolulu, USA","venue":"Hawaii Convention Center","latitude":21.2894,"longitude":-157.8412,"date":"2022-05-08","etc":"Oral presentation","website":"https://www.mrs.org/meetings-events/spring-meetings-exhibits"},{"name":"Materials Research Society (MRS) Fall Meeting","location":"Boston, USA","venue":"Hynes Convention Center","latitude":42.3471,"longitude":-71.0875,"date":"2021-11-28","etc":"Oral presentation [Best presentation award]","website":"https://www.mrs.org/meetings-events/fall-meetings-exhibits"},{"name":"The 12th International Conference on Metamaterials, Photonic Crystals, and Plasmonics (META'21)","location":"Warsaw, Poland","venue":"Warsaw University of Technology","latitude":52.2215,"longitude":21.007,"date":"2021-07-20","etc":"Oral presentation","website":"https://metaconferences.org/2021/"},{"name":"A3 Metamaterials Forum","location":"Pohang, South Korea","venue":"Pohang University of Science and Technology (POSTECH)","latitude":36.011,"longitude":129.3235,"date":"2018-10-30","etc":"Poster","website":"https://a3metamaterials.org"},{"name":"The 8th International Conference on Metamaterials, Photonic Crystals, and Plasmonics (META'17)","location":"Incheon/Seoul, South Korea","venue":"Songdo Convensia (Incheon)","latitude":37.3925,"longitude":126.64,"date":"2017-07-25","etc":"Poster","website":"https://metaconferences.org/2017/"},{"name":"Department of Physics, Korea University","location":"Seoul, South Korea","venue":"Department of Physics","latitude":37.5892,"longitude":127.0336,"date":"2024-02-01","website":"https://physics.korea.ac.kr"},{"name":"Department of Applied Physics and Science Education, Eindhoven University of Technology","location":"Eindhoven, Netherlands","venue":"Department of Applied Physics and Science Education","latitude":51.4484,"longitude":5.4903,"date":"2023-12-01","website":"https://www.tue.nl/en/our-university/departments/applied-physics-and-science-education/"},{"name":"Department of Biomedical Engineering, Yonsei University","location":"Wonju, South Korea","venue":"Department of Biomedical Engineering","latitude":37.5658,"longitude":126.9386,"date":"2023-08-01","website":"https://bme.yonsei.ac.kr"},{"name":"Department of Physics, Sungkyunkwan University","location":"Suwon, South Korea","venue":"Department of Physics","latitude":37.2945,"longitude":126.9769,"date":"2023-06-01","website":"https://physics.skku.edu/eng/"},{"name":"Department of Physics, Dongguk University","location":"Seoul, South Korea","venue":"Department of Physics","latitude":37.5585,"longitude":127.0002,"date":"2023-06-01","website":"https://physics.dongguk.edu"},{"name":"Department of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST)","location":"Gwangju, South Korea","venue":"Department of Mechanical Engineering","latitude":35.2296,"longitude":126.8425,"date":"2023-04-01","website":"https://me.gist.ac.kr"},{"name":"Department of Electronics and Information Engineering, Korea University - Sejong Campus","location":"Sejong, South Korea","venue":"Department of Electronics and Information Engineering","latitude":36.6017,"longitude":127.2887,"date":"2024-04-01","website":"https://eie.korea.ac.kr"},{"name":"Department of Information and Communication Engineering, Inha University","location":"Incheon, South Korea","venue":"Department of Information and Communication Engineering","latitude":37.4509,"longitude":126.6534,"date":"2024-05-01","website":"https://ice.inha.ac.kr"}];
 
 locations.forEach(function(location) {
     var marker = L.marker([location.latitude, location.longitude]).addTo(map);
@@ -562,13 +562,175 @@ locations.forEach(function(location) {
 <h3 id="2024">2024</h3>
 
 <ul>
-  <li class="bio-info-etc"> PIERS 2024, Chengdu, China, Apr 2024  [2x invited talks]  </li>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Incheon, South Korea, May 2024 
+     
+  
+  </li>
 </ul>
 
-<h3 id="2020">2020</h3>
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Chengdu, China, Apr 2024 
+     [Invited oral presentation x2]  
+  
+  </li>
+</ul>
 
 <ul>
-  <li class="bio-info-etc"> SPP8, Copengagen, Denmark, May 2020  [poster]  </li>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Sejong, South Korea, Apr 2024 
+     
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Seoul, South Korea, Feb 2024 
+     
+  
+  </li>
+</ul>
+
+<h3 id="2023">2023</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Eindhoven, Netherlands, Dec 2023 
+     
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Wonju, South Korea, Aug 2023 
+     
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Seoul, South Korea, Jun 2023 
+     
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Suwon, South Korea, Jun 2023 
+     
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Gwangju, South Korea, Apr 2023 
+     
+  
+  </li>
+</ul>
+
+<h3 id="2022">2022</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    San Diego, USA, Aug 2022 
+     [Oral presentation x4]  
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Honolulu, USA, May 2022 
+     [Oral presentation]  
+  
+  </li>
+</ul>
+
+<h3 id="2021">2021</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Boston, USA, Nov 2021 
+     [Oral presentation [Best presentation award]]  
+  
+  </li>
+</ul>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Warsaw, Poland, Jul 2021 
+     [Oral presentation]  
+  
+  </li>
+</ul>
+
+<h3 id="2019">2019</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Copenhagen, Denmark, Jun 2019 
+     [Poster]  
+  
+  </li>
+</ul>
+
+<h3 id="2018">2018</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Pohang, South Korea, Oct 2018 
+     [Poster]  
+  
+  </li>
+</ul>
+
+<h3 id="2017">2017</h3>
+
+<ul>
+  <li class="bio-info-etc"> 
+    
+    <a href=""></a>, 
+    Incheon/Seoul, South Korea, Jul 2017 
+     [Poster]  
+  
+  </li>
 </ul>
   </section>
 
