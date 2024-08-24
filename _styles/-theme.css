@@ -50,4 +50,8 @@
   --transition: 0.2s ease;
 }
 
+* {
+  font-synthesis: none !important;
+}
+
 /*# sourceMappingURL=-theme.css.map */
