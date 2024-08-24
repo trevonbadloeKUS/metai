@@ -114,107 +114,86 @@ layout: default
 
 {% endif %}
 
-{% if page.role ==  "pi" %}
+{% if page.role == "pi" %}
 
   {% include section.html %}
+  
+  <!-- Sort and Display Publications -->
   {% assign sorted_pubs = site.data.citations | sort: 'date' %}
-  {% assign array_size = sorted_pubs | size %}
-
-  <div class = "bio-heading"> Publications </div>
-
-    <ol reversed> 
-
-      {% for pub in sorted_pubs reversed %}
-
-      <li> <div class = "bio-info-etc"> 
-        <a href="{{ pub.link }}">{{ pub.title }}</a>,
-
-        {% for author in pub.authors %}
-          {% assign formatted_author = author %}
+  
+  <div class="bio-heading">Publications</div>
+  
+  <ol reversed>
+    {% for pub in sorted_pubs reversed %}
+      <li>
+        <div class="bio-info-etc">
+          <a href="{{ pub.link }}">{{ pub.title }}</a>,
           
-          {%- if author contains "Trevon" -%}
-            {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
-          {%- endif -%}
-            
-          {{ formatted_author }},{% if forloop.last == false %} {% endif %}
-        {% endfor %}
-
-        <strong>{{ pub.publisher }}</strong>,
-        {{ pub.id }}.
-        </div></li>
-      {% endfor %}
-
-    </ol>
-
-
-  {% include section.html %}
-
-  {% assign sorted_talks = site.data.talks | sort: 'date'  %}
-  {% assign array_size = sorted_talks | size %}
-
-  <div class = "bio-heading"> Talks </div>
-
-  <ol reversed> 
-    {% for talk in sorted_talks reversed %}
-
-      <li>   
-        
-        <a href="{{ talk.website }}">{{ talk.name }}</a>, 
-        {{ talk.location }}, {{ talk.date | date: "%b %Y" }} 
-        {% if talk.etc %} [{{ talk.etc }}] {% endif %} 
-        
-      </li>
-
-    {% endfor %}
-  </ol>
-
-
-  {% include section.html %}
-  {% assign sorted_awards = site.data.awards | sort: 'date'  %}
-  {% assign array_size = sorted_awards | size %}
-
-  <div class = "bio-heading"> Awards </div>
-  <ol reversed> 
-    {% for award in sorted_awards reversed %}
-
-    <li>   
-        
-      {{ award.name }}, 
-      {{ award.awarder }} ({{ award.date | date: "%b %Y" }})     
-    </li>
-
-    {% endfor %}
-  </ol>
-
-
-
-    <h2>{{ role.role }}</h2>
-    {% if role.publications %}
-      <ul>
-        {% for publication in role.publications %}
-          <li>{{ publication }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endfor %}
-  
-
-
-  
-  {% include section.html %}
-  {% assign roles = site.data.services.roles %}
-  {% assign array_size = service | size %}
-
-  <div class = "bio-heading"> Service </div>
-  <ul>
-
-    {% for role in roles %}
-      <li> {{ role.role }} <li>
-        {% if role.journals %}
-          {% for journal in role.journals %}
-            {{ journal }}{% if forloop.last == false %}, {% endif %}
+          {% for author in pub.authors %}
+            {% assign formatted_author = author %}
+            {% if author contains "Trevon" %}
+              {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
+            {% endif %}
+            {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
           {% endfor %}
-        {% endif %}
+          
+          <strong>{{ pub.publisher }}</strong>,
+          {{ pub.id }}.
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+  
+  {% include section.html %}
+  
+  <!-- Sort and Display Talks -->
+  {% assign sorted_talks = site.data.talks | sort: 'date' %}
+  
+  <div class="bio-heading">Talks</div>
+  
+  <ol reversed>
+    {% for talk in sorted_talks reversed %}
+      <li>
+        <a href="{{ talk.website }}">{{ talk.name }}</a>,
+        {{ talk.location }}, {{ talk.date | date: "%b %Y" }}
+        {% if talk.etc %} [{{ talk.etc }}] {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+  
+  {% include section.html %}
+  
+  <!-- Sort and Display Awards -->
+  {% assign sorted_awards = site.data.awards | sort: 'date' %}
+  
+  <div class="bio-heading">Awards</div>
+  
+  <ol reversed>
+    {% for award in sorted_awards reversed %}
+      <li>
+        {{ award.name }},
+        {{ award.awarder }} ({{ award.date | date: "%b %Y" }})
+      </li>
+    {% endfor %}
+  </ol>
+  
+  {% include section.html %}
+  
+  <!-- Display Service Roles -->
+  {% assign roles = site.data.services.roles %}
+  
+  <div class="bio-heading">Service</div>
+  
+  <ul>
+    {% for role in roles %}
+      <li>{{ role.role }}</li>
+      {% if role.journals %}
+        <ul>
+          {% for journal in role.journals %}
+            <li>{{ journal }}{% if forloop.last == false %}, {% endif %}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     {% endfor %}
   </ul>
 
