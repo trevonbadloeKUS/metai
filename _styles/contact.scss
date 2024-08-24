@@ -6,31 +6,41 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 20px;
-    line-height: var(--compact);
+    gap: 20px; /* Space between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .map {
-    flex: 1 1 400px; /* Allows map to take up available space, but not shrink below 400px */
-    margin-right: 20px;
+    flex: 1 1 100%; /* Full width on small screens */
+    max-width: 100%; /* Prevent overflow */
+    margin: 0 auto; /* Center map */
 }
 
 .contact-info {
-    flex: 1 1 300px; /* Allows contact info to take up available space, but not shrink below 300px */
+    flex: 1 1 100%; /* Full width on small screens */
+    max-width: 100%; /* Prevent overflow */
+    text-align: justify; /* Justify text alignment */
+    margin: 0 auto; /* Center contact info */
 }
 
-@media (max-width: 800px) {
+@media (min-width: 801px) {
     .contact-container {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: center;
-
+        flex-direction: row; /* Side by side on larger screens */
     }
 
     .map {
-        margin-right: 0;
-        margin-bottom: 20px; /* Space between stacked elements */
+        flex: 1 1 400px; /* Map width */
+        margin-right: 20px; /* Space between map and contact info */
     }
+
     .contact-info {
-        max-width: 400px; /* Ensure contact info can grow with the container */
-        text-align: center; /* Center text alignment */
+        flex: 1 1 400px; /* Contact info width */
+        max-width: 400px; /* Restrict to the map width */
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-info {
+        text-align: center; /* Center text on small screens */
     }
 }
