@@ -1,5 +1,4 @@
 
-<!--
 {% if include.lookup %}
   {% assign talks = site.data.talks
     | where_exp: "talks",
@@ -15,51 +14,4 @@
   <li class = "bio-info-etc"> {{ talks.name }}, {{ talks.location }}, {{ talks.date | date: "%b %Y" }} {% if talks.etc %} [{{ talks.etc }}] {% endif %} </li>
 </ul>
 
--->
 
-<div id="map" style="height: 500px; width: 100%;"></div>
-
-{% if include.lookup %}
-  {% assign talk = site.data.talks
-    | where_exp: "talks",
-      "talks.id == include.lookup or talks.title contains include.lookup"
-    | first
-  %}
-  <h2>{{ talk.title }}</h2>
-  <p>{{ talk.description }}</p>
-  <p><strong>Date:</strong> {{ talk.date }}</p>
-  <p><strong>Location:</strong> {{ talk.location }}</p>
-{% else %}
-  {% assign talks = site.data.talks %}
-  {% for talk in talks %}
-    <h2>{{ talk.title }}</h2>
-    <p>{{ talk.description }}</p>
-    <p><strong>Date:</strong> {{ talk.date }}</p>
-    <p><strong>Location:</strong> {{ talk.location }}</p>
-  {% endfor %}
-{% endif %}
-
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script>
-  // Initialize the map
-  var map = L.map('map').setView([20.0, 0.0], 2); // Centered on the world map
-
-  // Add the tile layer (map layer)
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(map);
-
-  // Add the locations from the YAML data
-  var locations = {{ site.data.talks | jsonify }};
-
-  locations.forEach(function(location) {
-    var marker = L.marker([location.latitude, location.longitude]).addTo(map);
-
-    // Add a popup with information from the YAML file
-    marker.bindPopup("<b>" + location.title + "</b><br>" +
-                     location.location + "<br>" +
-                     location.date + "<br>" +
-                     location.description);
-  });
-</script>

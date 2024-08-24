@@ -10,6 +10,7 @@ nav:
 
 Explore the locations of past conferences and talks.
 
+<div id="map" style="height: 500px; width: 100%;"></div>
 
 <script>
 
@@ -35,6 +36,8 @@ locations.forEach(function(location) {
                     location.description);
 });
 </script>
+
+
 
 {% include section.html %}
 
