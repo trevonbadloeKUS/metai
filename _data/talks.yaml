@@ -1,11 +1,15 @@
 ---
 
 - name: PIERS 2024
-  place: Chengdu, China
+  location: Chengdu, China
+  latitude: 40.7128
+  longitude: -74.0060
   date: '2024-04-25'
   etc: 2x invited talks
 
 - name: SPP8
-  place: Copengagen, Denmark
+  location: Copengagen, Denmark
+  latitude: 48.8566
+  longitude: 2.3522
   date: '2020-05-05'
   etc: poster
