@@ -21,6 +21,10 @@ li ol {
   margin: 0;
 }
 
+.contact-list {
+  line-height: var(--compact);
+}
+
 .backward-list {
   list-style-type: none;
   counter-reset: list-counter;
