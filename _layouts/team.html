@@ -186,22 +186,37 @@ layout: default
     {% endfor %}
   </ol>
 
+
+
+    <h2>{{ role.role }}</h2>
+    {% if role.publications %}
+      <ul>
+        {% for publication in role.publications %}
+          <li>{{ publication }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+  
+
+
+  
   {% include section.html %}
-  {% assign service = site.data.service  %}
+  {% assign roles = site.data.services.roles %}
   {% assign array_size = service | size %}
 
   <div class = "bio-heading"> Service </div>
+  <ul>
 
-    {% for roles in service %}
-    {{ roles.role }}
-    {% if roles.journals %}
-        {% for journal in role.journals %}
-          {{ journal }}{% if forloop.last == false %}, {% endif %}
-        {% endfor %}
-    
-    {% endif %}
-  {% endfor %}
-
+    {% for role in roles %}
+      <li> {{ role.role }} <li>
+        {% if role.journals %}
+          {% for journal in role.journals %}
+            {{ journal }}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        {% endif %}
+    {% endfor %}
+  </ul>
 
 {% endif %}
 
