@@ -9,8 +9,8 @@
   {% assign talks = include %}
 {% endif %}
 
-
-<ul>
+{{ forloop.index }}
+<ol>
   <li class = "bio-info-etc"> {{ talks.name }}, {{ talks.location }}, {{ talks.date | date: "%b %Y" }} {% if talks.etc %} [{{ talks.etc }}] {% endif %} </li>
 </ul>
 
