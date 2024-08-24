@@ -186,7 +186,7 @@ layout: default
   
   <ul>
     {% for role in roles %}
-      <li>{{ role.role }}</li>
+      <li>{{ role }}</li>
       {% if role.journals %}
         <ul>
           {% for journal in role.journals %}
@@ -198,28 +198,3 @@ layout: default
   </ul>
 
 {% endif %}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<!--
-
-{% capture search -%}
-  news/?search={{ page.name }}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s posts on the news page
-  </a>
-</p>
--->
