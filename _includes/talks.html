@@ -3,8 +3,6 @@ layout: default
 show_map: true
 ---
 
-<div id="map" style="height: 500px; width: 100%;"></div>
-
 {% if include.lookup %}
   {% assign talks = site.data.talks
     | where_exp: "talks",
@@ -14,11 +12,6 @@ show_map: true
 {% else %}
   {% assign talks = include %}
 {% endif %}
-
-
-
-
-
 
 
 <ul>
