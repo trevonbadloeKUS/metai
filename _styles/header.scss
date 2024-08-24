@@ -5,7 +5,7 @@
 $logo-big: 80px;
 $logo: 50px;
 $big-padding: 100px;
-$collapse: 700px;
+$collapse: 600px;
 $sticky: true;
 
 header {
@@ -55,6 +55,8 @@ header a {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  white-space: nowrap;
+
 }
 
 .logo {
