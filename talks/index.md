@@ -30,19 +30,12 @@ locations.forEach(function(location) {
     var marker = L.marker([location.latitude, location.longitude]).addTo(map);
 
     // Add a popup with information from the YAML file
-    marker.bindPopup("<b>" + location.title + "</b><br>" +
+    marker.bindPopup("<b>" + location.name + "</b><br>" +
                     location.location + "<br>" +
                     location.date + "<br>" +
-                    location.description);
+                    location.etc);
 });
 </script>
 
-
-
 {% include section.html %}
-
-
 {% include list.html data="talks" component="talks" %}
-
-
-
