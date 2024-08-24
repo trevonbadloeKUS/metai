@@ -6,9 +6,10 @@ nav:
 ---
 
 
-# Talks
+{% include section.html %}
 
 Explore the locations of past conferences and talks.
+
 
 <script>
 
@@ -34,6 +35,8 @@ locations.forEach(function(location) {
                     location.description);
 });
 </script>
+
+{% include section.html %}
 
 
 {% include list.html data="talks" component="talks" %}
