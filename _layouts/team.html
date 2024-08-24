@@ -186,10 +186,12 @@ layout: default
 
   <ul>
     {% for service in services %}
-    <li class="bio-info">{{ service.role }}</li>
-    {% if service.journals %}
-    <span class="bio-info-etc">{{ service.journals | join: ", " }}</span>
+    <li class="bio-info">
+      {{ service.role }}
+      {% if service.journals %}
+        <span class="bio-info-etc">{{ service.journals | join: ", " }}</span>
       {% endif %}
+    </li>
     {% endfor %}
   </ul>
 
