@@ -19,9 +19,13 @@
     flex-direction: column; /* Stack items vertically on small screens */
     align-items: center;
   }
-  .map, .contact-info {
+  .map {
     margin-right: 0;
     margin-bottom: 20px; /* Space between stacked elements */
+  }
+  .contact-info {
+    max-width: 100%; /* Ensure contact info can grow with the container */
+    text-align: center; /* Center text alignment */
   }
 }
 
