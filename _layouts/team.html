@@ -160,8 +160,8 @@ layout: default
       <li>   
         
         <a href="{{ talk.website }}">{{ talk.name }}</a>, 
-        {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
-        {% if talks.etc %} [{{ talks.etc }}] {% endif %} 
+        {{ talk.location }}, {{ talk.date | date: "%b %Y" }} 
+        {% if talk.etc %} [{{ talk.etc }}] {% endif %} 
         
       </li>
 
@@ -180,7 +180,7 @@ layout: default
     <li>   
         
       {{ award.name }}, 
-      {{ award.awarder }}, ({{ award.date | date: "%b %Y" }})     
+      {{ award.awarder }} ({{ award.date | date: "%b %Y" }})     
     </li>
 
     {% endfor %}
@@ -195,11 +195,10 @@ layout: default
     {% for roles in service %}
     {{ roles.role }}
     {% if roles.journals %}
-      <ul>
         {% for journal in role.journals %}
-          <li>{{ journals }}</li>
+          {{ journal }}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
-      </ul>
+    
     {% endif %}
   {% endfor %}
 
