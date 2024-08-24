@@ -35,3 +35,9 @@ size=full
 Please feel free to contact us~
 
 {% endcapture %}
+
+{%
+  include cols.html
+  col1=col1
+  col2=col2
+%}
