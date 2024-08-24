@@ -34,7 +34,7 @@ layout: default
   {% for current in page.current %}
     <ul> 
       <li> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div></li>
-    <div class = "bio-info-etc" >{{ current.position }} ({{ current.date }})</div></ul>
+    <div class = "bio-info" >{{ current.position }} ({{ current.date }})</div></ul>
   {% endfor %}
 {% endif %}
 
@@ -44,7 +44,7 @@ layout: default
   {% for current in page.current %}
     <ul> 
       <li> <div class = "bio-info"> <a href="{{ current.link }}">{{ current.department }}</a>, {{ current.school }}</div></li>
-    <div class = "bio-info-etc" >{{ current.position }} ({{ current.date }})</div></ul>
+    <div class = "bio-info" >{{ current.position }} ({{ current.date }})</div></ul>
   {% endfor %}
 {% endif %}
 
@@ -63,8 +63,8 @@ layout: default
   <ul> 
     <li> <div class = "bio-info"> <a href="{{ experience.link }}">{{ experience.department }}</a>, {{ experience.school }}
       <span class = "bio-info-date"> ({{ experience.date }})</span></li>
-  <div class = "bio-info-etc" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}
-    <br class= "bio-info-etc"> Advisor: {{ experience.advisor}}</div>
+  <div class = "bio-info" >{{ experience.position }} {% if experience.etc %} [{{ experience.etc }}] {% endif %}
+    <br class= "bio-info"> Advisor: {{ experience.advisor}}</div>
   </div></ul>
   {% endfor %}  
 {% endif %}
@@ -81,8 +81,8 @@ layout: default
         <ul> 
           <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</li>
         <span class = "bio-info-date" > {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})</span>
-          <div class= "bio-info-etc"> Advisor: {{ phd.advisor}} </div>
-          <div class= "bio-info-etc"> Dissertation title: {{ phd.dissertation}}</div>
+          <div class= "bio-info"> Advisor: {{ phd.advisor}} </div>
+          <div class= "bio-info"> Dissertation title: {{ phd.dissertation}}</div>
         </div></ul>
       {% endfor %}
     {% endif %}
@@ -126,7 +126,7 @@ layout: default
   <ol reversed>
     {% for pub in sorted_pubs reversed %}
       <li>
-        <div class="bio-info-etc">
+        <div class="bio-info">
           <a href="{{ pub.link }}">{{ pub.title }}</a>,
           
           {% for author in pub.authors %}
@@ -153,9 +153,9 @@ layout: default
   
   <ol reversed>
     {% for talk in sorted_talks reversed %}
-      <li class="bio-info-etc">
+      <li class="bio-info">
         <a href="{{ talk.website }}">{{ talk.name }}</a>,
-        <span class="bio-info-etc">{{ talk.location }}, {{ talk.date | date: "%b %Y" }}
+        <span class="bio-info">{{ talk.location }}, {{ talk.date | date: "%b %Y" }}
         {% if talk.etc %} [{{ talk.etc }}] {% endif %}</span>
       </li>
     {% endfor %}
@@ -170,8 +170,8 @@ layout: default
   
   <ol reversed>
     {% for award in sorted_awards reversed %}
-      <li class="bio-info-etc">
-        <span class="bio-info-etc">{{ award.name }},
+      <li class="bio-info">
+        <span class="bio-info">{{ award.name }},
         {{ award.awarder }} ({{ award.date | date: "%b %Y" }})</span>
       </li>
     {% endfor %}
@@ -186,9 +186,9 @@ layout: default
 
   <ul>
     {% for service in services %}
-    <li class="bio-info-etc">{{ service.role }}</li>
+    <li class="bio-info">{{ service.role }}</li>
     {% if service.journals %}
-    <span class="bio-info-etc">{{ service.journals | join: ", " }}</span>
+    <span class="bio-info">{{ service.journals | join: ", " }}</span>
       {% endif %}
     {% endfor %}
   </ul>
