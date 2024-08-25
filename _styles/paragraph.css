@@ -18,4 +18,9 @@ p.papers {
   padding-top: 25px;
 }
 
+p.main {
+  text-align: justify;
+  line-height: var(--compact);
+}
+
 /*# sourceMappingURL=paragraph.css.map */
