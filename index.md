@@ -105,5 +105,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- Add data to the page for JavaScript to use -->
 <script id="data" type="application/json">
   {{ site.data.citations | jsonify }}
+  {%
+  include button.html
+  link="publications"
+  text="See all publications"
+  %}
 </script>
 
