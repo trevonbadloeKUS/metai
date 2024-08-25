@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Get the publication data from the script tag
     var data = JSON.parse(document.getElementById('data').textContent);
 
+    // Sort publications by date in descending order
+    data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
     // Get the 3 most recent publications
     const publications = data.slice(0, 3);
 
