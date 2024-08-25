@@ -135,7 +135,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <script id="data" type="application/json">
-  {{ site.data.citations | sort: 'date' | reverse | limit: 3 | jsonify }}
+  {{ site.data.citations | jsonify }}
 </script>
 
 
@@ -163,8 +163,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   </div>
 </div>
 
-
-
 <script id="news-data" type="application/json">
-    {{ site.posts | sort: 'date' | reverse | limit: 3 | map: "content" | jsonify }}
+    [
+    {% for post in site.posts | sort: 'date' | reverse | limit: 3 %}
+      {
+        "title": "{{ post.title | escape }}",
+        "image": "{{ post.image | relative_url }}",
+        "link": "{{ post.url | relative_url }}",
+        "date": "{{ post.date }}"
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+    ]
 </script>
