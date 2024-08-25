@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
         loop: true,
+        effect: coverflow,
     });
 
     // Get the publication data from the script tag
