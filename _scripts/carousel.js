@@ -18,14 +18,17 @@ document.addEventListener('DOMContentLoaded', function () {
     // Get the publication data from the script tag
     var data = JSON.parse(document.getElementById('citations-data').textContent);
 
-    // Get the 5 most recent publications (assuming data is already sorted in the desired order)
+    // Sort publications by date in descending order
+    data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // Get the 5 most recent publications
     const publications = data.slice(0, 5);
 
     // Populate Swiper slides and text
     const swiperWrapper = document.querySelector('.swiper-wrapper');
     const publicationText = document.getElementById('publication-text');
 
-    publications.forEach(pub => {
+    publications.forEach((pub, index) => {
         // Create Swiper slide
         const slide = document.createElement('div');
         slide.classList.add('swiper-slide');
@@ -37,11 +40,16 @@ document.addEventListener('DOMContentLoaded', function () {
         slide.appendChild(img);
         swiperWrapper.appendChild(slide);
 
-        // Update publication text
-        const textDiv = document.createElement('div');
-        textDiv.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
-        publicationText.innerHTML = textDiv.innerHTML; // Overwrite text content with the latest publication
+        // Add event listener to update the text when this slide is active
+        swiper.on('slideChange', function () {
+            if (swiper.realIndex === index) {
+                publicationText.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
+            }
+        });
     });
+
+    // Set the text for the first slide on load
+    publicationText.innerHTML = `<h3>${publications[0].title}</h3><p>${publications[0].authors.join(', ')}</p>`;
 
     // Update Swiper instance after adding slides
     swiper.update();

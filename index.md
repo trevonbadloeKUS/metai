@@ -81,8 +81,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 
-{% assign sorted_publications = site.data.citations | sort: 'date' | reverse %}
-{% assign latest_publications = sorted_publications | slice: 0, 3 %}
 
 {% include section.html %}
 
@@ -108,4 +106,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <script id="citations-data" type="application/json">
   {{ site.data.citations | jsonify }}
 </script>
-
