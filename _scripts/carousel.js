@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Get the publication data from the script tag
-    var data = JSON.parse(document.getElementById('citations-data').textContent);
+    var data = JSON.parse(document.getElementById('data').textContent);
 
     // Sort publications by date in descending order
     data.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    // Get the 5 most recent publications
-    const publications = data.slice(0, 5);
+    // Get the 3 most recent publications
+    const publications = data.slice(0, 3);
 
     // Populate Swiper slides
     const swiperWrapper = document.querySelector('.swiper-wrapper');
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function updateText(pub) {
-        publicationText.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
+        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><p>${pub.highlight}</p>`;
     }
 
     // Update Swiper instance after adding slides
