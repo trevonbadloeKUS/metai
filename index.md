@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     {%
     include button.html
     link="research"
-    text="Check check check check it out"
+    text="Find out more"
     %}
   </div>
 </div>
@@ -135,6 +135,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <script id="data" type="application/json">
-  {{ site.data.citations | jsonify }}
+  {{ site.data.citations | sort: 'date' | reverse | limit: 3 | jsonify }}
 </script>
 
+
+{% include section.html %}
+
+<div class="feature" data-flip>
+  <div class="feature-text">
+    <p class="feature-title">News & Events</p>
+    <div id="news-text">
+      <!-- News text will be updated here by JavaScript -->
+    </div>
+    {%
+    include button.html
+    link="news"
+    text="See all news & events"
+    %}
+  </div>
+  <div class="feature-image">
+    <div class="swiper-container-news">
+      <div class="swiper-wrapper swiper-wrapper-news">
+        <!-- Swiper slides for News & Events will be populated here by JavaScript -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<script id="news-data" type="application/json">
+    {{ site.posts | sort: 'date' | reverse | limit: 3 | map: "content" | jsonify }}
+</script>

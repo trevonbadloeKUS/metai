@@ -102,4 +102,48 @@ document.addEventListener('DOMContentLoaded', function () {
         const slideData = customSlides[index];
         customText.innerHTML = `<h6><a href="${slideData.link}" target="_blank">${slideData.title}</a></h6><p>${slideData.description}</p>`;
     }
+
+    // Initialize Swiper for News & Events
+    var swiperNews = new Swiper('.swiper-container-news', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+            delay: 4000, // 4 seconds
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        loop: true,
+    });
+
+    // Get the news data from the script tag
+    var newsData = JSON.parse(document.getElementById('news-data').textContent);
+
+    // Get the 3 most recent posts
+    const recentNews = newsData.slice(0, 3);
+
+    // Populate Swiper slides for News & Events
+    const swiperWrapperNews = document.querySelector('.swiper-wrapper-news');
+
+    recentNews.forEach(news => {
+        // Create Swiper slide
+        const slide = document.createElement('div');
+        slide.classList.add('swiper-slide');
+        const img = document.createElement('img');
+        img.src = news.image;
+        img.alt = news.title;
+        img.style.width = '100%'; // Ensure the image fits the container
+        img.style.height = 'auto'; // Maintain aspect ratio
+        slide.appendChild(img);
+        swiperWrapperNews.appendChild(slide);
+
+        // Update news text
+        const textDiv = document.createElement('div');
+        textDiv.innerHTML = `<h6><a href="${news.link}" target="_blank">${news.title}</a></h6>`;
+        document.getElementById('news-text').appendChild(textDiv);
+    });
+
+    // Update Swiper instance after adding slides
+    swiperNews.update();
 });

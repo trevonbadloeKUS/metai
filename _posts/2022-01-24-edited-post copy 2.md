@@ -3,7 +3,7 @@ title: We went to the horseshoe canyon!~
 image: "images/news/2023/USA.jpeg"
 author: trevon-badloe
 tags: conference, SPIE, USA
-date: '2023-11-28'
+date: '2022-01-24'
 ---
 
 # {{ page.title }}
