@@ -1,9 +1,7 @@
 ---
 ---
 
-# Welcome to Trevon's nanophotonics lab at Korea University - Sejong Campus
-
-# Welcome to the Advanced Metamaterials and Nanophotonics Lab
+# Welcome to Trevon's nanophotonics lab
 
 Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**. Our lab is dedicated to pioneering research at the intersection of **metamaterials**, **nanophotonics**, and **nano-optics**, where the extraordinary potential of these fields is explored through innovative design and implementation strategies powered by **artificial intelligence**.
 
@@ -12,76 +10,11 @@ Here, we delve into the fundamental and applied aspects of these cutting-edge te
 Welcome to a space where creativity meets precision, and where your contributions will help shape the future of nanotechnology and optical engineering!
 
 
-
 {% include section.html %}
 
 ## About our lab
 
-{% capture text %}
-
 Find out more about what we do at Trevon's Research Lab
-
-{%
-  include button.html
-  link="research"
-  text="See what we do"
-  flip=true
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/icon.png"
-  link="research"
-  title="Our Research Topics"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="publications"
-  text="See all publications"
-  flip=true
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="publications"
-  title="Our Recent Publications"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-{%
-  include button.html
-  link="team"
-  text="Meet the team"
-  flip=true
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="team/photos/professor/trevon_photo.jpeg"
-  link="team"
-  title="Our Research Team"
-  text=text
-%}
-
-
-
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
@@ -142,6 +75,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include section.html %}
 
 <div class="feature" data-flip>
+  <div class="feature-image">
+      <div class="swiper-container-news">
+        <div class="swiper-wrapper swiper-wrapper-news">
+          <!-- Swiper slides for News & Events will be populated here by JavaScript -->
+        </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
   <div class="feature-text">
     <p class="feature-title">News & Events</p>
     <div id="news-text">
@@ -152,14 +93,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     link="news"
     text="See all news & events"
     %}
-  </div>
-  <div class="feature-image">
-    <div class="swiper-container-news">
-      <div class="swiper-wrapper swiper-wrapper-news">
-        <!-- Swiper slides for News & Events will be populated here by JavaScript -->
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
   </div>
 </div>
 
