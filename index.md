@@ -88,33 +88,71 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include section.html %}
 
 
-<!-- Your Swiper Container -->
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-
-    {% assign sorted_pubs = site.data.citations | sort: "date" | reverse %}
-    {% assign recent_pubs = sorted_pubs | slice: 0, 3 %}
-
-    {% for publication in recent_pubs %}
-      <div class="swiper-slide">
-        <a href="{{ publication.link }}">
-          <img src="{{ publication.image }}" class="d-block w-100" alt="{{ publication.title }}">
-        </a>
-        <div class="publication-info">
-          <h5><a href="{{ publication.link }}">{{ publication.title }}</a></h5>
-          <p>{{ publication.publisher }}</p>
+<div class="feature" data-flip>
+  <!-- Image Carousel -->
+  <div class="feature-image">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Slides will be dynamically added here -->
+        <!-- Example Slide -->
+        <div class="swiper-slide">
+          <img src="path-to-your-image1.jpg" alt="Description 1">
         </div>
+        <div class="swiper-slide">
+          <img src="path-to-your-image2.jpg" alt="Description 2">
+        </div>
+        <!-- Add more slides as needed -->
       </div>
-    {% endfor %}
 
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
   </div>
-  
-  <!-- Add Pagination -->
-  <div class="swiper-pagination"></div>
-  
-  <!-- Add Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+
+  <!-- Text Content -->
+  <div class="feature-text">
+    <h2 class="feature-title">Your Title Here</h2>
+    <p>Your descriptive text here. This section can include details about the images or any other content you'd like to display.</p>
+  </div>
+</div>
+
+
+
+{% include section.html %}
+
+<div class="feature">
+  <!-- Image Carousel -->
+  <div class="feature-image">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% assign sorted_pubs = site.data.citations | sort: "date" | reverse %}
+        {% assign recent_pubs = sorted_pubs | slice: 0, 3 %}
+
+        {% for publication in recent_pubs %}
+          <div class="swiper-slide" data-title="{{ publication.title }}" data-description="{{ publication.description }}" data-link="{{ publication.link }}">
+            <a href="{{ publication.link }}">
+              <img src="{{ publication.image }}" alt="{{ publication.title }}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- Add Pagination and Navigation -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- Text Content -->
+  <div class="feature-text">
+    <h2 class="feature-title">{{ recent_pubs[0].title }}</h2>
+    <p>{{ recent_pubs[0].type }}</p>
+  </div>
 </div>
 
 <!-- Include Swiper JS -->
@@ -133,6 +171,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      on: {
+        slideChange: function () {
+          var currentSlide = swiper.slides[swiper.activeIndex];
+          var title = currentSlide.getAttribute('data-title');
+          var description = currentSlide.getAttribute('data-description');
+
+          document.querySelector('.feature-text .feature-title').textContent = title;
+          document.querySelector('.feature-text p').textContent = description;
+        }
+      }
     });
   });
 </script>
