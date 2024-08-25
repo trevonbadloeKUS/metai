@@ -100,12 +100,17 @@
   - ' Lei Zhang'
   - ' Vincenzo Galdi'
   - ' Marco Di Renzo'
-  publisher: OpenAlex
+  publisher: JPhys Photonics
   date: '2024-01-03'
   link: https://doi.org/gt6672
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://cms.iopscience.org/ead6444d-2bbb-11e9-9390-0131eabbf6de/journal_cover?guest=true
+  tags:
+  - review
+  - roadmap
+  type: review
 - id: doi:10.1007/s40684-023-00580-x
   title: "Cost-Effective and Environmentally\_Friendly Mass Manufacturing of Optical\
     \ Metasurfaces Towards Practical Applications and Commercialization"
@@ -121,7 +126,11 @@
   link: https://doi.org/gt6673
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png
+  tags:
+  - review
+  type: review
 - id: doi:10.1515/nanoph-2024-0100
   title: Enabling new frontiers of nanophotonics with metamaterials, photonic crystals,
     and plasmonics
@@ -132,14 +141,17 @@
   date: '2024-03-03'
   link: https://doi.org/gt6674
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://www.degruyter.com/document/cover/journal_key/NANOPH/product_pages
+  tags: editorial
+  type: editorial
 - id: doi:10.1038/s41378-023-00609-w
   title: Hydrogels for active photonics
   authors:
-  - Byoungsu Ko
-  - Nara Jeon
-  - Jaekyung Kim
+  - Byoungsu Ko*
+  - Nara Jeon*
+  - Jaekyung Kim*
   - Hyunjung Kang
   - Junhwa Seong
   - Suhyeon Yun
@@ -150,16 +162,22 @@
   link: https://doi.org/gtdv3p
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  first authors:
+  - Byoungsu Ko
+  - Nara Jeon
+  - Jaekyung Kim
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-023-00609-w/MediaObjects/41378_2023_609_Fig4_HTML.png
   tags:
   - review
   - hydrogels
   - active-devices
+  type: review
 - id: doi:10.1016/j.solmat.2024.112848
   title: Inverse design of colored daytime radiative coolers using deep neural networks
   authors:
-  - Harit Keawmuang
-  - Trevon Badloe
+  - Harit Keawmuang*
+  - Trevon Badloe*
   - Chihun Lee
   - Junkyeong Park
   - Junsuk Rho
@@ -168,74 +186,83 @@
   link: https://doi.org/gt6675
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  corresponding authors:
+  - Junsuk Rho
+  first authors:
+  - Harit Keawmuang
+  - Trevon Badloe
+  highlight: '''We employed deep neural networks for the inverse design of coloured
+    daytime radiative coolers.  The thicknesses and materials of a multilayer structure
+    are provided on-demand for a given colour spectrum, providing high reflectance
+    in the near-infrared and all wavelengths unrelated to the colour.''
+
+    '
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
   tags:
   - radiative cooling
   - structural colour
   - machine learning
   - inverse design
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
-  highlight: 'We employed deep neural networks for the inverse design of coloured
-    daytime radiative coolers.  The thicknesses and materials of a multilayer structure
-    are provided on-demand for a given colour spectrum, providing high reflectance
-    in the near-infrared and all wavelengths unrelated to the colour.
-
-    '
+  type: research
 - id: doi:10.1364/OE.521661
   title: "Polarization-independent edge detection based on the spin\u2013orbit interaction\
     \ of light"
   authors:
-  - Peng Tang
-  - Yeseul Kim
-  - Trevon Badloe
+  - Peng Tang*
+  - Yeseul Kim*
+  - Trevon Badloe*
   - Linlin Xiao
   - Younghwan Yang
-  - Minkyung Kim
-  - Junsuk Rho
-  - Guoqiang Li
+  - Minkyung Kim+
+  - Junsuk Rho+
+  - Guoqiang Li+
   publisher: Optics Express
   date: '2024-04-29'
   link: https://doi.org/gt6676
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  highlight: '''We investigated polarization-independent edge detection using the
+    spin-orbit interaction of light.  We developed a novel method that leverages the
+    unique properties of spin-orbit interactions to achieve edge detection without
+    being influenced by the polarization state of the incoming light.  This work could
+    significantly enhance optical systems used in image processing and analysis, offering
+    greater flexibility and efficiency in various applications.''
+
+    '
   image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
   tags:
   - SHEL
   - image processing
-  highlight: 'We investigated polarization-independent edge detection using the spin-orbit
-    interaction of light.  We developed a novel method that leverages the unique properties
-    of spin-orbit interactions to achieve edge detection without being influenced
-    by the polarization state of the incoming light.  This work could significantly
-    enhance optical systems used in image processing and analysis, offering greater
-    flexibility and efficiency in various applications.
-
-    '
+  type: research
 - id: doi:10.1021/acs.nanolett.3c04064
   title: Spin-Selective Angular Dispersion Control in Dielectric Metasurfaces for
     Multichannel Meta-Holographic Displays
   authors:
-  - Sabiha Latif
-  - Joohoon Kim
-  - Hafiz Saad Khaliq
+  - Sabiha Latif*
+  - Joohoon Kim*
+  - Hafiz Saad Khaliq*
   - Nasir Mahmood
   - Muhammad Afnan Ansari
   - Xianzhong Chen
   - Jehan Akbar
   - Trevon Badloe
   - Muhammad Zubair
-  - Yehia Massoud
-  - Muhammad Qasim Mehmood
-  - Junsuk Rho
+  - Yehia Massoud+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
   publisher: Nano Letters
   date: '2024-01-02'
   link: https://doi.org/gt6677
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c04064/asset/images/medium/nl3c04064_0005.gif
   tags:
   - metahologram
   - spin selective
+  type: research
 - id: doi:10.1038/s41378-024-00681-w
   title: Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet
     metasurfaces
@@ -252,17 +279,19 @@
   link: https://doi.org/gt6678
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  highlight: "'We optimized high-refractive-index nanocomposites for ultraviolet metasurfaces\n\
+    \ by focusing on the right nanoparticle concentration and solvent choice.  We\n\
+    \ found that an 80 wt% nanoparticle concentration provided the best structural\n\
+    \ integrity during the imprinting process.  Additionally, we identified that solvents\n\
+    \ like MEK and acetone minimize mold swelling, ensuring more accurate pattern\n\
+    \ transfer.'\n"
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
   tags:
   - UV metasurface
   - nanoimprint
   - fabrication
-  highlight: "We optimized high-refractive-index nanocomposites for ultraviolet metasurfaces\
-    \ by focusing on the right nanoparticle concentration and solvent choice.  We\
-    \ found that an 80 wt% nanoparticle concentration provided the best structural\
-    \ integrity during the imprinting process.  Additionally, we identified that solvents\
-    \ like MEK and acetone minimize mold swelling, ensuring more accurate pattern\
-    \ transfer. \n"
+  type: research
 - id: doi:10.1038/s41377-023-01332-x
   title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
     innovation between academia and industry'
@@ -276,8 +305,12 @@
   date: '2023-12-04'
   link: https://doi.org/gt6679
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01332-x/MediaObjects/41377_2023_1332_Fig1_HTML.png
+  tags:
+  - review
+  type: review
 - id: doi:10.1002/9783527833030.ch9
   title: Active, Tunable, and Reconfigurable Nanophotonics
   authors:
@@ -299,52 +332,66 @@
   link: https://doi.org/gt668b
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
   image: https://onlinelibrary.wiley.com/cms/asset/90176a3a-43bb-45a2-a1ec-66eb03adce4d/9783527833030.cover.gif
   tags:
   - book chapter
   - active photonics
+  type: book chapter
 - id: doi:10.1186/s43593-023-00052-4
   title: Arbitrarily structured quantum emission with a multifunctional metalens
   authors:
-  - Chi Li
-  - Jaehyuck Jang
-  - Trevon Badloe
+  - Chi Li*+
+  - Jaehyuck Jang*
+  - Trevon Badloe*
   - Tieshan Yang
   - Joohoon Kim
   - Jaekyung Kim
   - Minh Nguyen
   - Stefan A. Maier
-  - Junsuk Rho
-  - Haoran Ren
+  - Junsuk Rho+
+  - Haoran Ren+
   - Igor Aharonovich
   publisher: eLight
   date: '2023-08-07'
   link: https://doi.org/gtn7s4
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-023-00052-4/MediaObjects/43593_2023_52_Fig1_HTML.png?as=webp
+  tags:
+  - metalens
+  - quantum
+  - OAM
+  type: research
 - id: doi:10.1021/acsnano.3c02471
   title: Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode
     Metalens
   authors:
-  - Trevon Badloe
-  - Yeseul Kim
-  - Joohoon Kim
+  - Trevon Badloe*
+  - Yeseul Kim*
+  - Joohoon Kim*
   - Hyemi Park
   - Aleksandr Barulin
   - Yen N. Diep
   - Hansang Cho
   - Won-Sik Kim
   - Young-Ki Kim
-  - Inki Kim
-  - Junsuk Rho
+  - Inki Kim+
+  - Junsuk Rho+
   publisher: ACS Nano
   date: '2023-07-25'
   link: https://doi.org/gs27hp
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.3c02471/asset/images/medium/nn3c02471_0006.gif
+  tags:
+  - metalens
+  - liquid crystals
+  - bioimaging
+  - OAM
+  type: research
 - id: doi:10.1002/advs.202204469
   title: "Humidity\u2010Responsive RGB\u2010Pixels via Swelling of 3D Nanoimprinted\
     \ Polyvinyl Alcohol"
@@ -365,36 +412,20 @@
   link: https://doi.org/gt668c
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://onlinelibrary.wiley.com/cms/asset/cbe8d373-e9e6-4e89-af11-4741dd92cd9e/advs4616-fig-0004-m.jpg
   tags:
   - structural colour
   - hydrogel
   - nanoimprint
-- id: doi:10.1016/b978-0-323-85796-3.00001-9
-  title: 'Inverse design meets nanophotonics: From computational optimization to artificial
-    neural network'
-  authors:
-  - Jaebum Noh
-  - Trevon Badloe
-  - Chihun Lee
-  - Jooyeong Yun
-  - Sunae So
-  - Junsuk Rho
-  publisher: Intelligent Nanotechnology
-  date: '2023-01-01'
-  link: https://doi.org/gt668d
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  type: research
 - id: doi:10.1002/adma.202208520
   title: "Multicolor and 3D Holography Generated by Inverse\u2010Designed Single\u2010\
     Cell Metasurfaces"
   authors:
-  - Sunae So
-  - Joohoon Kim
-  - Trevon Badloe
+  - Sunae So*
+  - Joohoon Kim*
+  - Trevon Badloe*
   - Chihun Lee
   - Younghwan Yang
   - Hyunjung Kang
@@ -404,8 +435,12 @@
   link: https://doi.org/gs7th8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
   image: https://www.researchgate.net/publication/366636032/figure/fig4/AS:11431281173206673@1688790066596/Demonstration-of-multiplane-RGB-holograms-a-The-phase-profile-of-the-optimized.png
+  tags:
+  - metahologram
+  - inverse design
+  type: research
 - id: doi:10.1038/s41377-023-01086-6
   title: One-step printable platform for high-efficiency metasurfaces down to the
     deep-ultraviolet region
@@ -426,15 +461,15 @@
   link: https://doi.org/gsmssm
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01086-6/MediaObjects/41377_2023_1086_Fig4_HTML.png
   tags:
   - UV metasurface
   - nanoimprint
+  type: research
 - id: doi:10.1364/OME.499630
   title: Optimizing the design of broadband solar metamaterial absorbers based on
-    titanium nitride nanorings [Invited]
+    titanium nitride nanorings
   authors:
   - Do T. Nga
   - Anh D. Phan
@@ -446,12 +481,12 @@
   link: https://doi.org/gt668f
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=luPOf6Bua04sYw7lRwM%2BNcutBU3mGvgqLUGaE5Zo5TI%3D&uri=ome-13-10-2787-g001
   tags:
   - optimisation
   - absorber
+  type: research
 - id: doi:10.1021/acs.nanolett.3c01588
   title: Trichannel Spin-Selective Metalenses
   authors:
@@ -463,13 +498,13 @@
   link: https://doi.org/gt668g
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c01588/asset/images/large/nl3c01588_0003.jpeg
-  type: research
   tags:
   - metalens
   - OAM
   - imaging
+  type: research
 - id: doi:10.1021/acs.nanolett.2c04193
   title: "Ultraviolet\u2013Visible Multifunctional Vortex Metaplates by Breaking Conventional\
     \ Rotational Symmetry"
@@ -490,12 +525,12 @@
   link: https://doi.org/grxpvt
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c04193/asset/images/medium/nl2c04193_0006.gif
   tags:
   - OAM
   - UV metasurface
+  type: research
 - id: doi:10.1117/1.AP.5.3.030501
   title: Writing nanometer-scale structures for centimeter-scale color printing
   authors:
@@ -507,12 +542,12 @@
   link: https://doi.org/gt668h
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: editorial
+  file: sources_fixed.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/5/3/030501/FigureImages/AP_5_3_030501_f001.png
   tags:
   - editorial
   - structural colour
-  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/5/3/030501/FigureImages/AP_5_3_030501_f001.png
+  type: editorial
 - id: doi:10.1364/PRJ.470004
   title: High numerical aperture RGB achromatic metalens in the visible
   authors:
@@ -529,12 +564,12 @@
   link: https://doi.org/gtthkq
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=EEXs6K1017EPntf1gZoCoI4nafLBGsxlZfQTEeZoaHs%3D&uri=prj-10-12-B30-g006
   tags:
   - metalens
   - achromatic
+  type: research
 - id: doi:10.1515/nanoph-2022-0075
   title: Gap-plasmon-driven spin angular momentum selection of chiral metasurfaces
     for intensity-tunable metaholography working at visible frequencies
@@ -548,13 +583,13 @@
   link: https://doi.org/gt668j
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0075/asset/graphic/j_nanoph-2022-0075_fig_001.jpg
   tags:
   - chirality
   - OAM
   - plasmonics
   - metahologram
-  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0075/asset/graphic/j_nanoph-2022-0075_fig_001.jpg
 - id: doi:10.1002/lpor.202200098
   title: "Metasurface Holography Reaching the Highest Efficiency Limit in the Visible\
     \ via One\u2010Step Nanoparticle\u2010Embedded\u2010Resin Printing"
@@ -578,12 +613,12 @@
   link: https://doi.org/gt668k
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.e-jfpe.org/journal/jfpe/jfpe-2-1/gif/jfpe-2-1-97-g6.gif
   tags:
   - metahologram
   - nanoimprint
-  image: https://www.e-jfpe.org/journal/jfpe/jfpe-2-1/gif/jfpe-2-1-97-g6.gif
+  type: research
 - id: doi:10.1038/s41378-022-00403-0
   title: Thermally-curable nanocomposite printing for the scalable manufacturing of
     dielectric metasurfaces
@@ -602,13 +637,13 @@
   link: https://doi.org/gt668m
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-022-00403-0/MediaObjects/41378_2022_403_Fig8_HTML.png?as=webp
   tags:
   - nanoimprint
   - nanofabrication
   - metahologram
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-022-00403-0/MediaObjects/41378_2022_403_Fig8_HTML.png?as=webp
+  type: research
 - id: doi:10.1038/s41377-022-00806-8
   title: Liquid crystal-powered Mie resonators for electrically tunable photorealistic
     color gradients and dark blacks
@@ -625,13 +660,13 @@
   link: https://doi.org/gts8q7
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-022-00806-8/MediaObjects/41377_2022_806_Fig3_HTML.png?as=webp
   tags:
   - structural colour
   - liquid crystals
   - Mie resonator
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-022-00806-8/MediaObjects/41377_2022_806_Fig3_HTML.png?as=webp
+  type: research
 - id: doi:10.3390/nano12010153
   title: "Enhancement of Luminous Intensity Emission from Incoherent LED Light Sources\
     \ within the Detection Angle of 10\xB0 Using Metalenses"
@@ -646,30 +681,12 @@
   link: https://doi.org/gt668n
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://pub.mdpi-res.com/nanomaterials/nanomaterials-12-00153/article_deploy/html/images/nanomaterials-12-00153-g001.png?1641551020
   tags:
   - metalens
   - incoherent light
-- id: doi:10.1038/s41467-022-34566-1
-  title: 'Author Correction: Tunable metasurfaces via the humidity responsive swelling
-    of single-step imprinted polyvinyl alcohol nanostructures'
-  authors:
-  - Byoungsu Ko
-  - Trevon Badloe
-  - Younghwan Yang
-  - Jeonghoon Park
-  - Jaekyung Kim
-  - Heonyeong Jeong
-  - Chunghwan Jung
-  - Junsuk Rho
-  publisher: Nature Communications
-  date: '2022-11-09'
-  link: https://doi.org/gt668p
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  type: research
 - id: doi:10.1002/adom.202201175
   title: "Broadband Chiro\u2010Optical Effects for Futuristic Meta\u2010Holographic\
     \ Displays"
@@ -690,12 +707,12 @@
   link: https://doi.org/gt668q
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://onlinelibrary.wiley.com/cms/asset/58a57b40-2e39-4a67-b8a9-addb457d9549/adom202201175-gra-0001-m.jpg?trick=1717413695154
   tags:
   - chirality
   - metahologram
+  type: research
 - id: doi:10.1117/1.AP.4.6.064002
   title: 'Computation at the speed of light: metamaterials for all-optical calculations
     and neural networks'
@@ -708,13 +725,13 @@
   link: https://doi.org/gsrvbp
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/6/064002/FigureImages/AP_4_6_064002_f006.png
   tags:
   - review
   - optical computing
   - machine learning
-  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/6/064002/FigureImages/AP_4_6_064002_f006.png
+  type: review
 - id: doi:10.1186/s43593-021-00008-6
   title: 'Hyperbolic metamaterials: fusing artificial structures to natural 2D materials'
   authors:
@@ -733,11 +750,11 @@
   link: https://doi.org/gt668r
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
   tags:
   - review
   - hyperbolic metamaterials
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
 - id: doi:10.1016/B978-0-323-85796-3.00001-9
   title: 'Inverse design meets nanophotonics: From computational optimization to artificial
     neural network'
@@ -753,14 +770,14 @@
   link: https://doi.org/gt668d
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: book chapter
+  file: sources_fixed.yaml
+  image: https://ars.els-cdn.com/content/image/3-s2.0-C20200030409-cov200h.gif
   tags:
   - book chapter
   - inverse design
   - optimisation
   - machine learning
-  image: https://ars.els-cdn.com/content/image/3-s2.0-C20200030409-cov200h.gif
+  type: book chapter
 - id: doi:10.1038/s41467-022-32117-2
   title: Metasurface-driven full-space structured light for three-dimensional imaging
   authors:
@@ -779,13 +796,13 @@
   link: https://doi.org/gq4trx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32117-2/MediaObjects/41467_2022_32117_Fig1_HTML.png?as=webp
   tags:
   - structured light
   - metasurface
   - 3D imaging
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32117-2/MediaObjects/41467_2022_32117_Fig1_HTML.png?as=webp
+  type: research
 - id: doi:10.1039/d1nr07909c
   title: Metasurface-empowered spectral and spatial light modulation for disruptive
     holographic displays
@@ -801,12 +818,12 @@
   link: https://doi.org/gtdtfw
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR07909C&imageInfo.ImageIdentifier.Year=2022
   tags:
   - review
   - metahologram
-  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR07909C&imageInfo.ImageIdentifier.Year=2022
+  type: review
 - id: doi:10.1021/acsami.1c19223
   title: Multilevel Absorbers via the Integration of Undoped and Tungsten-Doped Multilayered
     Vanadium Dioxide Thin Films
@@ -824,13 +841,13 @@
   link: https://doi.org/gt668s
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsami.1c19223/asset/images/medium/am1c19223_0007.gif
   tags:
   - VO2
   - multilayer
   - absorber
-  image: https://pubs.acs.org/cms/10.1021/acsami.1c19223/asset/images/medium/am1c19223_0007.gif
+  type: research
 - id: doi:10.1039/d1nr08400c
   title: Nanostructured chromium-based broadband absorbers and emitters to realize
     thermally stable solar thermophotovoltaic systems
@@ -853,12 +870,12 @@
   link: https://doi.org/gr4xn8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://pubs.rsc.org/image/article/2022/nr/d1nr08400c/d1nr08400c-f1_hi-res.gif
   tags:
   - absorber
   - solar
+  type: research
 - id: doi:10.1002/adom.202200196
   title: "Novel Spin\u2010Decoupling Strategy in Liquid Crystal\u2010Integrated Metasurfaces\
     \ for Interactive Metadisplays"
@@ -880,12 +897,12 @@
   link: https://doi.org/gt668t
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.researchgate.net/profile/Muhammad-Ashar-Naveed/publication/360313877/figure/fig3/AS:11431281246192076@1716300819220/Simulated-and-measured-results-of-proposed-spin-decoupled-on-axis-holographic.png
   tags:
   - spin selective
   - metahologram
-  image: https://www.researchgate.net/profile/Muhammad-Ashar-Naveed/publication/360313877/figure/fig3/AS:11431281246192076@1716300819220/Simulated-and-measured-results-of-proposed-spin-decoupled-on-axis-holographic.png
+  type: research
 - id: doi:10.1021/acsnano.1c10100
   title: Photonic Encryption Platform <i>via</i> Dual-Band Vectorial Metaholograms
     in the Ultraviolet and Visible
@@ -905,13 +922,13 @@
   link: https://doi.org/gp8nzm
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.1c10100/asset/images/medium/nn1c10100_0006.gif
   tags:
   - dual mode
   - metahologram
   - uv metasurface
-  image: https://pubs.acs.org/cms/10.1021/acsnano.1c10100/asset/images/medium/nn1c10100_0006.gif
+  type: research
 - id: doi:10.1021/acsami.2c09628
   title: Single-Step Fabricable Flexible Metadisplays for Sensitive Chemical/Biomedical
     Packaging Security and Beyond
@@ -936,13 +953,13 @@
   link: https://doi.org/gqm8hq
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://pubs.acs.org/cms/10.1021/acsami.2c09628/asset/images/medium/am2c09628_0007.gif
   tags:
   - metahologram
   - flexible
   - nanoimprint
+  type: research
 - id: doi:10.1021/acs.nanolett.2c00790
   title: "Three-Dimensional Plasmonic Nanocluster-Driven Light\u2013Matter Interaction\
     \ for Photoluminescence Enhancement and Picomolar-Level Biosensing"
@@ -967,13 +984,13 @@
   link: https://doi.org/gt668v
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c00790/asset/images/medium/nl2c00790_0005.gif
   tags:
   - 3D printing
   - biosensing
   - photoluminscence
-  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c00790/asset/images/medium/nl2c00790_0005.gif
+  type: research
 - id: doi:10.1117/1.AP.4.2.024001
   title: 'Tunable metasurfaces towards versatile metalenses and metaholograms: a review'
   authors:
@@ -988,14 +1005,14 @@
   link: https://doi.org/gr49ng
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/2/024001/FigureImages/AP_4_2_024001_f006.png
   tags:
   - active photonics
   - review
   - metalens
   - metahologram
-  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/2/024001/FigureImages/AP_4_2_024001_f006.png
+  type: review
 - id: doi:10.1038/s41467-022-32987-6
   title: Tunable metasurfaces via the humidity responsive swelling of single-step
     imprinted polyvinyl alcohol nanostructures
@@ -1013,14 +1030,14 @@
   link: https://doi.org/grjktj
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32987-6/MediaObjects/41467_2022_32987_Fig4_HTML.png?as=webp
   tags:
   - nanoimprint
   - hydrogel
   - active photonics
   - metahologram
   - structural colour
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32987-6/MediaObjects/41467_2022_32987_Fig4_HTML.png?as=webp
   type: research
 - id: doi:10.1063/5.0078804
   title: 'Tutorial on metalenses for advanced flat optics: Design, fabrication, and
@@ -1039,27 +1056,12 @@
   link: https://doi.org/gsrkd9
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://aipp.silverchair-cdn.com/aipp/content_public/journal/jap/issue/131/9/1/m_jap_2022_131_issue-9_largecover.jpeg?Expires=1727618248&Signature=JMYO0IBTsAvYUaNnATO-RA9rn-Xa56o4BUo6X7lp7HHUhiHCLww0eVcFJcEbYLLqfklx--J2r8Yc5aP4dGo4FggknH~Kh1j48OfHS8tG~OmdA-ZEpv5P6oZQ2v9clqLucrOBdcvSnvHvhsSA2z85ZLh9BQbb9jnVms0nrHboEkG2Z5a99C1-ZmOk6ur8VL1X4WXdD2k19tGVs0iQfrGvVSaM7hVlAj3WgFrsNfnxbPeMZWzeNtq3J-Ymid0SFVnSUaDv5T6Uq4h0B6r2fHRXPr1JkhSPpqohUMMHs23Jlv1UHSQBSF8K56T-z-0JgyIIvGckf2NcW5Gaj3PfVdnWyg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   tags:
   - review
   - metalens
-  image: https://aipp.silverchair-cdn.com/aipp/content_public/journal/jap/issue/131/9/1/m_jap_2022_131_issue-9_largecover.jpeg?Expires=1727618248&Signature=JMYO0IBTsAvYUaNnATO-RA9rn-Xa56o4BUo6X7lp7HHUhiHCLww0eVcFJcEbYLLqfklx--J2r8Yc5aP4dGo4FggknH~Kh1j48OfHS8tG~OmdA-ZEpv5P6oZQ2v9clqLucrOBdcvSnvHvhsSA2z85ZLh9BQbb9jnVms0nrHboEkG2Z5a99C1-ZmOk6ur8VL1X4WXdD2k19tGVs0iQfrGvVSaM7hVlAj3WgFrsNfnxbPeMZWzeNtq3J-Ymid0SFVnSUaDv5T6Uq4h0B6r2fHRXPr1JkhSPpqohUMMHs23Jlv1UHSQBSF8K56T-z-0JgyIIvGckf2NcW5Gaj3PfVdnWyg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
-- id: doi:10.1002/advs.202170140
-  title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
-    \ and Imaging at Visible Wavelengths (Adv. Sci. 21/2021)"
-  authors:
-  - Trevon Badloe
-  - Inki Kim
-  - Yeseul Kim
-  - Joohoon Kim
-  - Junsuk Rho
-  publisher: Advanced Science
-  date: '2021-11-01'
-  link: https://doi.org/gt668w
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  type: review
 - id: doi:10.1002/advs.202102646
   title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
     \ and Imaging at Visible Wavelengths"
@@ -1074,14 +1076,14 @@
   link: https://doi.org/gph54j
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/8e6de71f1615a.jpg
   tags:
   - metalens
   - bifocal
   - imaging
   - active photonics
-  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/8e6de71f1615a.jpg
+  type: research
 - id: doi:10.1109/jstqe.2021.3065826
   title: Dynamic Optical Spin Hall Effect in Chitosan-Coated All-Dielectric Metamaterials
     for a Biosensing Platform
@@ -1100,7 +1102,7 @@
   link: https://doi.org/gt668x
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
   image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvntSWnIS48EZLDzlK1L8IRVplHjojn49KMQ&s
   tags:
   - SHEL
@@ -1117,11 +1119,11 @@
   link: https://doi.org/gt668z
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: editorial
+  file: sources_fixed.yaml
   tags:
   - news & views
   - optical security
+  type: editorial
 - id: doi:10.1364/OME.430306
   title: Inverse design of ultra-narrowband selective thermal emitters designed by
     artificial neural networks
@@ -1135,14 +1137,14 @@
   link: https://doi.org/gj6h9w
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=41ws990r15auH6QBq%2BRntk8dSQIcr0e7Xh3Oedz0ZeM%3D&size=full&uri=ome-11-7-1863-g001
   tags:
   - inverse design
   - machine learning
   - absorber
   - thermal emitter
-  image: https://opg.optica.org/getimagev2.cfm?img=41ws990r15auH6QBq%2BRntk8dSQIcr0e7Xh3Oedz0ZeM%3D&size=full&uri=ome-11-7-1863-g001
+  type: research
 - id: doi:10.1002/adpr.202000205
   title: 'Tunable Metasurfaces: The Path to Fully Active Nanophotonics'
   authors:
@@ -1155,12 +1157,12 @@
   link: https://doi.org/gmx5s3
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/f973d5df-f740-4758-bfba-f27fc23c8213/adpr202000205-fig-0001-m.jpg
   tags:
   - review
   - active photonics
-  image: https://onlinelibrary.wiley.com/cms/asset/f973d5df-f740-4758-bfba-f27fc23c8213/adpr202000205-fig-0001-m.jpg
+  type: review
 - id: doi:10.3390/s21134381
   title: 'Chiroptical Metasurfaces: Principles, Classification, and Applications'
   authors:
@@ -1177,12 +1179,12 @@
   link: https://doi.org/grtdk9
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pub.mdpi-res.com/sensors/sensors-21-04381/article_deploy/html/images/sensors-21-04381-g005.png?1624946204
   tags:
   - review
   - chirality
-  image: https://pub.mdpi-res.com/sensors/sensors-21-04381/article_deploy/html/images/sensors-21-04381-g005.png?1624946204
+  type: review
 - id: doi:10.1038/s41467-021-23814-5
   title: Pixelated bifunctional metasurface-driven dynamic vectorial holographic color
     prints for photonic security platform
@@ -1199,13 +1201,13 @@
   link: https://doi.org/gsxkf2
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-23814-5/MediaObjects/41467_2021_23814_Fig1_HTML.png?as=webp
   tags:
   - metahologram
   - optical encryption
   - dual mode
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-23814-5/MediaObjects/41467_2021_23814_Fig1_HTML.png?as=webp
+  type: research
 - id: doi:10.1002/adom.202100609
   title: "Dual\u2010Band Operating Metaholograms with Heterogeneous Meta\u2010Atoms\
     \ in the Visible and Near\u2010Infrared"
@@ -1223,13 +1225,13 @@
   link: https://doi.org/gt6682
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/06f3c3fa2d53c.jpg
   tags:
   - metahologram
   - dual mode
   - fabrication
-  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/06f3c3fa2d53c.jpg
+  type: research
 - id: doi:10.1364/prj.424477
   title: Giant chiro-optical responses in multipolar-resonances-based single-layer
     dielectric metasurfaces
@@ -1250,11 +1252,11 @@
   link: https://doi.org/gm8pf8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=7yddk73ER7U6%2BJdJNFYlQxIeXao3ZUOq8gsFAvmSGgo%3D&uri=prj-9-9-1667-g001
   tags:
   - chirality
-  image: https://opg.optica.org/getimagev2.cfm?img=7yddk73ER7U6%2BJdJNFYlQxIeXao3ZUOq8gsFAvmSGgo%3D&uri=prj-9-9-1667-g001
+  type: research
 - id: doi:10.1038/s41565-021-00895-3
   title: Nanophotonics for light detection and ranging technology
   authors:
@@ -1273,12 +1275,12 @@
   link: https://doi.org/gjwmgd
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-021-00895-3/MediaObjects/41565_2021_895_Fig1_HTML.png?as=webp
   tags:
   - review
   - lidar
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-021-00895-3/MediaObjects/41565_2021_895_Fig1_HTML.png?as=webp
+  type: review
 - id: doi:10.1126/sciadv.abe9943
   title: Holographic metasurface gas sensors for instantaneous visual alarms
   authors:
@@ -1298,13 +1300,13 @@
   link: https://doi.org/gjpkhf
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.science.org/cms/10.1126/sciadv.abe9943/asset/68f60f96-d5ed-4942-bd82-90b244d0817c/assets/graphic/abe9943-f4.jpeg
   tags:
   - metahologram
   - optical sensing
   - spin selective
-  image: https://www.science.org/cms/10.1126/sciadv.abe9943/asset/68f60f96-d5ed-4942-bd82-90b244d0817c/assets/graphic/abe9943-f4.jpeg
+  type: research
 - id: doi:10.1038/s41378-020-00226-x
   title: Optical spin-symmetry breaking for high-efficiency directional helicity-multiplexed
     metaholograms
@@ -1328,12 +1330,12 @@
   link: https://doi.org/gqf5bk
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-020-00226-x/MediaObjects/41378_2020_226_Fig1_HTML.png?as=webp
   tags:
   - metahologram
   - spin selective
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-020-00226-x/MediaObjects/41378_2020_226_Fig1_HTML.png?as=webp
+  type: research
 - id: doi:10.1016/j.nanoen.2020.105426
   title: Sub-ambient daytime radiative cooling by silica-coated porous anodic aluminum
     oxide
@@ -1351,11 +1353,11 @@
   link: https://doi.org/gqgccv
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211285520310028-fx1.jpg
   tags:
   - radiative cooling
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211285520310028-fx1.jpg
+  type: research
 - id: doi:10.1002/inf2.12191
   title: "Geometric and physical configurations of meta\u2010atoms for advanced metasurface\
     \ holography"
@@ -1371,12 +1373,12 @@
   link: https://doi.org/gt6683
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/0f2b60d7-7eee-4b65-8582-8485043b6100/inf212191-fig-0001-m.jpg
   tags:
   - review
   - metahologram
-  image: https://onlinelibrary.wiley.com/cms/asset/0f2b60d7-7eee-4b65-8582-8485043b6100/inf212191-fig-0001-m.jpg
+  type: review
 - id: doi:10.1021/acs.chemrev.1c00294
   title: Metasurface-Driven Optically Variable Devices
   authors:
@@ -1393,13 +1395,13 @@
   link: https://doi.org/gmx44v
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.chemrev.1c00294/asset/images/medium/cr1c00294_0016.gif
   tags:
   - review
   - metahologram
   - optical encryption
-  image: https://pubs.acs.org/cms/10.1021/acs.chemrev.1c00294/asset/images/medium/cr1c00294_0016.gif
+  type: review
 - id: doi:10.1007/s12200-021-1121-8
   title: Nanoimprint lithography for high-throughput fabrication of metasurfaces
   authors:
@@ -1414,13 +1416,13 @@
   link: https://doi.org/gr9cf5
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12200-021-1121-8/MediaObjects/12200_2021_1121_Fig1_HTML.jpg?as=webp
   tags:
   - review
   - nanoimprint
   - fabrication
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12200-021-1121-8/MediaObjects/12200_2021_1121_Fig1_HTML.jpg?as=webp
+  type: review
 - id: doi:10.1021/acsami.1c03427
   title: Nearly Perfect Transmissive Subtractive Coloration through the Spectral Amplification
     of Mie Scattering and Lattice Resonance
@@ -1437,12 +1439,12 @@
   link: https://doi.org/gqrbkz
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsami.1c03427/asset/images/medium/am1c03427_0006.gif
   tags:
   - structural colour
   - mie scattering
-  image: https://pubs.acs.org/cms/10.1021/acsami.1c03427/asset/images/medium/am1c03427_0006.gif
+  type: research
 - id: doi:10.1007/978-3-030-62844-4_10
   title: Realization of Artificial Chirality in Micro-/Nano-Scale Three-Dimensional
     Plasmonic Structures
@@ -1462,12 +1464,12 @@
   link: https://doi.org/gt6684
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
   tags:
   - review
   - charality
   - 3D structures
+  type: review
 - id: doi:10.1002/adma.202005893
   title: "Revealing Structural Disorder in Hydrogenated Amorphous Silicon for a Low\u2010\
     Loss Photonic Platform at Visible Frequencies"
@@ -1484,12 +1486,12 @@
   link: https://doi.org/gkzpmz
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.researchgate.net/publication/348881057/figure/fig2/AS:11431281173118563@1688775637568/Complex-refractive-index-and-transparency-of-low-loss-hydrogenated-amorphous-silicon-The.png
   tags:
   - fabrication
   - silicon
-  image: https://www.researchgate.net/publication/348881057/figure/fig2/AS:11431281173118563@1688775637568/Complex-refractive-index-and-transparency-of-low-loss-hydrogenated-amorphous-silicon-The.png
+  type: research
 - id: doi:10.1039/d1nr05805c
   title: Three-dimensional artificial chirality towards low-cost and ultra-sensitive
     enantioselective sensing
@@ -1505,12 +1507,12 @@
   link: https://doi.org/gt6685
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR05805C&imageInfo.ImageIdentifier.Year=2022
   tags:
   - review
   - chirality
-  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR05805C&imageInfo.ImageIdentifier.Year=2022
+  type: review
 - id: doi:10.1002/cnma.202100060
   title: Vanadium Dioxide for Dynamically Tunable Photonics
   authors:
@@ -1522,13 +1524,13 @@
   link: https://doi.org/gt6686
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pub.mdpi-res.com/photonics/photonics-08-00057/article_deploy/html/images/photonics-08-00057-g006.png?1613966440
   tags:
   - review
   - vo2
   - active photonics
-  image: https://pub.mdpi-res.com/photonics/photonics-08-00057/article_deploy/html/images/photonics-08-00057-g006.png?1613966440
+  type: review
 - id: doi:10.1088/2040-8986/abbc55
   title: Employing vanadium dioxide nanoparticles for flexible metasurfaces with switchable
     absorption properties at near-infrared frequencies
@@ -1543,15 +1545,15 @@
   link: https://doi.org/gt6687
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://content.cld.iop.org/journals/2040-8986/22/11/114002/revision3/joptabbc55f5_hr.jpg
   tags:
   - vo2
   - active photonics
   - absorber
   - flexible
   - structural colour
-  image: https://content.cld.iop.org/journals/2040-8986/22/11/114002/revision3/joptabbc55f5_hr.jpg
+  type: research
 - id: doi:10.1021/acsnano.0c05656
   title: 'Spectral Modulation through the Hybridization of Mie-Scatterers and Quasi-Guided
     Mode Resonances: Realizing Full and Gradients of Structural Color'
@@ -1567,13 +1569,13 @@
   link: https://doi.org/ghhmtx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.0c05656/asset/images/medium/nn0c05656_0005.gif
   tags:
   - structural colour
   - mie scattering
   - quasi-guided mode resonance
-  image: https://pubs.acs.org/cms/10.1021/acsnano.0c05656/asset/images/medium/nn0c05656_0005.gif
+  type: research
 - id: doi:10.1038/s41377-020-00367-8
   title: 'Electromagnetic chirality: from fundamentals to nontraditional chiroptical
     phenomena'
@@ -1591,12 +1593,12 @@
   link: https://doi.org/gmcjhn
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41377-020-00367-8/MediaObjects/41377_2020_367_Fig1_HTML.png?as=webp
   tags:
   - review
   - chirality
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41377-020-00367-8/MediaObjects/41377_2020_367_Fig1_HTML.png?as=webp
+  type: review
 - id: doi:10.1364/PRJ.395749
   title: Structural color switching with a doped indium-gallium-zinc-oxide semiconductor
   authors:
@@ -1614,12 +1616,12 @@
   link: https://doi.org/gkzpm3
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=5jQx6GXMRQiT32xbTj0zH%2FfEHxKG7d1kC6RLiLcmC0s%3D&uri=prj-8-9-1409-g005
   tags:
   - structural colour
   - IGZO
-  image: https://opg.optica.org/getimagev2.cfm?img=5jQx6GXMRQiT32xbTj0zH%2FfEHxKG7d1kC6RLiLcmC0s%3D&uri=prj-8-9-1409-g005
+  type: research
 - id: doi:10.1002/adts.202000138
   title: Critical Layer Thickness Analysis of Vertically Stacked Hyperbolic Metamaterials
     for Effective Negative Refraction Generation
@@ -1634,12 +1636,12 @@
   link: https://doi.org/gt6688
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.researchgate.net/publication/344425305/figure/fig1/AS:11431281246539099@1716391106141/a-Isofrequency-surfaces-of-a-type-I-HMM-left-and-a-type-II-HMM-right-The-type-I-HMM.png
   tags:
   - hyperbolic metamaterial
   - negative refraction
-  image: https://www.researchgate.net/publication/344425305/figure/fig1/AS:11431281246539099@1716391106141/a-Isofrequency-surfaces-of-a-type-I-HMM-left-and-a-type-II-HMM-right-The-type-I-HMM.png
+  type: research
 - id: doi:10.1186/s40580-020-00233-8
   title: 'Deep Q-network to produce polarization-independent perfect solar absorbers:
     a statistical report'
@@ -1653,13 +1655,13 @@
   link: https://doi.org/ghtz5d
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40580-020-00233-8/MediaObjects/40580_2020_233_Fig1_HTML.png?as=webp
   tags:
   - machine learning
   - reinforcement learning
   - absorber
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40580-020-00233-8/MediaObjects/40580_2020_233_Fig1_HTML.png?as=webp
+  type: research
 - id: doi:10.3390/s20154108
   title: Scalable and High-Throughput Top-Down Manufacturing of Optical Metasurfaces
   authors:
@@ -1674,12 +1676,12 @@
   link: https://doi.org/gn6dbb
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pub.mdpi-res.com/sensors/sensors-20-04108/article_deploy/html/images/sensors-20-04108-g009.png?1595585406
   tags:
   - review
   - fabrication
-  image: https://pub.mdpi-res.com/sensors/sensors-20-04108/article_deploy/html/images/sensors-20-04108-g009.png?1595585406
+  type: review
 - id: doi:10.1038/s41598-020-59729-2
   title: Moth-eye shaped on-demand broadband and switchable perfect absorbers based
     on vanadium dioxide
@@ -1692,13 +1694,13 @@
   link: https://doi.org/gt6689
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-020-59729-2/MediaObjects/41598_2020_59729_Fig1_HTML.png?as=webp
   tags:
   - vo2
   - active photonics
   - absorber
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-020-59729-2/MediaObjects/41598_2020_59729_Fig1_HTML.png?as=webp
+  type: research
 - id: doi:10.1515/nanoph-2019-0474
   title: Deep learning enabled inverse design in nanophotonics
   authors:
@@ -1712,13 +1714,13 @@
   link: https://doi.org/ghswgn
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0474/asset/graphic/j_nanoph-2019-0474_fig_001.jpg
   tags:
   - review
   - machine learning
   - inverse design
-  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0474/asset/graphic/j_nanoph-2019-0474_fig_001.jpg
+  type: review
 - id: doi:10.1016/j.mee.2019.111146
   title: 'Emerging advanced metasurfaces: Alternatives to conventional bulk optical
     devices'
@@ -1735,12 +1737,12 @@
   link: https://doi.org/gr9pdg
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0167931719303028-ga1.jpg
   tags:
   - review
   - metasurface
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0167931719303028-ga1.jpg
+  type: review
 - id: doi:10.1039/d0nr05624c
   title: Full and gradient structural colouration by lattice amplified gallium nitride
     Mie-resonators
@@ -1758,12 +1760,12 @@
   link: https://doi.org/gkzpnc
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NR05624C&imageInfo.ImageIdentifier.Year=2020
   tags:
   - structural colour
   - GaN
   type: research
-  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NR05624C&imageInfo.ImageIdentifier.Year=2020
 - id: doi:10.1039/c9na00751b
   title: 'Metasurfaces-based imaging and applications: from miniaturized optical components
     to functional imaging platforms'
@@ -1778,12 +1780,12 @@
   link: https://doi.org/gpf7zg
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: review
+  file: sources_fixed.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9NA00751B&imageInfo.ImageIdentifier.Year=2020
   tags:
   - review
   - imaging
-  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9NA00751B&imageInfo.ImageIdentifier.Year=2020
+  type: review
 - id: doi:10.1515/nanoph-2020-0440
   title: Near-zero reflection of all-dielectric structural coloration enabling polarization-sensitive
     optical encryption with enhanced switchability
@@ -1801,13 +1803,13 @@
   link: https://doi.org/gkzpnd
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0440/asset/graphic/j_nanoph-2020-0440_fig_001.jpg
   tags:
   - structural colour
   - encryption
   - polarisation
-  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0440/asset/graphic/j_nanoph-2020-0440_fig_001.jpg
+  type: research
 - id: doi:10.1364/ome.9.003248
   title: All-dielectric metasurface imaging platform applicable to laser scanning
     microscopy with enhanced axial resolution and wavelength selection
@@ -1824,12 +1826,12 @@
   link: https://doi.org/gk48pv
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=l18Re%2FpaRgp%2BTjNhKtYnym17kMue86ayqd5mVZtAahM%3D&uri=ome-9-8-3248-g002
   tags:
   - metasurface
   - imaging
+  type: research
 - id: doi:10.1002/lpor.201900065
   title: "A Spin\u2010Encoded All\u2010Dielectric Metahologram for Visible Light"
   authors:
@@ -1849,12 +1851,12 @@
   link: https://doi.org/gkzpnx
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
-  type: research
+  file: sources_fixed.yaml
   image: https://www.researchgate.net/publication/346824337/figure/fig5/AS:11431281173088908@1688761174874/Operation-of-spin-encoded-metaholograms-in-a-broadband-range-of-visible-light-The.png
   tags:
   - metahologram
   - spin selective
+  type: research
 - id: doi:10.1364/oe.27.005874
   title: Optimisation of colour generation from dielectric nanostructures using reinforcement
     learning
@@ -1867,34 +1869,39 @@
   link: https://doi.org/ggwbf8
   orcid: 0000-0001-9458-6062
   plugin: sources.py
-  file: sources_latest.yaml
+  file: sources_fixed.yaml
   image: https://opg.optica.org/getimagev2.cfm?img=EbRSjT2RrBO%2Fuoni4vsXX16D0Uo5x0EmVc8cbBVGnKk%3D&uri=oe-27-4-5874-g005
-  type: research
   tags:
   - optimisation
   - machine learning
   - reinforcement learning
-  - structural colour"
+  - structural colour
+  type: research
 - id: doi:10.1038/s41598-018-28744-9
   title: Effect of temperature on the oxidation of Cu nanowires and development of
     an easy to produce, oxidation-resistant transparent conducting electrode using
     a PEDOT:PSS coating
   authors:
-  - Dedi Mardiansyah
-  - Trevon Badloe
+  - Dedi Mardiansyah*
+  - Trevon Badloe*
   - Kuwat Triyana
   - Muhammad Q. Mehmood
   - Niloufar Raeis-Hosseini
   - Yoonkyung Lee
   - Harsojo Sabarman
-  - Kyunghoon Kim
-  - Junsuk Rho
+  - Kyunghoon Kim+
+  - Junsuk Rho+
   publisher: Scientific Reports
   date: '2018-07-13'
   link: https://doi.org/gdthtb
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-28744-9/MediaObjects/41598_2018_28744_Fig8_HTML.jpg?as=webp
+  tags:
+  - nanowires
+  - transparent electrode
+  type: research
 - id: doi:10.1080/05704928.2018.1467438
   title: 'Surface-enhanced spectroscopy: Toward practical analysis probe'
   authors:
@@ -1907,8 +1914,13 @@
   date: '2018-06-22'
   link: https://doi.org/gt669b
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://www.tandfonline.com/cms/asset/824198bd-d4dc-4f5e-9098-e8f60aa1cb15/laps20.v059.i07.cover.jpg
+  tags:
+  - review
+  - SERS
+  type: review
 - id: doi:10.3390/en12010089
   title: 'Metamaterial-Based Radiative Cooling: Towards Energy-Free All-Day Cooling'
   authors:
@@ -1920,8 +1932,13 @@
   date: '2018-12-28'
   link: https://doi.org/gmdkgm
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://pub.mdpi-res.com/energies/energies-12-00089/article_deploy/html/images/energies-12-00089-g001.png?1570884646
+  tags:
+  - review
+  - radiative cooling
+  type: review
 - id: doi:10.1155/2017/2361042
   title: 'Metasurfaces-Based Absorption and Reflection Control: Perfect Absorbers
     and Reflectors'
@@ -1933,8 +1950,13 @@
   date: '2017-01-01'
   link: https://doi.org/gcj44d
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/6a039a42-0bc7-4b7b-a3e5-e56e7d4e1e53/jona2361042-fig-0006-m.jpg
+  tags:
+  - review
+  - absorbers
+  type: review
 - id: doi:10.1021/acsphotonics.7b01182
   title: Realization of Wafer-Scale Hyperlens Device for Sub-diffractional Biomolecular
     Imaging
@@ -1949,11 +1971,16 @@
   - Trevon Badloe
   - Jong G. Ok
   - Kyunghoon Kim
-  - Heon Lee
-  - Junsuk Rho
+  - Heon Lee+
+  - Junsuk Rho+
   publisher: ACS Photonics
   date: '2017-12-12'
   link: https://doi.org/gdzx26
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://pubs.acs.org/cms/10.1021/apchd5.2018.5.issue-7/asset/16915e08-2716-15e0-8271-915e08827169/apchd5.2018.5.issue-7.largecover.jpg
+  tags:
+  - hyperbolic metasurface
+  - hyperlens
+  type: research
