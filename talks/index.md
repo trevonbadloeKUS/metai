@@ -10,7 +10,7 @@ nav:
 
 Explore the locations of past conferences and talks.
 
-<div id="map" style="height: 500px; width: 100%;"></div>
+<div id="talk-map" style="height: 500px; width: 100%;"></div>
 
 {% include section.html %}
 {% include list.html data="talks" component="talks" %}

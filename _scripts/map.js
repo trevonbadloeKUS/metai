@@ -6,7 +6,7 @@ function formatDate(dateString) {
 }
 
 // Initialize the map
-var map = L.map('map').setView([20.0, 0.0], 2); // Centered on the world map
+var map = L.map('talk-map').setView([20.0, 0.0], 2); // Centered on the world map
 
 // Add the tile layer (map layer)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -18,18 +18,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var locations = {{ site.data.talks | jsonify }};
 
 locations.forEach(function(location) {
-    var marker = L.marker([location.latitude, location.longitude]).addTo(map);
+    if (location.latitude && location.longitude) { // Ensure coordinates exist
+        var marker = L.marker([location.latitude, location.longitude]).addTo(map);
 
-    // Create the popup content with the required fields
-    var popupContent = "<b>" + location.name + "</b><br>" +
-                       location.location + "<br>" +
-                       formatDate(location.date); // Format the date
+        // Create the popup content with the required fields
+        var popupContent = "<b>" + location.name + "</b><br>" +
+                           location.location + "<br>" +
+                           formatDate(location.date); // Format the date
 
-    // Add the 'etc' field only if it exists
-    if (location.etc) {
-        popupContent += "<br>" + location.etc;
+        // Add the 'etc' field only if it exists
+        if (location.etc) {
+            popupContent += "<br>" + location.etc;
+        }
+
+        // Bind the popup to the marker
+        marker.bindPopup(popupContent);
     }
-
-    // Bind the popup to the marker
-    marker.bindPopup(popupContent);
 });
