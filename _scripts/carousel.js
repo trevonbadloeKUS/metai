@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
         loop: true,
-        effect: coverflow,
     });
 
     // Get the publication data from the script tag
@@ -25,11 +24,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Get the 5 most recent publications
     const publications = data.slice(0, 5);
 
-    // Populate Swiper slides and text
+    // Populate Swiper slides
     const swiperWrapper = document.querySelector('.swiper-wrapper');
-    const publicationText = document.getElementById('publication-text');
 
-    publications.forEach((pub, index) => {
+    publications.forEach(pub => {
         // Create Swiper slide
         const slide = document.createElement('div');
         slide.classList.add('swiper-slide');
@@ -40,17 +38,21 @@ document.addEventListener('DOMContentLoaded', function () {
         img.style.height = 'auto'; // Maintain aspect ratio
         slide.appendChild(img);
         swiperWrapper.appendChild(slide);
-
-        // Add event listener to update the text when this slide is active
-        swiper.on('slideChange', function () {
-            if (swiper.realIndex === index) {
-                publicationText.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
-            }
-        });
     });
 
-    // Set the text for the first slide on load
-    publicationText.innerHTML = `<h3>${publications[0].title}</h3><p>${publications[0].authors.join(', ')}</p>`;
+    // Set initial text for the first slide
+    const publicationText = document.getElementById('publication-text');
+    updateText(publications[0]);
+
+    // Update text on slide change
+    swiper.on('slideChange', function () {
+        const index = swiper.realIndex % publications.length;
+        updateText(publications[index]);
+    });
+
+    function updateText(pub) {
+        publicationText.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
+    }
 
     // Update Swiper instance after adding slides
     swiper.update();
