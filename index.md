@@ -99,8 +99,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   </div>
   <div class="feature-text">
     <p class="feature-title">What do we do?</p>
-    <div id="publication-text">
-      <!-- Publication text will be updated by JavaScript -->
+    <div id="custom-text">
     </div>
     {%
     include button.html
