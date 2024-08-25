@@ -198,6 +198,12 @@
   - inverse design
   type: research
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
+  highlight: 'We employed deep neural networks for the inverse design of coloured
+    daytime radiative coolers.  The thicknesses and materials of a multilayer structure
+    are provided on-demand for a given colour spectrum, providing high reflectance
+    in the near-infrared and all wavelengths unrelated to the colour.
+
+    '
 - id: doi:10.1364/OE.521661
   title: "Polarization-independent edge detection based on the spin\u2013orbit interaction\
     \ of light"
@@ -221,6 +227,14 @@
   tags:
   - SHEL
   - image processing
+  highlight: 'We investigated polarization-independent edge detection using the spin-orbit
+    interaction of light.  We developed a novel method that leverages the unique properties
+    of spin-orbit interactions to achieve edge detection without being influenced
+    by the polarization state of the incoming light.  This work could significantly
+    enhance optical systems used in image processing and analysis, offering greater
+    flexibility and efficiency in various applications.
+
+    '
 - id: doi:10.1021/acs.nanolett.3c04064
   title: Spin-Selective Angular Dispersion Control in Dielectric Metasurfaces for
     Multichannel Meta-Holographic Displays
@@ -270,6 +284,12 @@
   - UV metasurface
   - nanoimprint
   - fabrication
+  highlight: "We optimized high-refractive-index nanocomposites for ultraviolet metasurfaces\
+    \ by focusing on the right nanoparticle concentration and solvent choice.  We\
+    \ found that an 80 wt% nanoparticle concentration provided the best structural\
+    \ integrity during the imprinting process.  Additionally, we identified that solvents\
+    \ like MEK and acetone minimize mold swelling, ensuring more accurate pattern\
+    \ transfer. \n"
 - id: doi:10.1038/s41377-023-01332-x
   title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
     innovation between academia and industry'
