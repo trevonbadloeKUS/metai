@@ -8,8 +8,6 @@ nav:
 
 {% include section.html %}
 
-Explore the locations of past conferences and talks.
-
 <div id="talk-map" style="height: 500px; width: 100%;"></div>
 
 <script>
