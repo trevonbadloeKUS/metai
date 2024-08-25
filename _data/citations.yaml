@@ -1124,6 +1124,7 @@
   - news & views
   - optical security
   type: editorial
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41377-021-00589-4/MediaObjects/41377_2021_589_Fig1_HTML.png?
 - id: doi:10.1364/OME.430306
   title: Inverse design of ultra-narrowband selective thermal emitters designed by
     artificial neural networks
@@ -1470,6 +1471,7 @@
   - charality
   - 3D structures
   type: review
+  image: https://media.springernature.com/w120/springer-static/cover-hires/book/978-3-030-62844-4?as=webp
 - id: doi:10.1002/adma.202005893
   title: "Revealing Structural Disorder in Hydrogenated Amorphous Silicon for a Low\u2010\
     Loss Photonic Platform at Visible Frequencies"
