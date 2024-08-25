@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="publications"
-  text="See our publications"
+  text="See all publications"
   flip=true
 %}
 
@@ -84,103 +84,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign sorted_publications = site.data.citations | sort: 'date' | reverse %}
 {% assign latest_publications = sorted_publications | slice: 0, 3 %}
 
-
 {% include section.html %}
 
-
-<div class="feature" data-flip>
-  <!-- Image Carousel -->
-  <div class="feature-image">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!-- Slides will be dynamically added here -->
-        <!-- Example Slide -->
-        <div class="swiper-slide">
-          <img src="path-to-your-image1.jpg" alt="Description 1">
-        </div>
-        <div class="swiper-slide">
-          <img src="path-to-your-image2.jpg" alt="Description 2">
-        </div>
-        <!-- Add more slides as needed -->
-      </div>
-
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- Add Navigation -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </div>
-
-  <!-- Text Content -->
-  <div class="feature-text">
-    <h2 class="feature-title">Your Title Here</h2>
-    <p>Your descriptive text here. This section can include details about the images or any other content you'd like to display.</p>
-  </div>
-</div>
-
-
-
-{% include section.html %}
-
+<!-- SwiperJS Carousel and Text -->
 <div class="feature">
-  <!-- Image Carousel -->
   <div class="feature-image">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {% assign sorted_pubs = site.data.citations | sort: "date" | reverse %}
-        {% assign recent_pubs = sorted_pubs | slice: 0, 3 %}
-
-        {% for publication in recent_pubs %}
-          <div class="swiper-slide" data-title="{{ publication.title }}" data-description="{{ publication.description }}" data-link="{{ publication.link }}">
-            <a href="{{ publication.link }}">
-              <img src="{{ publication.image }}" alt="{{ publication.title }}">
-            </a>
-          </div>
-        {% endfor %}
+        <!-- Swiper slides will be populated here by JavaScript -->
       </div>
-
-      <!-- Add Pagination and Navigation -->
       <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
   </div>
-
-  <!-- Text Content -->
   <div class="feature-text">
-    <h2 class="feature-title">{{ recent_pubs[0].title }}</h2>
-    <p>{{ recent_pubs[0].type }}</p>
+    <h2 class="feature-title">Our Recent Publications</h2>
+    <div id="publication-text">
+      <!-- Publication text will be updated here by JavaScript -->
+    </div>
   </div>
 </div>
 
-<!-- Include Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper('.swiper-container', {
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      on: {
-        slideChange: function () {
-          var currentSlide = swiper.slides[swiper.activeIndex];
-          var title = currentSlide.getAttribute('data-title');
-          var description = currentSlide.getAttribute('data-description');
-
-          document.querySelector('.feature-text .feature-title').textContent = title;
-          document.querySelector('.feature-text p').textContent = description;
-        }
-      }
-    });
-  });
+<!-- Add data to the page for JavaScript to use -->
+<script id="citations-data" type="application/json">
+  {{ site.data.citations | jsonify }}
 </script>
+
