@@ -98,12 +98,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     <p class="feature-title">Our Recent Publications</p>
     <div id="publication-text">
       <!-- Publication text will be updated here by JavaScript -->
-        {%
-        include button.html
-        link="publications"
-        text="See all publications"
-        %}
     </div>
+    {%
+    include button.html
+    link="publications"
+    text="See all publications"
+    %}
   </div>
 </div>
 
