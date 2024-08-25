@@ -1,15 +1,12 @@
 ---
 ---
 
-$wrap: 800px;
-
 .feature {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items at the start (top) of the container */
+  align-items: center;
   gap: 40px;
   margin: 40px 0;
-  position: relative; /* Ensure positioning context for children */
 }
 
 .feature-image {
@@ -24,14 +21,11 @@ $wrap: 800px;
 .feature-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .feature-text {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Align children to the top */
 }
 
 .feature-title {
@@ -39,20 +33,19 @@ $wrap: 800px;
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
-  margin: 0; /* Remove default margin */
 }
 
 .feature[data-flip] {
   flex-direction: row-reverse;
 }
 
-@media (max-width: $wrap) {
+@media (max-width: 800px) {
   .feature {
     flex-direction: column !important;
   }
 
   .feature-image {
     width: 100%;
-    max-width: calc($wrap / 2);
+    max-width: calc(800px / 2);
   }
 }
