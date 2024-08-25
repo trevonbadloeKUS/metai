@@ -623,53 +623,91 @@
   size: ;
 -->
 
-<!-- Your Swiper Container -->
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-
-    
-    
-
-    
-      <div class="swiper-slide">
-        <a href="https://doi.org/gt6675">
-          <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg" class="d-block w-100" alt="Inverse design of colored daytime radiative coolers using deep neural networks">
-        </a>
-        <div class="publication-info">
-          <h5><a href="https://doi.org/gt6675">Inverse design of colored daytime radiative coolers using deep neural networks</a></h5>
-          <p>Solar Energy Materials and Solar Cells</p>
+<div class="feature" data-flip="">
+  <!-- Image Carousel -->
+  <div class="feature-image">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Slides will be dynamically added here -->
+        <!-- Example Slide -->
+        <div class="swiper-slide">
+          <img src="path-to-your-image1.jpg" alt="Description 1">
         </div>
-      </div>
-    
-      <div class="swiper-slide">
-        <a href="https://doi.org/gt6676">
-          <img src="https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004" class="d-block w-100" alt="Polarization-independent edge detection based on the spin–orbit interaction of light">
-        </a>
-        <div class="publication-info">
-          <h5><a href="https://doi.org/gt6676">Polarization-independent edge detection based on the spin–orbit interaction of light</a></h5>
-          <p>Optics Express</p>
+        <div class="swiper-slide">
+          <img src="path-to-your-image2.jpg" alt="Description 2">
         </div>
+        <!-- Add more slides as needed -->
       </div>
-    
-      <div class="swiper-slide">
-        <a href="https://doi.org/gt6678">
-          <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png" class="d-block w-100" alt="Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces">
-        </a>
-        <div class="publication-info">
-          <h5><a href="https://doi.org/gt6678">Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces</a></h5>
-          <p>Microsystems &amp; Nanoengineering</p>
-        </div>
-      </div>
-    
 
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
   </div>
+
+  <!-- Text Content -->
+  <div class="feature-text">
+    <h2 class="feature-title">Your Title Here</h2>
+    <p>Your descriptive text here. This section can include details about the images or any other content you'd like to display.</p>
+  </div>
+</div>
+  </section>
+
   
-  <!-- Add Pagination -->
-  <div class="swiper-pagination"></div>
   
-  <!-- Add Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="feature">
+  <!-- Image Carousel -->
+  <div class="feature-image">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+        
+
+        
+          <div class="swiper-slide" data-title="Inverse design of colored daytime radiative coolers using deep neural networks" data-description="" data-link="https://doi.org/gt6675">
+            <a href="https://doi.org/gt6675">
+              <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg" alt="Inverse design of colored daytime radiative coolers using deep neural networks">
+            </a>
+          </div>
+        
+          <div class="swiper-slide" data-title="Polarization-independent edge detection based on the spin–orbit interaction of light" data-description="" data-link="https://doi.org/gt6676">
+            <a href="https://doi.org/gt6676">
+              <img src="https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004" alt="Polarization-independent edge detection based on the spin–orbit interaction of light">
+            </a>
+          </div>
+        
+          <div class="swiper-slide" data-title="Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces" data-description="" data-link="https://doi.org/gt6678">
+            <a href="https://doi.org/gt6678">
+              <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png" alt="Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet metasurfaces">
+            </a>
+          </div>
+        
+      </div>
+
+      <!-- Add Pagination and Navigation -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- Text Content -->
+  <div class="feature-text">
+    <h2 class="feature-title">Inverse design of colored daytime radiative coolers using deep neural networks</h2>
+    <p>research</p>
+  </div>
 </div>
 
 <!-- Include Swiper JS -->
@@ -688,6 +726,16 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      on: {
+        slideChange: function () {
+          var currentSlide = swiper.slides[swiper.activeIndex];
+          var title = currentSlide.getAttribute('data-title');
+          var description = currentSlide.getAttribute('data-description');
+
+          document.querySelector('.feature-text .feature-title').textContent = title;
+          document.querySelector('.feature-text p').textContent = description;
+        }
+      }
     });
   });
 </script>
