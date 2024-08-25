@@ -85,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
-<div class="feature" data-flip>
+<div class="feature">
   <div class="feature-text">
     <p class="feature-title">What do we do?</p>
     <div id="custom-text">
