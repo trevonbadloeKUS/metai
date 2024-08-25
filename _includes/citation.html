@@ -42,13 +42,7 @@
 
       {% assign authors = citation.authors %}
 
-      <div
-        class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " }} "
-        {% endif %}
-        tabindex="0"
-      >
+      <div class="citation-authors">
         {% for author in authors %}
           {% assign formatted_author = author %}
           
