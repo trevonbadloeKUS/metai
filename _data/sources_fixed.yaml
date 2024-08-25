@@ -189,11 +189,7 @@
   first authors:
   - Harit Keawmuang
   - Trevon Badloe
-  highlight: > 
-    'We employed deep neural networks for the inverse design of coloured
-    daytime radiative coolers.  The thicknesses and materials of a multilayer structure
-    are provided on-demand for a given colour spectrum, providing high reflectance
-    in the near-infrared and all wavelengths unrelated to the colour.'
+  highlight: Employing deep neural networks for the inverse design of coloured daytime radiative coolers.
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
   link: https://doi.org/gt6675
   orcid: 0000-0001-9458-6062
@@ -207,7 +203,6 @@
   title: Inverse design of colored daytime radiative coolers using deep neural networks
   type: research
   
-  
 - id: doi:10.1364/OE.521661
   authors:
   - Peng Tang*
@@ -220,13 +215,7 @@
   - Guoqiang Li+
   date: '2024-04-29'
   file: orcid_PI.yaml
-  highlight: >
-    'We investigated polarization-independent edge detection using the spin-orbit
-    interaction of light.  We developed a novel method that leverages the unique properties
-    of spin-orbit interactions to achieve edge detection without being influenced
-    by the polarization state of the incoming light.  This work could significantly
-    enhance optical systems used in image processing and analysis, offering greater
-    flexibility and efficiency in various applications.'
+  highlight: Polarization-independent edge detection using the spin-orbit interaction of light. 
   image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
   link: https://doi.org/gt6676
   orcid: 0000-0001-9458-6062
@@ -278,13 +267,7 @@
   - Junsuk Rho
   date: '2024-04-22'
   file: orcid_PI.yaml
-  highlight: >
-   'We optimized high-refractive-index nanocomposites for ultraviolet metasurfaces
-    by focusing on the right nanoparticle concentration and solvent choice.  We
-    found that an 80 wt% nanoparticle concentration provided the best structural
-    integrity during the imprinting process.  Additionally, we identified that solvents
-    like MEK and acetone minimize mold swelling, ensuring more accurate pattern
-    transfer.'
+  highlight: Optimision of high-refractive-index nanocomposites for ultraviolet metasurfaces through nanoparticle concentration and solvent choice.
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
   link: https://doi.org/gt6678
   orcid: 0000-0001-9458-6062

@@ -85,22 +85,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
-<div class="feature">
-  <div class="feature-text">
-    <p class="feature-title">What do we do?</p>
-    <div id="custom-text">
-      <!-- Custom text will be added here by JavaScript -->
-    </div>
-    {%
-    include button.html
-    link="research"
-    text="Check check check check it out"
-    %}
-  </div>
+<div class="feature" data-flip >
   <div class="feature-image">
     <div class="swiper-container-2">
       <div class="swiper-wrapper swiper-wrapper-2">
-        <!-- Manually added Swiper slides -->
+                <!-- Manually added Swiper slides -->
         <div class="swiper-slide"><img src="{{ '/images/KUS.jpeg' | relative_url }}" alt="Highlight 1"></div>
         <div class="swiper-slide"><img src="{{ '/images/photo.jpg' | relative_url }}" alt="Highlight 2"></div>
         <div class="swiper-slide"><img src="{{ '/images/share.jpg' | relative_url }}" alt="Highlight 3"></div>
@@ -108,8 +97,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       <div class="swiper-pagination swiper-pagination-2"></div>
     </div>
   </div>
+  <div class="feature-text">
+    <p class="feature-title">What do we do?</p>
+    <div id="publication-text">
+      <!-- Publication text will be updated by JavaScript -->
+    </div>
+    {%
+    include button.html
+    link="research"
+    text="Check check check check it out"
+    %}
+  </div>
 </div>
-
 
 {% include section.html %}
 
@@ -135,8 +134,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     %}
   </div>
 </div>
-
-
 
 <script id="data" type="application/json">
   {{ site.data.citations | jsonify }}
