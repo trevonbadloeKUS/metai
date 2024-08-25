@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             el: '.swiper-pagination',
             clickable: true,
         },
-        loop: true,
+        loop: false,
     });
 
     // Get the publication data from the script tag
