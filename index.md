@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </div>
   </div>
   <div class="feature-text">
-    <h2 class="feature-title">Our Recent Publications</h2>
+    <p class="feature-title">Our Recent Publications</p>
     <div id="publication-text">
       <!-- Publication text will be updated here by JavaScript -->
     </div>
@@ -107,30 +107,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   {{ site.data.citations | jsonify }}
 </script>
 
-
-
-
-{% include section.html %}
-
-<div class="feature" data-flip>
-  <div class="feature-image">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!-- Swiper slides will be populated here by JavaScript -->
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-  <div class="feature-text">
-    <h2 class="feature-title">Our Recent Publications</h2>
-    <div id="publication-text">
-      <!-- Publication text will be updated here by JavaScript -->
-    </div>
-  </div>
-</div>
-
-
-<!-- Add data to the page for JavaScript to use -->
-<script id="citations-data" type="application/json">
-  {{ site.data.citations | jsonify }}
-</script>
