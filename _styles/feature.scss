@@ -1,8 +1,6 @@
 ---
 ---
 
-$wrap: 800px;
-
 .feature {
   display: flex;
   justify-content: center;
@@ -41,13 +39,13 @@ $wrap: 800px;
   flex-direction: row-reverse;
 }
 
-@media (max-width: $wrap) {
+@media (max-width: 800px) {
   .feature {
     flex-direction: column !important;
   }
 
   .feature-image {
     width: 100%;
-    max-width: calc($wrap / 2);
+    max-width: calc(800px / 2);
   }
 }
