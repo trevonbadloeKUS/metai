@@ -103,7 +103,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <!-- Add data to the page for JavaScript to use -->
-<script id="citations-data" type="application/json">
+<script id="data" type="application/json">
   {{ site.data.citations | jsonify }}
 </script>
 
