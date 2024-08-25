@@ -27,6 +27,7 @@ phd:
     school: POSTECH, South Korea
     link: https://me.postech.ac.kr/
     advisor: Junsuk Rho
+    advisor-site: https://photonics.postech.ac.kr/welcome
     dissertation: Tunable Phase and Amplitude Modulation of Light using Metasurfaces and their Inverse Design using Machine Learning
     date: '2017 - 2023'
     etc:

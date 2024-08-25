@@ -76,7 +76,7 @@ layout: default
         <ul> 
           <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</li>
         <span class = "bio-info-etc" > {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})</span>
-          <div class= "bio-info-etc"> Advisor: {{ phd.advisor}} </div>
+          <div class= "bio-info-etc"> Advisor: <a href="{{ phd.advisor-site }}">{{ phd.advisor }}</a></div>
           <div class= "bio-info-etc"> Dissertation title: {{ phd.dissertation}}</div>
         </div></ul>
       {% endfor %}

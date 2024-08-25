@@ -81,6 +81,39 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 
+{% include section.html %}
+
+<div class="feature" data-flip>
+  <div class="feature-text">
+    <p class="feature-title">What do we do?</p>
+    <div id="custom-text">
+      <!-- Custom text will be added here by you -->
+      <h6><a href="https://example.com/highlight1" target="_blank">Metamaterials</a></h6>
+      <p>Some description about Highlight 1.</p>
+    </div>
+      
+    {%
+    include button.html
+    link="research"
+    text="Check check check check it out"
+    %}
+  
+  </div>
+  <div class="feature-image">
+    <div class="swiper-container-2">
+      <div class="swiper-wrapper">
+        <!-- Swiper slides will be manually added below -->
+        <div class="swiper-slide"><img src="/images/KUS.jpeg" alt="Highlight 1"></div>
+        <div class="swiper-slide"><img src="/images/photo.jpg" alt="Highlight 2"></div>
+        <div class="swiper-slide"><img src="/images/share.jpg" alt="Highlight 3"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+
+
 
 {% include section.html %}
 
@@ -106,6 +139,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     %}
   </div>
 </div>
+
 
 <!-- Add data to the page for JavaScript to use -->
 <script id="data" type="application/json">

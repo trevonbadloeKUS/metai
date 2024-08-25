@@ -59,3 +59,54 @@ document.addEventListener('DOMContentLoaded', function () {
     // Update Swiper instance after adding slides
     swiper.update();
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Initialize the second Swiper
+    var swiper2 = new Swiper('.swiper-container-2', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+            delay: 4000,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        loop: false,
+    });
+
+    // If needed, you can also dynamically update text similar to the first carousel
+    const customText = document.getElementById('custom-text');
+    const customSlides = [
+        {
+            title: "Highlight Title 1",
+            description: "Some description about Highlight 1.",
+            link: "https://example.com/highlight1",
+        },
+        {
+            title: "Highlight Title 2",
+            description: "Some description about Highlight 2.",
+            link: "https://example.com/highlight2",
+        },
+        {
+            title: "Highlight Title 3",
+            description: "Some description about Highlight 3.",
+            link: "https://example.com/highlight3",
+        }
+    ];
+
+    // Set initial text for the first slide
+    updateCustomText(customSlides[0]);
+
+    // Update text on slide change
+    swiper2.on('slideChange', function () {
+        const index = swiper2.activeIndex % customSlides.length;  // Ensure correct index even when looping
+        updateCustomText(customSlides[index]);
+    });
+
+    function updateCustomText(slide) {
+        customText.innerHTML = `<h6><a href="${slide.link}" target="_blank">${slide.title}</a></h6><p>${slide.description}</p>`;
+    }
+});
