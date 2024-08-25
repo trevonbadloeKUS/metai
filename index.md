@@ -100,7 +100,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       <!-- Publication text will be updated here by JavaScript -->
     </div>
     {%
-    include button.html
+    render button.html
     link="publications"
     text="See all publications"
     %}
