@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     // First Carousel for Recent Publications
-    var swiper1 = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper-container-1', {
         slidesPerView: 1,
         spaceBetween: 10,
         autoplay: {
             delay: 4000,
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination-1',
             clickable: true,
         },
         loop: true,
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const publications = data.slice(0, 3);
 
     // Populate Swiper slides for the first carousel
-    const swiperWrapper1 = document.querySelector('.swiper-wrapper');
+    const swiperWrapper1 = document.querySelector('.swiper-wrapper-1');
 
     publications.forEach((pub, index) => {
         // Create Swiper slide
@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const img = document.createElement('img');
         img.src = pub.image;
         img.alt = pub.title;
-        img.style.width = '100%'; // Ensure the image fits the container
-        img.style.height = 'auto'; // Maintain aspect ratio
+        img.style.width = '100%';
+        img.style.height = 'auto';
         slide.appendChild(img);
 
         // Attach the index to the slide
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             delay: 4000,
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination-2',
             clickable: true,
         },
         loop: true,
