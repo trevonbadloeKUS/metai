@@ -82,30 +82,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 {% include section.html %}
-
+<!-- SwiperJS Carousel and Text for "What do we do?" section -->
 <div class="feature" data-flip>
   <div class="feature-text">
     <p class="feature-title">What do we do?</p>
     <div id="custom-text">
-      <!-- Custom text will be added here by you -->
-      <h6><a href="https://example.com/highlight1" target="_blank">Metamaterials</a></h6>
-      <p>Some description about Highlight 1.</p>
+      <!-- Custom text will be added here by JavaScript -->
     </div>
-      
     {%
     include button.html
     link="research"
     text="Check check check check it out"
     %}
-  
   </div>
   <div class="feature-image">
     <div class="swiper-container-2">
       <div class="swiper-wrapper">
-        <!-- Swiper slides will be manually added below -->
-        <div class="swiper-slide"><img src="/images/KUS.jpeg" alt="Highlight 1"></div>
-        <div class="swiper-slide"><img src="/images/photo.jpg" alt="Highlight 2"></div>
-        <div class="swiper-slide"><img src="/images/share.jpg" alt="Highlight 3"></div>
+        <!-- Manually added Swiper slides -->
+        <div class="swiper-slide"><img src="{{ '/images/KUS.jpeg' | relative_url }}" alt="Highlight 1"></div>
+        <div class="swiper-slide"><img src="{{ '/images/photo.jpg' | relative_url }}" alt="Highlight 2"></div>
+        <div class="swiper-slide"><img src="{{ '/images/share.jpg' | relative_url }}" alt="Highlight 3"></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -113,16 +109,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 
-
-
 {% include section.html %}
-
-<!-- SwiperJS Carousel and Text -->
+<!-- SwiperJS Carousel and Text for Recent Publications -->
 <div class="feature">
   <div class="feature-image">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <!-- Swiper slides will be populated here by JavaScript -->
+        <!-- Swiper slides will be populated by JavaScript -->
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -130,7 +123,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <div class="feature-text">
     <p class="feature-title">Our Recent Publications</p>
     <div id="publication-text">
-      <!-- Publication text will be updated here by JavaScript -->
+      <!-- Publication text will be updated by JavaScript -->
     </div>
     {%
     include button.html
@@ -140,8 +133,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   </div>
 </div>
 
-
-<!-- Add data to the page for JavaScript to use -->
 <script id="data" type="application/json">
   {{ site.data.citations | jsonify }}
 </script>
