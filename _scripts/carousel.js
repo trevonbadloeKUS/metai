@@ -1,5 +1,3 @@
-// carousel.js
-
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize Swiper
     var swiper = new Swiper('.swiper-container', {
@@ -27,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Populate Swiper slides
     const swiperWrapper = document.querySelector('.swiper-wrapper');
 
-    publications.forEach(pub => {
+    publications.forEach((pub, index) => {
         // Create Swiper slide
         const slide = document.createElement('div');
         slide.classList.add('swiper-slide');
@@ -37,6 +35,10 @@ document.addEventListener('DOMContentLoaded', function () {
         img.style.width = '100%'; // Ensure the image fits the container
         img.style.height = 'auto'; // Maintain aspect ratio
         slide.appendChild(img);
+
+        // Attach the index to the slide
+        slide.dataset.pubIndex = index;
+
         swiperWrapper.appendChild(slide);
     });
 
@@ -46,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Update text on slide change
     swiper.on('slideChange', function () {
-        const index = swiper.realIndex % publications.length;
+        const index = swiper.slides[swiper.activeIndex].dataset.pubIndex;
         updateText(publications[index]);
     });
 
