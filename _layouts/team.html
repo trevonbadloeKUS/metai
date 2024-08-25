@@ -132,7 +132,7 @@ layout: default
             {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
           {% endfor %}
           
-          <strong>{{ pub.publisher }}</strong>,
+          ,<strong>{{ pub.publisher }}</strong>,
           {{ pub.id }}.
         </div>
       </li>
@@ -150,7 +150,7 @@ layout: default
     {% for talk in sorted_talks reversed %}
       <li class="bio-info-etc">
         <span class="bio-info-etc"><a href="{{ talk.website }}">{{ talk.name }}</a>,</span>
-        {{ talk.location }}, {{ talk.date | date: "%b %Y" }}
+        {{ talk.location }} ({{ talk.date | date: "%b %Y" }})
         {% if talk.etc %} [{{ talk.etc }}] {% endif %}
       </li>
     {% endfor %}

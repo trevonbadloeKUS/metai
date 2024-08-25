@@ -1,0 +1,2123 @@
+- id: doi:10.60692/f2deq-96n45
+  authors:
+  - ' Tie Jun Cui'
+  - ' Shuang Zhang'
+  - " Andrea Al\xF9"
+  - ' Martin Wegener'
+  - ' J. B. Pendry'
+  - ' Jie Luo'
+  - ' Yun Lai'
+  - ' Zuojia Wang'
+  - ' Xiao Lin'
+  - ' Hongsheng Chen'
+  - " P\xEFng Chen"
+  - " Rui\u2010Xin Wu"
+  - ' Yuhang Yin'
+  - ' Pengfei Zhao'
+  - ' Huanyang Chen'
+  - ' Yue Li'
+  - ' Ziheng Zhou'
+  - ' Nader Engheta'
+  - ' Viktar Asadchy'
+  - ' Constantin Simovski'
+  - ' Sergei Tretyakov'
+  - ' Biao Yang'
+  - ' Sawyer D. Campbell'
+  - ' Yang Hao'
+  - ' Douglas H. Werner'
+  - ' Shulin Sun'
+  - ' Lei Zhou'
+  - ' Su Xu'
+  - ' Hongbo Sun'
+  - ' Zhou Zhou'
+  - ' Zile Li'
+  - ' Guoxing Zheng'
+  - ' Xianzhong Chen'
+  - ' T. Li'
+  - ' Shining Zhu'
+  - ' Junxiao Zhou'
+  - ' Junxiao Zhou'
+  - ' Zhaowei Liu'
+  - ' Yuchao Zhang'
+  - ' Qiming Zhang'
+  - " Mi\u1E45 Gu"
+  - ' Shumin Xiao'
+  - ' Yongmin Liu'
+  - ' X. Zhang'
+  - ' Yi Tang'
+  - ' Guixin Li'
+  - ' Thomas Zentgraf'
+  - ' Kirill Koshelev'
+  - ' Yuri S. Kivshar'
+  - ' Xin Li'
+  - ' Trevon Badloe'
+  - ' Lingling Huang'
+  - ' Junsuk Rho'
+  - ' Shuming Wang'
+  - ' Din Ping Tsai'
+  - ' Anton Yu. Bykov'
+  - ' Alexey V. Krasavin'
+  - ' Anatoly V. Zayats'
+  - ' Cormac McDonnell'
+  - ' Tal Ellenbogen'
+  - ' Xiangang Luo'
+  - ' Mingbo Pu'
+  - " F. J. Garc\xEDa\u2010Vidal"
+  - ' Liangliang Liu'
+  - ' Zhuo Li'
+  - ' Wenxuan Tang'
+  - ' Hui Feng'
+  - ' Jing Jing Zhang'
+  - ' Yu Luo'
+  - ' Xuanru Zhang'
+  - ' Haochi Zhang'
+  - ' Pei Hang He'
+  - ' Le Peng Zhang'
+  - ' Xiang Wan'
+  - ' Haotian Wu'
+  - ' Shuo Liu'
+  - ' Wei Jiang'
+  - ' Xin Ge Zhang'
+  - " Cheng\u2010Wei Qiu"
+  - ' Qian Ma'
+  - ' Che Liu'
+  - ' Long Li'
+  - ' Jiaqi Han'
+  - ' Lianlin Li'
+  - ' Michele Cotrufo'
+  - ' Christophe Caloz'
+  - " Zo\xE9-Lise Deck-L\xE9ger"
+  - ' Amir Bahrami'
+  - " Oscar C\xE9spedes"
+  - ' Emanuele Galiffi'
+  - ' Paloma A. Huidobro'
+  - ' Qiang Cheng'
+  - ' Jun Dai'
+  - ' Jun Ke'
+  - ' Lei Zhang'
+  - ' Vincenzo Galdi'
+  - ' Marco Di Renzo'
+  date: '2024-01-03'
+  file: orcid_PI.yaml
+  image: https://cms.iopscience.org/ead6444d-2bbb-11e9-9390-0131eabbf6de/journal_cover?guest=true
+  link: https://doi.org/gt6672
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: JPhys Photonics
+  tags:
+  - review
+  - roadmap
+  title: Roadmap on electromagnetic metamaterials and metasurfaces
+  type: review
+
+- id: doi:10.1007/s40684-023-00580-x
+  authors:
+  - Junhwa Seong*
+  - Youngsun Jeon*
+  - Younghwan Yang
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2023-11-28'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs40684-023-00580-x/MediaObjects/40684_2023_580_Fig1_HTML.png
+  link: https://doi.org/gt6673
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: International Journal of Precision Engineering and Manufacturing-Green
+    Technology
+  tags:
+  - review
+  title: "Cost-Effective and Environmentally\_Friendly Mass Manufacturing of Optical\
+    \ Metasurfaces Towards Practical Applications and Commercialization"
+  type: review
+
+- id: doi:10.1515/nanoph-2024-0100
+  authors:
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2024-03-03'
+  file: orcid_PI.yaml
+  image: https://www.degruyter.com/document/cover/journal_key/NANOPH/product_pages
+  link: https://doi.org/gt6674
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanophotonics
+  tags: editorial
+  title: Enabling new frontiers of nanophotonics with metamaterials, photonic crystals,
+    and plasmonics
+  type: editorial
+
+- id: doi:10.1038/s41378-023-00609-w
+  authors:
+  - Byoungsu Ko*
+  - Nara Jeon*
+  - Jaekyung Kim*
+  - Hyunjung Kang
+  - Junhwa Seong
+  - Suhyeon Yun
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2024-01-01'
+  file: orcid_PI.yaml
+  first authors:
+  - Byoungsu Ko
+  - Nara Jeon
+  - Jaekyung Kim
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-023-00609-w/MediaObjects/41378_2023_609_Fig4_HTML.png
+  link: https://doi.org/gtdv3p
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Microsystems &amp; Nanoengineering
+  tags:
+  - review
+  - hydrogels
+  - active-devices
+  title: Hydrogels for active photonics
+  type: review
+
+- id: doi:10.1016/j.solmat.2024.112848
+  authors:
+  - Harit Keawmuang*
+  - Trevon Badloe*
+  - Chihun Lee
+  - Junkyeong Park
+  - Junsuk Rho
+  corresponding authors:
+  - Junsuk Rho
+  date: '2024-07-01'
+  file: orcid_PI.yaml
+  first authors:
+  - Harit Keawmuang
+  - Trevon Badloe
+  highlight: > 
+    'We employed deep neural networks for the inverse design of coloured
+    daytime radiative coolers.  The thicknesses and materials of a multilayer structure
+    are provided on-demand for a given colour spectrum, providing high reflectance
+    in the near-infrared and all wavelengths unrelated to the colour.'
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
+  link: https://doi.org/gt6675
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Solar Energy Materials and Solar Cells
+  tags:
+  - radiative cooling
+  - structural colour
+  - machine learning
+  - inverse design
+  title: Inverse design of colored daytime radiative coolers using deep neural networks
+  type: research
+  
+  
+- id: doi:10.1364/OE.521661
+  authors:
+  - Peng Tang*
+  - Yeseul Kim*
+  - Trevon Badloe*
+  - Linlin Xiao
+  - Younghwan Yang
+  - Minkyung Kim+
+  - Junsuk Rho+
+  - Guoqiang Li+
+  date: '2024-04-29'
+  file: orcid_PI.yaml
+  highlight: >
+    'We investigated polarization-independent edge detection using the spin-orbit
+    interaction of light.  We developed a novel method that leverages the unique properties
+    of spin-orbit interactions to achieve edge detection without being influenced
+    by the polarization state of the incoming light.  This work could significantly
+    enhance optical systems used in image processing and analysis, offering greater
+    flexibility and efficiency in various applications.'
+  image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
+  link: https://doi.org/gt6676
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Optics Express
+  tags:
+  - SHEL
+  - image processing
+  title: "Polarization-independent edge detection based on the spin\u2013orbit interaction\
+    \ of light"
+  type: research
+
+- id: doi:10.1021/acs.nanolett.3c04064
+  authors:
+  - Sabiha Latif*
+  - Joohoon Kim*
+  - Hafiz Saad Khaliq*
+  - Nasir Mahmood
+  - Muhammad Afnan Ansari
+  - Xianzhong Chen
+  - Jehan Akbar
+  - Trevon Badloe
+  - Muhammad Zubair
+  - Yehia Massoud+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2024-01-02'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c04064/asset/images/medium/nl3c04064_0005.gif
+  link: https://doi.org/gt6677
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Letters
+  tags:
+  - metahologram
+  - spin selective
+  title: Spin-Selective Angular Dispersion Control in Dielectric Metasurfaces for
+    Multichannel Meta-Holographic Displays
+  type: research
+
+- id: doi:10.1038/s41378-024-00681-w
+  authors:
+  - Hyunjung Kang*
+  - Dongkyo Oh*
+  - Nara Jeon*
+  - Joohoon Kim
+  - Hongyoon Kim
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2024-04-22'
+  file: orcid_PI.yaml
+  highlight: >
+   'We optimized high-refractive-index nanocomposites for ultraviolet metasurfaces
+    by focusing on the right nanoparticle concentration and solvent choice.  We
+    found that an 80 wt% nanoparticle concentration provided the best structural
+    integrity during the imprinting process.  Additionally, we identified that solvents
+    like MEK and acetone minimize mold swelling, ensuring more accurate pattern
+    transfer.'
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-024-00681-w/MediaObjects/41378_2024_681_Fig1_HTML.png
+  link: https://doi.org/gt6678
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Microsystems &amp; Nanoengineering
+  tags:
+  - UV metasurface
+  - nanoimprint
+  - fabrication
+  title: Tailoring high-refractive-index nanocomposites for manufacturing of ultraviolet
+    metasurfaces
+  type: research
+
+- id: doi:10.1038/s41377-023-01332-x
+  authors:
+  - Younghwan Yang
+  - Trevon Badloe
+  - Duheon Song
+  - Seongjin Park
+  - Junsuk Rho
+  date: '2023-12-04'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01332-x/MediaObjects/41377_2023_1332_Fig1_HTML.png
+  link: https://doi.org/gt6679
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: 'Light: Science &amp; Applications'
+  tags:
+  - review
+  title: 'Building an optics and photonics research ecosystem in South Korea: Collaborative
+    innovation between academia and industry'
+  type: review
+
+- id: doi:10.1002/9783527833030.ch9
+  authors:
+  - Trevon Badloe*
+  - Jaehyuck Jang*
+  - Heonyeong Jeong*
+  - Minsu Jeong*
+  - Inki Kim*
+  - Byoungsu Ko*
+  - Jihae Lee*
+  - Taejun Lee*
+  - "Seong\u2010Won Moon*"
+  - Dong Kyo Oh*
+  - Younghwan Yang*
+  - Gwanho Yoon*
+  - Junsuk Rho
+  date: '2023-06-02'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/90176a3a-43bb-45a2-a1ec-66eb03adce4d/9783527833030.cover.gif
+  link: https://doi.org/gt668b
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Integrated Nanophotonics
+  tags:
+  - book chapter
+  - active photonics
+  title: Active, Tunable, and Reconfigurable Nanophotonics
+  type: book chapter
+
+- id: doi:10.1186/s43593-023-00052-4
+  authors:
+  - Chi Li*+
+  - Jaehyuck Jang*
+  - Trevon Badloe*
+  - Tieshan Yang
+  - Joohoon Kim
+  - Jaekyung Kim
+  - Minh Nguyen
+  - Stefan A. Maier
+  - Junsuk Rho+
+  - Haoran Ren+
+  - Igor Aharonovich
+  date: '2023-08-07'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-023-00052-4/MediaObjects/43593_2023_52_Fig1_HTML.png?as=webp
+  link: https://doi.org/gtn7s4
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: eLight
+  tags:
+  - metalens
+  - quantum
+  - OAM
+  title: Arbitrarily structured quantum emission with a multifunctional metalens
+  type: research
+
+- id: doi:10.1021/acsnano.3c02471
+  authors:
+  - Trevon Badloe*
+  - Yeseul Kim*
+  - Joohoon Kim*
+  - Hyemi Park
+  - Aleksandr Barulin
+  - Yen N. Diep
+  - Hansang Cho
+  - Won-Sik Kim
+  - Young-Ki Kim
+  - Inki Kim+
+  - Junsuk Rho+
+  date: '2023-07-25'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.3c02471/asset/images/medium/nn3c02471_0006.gif
+  link: https://doi.org/gs27hp
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Nano
+  tags:
+  - metalens
+  - liquid crystals
+  - bioimaging
+  - OAM
+  title: Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode
+    Metalens
+  type: research
+
+- id: doi:10.1002/advs.202204469
+  authors:
+  - Byoungsu Ko
+  - Jaekyung Kim
+  - Younghwan Yang
+  - Trevon Badloe
+  - Jeonghoon Park
+  - Joo Hwan Ko
+  - Minsu Jeong
+  - Hyunjung Kang
+  - Chunghwan Jung
+  - Young Min Song
+  - Junsuk Rho
+  date: '2022-11-14'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/cbe8d373-e9e6-4e89-af11-4741dd92cd9e/advs4616-fig-0004-m.jpg
+  link: https://doi.org/gt668c
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Science
+  tags:
+  - structural colour
+  - hydrogel
+  - nanoimprint
+  title: "Humidity\u2010Responsive RGB\u2010Pixels via Swelling of 3D Nanoimprinted\
+    \ Polyvinyl Alcohol"
+  type: research
+
+- id: doi:10.1016/b978-0-323-85796-3.00001-9
+  authors:
+  - Jaebum Noh
+  - Trevon Badloe
+  - Chihun Lee
+  - Jooyeong Yun
+  - Sunae So
+  - Junsuk Rho
+  date: '2023-01-01'
+  file: orcid_PI.yaml
+  link: https://doi.org/gt668d
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Intelligent Nanotechnology
+  remove: true
+  title: 'Inverse design meets nanophotonics: From computational optimization to artificial
+    neural network'
+
+
+- id: doi:10.1002/adma.202208520
+  authors:
+  - Sunae So*
+  - Joohoon Kim*
+  - Trevon Badloe*
+  - Chihun Lee
+  - Younghwan Yang
+  - Hyunjung Kang
+  - Junsuk Rho
+  date: '2023-03-18'
+  file: orcid_PI.yaml
+  image: https://www.researchgate.net/publication/366636032/figure/fig4/AS:11431281173206673@1688790066596/Demonstration-of-multiplane-RGB-holograms-a-The-phase-profile-of-the-optimized.png
+  link: https://doi.org/gs7th8
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Materials
+  tags:
+  - metahologram
+  - inverse design
+  title: "Multicolor and 3D Holography Generated by Inverse\u2010Designed Single\u2010\
+    Cell Metasurfaces"
+  type: research
+
+- id: doi:10.1038/s41377-023-01086-6
+  authors:
+  - Joohoon Kim*
+  - Wonjoong Kim*
+  - Dong Kyo Oh*
+  - Hyunjung Kang
+  - Hongyoon Kim
+  - Trevon Badloe
+  - Seokwoo Kim
+  - Chanwoong Park
+  - Hojung Choi
+  - Heon Lee+
+  - Junsuk Rho+
+  date: '2023-03-08'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-023-01086-6/MediaObjects/41377_2023_1086_Fig4_HTML.png
+  link: https://doi.org/gsmssm
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: 'Light: Science &amp; Applications'
+  tags:
+  - UV metasurface
+  - nanoimprint
+  title: One-step printable platform for high-efficiency metasurfaces down to the
+    deep-ultraviolet region
+  type: research
+
+- id: doi:10.1364/OME.499630
+  authors:
+  - Do T. Nga
+  - Anh D. Phan
+  - Vu D. Lam
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2023-09-13'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=luPOf6Bua04sYw7lRwM%2BNcutBU3mGvgqLUGaE5Zo5TI%3D&uri=ome-13-10-2787-g001
+  link: https://doi.org/gt668f
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Optical Materials Express
+  tags:
+  - optimisation
+  - absorber
+  title: Optimizing the design of broadband solar metamaterial absorbers based on
+    titanium nitride nanorings
+  type: research
+
+- id: doi:10.1021/acs.nanolett.3c01588
+  authors:
+  - Trevon Badloe*
+  - Junhwa Seong*
+  - Junsuk Rho
+  date: '2023-07-21'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.3c01588/asset/images/large/nl3c01588_0003.jpeg
+  link: https://doi.org/gt668g
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Letters
+  tags:
+  - metalens
+  - OAM
+  - imaging
+  title: Trichannel Spin-Selective Metalenses
+  type: research
+
+
+- id: doi:10.1021/acs.nanolett.2c04193
+  authors:
+  - Nasir Mahmood*
+  - Joohoon Kim*
+  - Muhammad Ashar Naveed*
+  - Yeseul Kim
+  - Junhwa Seong
+  - Seokwoo Kim
+  - Trevon Badloe
+  - Muhammad Zubair
+  - Muhammad Qasim Mehmood+
+  - Yehia Massoud+
+  - Junsuk Rho+
+  date: '2023-01-09'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c04193/asset/images/medium/nl2c04193_0006.gif
+  link: https://doi.org/grxpvt
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Letters
+  tags:
+  - OAM
+  - UV metasurface
+  title: "Ultraviolet\u2013Visible Multifunctional Vortex Metaplates by Breaking Conventional\
+    \ Rotational Symmetry"
+  type: research
+
+- id: doi:10.1117/1.AP.5.3.030501
+  authors:
+  - Younghwan Yang
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2023-06-07'
+  file: orcid_PI.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/5/3/030501/FigureImages/AP_5_3_030501_f001.png
+  link: https://doi.org/gt668h
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Photonics
+  tags:
+  - editorial
+  - structural colour
+  title: Writing nanometer-scale structures for centimeter-scale color printing
+  type: editorial
+
+- id: doi:10.1364/PRJ.470004
+  authors:
+  - Sangwon Baek
+  - Joohoon Kim
+  - Yeseul Kim
+  - Won Seok Cho
+  - Trevon Badloe
+  - Seong-Won Moon
+  - Junsuk Rho
+  - Jong-Lam Lee
+  date: '2022-11-30'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=EEXs6K1017EPntf1gZoCoI4nafLBGsxlZfQTEeZoaHs%3D&uri=prj-10-12-B30-g006
+  link: https://doi.org/gtthkq
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Photonics Research
+  tags:
+  - metalens
+  - achromatic
+  title: High numerical aperture RGB achromatic metalens in the visible
+  type: research
+
+- id: doi:10.1515/nanoph-2022-0075
+  authors:
+  - Younghwan Yang
+  - Hongyoon Kim
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2022-05-16'
+  file: orcid_PI.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0075/asset/graphic/j_nanoph-2022-0075_fig_001.jpg
+  link: https://doi.org/gt668j
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanophotonics
+  tags:
+  - chirality
+  - OAM
+  - plasmonics
+  - metahologram
+  title: Gap-plasmon-driven spin angular momentum selection of chiral metasurfaces
+    for intensity-tunable metaholography working at visible frequencies
+
+- id: doi:10.1002/lpor.202200098
+  authors:
+  - Joohoon Kim*
+  - Dong Kyo Oh*
+  - Hongyoon Kim*
+  - Gwanho Yoon
+  - Chunghwan Jung
+  - Jaekyung Kim
+  - Trevon Badloe
+  - Hyunjung Kang
+  - Seokwoo Kim
+  - Younghwan Yang
+  - Jihae Lee
+  - Byoungsu Ko
+  - Jong G. Ok+
+  - Junsuk Rho+
+  date: '2022-06-09'
+  file: orcid_PI.yaml
+  image: https://www.e-jfpe.org/journal/jfpe/jfpe-2-1/gif/jfpe-2-1-97-g6.gif
+  link: https://doi.org/gt668k
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Laser &amp; Photonics Reviews
+  tags:
+  - metahologram
+  - nanoimprint
+  title: "Metasurface Holography Reaching the Highest Efficiency Limit in the Visible\
+    \ via One\u2010Step Nanoparticle\u2010Embedded\u2010Resin Printing"
+  type: research
+
+- id: doi:10.1038/s41378-022-00403-0
+  authors:
+  - Wonjoong Kim
+  - Gwanho Yoon
+  - Joohoon Kim
+  - Heonyeong Jeong
+  - Yeseul Kim
+  - Hojung Choi
+  - Trevon Badloe
+  - Junsuk Rho+
+  - Heon Lee+
+  date: '2022-07-04'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-022-00403-0/MediaObjects/41378_2022_403_Fig8_HTML.png?as=webp
+  link: https://doi.org/gt668m
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Microsystems &amp; Nanoengineering
+  tags:
+  - nanoimprint
+  - nanofabrication
+  - metahologram
+  title: Thermally-curable nanocomposite printing for the scalable manufacturing of
+    dielectric metasurfaces
+  type: research
+
+- id: doi:10.1038/s41377-022-00806-8
+  authors:
+  - Trevon Badloe*
+  - Joohoon Kim*
+  - Inki Kim*
+  - Won-Sik Kim*
+  - Wook Sung Kim
+  - Young-Ki Kim+
+  - Junsuk Rho+
+  date: '2022-04-29'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41377-022-00806-8/MediaObjects/41377_2022_806_Fig3_HTML.png?as=webp
+  link: https://doi.org/gts8q7
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: 'Light: Science &amp; Applications'
+  tags:
+  - structural colour
+  - liquid crystals
+  - Mie resonator
+  title: Liquid crystal-powered Mie resonators for electrically tunable photorealistic
+    color gradients and dark blacks
+  type: research
+
+- id: doi:10.3390/nano12010153
+  authors:
+  - Hanlyun Cho
+  - Heonyeong Jeong
+  - Younghwan Yang
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2022-01-01'
+  file: orcid_PI.yaml
+  image: https://pub.mdpi-res.com/nanomaterials/nanomaterials-12-00153/article_deploy/html/images/nanomaterials-12-00153-g001.png?1641551020
+  link: https://doi.org/gt668n
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanomaterials
+  tags:
+  - metalens
+  - incoherent light
+  title: "Enhancement of Luminous Intensity Emission from Incoherent LED Light Sources\
+    \ within the Detection Angle of 10\xB0 Using Metalenses"
+  type: research
+
+- id: doi:10.1038/s41467-022-34566-1
+  authors:
+  - Byoungsu Ko
+  - Trevon Badloe
+  - Younghwan Yang
+  - Jeonghoon Park
+  - Jaekyung Kim
+  - Heonyeong Jeong
+  - Chunghwan Jung
+  - Junsuk Rho
+  date: '2022-11-09'
+  file: orcid_PI.yaml
+  link: https://doi.org/gt668p
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nature Communications
+  remove: true
+  title: 'Author Correction: Tunable metasurfaces via the humidity responsive swelling
+    of single-step imprinted polyvinyl alcohol nanostructures'
+
+- id: doi:10.1002/adom.202201175
+  authors:
+  - Hafiz Saad Khaliq*
+  - Joohoon Kim*
+  - Taimoor Naeem*
+  - Kashif Riaz
+  - Trevon Badloe
+  - Junhwa Seong
+  - Jehan Akbar
+  - Muhammad Zubair
+  - Muhammad Qasim Mehmood+
+  - Yehia Massoud+
+  - Junsuk Rho+
+  date: '2022-08-21'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/58a57b40-2e39-4a67-b8a9-addb457d9549/adom202201175-gra-0001-m.jpg?trick=1717413695154
+  link: https://doi.org/gt668q
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Optical Materials
+  tags:
+  - chirality
+  - metahologram
+  title: "Broadband Chiro\u2010Optical Effects for Futuristic Meta\u2010Holographic\
+    \ Displays"
+  type: research
+
+- id: doi:10.1117/1.AP.4.6.064002
+  authors:
+  - Trevon Badloe*
+  - Seokho Lee*
+  - Junsuk Rho
+  date: '2022-12-21'
+  file: orcid_PI.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/6/064002/FigureImages/AP_4_6_064002_f006.png
+  link: https://doi.org/gsrvbp
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Photonics
+  tags:
+  - review
+  - optical computing
+  - machine learning
+  title: 'Computation at the speed of light: metamaterials for all-optical calculations
+    and neural networks'
+  type: review
+
+- id: doi:10.1186/s43593-021-00008-6
+  authors:
+  - Dasol Lee*
+  - Sunae So*
+  - Guangwei Hu*
+  - Minkyung Kim
+  - Trevon Badloe
+  - Hanlyun Cho
+  - Jaekyung Kim
+  - Hongyoon Kim
+  - Cheng-Wei Qiu+
+  - Junsuk Rho+
+  date: '2022-01-10'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs43593-021-00008-6/MediaObjects/43593_2021_8_Fig1_HTML.png?as=webp
+  link: https://doi.org/gt668r
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: eLight
+  tags:
+  - review
+  - hyperbolic metamaterials
+  title: 'Hyperbolic metamaterials: fusing artificial structures to natural 2D materials'
+
+- id: doi:10.1016/B978-0-323-85796-3.00001-9
+  authors:
+  - Jaebum Noh
+  - Trevon Badloe
+  - Chihun Lee
+  - Jooyeong Yun
+  - Sunae So
+  - Junsuk Rho
+  date: '2023-01-01'
+  file: orcid_PI.yaml
+  image: https://ars.els-cdn.com/content/image/3-s2.0-C20200030409-cov200h.gif
+  link: https://doi.org/gt668d
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Intelligent Nanotechnology
+  tags:
+  - book chapter
+  - inverse design
+  - optimisation
+  - machine learning
+  title: 'Inverse design meets nanophotonics: From computational optimization to artificial
+    neural network'
+  type: book chapter
+
+- id: doi:10.1038/s41467-022-32117-2
+  authors:
+  - Gyeongtae Kim
+  - Yeseul Kim
+  - Jooyeong Yun
+  - Seong-Won Moon
+  - Seokwoo Kim
+  - Jaekyung Kim
+  - Junkyeong Park
+  - Trevon Badloe
+  - Inki Kim
+  - Junsuk Rho
+  date: '2022-10-10'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32117-2/MediaObjects/41467_2022_32117_Fig1_HTML.png?as=webp
+  link: https://doi.org/gq4trx
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nature Communications
+  tags:
+  - structured light
+  - metasurface
+  - 3D imaging
+  title: Metasurface-driven full-space structured light for three-dimensional imaging
+  type: research
+
+- id: doi:10.1039/d1nr07909c
+  authors:
+  - Gyeongtae Kim
+  - Seokwoo Kim
+  - Hongyoon Kim
+  - Jihae Lee
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2022-01-01'
+  file: orcid_PI.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR07909C&imageInfo.ImageIdentifier.Year=2022
+  link: https://doi.org/gtdtfw
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanoscale
+  tags:
+  - review
+  - metahologram
+  title: Metasurface-empowered spectral and spatial light modulation for disruptive
+    holographic displays
+  type: review
+
+- id: doi:10.1021/acsami.1c19223
+  authors:
+  - Byoungsu Ko*
+  - Ji-Yeon Chae*
+  - Trevon Badloe*
+  - Hongyoon Kim
+  - Soo-Jung Kim
+  - Sung-Hoon Hong+
+  - Taejong Paik+
+  - Junsuk Rho+
+  date: '2022-01-03'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsami.1c19223/asset/images/medium/am1c19223_0007.gif
+  link: https://doi.org/gt668s
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Applied Materials &amp; Interfaces
+  tags:
+  - VO2
+  - multilayer
+  - absorber
+  title: Multilevel Absorbers via the Integration of Undoped and Tungsten-Doped Multilayered
+    Vanadium Dioxide Thin Films
+  type: research
+
+- id: doi:10.1039/d1nr08400c
+  authors:
+  - Muhammad Aamir Abbas*
+  - Joohoon Kim*
+  - Ahsan Sarwar Rana*
+  - Inki Kim
+  - Bacha Rehman
+  - Zubair Ahmad
+  - Yehia Massoud
+  - Junhwa Seong
+  - Trevon Badloe
+  - Keunhan Park
+  - Muhammad Qasim Mehmood+
+  - Muhammad Zubair+
+  - Junsuk Rho+
+  date: '2022-01-01'
+  file: orcid_PI.yaml
+  image: https://pubs.rsc.org/image/article/2022/nr/d1nr08400c/d1nr08400c-f1_hi-res.gif
+  link: https://doi.org/gr4xn8
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanoscale
+  tags:
+  - absorber
+  - solar
+  title: Nanostructured chromium-based broadband absorbers and emitters to realize
+    thermally stable solar thermophotovoltaic systems
+  type: research
+
+- id: doi:10.1002/adom.202200196
+  authors:
+  - Muhammad Ashar Naveed*
+  - Joohoon Kim*
+  - Isma Javed*
+  - Muhammad Afnan Ansari
+  - Junhwa Seong
+  - Yehia Massoud
+  - Trevon Badloe
+  - Inki Kim
+  - Kashif Riaz
+  - Muhammad Zubair+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2022-05-01'
+  file: orcid_PI.yaml
+  image: https://www.researchgate.net/profile/Muhammad-Ashar-Naveed/publication/360313877/figure/fig3/AS:11431281246192076@1716300819220/Simulated-and-measured-results-of-proposed-spin-decoupled-on-axis-holographic.png
+  link: https://doi.org/gt668t
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Optical Materials
+  tags:
+  - spin selective
+  - metahologram
+  title: "Novel Spin\u2010Decoupling Strategy in Liquid Crystal\u2010Integrated Metasurfaces\
+    \ for Interactive Metadisplays"
+  type: research
+
+- id: doi:10.1021/acsnano.1c10100
+  authors:
+  - Joohoon Kim
+  - Dongmin Jeon
+  - Junhwa Seong
+  - Trevon Badloe
+  - Nara Jeon
+  - Gyeongtae Kim
+  - Jaekyung Kim
+  - Sangwon Baek
+  - Jong-Lam Lee
+  - Junsuk Rho
+  date: '2022-02-19'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.1c10100/asset/images/medium/nn1c10100_0006.gif
+  link: https://doi.org/gp8nzm
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Nano
+  tags:
+  - dual mode
+  - metahologram
+  - uv metasurface
+  title: Photonic Encryption Platform <i>via</i> Dual-Band Vectorial Metaholograms
+    in the Ultraviolet and Visible
+  type: research
+
+- id: doi:10.1021/acsami.2c09628
+  authors:
+  - Muhammad Ashar Naveed*
+  - Joohoon Kim*
+  - Muhammad Afnan Ansari*
+  - Inki Kim
+  - Yehia Massoud
+  - Jaekyung Kim
+  - Dong Kyo Oh
+  - Trevon Badloe
+  - Jihae Lee
+  - Yeseul Kim
+  - Dongmin Jeon
+  - Jonghyun Choi
+  - Muhammad Zubair+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2022-07-01'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsami.2c09628/asset/images/medium/am2c09628_0007.gif
+  link: https://doi.org/gqm8hq
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Applied Materials &amp; Interfaces
+  tags:
+  - metahologram
+  - flexible
+  - nanoimprint
+  title: Single-Step Fabricable Flexible Metadisplays for Sensitive Chemical/Biomedical
+    Packaging Security and Beyond
+  type: research
+
+- id: doi:10.1021/acs.nanolett.2c00790
+  authors:
+  - Won-Geun Kim*
+  - Jong-Min Lee*
+  - Younghwan Yang*
+  - Hongyoon Kim
+  - Vasanthan Devaraj
+  - Minjun Kim
+  - Hyuk Jeong
+  - Eun-Jung Choi
+  - Jihyuk Yang
+  - Yudong Jang
+  - Trevon Badloe
+  - Donghan Lee
+  - Junsuk Rho+
+  - Ji Tae Kim+
+  - Jin-Woo Oh+
+  date: '2022-05-27'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.2c00790/asset/images/medium/nl2c00790_0005.gif
+  link: https://doi.org/gt668v
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Letters
+  tags:
+  - 3D printing
+  - biosensing
+  - photoluminscence
+  title: "Three-Dimensional Plasmonic Nanocluster-Driven Light\u2013Matter Interaction\
+    \ for Photoluminescence Enhancement and Picomolar-Level Biosensing"
+  type: research
+
+- id: doi:10.1117/1.AP.4.2.024001
+  authors:
+  - Jaekyung Kim*
+  - Junhwa Seong*
+  - Younghwan Yang
+  - Seong-Won Moon
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2022-03-07'
+  file: orcid_PI.yaml
+  image: https://www.spiedigitallibrary.org/ContentImages/Journals/APDHC9/4/2/024001/FigureImages/AP_4_2_024001_f006.png
+  link: https://doi.org/gr49ng
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Photonics
+  tags:
+  - active photonics
+  - review
+  - metalens
+  - metahologram
+  title: 'Tunable metasurfaces towards versatile metalenses and metaholograms: a review'
+  type: review
+
+- id: doi:10.1038/s41467-022-32987-6
+  authors:
+  - Byoungsu Ko*
+  - Trevon Badloe*
+  - Younghwan Yang*
+  - Jeonghoon Park
+  - Jaekyung Kim
+  - Heonyeong Jeong
+  - Chunghwan Jung
+  - Junsuk Rho
+  date: '2022-10-21'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-32987-6/MediaObjects/41467_2022_32987_Fig4_HTML.png?as=webp
+  link: https://doi.org/grjktj
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nature Communications
+  tags:
+  - nanoimprint
+  - hydrogel
+  - active photonics
+  - metahologram
+  - structural colour
+  title: Tunable metasurfaces via the humidity responsive swelling of single-step
+    imprinted polyvinyl alcohol nanostructures
+  type: research
+
+- id: doi:10.1063/5.0078804
+  authors:
+  - Seong-Won Moon*
+  - Chihun Lee*
+  - Younghwan Yang
+  - Joohoon Kim
+  - Trevon Badloe
+  - Chunghwan Jung
+  - Gwanho Yoon
+  - Junsuk Rho
+  date: '2022-03-04'
+  file: orcid_PI.yaml
+  image: https://aipp.silverchair-cdn.com/aipp/content_public/journal/jap/issue/131/9/1/m_jap_2022_131_issue-9_largecover.jpeg?Expires=1727618248&Signature=JMYO0IBTsAvYUaNnATO-RA9rn-Xa56o4BUo6X7lp7HHUhiHCLww0eVcFJcEbYLLqfklx--J2r8Yc5aP4dGo4FggknH~Kh1j48OfHS8tG~OmdA-ZEpv5P6oZQ2v9clqLucrOBdcvSnvHvhsSA2z85ZLh9BQbb9jnVms0nrHboEkG2Z5a99C1-ZmOk6ur8VL1X4WXdD2k19tGVs0iQfrGvVSaM7hVlAj3WgFrsNfnxbPeMZWzeNtq3J-Ymid0SFVnSUaDv5T6Uq4h0B6r2fHRXPr1JkhSPpqohUMMHs23Jlv1UHSQBSF8K56T-z-0JgyIIvGckf2NcW5Gaj3PfVdnWyg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  link: https://doi.org/gsrkd9
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Journal of Applied Physics
+  tags:
+  - review
+  - metalens
+  title: 'Tutorial on metalenses for advanced flat optics: Design, fabrication, and
+    critical considerations'
+  type: review
+
+- id: doi:10.1002/advs.202170140
+  authors:
+  - Trevon Badloe
+  - Inki Kim
+  - Yeseul Kim
+  - Joohoon Kim
+  - Junsuk Rho
+  date: '2021-11-01'
+  file: orcid_PI.yaml
+  link: https://doi.org/gt668w
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Science
+  title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
+    \ and Imaging at Visible Wavelengths (Adv. Sci. 21/2021)"
+  remove: true
+
+- id: doi:10.1002/advs.202102646
+  authors:
+  - Trevon Badloe*
+  - Inki Kim*
+  - Yeseul Kim*
+  - Joohoon Kim*
+  - Junsuk Rho
+  date: '2021-09-05'
+  file: orcid_PI.yaml
+  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/8e6de71f1615a.jpg
+  link: https://doi.org/gph54j
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Science
+  tags:
+  - metalens
+  - bifocal
+  - imaging
+  - active photonics
+  title: "Electrically Tunable Bifocal Metalens with Diffraction\u2010Limited Focusing\
+    \ and Imaging at Visible Wavelengths"
+  type: research
+
+- id: doi:10.1109/jstqe.2021.3065826
+  authors:
+  - Younghwan Yang*
+  - Taejun Lee*
+  - Minkyung Kim
+  - Chunghwan Jung
+  - Trevon Badloe
+  - Dasol Lee
+  - Seokho Lee
+  - Hee-Jo Lee
+  - Junsuk Rho
+  date: '2021-09-01'
+  file: orcid_PI.yaml
+  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvntSWnIS48EZLDzlK1L8IRVplHjojn49KMQ&s
+  link: https://doi.org/gt668x
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: IEEE Journal of Selected Topics in Quantum Electronics
+  tags:
+  - SHEL
+  - hydrogel
+  - active photonics
+  title: Dynamic Optical Spin Hall Effect in Chitosan-Coated All-Dielectric Metamaterials
+    for a Biosensing Platform
+
+- id: doi:10.1038/s41377-021-00589-4
+  authors:
+  - Jaehyuck Jang*
+  - Trevon Badloe*
+  - Junsuk Rho
+  date: '2021-07-14'
+  file: orcid_PI.yaml
+  link: https://doi.org/gt668z
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: 'Light: Science &amp; Applications'
+  tags:
+  - news & views
+  - optical security
+  title: Unlocking the future of optical security with metasurfaces
+  type: editorial
+
+- id: doi:10.1364/OME.430306
+  authors:
+  - Sunae So*
+  - Dasol Lee*
+  - Trevon Badloe*
+  - Junsuk Rho
+  date: '2021-06-02'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=41ws990r15auH6QBq%2BRntk8dSQIcr0e7Xh3Oedz0ZeM%3D&size=full&uri=ome-11-7-1863-g001
+  link: https://doi.org/gj6h9w
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Optical Materials Express
+  tags:
+  - inverse design
+  - machine learning
+  - absorber
+  - thermal emitter
+  title: Inverse design of ultra-narrowband selective thermal emitters designed by
+    artificial neural networks
+  type: research
+
+- id: doi:10.1002/adpr.202000205
+  authors:
+  - Trevon Badloe
+  - Jihae Lee
+  - Junhwa Seong
+  - Junsuk Rho
+  date: '2021-07-16'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/f973d5df-f740-4758-bfba-f27fc23c8213/adpr202000205-fig-0001-m.jpg
+  link: https://doi.org/gmx5s3
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Photonics Research
+  tags:
+  - review
+  - active photonics
+  title: 'Tunable Metasurfaces: The Path to Fully Active Nanophotonics'
+  type: review
+
+- id: doi:10.3390/s21134381
+  authors:
+  - Joohoon Kim*
+  - Ahsan Sarwar Rana*
+  - Yeseul Kim*
+  - Inki Kim
+  - Trevon Badloe
+  - Muhammad Zubair+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2021-06-26'
+  file: orcid_PI.yaml
+  image: https://pub.mdpi-res.com/sensors/sensors-21-04381/article_deploy/html/images/sensors-21-04381-g005.png?1624946204
+  link: https://doi.org/grtdk9
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Sensors
+  tags:
+  - review
+  - chirality
+  title: 'Chiroptical Metasurfaces: Principles, Classification, and Applications'
+  type: review
+
+- id: doi:10.1038/s41467-021-23814-5
+  authors:
+  - Inki Kim*
+  - Jaehyuck Jang*
+  - Gyeongtae Kim*
+  - Jihae Lee
+  - Trevon Badloe
+  - Jungho Mun
+  - Junsuk Rho
+  date: '2021-06-14'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-23814-5/MediaObjects/41467_2021_23814_Fig1_HTML.png?as=webp
+  link: https://doi.org/gsxkf2
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nature Communications
+  tags:
+  - metahologram
+  - optical encryption
+  - dual mode
+  title: Pixelated bifunctional metasurface-driven dynamic vectorial holographic color
+    prints for photonic security platform
+  type: research
+
+- id: doi:10.1002/adom.202100609
+  authors:
+  - Inki Kim+
+  - Heonyeong Jeong+
+  - Joohoon Kim
+  - Younghwan Yang
+  - Dasol Lee
+  - Trevon Badloe
+  - Gyeongtae Kim
+  - Junsuk Rho
+  date: '2021-06-14'
+  file: orcid_PI.yaml
+  image: https://cdn.imweb.me/upload/S202007201dd096ccc50a9/06f3c3fa2d53c.jpg
+  link: https://doi.org/gt6682
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Optical Materials
+  tags:
+  - metahologram
+  - dual mode
+  - fabrication
+  title: "Dual\u2010Band Operating Metaholograms with Heterogeneous Meta\u2010Atoms\
+    \ in the Visible and Near\u2010Infrared"
+  type: research
+
+- id: doi:10.1364/prj.424477
+  authors:
+  - Hafiz Saad Khaliq*
+  - Inki Kim*
+  - Aima Zahid*
+  - Joohoon Kim
+  - Taejun Lee
+  - Trevon Badloe
+  - Yeseul Kim
+  - Muhammad Zubair+
+  - Kashif Riaz+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2021-08-11'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=7yddk73ER7U6%2BJdJNFYlQxIeXao3ZUOq8gsFAvmSGgo%3D&uri=prj-9-9-1667-g001
+  link: https://doi.org/gm8pf8
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Photonics Research
+  tags:
+  - chirality
+  title: Giant chiro-optical responses in multipolar-resonances-based single-layer
+    dielectric metasurfaces
+  type: research
+
+- id: doi:10.1038/s41565-021-00895-3
+  authors:
+  - Inki Kim*
+  - Renato Juliano Martins*
+  - Jaehyuck Jang
+  - Trevon Badloe
+  - Samira Khadir
+  - Ho-Youl Jung
+  - Hyeongdo Kim
+  - Jongun Kim
+  - Patrice Genevet+
+  - Junsuk Rho+
+  date: '2021-05-01'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41565-021-00895-3/MediaObjects/41565_2021_895_Fig1_HTML.png?as=webp
+  link: https://doi.org/gjwmgd
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nature Nanotechnology
+  tags:
+  - review
+  - lidar
+  title: Nanophotonics for light detection and ranging technology
+  type: review
+
+
+- id: doi:10.1126/sciadv.abe9943
+  authors:
+  - Inki Kim*
+  - Won-Sik Kim*
+  - Kwan Kim
+  - Muhammad Afnan Ansari
+  - Muhammad Qasim Mehmood
+  - Trevon Badloe
+  - Yeseul Kim
+  - Junho Gwak
+  - Heon Lee
+  - Young-Ki Kim+
+  - Junsuk Rho+
+  date: '2021-04-09'
+  file: orcid_PI.yaml
+  image: https://www.science.org/cms/10.1126/sciadv.abe9943/asset/68f60f96-d5ed-4942-bd82-90b244d0817c/assets/graphic/abe9943-f4.jpeg
+  link: https://doi.org/gjpkhf
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Science Advances
+  tags:
+  - metahologram
+  - optical sensing
+  - spin selective
+  title: Holographic metasurface gas sensors for instantaneous visual alarms
+  type: research
+
+- id: doi:10.1038/s41378-020-00226-x
+  authors:
+  - Muhammad Ashar Naveed*
+  - Muhammad Afnan Ansari*
+  - Inki Kim*
+  - Trevon Badloe
+  - Joohoon Kim
+  - Dong Kyo Oh
+  - Kashif Riaz
+  - Tauseef Tauqeer
+  - Usman Younis
+  - Murtaza Saleem
+  - Muhammad Sabieh Anwar
+  - Muhammad Zubair+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2021-03-03'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41378-020-00226-x/MediaObjects/41378_2020_226_Fig1_HTML.png?as=webp
+  link: https://doi.org/gqf5bk
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Microsystems &amp; Nanoengineering
+  tags:
+  - metahologram
+  - spin selective
+  title: Optical spin-symmetry breaking for high-efficiency directional helicity-multiplexed
+    metaholograms
+  type: research
+
+- id: doi:10.1016/j.nanoen.2020.105426
+  authors:
+  - Dasol Lee*
+  - Myeongcheol Go*
+  - Soomin Son*
+  - Minkyung Kim
+  - Trevon Badloe
+  - Heon Lee+
+  - Jin Kon Kim+
+  - Junsuk Rho+
+  date: '2021-01-01'
+  file: orcid_PI.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211285520310028-fx1.jpg
+  link: https://doi.org/gqgccv
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Energy
+  tags:
+  - radiative cooling
+  title: Sub-ambient daytime radiative cooling by silica-coated porous anodic aluminum
+    oxide
+  type: research
+
+- id: doi:10.1002/inf2.12191
+  authors:
+  - Joohoon Kim*
+  - Younghwan Yang*
+  - Trevon Badloe
+  - Inki Kim
+  - Gwanho Yoon
+  - Junsuk Rho
+  date: '2021-05-05'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/0f2b60d7-7eee-4b65-8582-8485043b6100/inf212191-fig-0001-m.jpg
+  link: https://doi.org/gt6683
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: InfoMat
+  tags:
+  - review
+  - metahologram
+  title: "Geometric and physical configurations of meta\u2010atoms for advanced metasurface\
+    \ holography"
+  type: review
+
+- id: doi:10.1021/acs.chemrev.1c00294
+  authors:
+  - Chunghwan Jung*
+  - Gyeongtae Kim*
+  - Minsu Jeong*
+  - Jaehyuck Jang*
+  - Zhaogang Dong
+  - Trevon Badloe
+  - Joel K. W. Yang
+  - Junsuk Rho
+  date: '2021-09-07'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acs.chemrev.1c00294/asset/images/medium/cr1c00294_0016.gif
+  link: https://doi.org/gmx44v
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Chemical Reviews
+  tags:
+  - review
+  - metahologram
+  - optical encryption
+  title: Metasurface-Driven Optically Variable Devices
+  type: review
+
+- id: doi:10.1007/s12200-021-1121-8
+  authors:
+  - Dong Kyo Oh*
+  - Taejun Lee*
+  - Byoungsu Ko*
+  - Trevon Badloe
+  - Jong G. Ok+
+  - Junsuk Rho+
+  date: '2021-04-13'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12200-021-1121-8/MediaObjects/12200_2021_1121_Fig1_HTML.jpg?as=webp
+  link: https://doi.org/gr9cf5
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Frontiers of Optoelectronics
+  tags:
+  - review
+  - nanoimprint
+  - fabrication
+  title: Nanoimprint lithography for high-throughput fabrication of metasurfaces
+  type: review
+
+- id: doi:10.1021/acsami.1c03427
+  authors:
+  - Taejun Lee*
+  - Joohoon Kim*
+  - Ishwor Koirala*
+  - Younghwan Yang
+  - Trevon Badloe
+  - Jaehyuck Jang
+  - Junsuk Rho
+  date: '2021-05-28'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsami.1c03427/asset/images/medium/am1c03427_0006.gif
+  link: https://doi.org/gqrbkz
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Applied Materials &amp; Interfaces
+  tags:
+  - structural colour
+  - mie scattering
+  title: Nearly Perfect Transmissive Subtractive Coloration through the Spectral Amplification
+    of Mie Scattering and Lattice Resonance
+  type: research
+
+- id: doi:10.1007/978-3-030-62844-4_10
+  authors:
+  - Younghwan Yang*
+  - Yeseul Kim*
+  - Junho Gwak
+  - Sunae So
+  - Jungho Mun
+  - Minkyung Kim
+  - Heonyeong Jeong
+  - Inki Kim
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2021-01-01'
+  file: orcid_PI.yaml
+  link: https://doi.org/gt6684
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Topics in Applied Physics
+  tags:
+  - review
+  - charality
+  - 3D structures
+  title: Realization of Artificial Chirality in Micro-/Nano-Scale Three-Dimensional
+    Plasmonic Structures
+  type: review
+
+- id: doi:10.1002/adma.202005893
+  authors:
+  - Younghwan Yang*
+  - Gwanho Yoon*
+  - Sunghak Park
+  - Seok Daniel Namgung
+  - Trevon Badloe
+  - Ki Tae Nam
+  - Junsuk Rho
+  date: '2021-01-29'
+  file: orcid_PI.yaml
+  image: https://www.researchgate.net/publication/348881057/figure/fig2/AS:11431281173118563@1688775637568/Complex-refractive-index-and-transparency-of-low-loss-hydrogenated-amorphous-silicon-The.png
+  link: https://doi.org/gkzpmz
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Materials
+  tags:
+  - fabrication
+  - silicon
+  title: "Revealing Structural Disorder in Hydrogenated Amorphous Silicon for a Low\u2010\
+    Loss Photonic Platform at Visible Frequencies"
+  type: research
+
+- id: doi:10.1039/d1nr05805c
+  authors:
+  - Yeseul Kim*
+  - Hongyoon Kim*
+  - Younghwan Yang*
+  - Trevon Badloe
+  - Nara Jeon
+  - Junsuk Rho
+  date: '2022-01-01'
+  file: orcid_PI.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NR05805C&imageInfo.ImageIdentifier.Year=2022
+  link: https://doi.org/gt6685
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanoscale
+  tags:
+  - review
+  - chirality
+  title: Three-dimensional artificial chirality towards low-cost and ultra-sensitive
+    enantioselective sensing
+  type: review
+
+- id: doi:10.1002/cnma.202100060
+  authors:
+  - Byoungsu Ko*
+  - Trevon Badloe*
+  - Junsuk Rho
+  date: '2021-04-29'
+  file: orcid_PI.yaml
+  image: https://pub.mdpi-res.com/photonics/photonics-08-00057/article_deploy/html/images/photonics-08-00057-g006.png?1613966440
+  link: https://doi.org/gt6686
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ChemNanoMat
+  tags:
+  - review
+  - vo2
+  - active photonics
+  title: Vanadium Dioxide for Dynamically Tunable Photonics
+  type: review
+
+- id: doi:10.1088/2040-8986/abbc55
+  authors:
+  - Byoungsu Ko*
+  - Trevon Badloe*
+  - Soo-Jung Kim
+  - Sung-Hoon Hong+
+  - Junsuk Rho+
+  date: '2020-10-14'
+  file: orcid_PI.yaml
+  image: https://content.cld.iop.org/journals/2040-8986/22/11/114002/revision3/joptabbc55f5_hr.jpg
+  link: https://doi.org/gt6687
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Journal of Optics
+  tags:
+  - vo2
+  - active photonics
+  - absorber
+  - flexible
+  - structural colour
+  title: Employing vanadium dioxide nanoparticles for flexible metasurfaces with switchable
+    absorption properties at near-infrared frequencies
+  type: research
+
+- id: doi:10.1021/acsnano.0c05656
+  authors:
+  - Jaehyuck Jang*
+  - Trevon Badloe*
+  - Younghwan Yang*
+  - Taejun Lee
+  - Jungho Mun
+  - Junsuk Rho
+  date: '2020-10-22'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsnano.0c05656/asset/images/medium/nn0c05656_0005.gif
+  link: https://doi.org/ghhmtx
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Nano
+  tags:
+  - structural colour
+  - mie scattering
+  - quasi-guided mode resonance
+  title: 'Spectral Modulation through the Hybridization of Mie-Scatterers and Quasi-Guided
+    Mode Resonances: Realizing Full and Gradients of Structural Color'
+  type: research
+
+- id: doi:10.1038/s41377-020-00367-8
+  authors:
+  - Jungho Mun*
+  - Minkyung Kim*
+  - Younghwan Yang*
+  - Trevon Badloe*
+  - Jincheng Ni
+  - Yang Chen
+  - Cheng-Wei Qiu
+  - Junsuk Rho
+  date: '2020-09-02'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41377-020-00367-8/MediaObjects/41377_2020_367_Fig1_HTML.png?as=webp
+  link: https://doi.org/gmcjhn
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: 'Light: Science &amp; Applications'
+  tags:
+  - review
+  - chirality
+  title: 'Electromagnetic chirality: from fundamentals to nontraditional chiroptical
+    phenomena'
+  type: review
+
+- id: doi:10.1364/PRJ.395749
+  authors:
+  - Inki Kim*
+  - Juyoung Yun*
+  - Trevon Badloe
+  - Hyuk Park
+  - Taewon Seo
+  - Younghwan Yang
+  - Juhoon Kim
+  - Yoonyoung Chung
+  - Junsuk Rho
+  date: '2020-08-05'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=5jQx6GXMRQiT32xbTj0zH%2FfEHxKG7d1kC6RLiLcmC0s%3D&uri=prj-8-9-1409-g005
+  link: https://doi.org/gkzpm3
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Photonics Research
+  tags:
+  - structural colour
+  - IGZO
+  title: Structural color switching with a doped indium-gallium-zinc-oxide semiconductor
+  type: research
+
+- id: doi:10.1002/adts.202000138
+  authors:
+  - Hanlyun Cho
+  - Sunae So
+  - Trevon Badloe
+  - Sanghun Bang
+  - Junsuk Rho
+  date: '2020-09-16'
+  file: orcid_PI.yaml
+  image: https://www.researchgate.net/publication/344425305/figure/fig1/AS:11431281246539099@1716391106141/a-Isofrequency-surfaces-of-a-type-I-HMM-left-and-a-type-II-HMM-right-The-type-I-HMM.png
+  link: https://doi.org/gt6688
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Advanced Theory and Simulations
+  tags:
+  - hyperbolic metamaterial
+  - negative refraction
+  title: Critical Layer Thickness Analysis of Vertically Stacked Hyperbolic Metamaterials
+    for Effective Negative Refraction Generation
+  type: research
+
+- id: doi:10.1186/s40580-020-00233-8
+  authors:
+  - Iman Sajedian
+  - Trevon Badloe
+  - Heon Lee
+  - Junsuk Rho
+  date: '2020-08-03'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40580-020-00233-8/MediaObjects/40580_2020_233_Fig1_HTML.png?as=webp
+  link: https://doi.org/ghtz5d
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nano Convergence
+  tags:
+  - machine learning
+  - reinforcement learning
+  - absorber
+  title: 'Deep Q-network to produce polarization-independent perfect solar absorbers:
+    a statistical report'
+  type: research
+
+- id: doi:10.3390/s20154108
+  authors:
+  - Taejun Lee*
+  - Chihun Lee*
+  - Dong Kyo Oh
+  - Trevon Badloe
+  - Jong G. Ok
+  - Junsuk Rho
+  date: '2020-07-23'
+  file: orcid_PI.yaml
+  image: https://pub.mdpi-res.com/sensors/sensors-20-04108/article_deploy/html/images/sensors-20-04108-g009.png?1595585406
+  link: https://doi.org/gn6dbb
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Sensors
+  tags:
+  - review
+  - fabrication
+  title: Scalable and High-Throughput Top-Down Manufacturing of Optical Metasurfaces
+  type: review
+
+- id: doi:10.1038/s41598-020-59729-2
+  authors:
+  - Trevon Badloe
+  - Inki Kim
+  - Junsuk Rho
+  date: '2020-03-11'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-020-59729-2/MediaObjects/41598_2020_59729_Fig1_HTML.png?as=webp
+  link: https://doi.org/gt6689
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Scientific Reports
+  tags:
+  - vo2
+  - active photonics
+  - absorber
+  title: Moth-eye shaped on-demand broadband and switchable perfect absorbers based
+    on vanadium dioxide
+  type: research
+
+- id: doi:10.1515/nanoph-2019-0474
+  authors:
+  - Sunae So*
+  - Trevon Badloe*
+  - Jaebum Noh*
+  - Jorge Bravo-Abad+
+  - Junsuk Rho+
+  date: '2020-02-17'
+  file: orcid_PI.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0474/asset/graphic/j_nanoph-2019-0474_fig_001.jpg
+  link: https://doi.org/ghswgn
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanophotonics
+  tags:
+  - review
+  - machine learning
+  - inverse design
+  title: Deep learning enabled inverse design in nanophotonics
+  type: review
+
+- id: doi:10.1016/j.mee.2019.111146
+  authors:
+  - Heonyeong Jeong
+  - Younghwan Yang
+  - Hanlyun Cho
+  - Trevon Badloe
+  - Inki Kim
+  - Ren-Min Ma
+  - Junsuk Rho
+  date: '2020-02-01'
+  file: orcid_PI.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0167931719303028-ga1.jpg
+  link: https://doi.org/gr9pdg
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Microelectronic Engineering
+  tags:
+  - review
+  - metasurface
+  title: 'Emerging advanced metasurfaces: Alternatives to conventional bulk optical
+    devices'
+  type: review
+
+- id: doi:10.1039/d0nr05624c
+  authors:
+  - Jaehyuck Jang*
+  - Trevon Badloe*
+  - Young Chul Sim*
+  - Younghwan Yang
+  - Jungho Mun
+  - Taejun Lee
+  - Yong-Hoon Cho+
+  - Junsuk Rho+
+  date: '2020-01-01'
+  file: orcid_PI.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NR05624C&imageInfo.ImageIdentifier.Year=2020
+  link: https://doi.org/gkzpnc
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanoscale
+  tags:
+  - structural colour
+  - GaN
+  title: Full and gradient structural colouration by lattice amplified gallium nitride
+    Mie-resonators
+  type: research
+
+- id: doi:10.1039/c9na00751b
+  authors:
+  - Dasol Lee*
+  - Junho Gwak*
+  - Trevon Badloe
+  - Stefano Palomba
+  - Junsuk Rho
+  date: '2020-01-01'
+  file: orcid_PI.yaml
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9NA00751B&imageInfo.ImageIdentifier.Year=2020
+  link: https://doi.org/gpf7zg
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanoscale Advances
+  tags:
+  - review
+  - imaging
+  title: 'Metasurfaces-based imaging and applications: from miniaturized optical components
+    to functional imaging platforms'
+  type: review
+
+- id: doi:10.1515/nanoph-2020-0440
+  authors:
+  - Chunghwan Jung+
+  - Younghwan Yang+
+  - Jaehyuck Jang
+  - Trevon Badloe
+  - Taejun Lee
+  - Jungho Mun
+  - Seong-Won Moon
+  - Junsuk Rho
+  date: '2020-11-26'
+  file: orcid_PI.yaml
+  image: https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0440/asset/graphic/j_nanoph-2020-0440_fig_001.jpg
+  link: https://doi.org/gkzpnd
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Nanophotonics
+  tags:
+  - structural colour
+  - encryption
+  - polarisation
+  title: Near-zero reflection of all-dielectric structural coloration enabling polarization-sensitive
+    optical encryption with enhanced switchability
+  type: research
+
+- id: doi:10.1364/ome.9.003248
+  authors:
+  - Dasol Lee
+  - Minkyung Kim
+  - Jeonghyun Kim
+  - Hyeonjun Hong
+  - Trevon Badloe
+  - Dong Sung Kim
+  - Junsuk Rho
+  date: '2019-07-08'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=l18Re%2FpaRgp%2BTjNhKtYnym17kMue86ayqd5mVZtAahM%3D&uri=ome-9-8-3248-g002
+  link: https://doi.org/gk48pv
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Optical Materials Express
+  tags:
+  - metasurface
+  - imaging
+  title: All-dielectric metasurface imaging platform applicable to laser scanning
+    microscopy with enhanced axial resolution and wavelength selection
+  type: research
+
+- id: doi:10.1002/lpor.201900065
+  authors:
+  - Muhammad Afnan Ansari*
+  - Inki Kim*
+  - Dasol Lee
+  - Muhammad Hamza Waseem
+  - Muhammad Zubair
+  - Nasir Mahmood
+  - Trevon Badloe
+  - Selcuk Yerci+
+  - Tauseef Tauqeer+
+  - Muhammad Qasim Mehmood+
+  - Junsuk Rho+
+  date: '2019-04-08'
+  file: orcid_PI.yaml
+  image: https://www.researchgate.net/publication/346824337/figure/fig5/AS:11431281173088908@1688761174874/Operation-of-spin-encoded-metaholograms-in-a-broadband-range-of-visible-light-The.png
+  link: https://doi.org/gkzpnx
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Laser &amp; Photonics Reviews
+  tags:
+  - metahologram
+  - spin selective
+  title: "A Spin\u2010Encoded All\u2010Dielectric Metahologram for Visible Light"
+  type: research
+
+- id: doi:10.1364/oe.27.005874
+  authors:
+  - Iman Sajedian
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2019-02-18'
+  file: orcid_PI.yaml
+  image: https://opg.optica.org/getimagev2.cfm?img=EbRSjT2RrBO%2Fuoni4vsXX16D0Uo5x0EmVc8cbBVGnKk%3D&uri=oe-27-4-5874-g005
+  link: https://doi.org/ggwbf8
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Optics Express
+  tags:
+  - optimisation
+  - machine learning
+  - reinforcement learning
+  - structural colour
+  title: Optimisation of colour generation from dielectric nanostructures using reinforcement
+    learning
+  type: research
+
+- id: doi:10.1038/s41598-018-28744-9
+  authors:
+  - Dedi Mardiansyah*
+  - Trevon Badloe*
+  - Kuwat Triyana
+  - Muhammad Q. Mehmood
+  - Niloufar Raeis-Hosseini
+  - Yoonkyung Lee
+  - Harsojo Sabarman
+  - Kyunghoon Kim+
+  - Junsuk Rho+
+  date: '2018-07-13'
+  file: orcid_PI.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-28744-9/MediaObjects/41598_2018_28744_Fig8_HTML.jpg?as=webp
+  link: https://doi.org/gdthtb
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Scientific Reports
+  tags:
+  - nanowires
+  - transparent electrode
+  title: Effect of temperature on the oxidation of Cu nanowires and development of
+    an easy to produce, oxidation-resistant transparent conducting electrode using
+    a PEDOT:PSS coating
+  type: research
+
+- id: doi:10.1080/05704928.2018.1467438
+  authors:
+  - Jungho Mun
+  - Dasol Lee
+  - Sunae So
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2018-06-22'
+  file: orcid_PI.yaml
+  image: https://www.tandfonline.com/cms/asset/824198bd-d4dc-4f5e-9098-e8f60aa1cb15/laps20.v059.i07.cover.jpg
+  link: https://doi.org/gt669b
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Applied Spectroscopy Reviews
+  tags:
+  - review
+  - SERS
+  title: 'Surface-enhanced spectroscopy: Toward practical analysis probe'
+  type: review
+
+- id: doi:10.3390/en12010089
+  authors:
+  - Byoungsu Ko
+  - Dasol Lee
+  - Trevon Badloe
+  - Junsuk Rho
+  date: '2018-12-28'
+  file: orcid_PI.yaml
+  image: https://pub.mdpi-res.com/energies/energies-12-00089/article_deploy/html/images/energies-12-00089-g001.png?1570884646
+  link: https://doi.org/gmdkgm
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Energies
+  tags:
+  - review
+  - radiative cooling
+  title: 'Metamaterial-Based Radiative Cooling: Towards Energy-Free All-Day Cooling'
+  type: review
+
+- id: doi:10.1155/2017/2361042
+  authors:
+  - Trevon Badloe
+  - Jungho Mun
+  - Junsuk Rho
+  date: '2017-01-01'
+  file: orcid_PI.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/6a039a42-0bc7-4b7b-a3e5-e56e7d4e1e53/jona2361042-fig-0006-m.jpg
+  link: https://doi.org/gcj44d
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: Journal of Nanomaterials
+  tags:
+  - review
+  - absorbers
+  title: 'Metasurfaces-Based Absorption and Reflection Control: Perfect Absorbers
+    and Reflectors'
+  type: review
+
+- id: doi:10.1021/acsphotonics.7b01182
+  authors:
+  - Dasol Lee
+  - Yang Doo Kim
+  - Minkyung Kim
+  - Sunae So
+  - Hak-Jong Choi
+  - Jungho Mun
+  - Duc Minh Nguyen
+  - Trevon Badloe
+  - Jong G. Ok
+  - Kyunghoon Kim
+  - Heon Lee+
+  - Junsuk Rho+
+  date: '2017-12-12'
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/apchd5.2018.5.issue-7/asset/16915e08-2716-15e0-8271-915e08827169/apchd5.2018.5.issue-7.largecover.jpg
+  link: https://doi.org/gdzx26
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  publisher: ACS Photonics
+  tags:
+  - hyperbolic metasurface
+  - hyperlens
+  title: Realization of Wafer-Scale Hyperlens Device for Sub-diffractional Biomolecular
+    Imaging
+  type: research
