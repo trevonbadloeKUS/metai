@@ -84,13 +84,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign sorted_publications = site.data.citations | sort: 'date' | reverse %}
 {% assign latest_publications = sorted_publications | slice: 0, 3 %}
 
-<div class="publication-carousel">
-    {% for publication in latest_publications %}
-        <div class="publication-slide">
-            <a href="{{ publication.link }}">
-                <img src="{{ publication.image }}" alt="{{ publication.title }}">
-                <span class="bio-info"> -{{ publication.title }}</span>
-            </a>
+
+{% include section.html %}
+
+
+<!-- Your Swiper Container -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+
+    {% assign sorted_pubs = site.data.citations | sort: "date" | reverse %}
+    {% assign recent_pubs = sorted_pubs | slice: 0, 3 %}
+
+    {% for publication in recent_pubs %}
+      <div class="swiper-slide">
+        <a href="{{ publication.link }}">
+          <img src="{{ publication.image }}" class="d-block w-100" alt="{{ publication.title }}">
+        </a>
+        <div class="publication-info">
+          <h5><a href="{{ publication.link }}">{{ publication.title }}</a></h5>
+          <p>{{ publication.publisher }}</p>
         </div>
+      </div>
     {% endfor %}
+
+  </div>
+  
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  
+  <!-- Add Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </div>
