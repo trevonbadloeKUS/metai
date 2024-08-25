@@ -53,7 +53,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function updateText(pub) {
-        publicationText.innerHTML = `<h3>${pub.title}</h3><p>${pub.authors.join(', ')}</p>`;
+        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><p>${pub.highlight}</p>
+        {%
+            include button.html
+            link="publications"
+            text="See all publications"
+            %}` ;
     }
 
     // Update Swiper instance after adding slides
