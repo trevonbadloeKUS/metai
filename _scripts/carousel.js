@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update news text
         const textDiv = document.createElement('div');
-        textDiv.innerHTML = `<h6><a href="${news.link}" target="_blank">${news.title}</a></h6>`;
+        textDiv.innerHTML = `<ul><li><a href="${news.link}" target="_blank">${news.title}</a></li></ul>`;
         document.getElementById('news-text').appendChild(textDiv);
     });
 
