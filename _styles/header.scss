@@ -1,12 +1,25 @@
----
----
-
-
 $logo-big: 80px;
 $logo: 50px;
 $big-padding: 100px;
 $collapse: 800px;
 $sticky: true;
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  vertical-align: middle;
+
+  @if $sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 10 !important;
+  }
+}
 
 header a {
   color: var(--text);
@@ -26,7 +39,9 @@ header a {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  flex-basis: 0;
   flex-grow: 1;
+  max-width: 100%;
   white-space: nowrap;
 }
 
@@ -62,14 +77,17 @@ header a {
   font-weight: var(--thin);
 }
 
-/* Hamburger Toggle */
+/* Hide checkbox */
+#nav-toggle {
+  display: none;
+}
+
+/* Hamburger Menu */
 .hamburger {
   display: none;
   width: $logo;
   height: $logo;
   cursor: pointer;
-  background-color: transparent;
-  border: none;
   position: relative;
 }
 
@@ -108,6 +126,7 @@ header a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
   text-transform: uppercase;
