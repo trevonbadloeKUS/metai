@@ -4,25 +4,7 @@
 p {
   margin: 0px 0;
   text-align: justify;
-  line-height: var(--spacing);
-}
-
-p.main {
-  margin: 5px 0;
-  text-align: justify;
-  line-height: var(--spacing);
-}
-
-
-p.papers {
-
-  text-align: center;
-  line-height: var(--spacing);
-  font-family: var(--heading);
-
-  font-weight: var(--semi-bold);
-  padding-top: 25px;
-
+  line-height: var(--compact);
 }
 
 p.main {

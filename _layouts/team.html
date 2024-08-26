@@ -130,9 +130,9 @@ layout: default
               {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
             {% endif %}
             {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
-          {% endfor %}
+          {% endfor %},
           
-          ,<strong>{{ pub.publisher }}</strong>,
+          <strong>{{ pub.publisher }}</strong>,
           {{ pub.id }}.
         </div>
       </li>
