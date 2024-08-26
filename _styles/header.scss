@@ -1,23 +1,20 @@
 $logo-big: 80px;
 $logo: 50px;
-$big-padding: 100px;
 $collapse: 800px;
 $sticky: true;
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Adjust this for centering the content */
   align-items: center;
-  flex-wrap: wrap;
-  gap: 0px;
   padding: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
 
   @if $sticky {
-    position: sticky !important;
+    position: sticky;
     top: 0;
-    z-index: 10 !important;
+    z-index: 10;
   }
 }
 
@@ -27,45 +24,35 @@ header a {
 }
 
 .background {
-  position: relative;
   background: var(--header_colour);
   color: var(--text);
-  z-index: 1;
-  align-items: center;
 }
 
 .home {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
   white-space: nowrap;
 }
 
 .logo {
-  height: $logo-big;
-  align-items: center;
+  height: $logo-big; /* Control logo size */
   vertical-align: middle;
 }
 
 .logo > * {
   height: 100%;
-  align-items: center;
 }
 
 .title-text {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
-  min-width: 0;
   font-family: var(--title);
   text-align: left;
-  vertical-align: middle;
 }
 
 .title {
@@ -85,8 +72,8 @@ header a {
 /* Hamburger Menu */
 .hamburger {
   display: none;
-  width: $logo;
-  height: $logo;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   position: relative;
 }
@@ -95,20 +82,20 @@ header a {
   content: '';
   position: absolute;
   left: 50%;
-  width: 25px;
+  width: 30px;
   height: 3px;
   background-color: var(--text);
   transition: all 0.3s ease-in-out;
 }
 
 .hamburger:before {
-  top: 35%;
-  transform: translate(-50%, -50%);
+  top: 12px;
+  transform: translateX(-50%);
 }
 
 .hamburger:after {
-  top: 65%;
-  transform: translate(-50%, -50%);
+  bottom: 12px;
+  transform: translateX(-50%);
 }
 
 #nav-toggle:checked + .hamburger:before {
@@ -118,6 +105,7 @@ header a {
 
 #nav-toggle:checked + .hamburger:after {
   top: 50%;
+  bottom: auto;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
@@ -153,6 +141,11 @@ nav a:hover {
     width: 100%;
     align-items: flex-start;
     background-color: var(--header_colour);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    padding: 10px 0;
   }
 
   #nav-toggle:checked ~ .nav {
