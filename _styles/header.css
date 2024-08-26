@@ -37,8 +37,9 @@ header a {
 }
 
 .logo {
-  height: 50px;
+  height: 80px;
   align-items: center;
+  vertical-align: middle;
 }
 
 .logo > * {
@@ -68,19 +69,19 @@ header a {
 }
 
 /* Hamburger Toggle */
-.nav-toggle {
+.hamburger {
   display: none;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   margin: 0;
   color: var(--text);
   appearance: none;
   transition: background var(--transition);
 }
 
-.nav-toggle:after {
-  content: "\f0c9";
+.hamburger:after {
+  content: "\f0c9"; /* Font Awesome hamburger icon */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -91,8 +92,8 @@ header a {
   transform: translate(-50%, -50%);
 }
 
-.nav-toggle:checked:after {
-  content: "\f00d";
+.hamburger:checked:after {
+  content: "\f00d"; /* Font Awesome close icon */
 }
 
 nav {
@@ -114,35 +115,21 @@ nav > a:hover {
   border-bottom: 3px solid var(--hover);
 }
 
-header {
-  /* Responsive behavior */
-}
-header .logo {
-  height: 80px;
-  align-items: center;
-  vertical-align: middle;
-}
+/* Responsive behavior */
 @media (max-width: 800px) {
-  header {
-    /* Hide the navigation by default */
+  .hamburger {
+    display: block;
   }
-  header .nav-toggle {
+  #nav-toggle:checked + .hamburger + .nav {
     display: flex;
+    flex-direction: row;
   }
-  header .nav-toggle:not(:checked) + nav {
+  .nav {
     display: none;
-  }
-  header nav {
-    align-items: center;
     flex-direction: row;
     width: 100%;
   }
-  header .home {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  header .logo {
+  .logo {
     height: 80px;
     align-items: center;
     vertical-align: middle;
