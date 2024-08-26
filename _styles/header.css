@@ -1,9 +1,3 @@
-$logo-big: 80px;
-$logo: 50px;
-$big-padding: 100px;
-$collapse: 800px;
-$sticky: true;
-
 header {
   display: flex;
   justify-content: center;
@@ -13,13 +7,9 @@ header {
   padding: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
-  height: $logo-big; /* Maintain consistent height */
-
-  @if $sticky {
-    position: sticky !important;
-    top: 0;
-    z-index: 10 !important;
-  }
+  position: sticky !important;
+  top: 0;
+  z-index: 10 !important;
 }
 
 header a {
@@ -47,7 +37,7 @@ header a {
 }
 
 .logo {
-  height: $logo-big;
+  height: 80px;
   align-items: center;
   vertical-align: middle;
 }
@@ -81,40 +71,29 @@ header a {
 /* Hamburger Toggle */
 .hamburger {
   display: none;
-  cursor: pointer;
-  font-size: var(--xl); /* Match text size */
-  color: var(--text);
-  background: none;
-  border: none;
+  position: relative;
+  width: 160px;
+  height: 160px;
   margin: 0;
-  padding: 0;
-  transition: transform var(--transition);
-  z-index: 11;
+  color: var(--text);
+  appearance: none;
+  transition: background var(--transition);
 }
 
-.hamburger .icon {
-  display: block;
-  width: 30px;
-  height: 3px;
-  margin: 6px auto;
-  background-color: var(--text);
-  transition: all 0.3s ease-in-out;
+.hamburger:after {
+  content: "\f0c9"; /* Font Awesome hamburger icon */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
 }
 
-.hamburger.active .icon {
-  background-color: var(--hover);
-}
-
-.hamburger.active .icon:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
-}
-
-.hamburger.active .icon:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .icon:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
+.hamburger:checked:after {
+  content: "\f00d"; /* Font Awesome close icon */
 }
 
 nav {
@@ -137,48 +116,24 @@ nav > a:hover {
 }
 
 /* Responsive behavior */
-@media (max-width: $collapse) {
+@media (max-width: 800px) {
   .hamburger {
     display: block;
   }
-
-  #nav-toggle:checked + .hamburger + nav {
+  #nav-toggle:checked + .hamburger + .nav {
     display: flex;
+    flex-direction: row;
   }
-
-  nav {
+  .nav {
     display: none;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: var(--header_colour); /* Background color for dropdown */
-  }
-
-  nav.show {
-    display: flex;
-  }
-
-  nav > a {
-    display: block;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid var(--hover);
-  }
-
-  header {
-    height: $logo-big; /* Keep the header height the same */
-  }
-
-  .home {
-    justify-content: center;
-    align-items: center;
     width: 100%;
   }
-
   .logo {
-    height: $logo-big;
+    height: 80px;
     align-items: center;
     vertical-align: middle;
   }
 }
+
+/*# sourceMappingURL=header.css.map */
