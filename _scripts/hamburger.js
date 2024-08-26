@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+    const navToggle = document.getElementById('nav-toggle');
 
     hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
     });
 });
