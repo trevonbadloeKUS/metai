@@ -167,4 +167,15 @@ nav > a:hover {
     align-items: center;
     vertical-align: middle;
   }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+
+
 }
