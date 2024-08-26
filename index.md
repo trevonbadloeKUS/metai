@@ -3,18 +3,9 @@
 
 # Welcome to Trevon's nanophotonics lab
 
-Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**. Our lab is dedicated to pioneering research at the intersection of **metamaterials**, **nanophotonics**, and **nano-optics**, where the extraordinary potential of these fields is explored through innovative design and implementation strategies powered by **artificial intelligence**.
-
-Here, we delve into the fundamental and applied aspects of these cutting-edge technologies, seeking to push the boundaries of what's possible in optical science and engineering. Our interdisciplinary approach integrates physics, engineering, and AI to develop novel materials and devices with unprecedented capabilities. Whether you are a student, researcher, or collaborator, we invite you to join us in advancing the frontiers of knowledge and technology in this exciting and rapidly evolving field.
-
+Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**.
 Welcome to a space where creativity meets precision, and where your contributions will help shape the future of nanotechnology and optical engineering!
 
-
-{% include section.html %}
-
-## About our lab
-
-Find out more about what we do at Trevon's Research Lab
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
