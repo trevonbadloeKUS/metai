@@ -1,5 +1,7 @@
 ---
 ---
+
+
 $logo-big: 80px;
 $logo: 50px;
 $big-padding: 100px;
@@ -7,6 +9,7 @@ $collapse: 800px;
 $sticky: true;
 
 header {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,46 +19,19 @@ header {
   box-shadow: var(--shadow);
   vertical-align: middle;
 
+
+  /*
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+*/ 
+
   @if $sticky {
     position: sticky !important;
     top: 0;
     z-index: 10 !important;
-  }
-
-  .logo {
-    height: $logo-big;
-    align-items: center;
-    vertical-align: middle;
-  }
-
-  @media (max-width: $collapse) {
-    justify-content: space-between;
-
-    .nav-toggle {
-      display: flex;
-    }
-
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
-    nav {
-      align-items: center;
-      flex-direction: column;
-      width: 100%;
-      background-color: var(--header_colour);
-      position: absolute;
-      top: 100%;
-      left: 0;
-      z-index: 9;
-      box-shadow: var(--shadow);
-    }
-
-    .home {
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
   }
 }
 
@@ -63,13 +39,13 @@ header a {
   color: var(--text);
   text-decoration: none;
 }
-
 .background {
   position: relative;
   background: var(--header_colour);
   color: var(--text);
   z-index: 1;
   align-items: center;
+
 }
 
 .home {
@@ -81,6 +57,12 @@ header a {
   flex-grow: 1;
   max-width: 100%;
   white-space: nowrap;
+
+}
+
+.logo {
+  height: $logo;
+  align-items: center;
 }
 
 .logo > * {
@@ -98,6 +80,7 @@ header a {
   font-family: var(--title);
   text-align: left;
   vertical-align: middle;
+
 }
 
 .title {
@@ -112,8 +95,8 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: $logo-big;
-  height: $logo-big;
+  width: $logo-big;;
+  height: $logo-big;;
   margin: 0;
   color: var(--text);
   appearance: none;
@@ -146,6 +129,7 @@ nav {
   text-transform: uppercase;
 }
 
+
 nav > a:hover {
   color: var(--hover);
 }
@@ -154,3 +138,91 @@ nav > a:hover {
   color: var(--hover);
   border-bottom: 3px solid var(--hover);
 }
+
+header{
+  .logo {
+    height: $logo-big;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  @media (max-width: $collapse) {
+    justify-content: center;
+
+    .nav-toggle {
+      display: flex;
+    }
+
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
+
+    nav {
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .home {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
+
+/*
+header:not([data-big]) {
+  @media (max-width: $collapse) {
+    justify-content: flex-end;
+
+    .nav-toggle {
+      display: flex;
+    }
+
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
+
+    nav {
+      align-items: flex-end;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}
+
+header[data-big] {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: $big-padding 20px;
+
+  @if $sticky {
+    top: unset;
+  }
+
+  .home {
+    flex-direction: column;
+    flex-grow: 0;
+  }
+
+  .logo {
+    height: $logo-big;
+  }
+
+  .title-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: var(--xxl);
+  }
+
+  .subtitle {
+    font-size: var(--large);
+  }
+}
+*/ 
