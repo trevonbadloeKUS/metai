@@ -50,3 +50,7 @@
   color: #666;
   font-size: 14px;
 }
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary);
+}

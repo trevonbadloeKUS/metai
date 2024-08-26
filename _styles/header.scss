@@ -76,11 +76,8 @@ header {
       display: block;
     }
 
-    .nav-toggle:not(:checked) + .nav-toggle-label + nav {
-      display: none;
-    }
-
     nav {
+      display: none;
       align-items: center;
       flex-direction: column;
       width: 100%;
@@ -90,6 +87,10 @@ header {
       left: 0;
       z-index: 9;
       box-shadow: var(--shadow);
+    }
+
+    .nav-toggle:checked + .nav-toggle-label + nav {
+      display: flex;
     }
 
     .home {
