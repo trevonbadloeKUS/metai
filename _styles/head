@@ -138,6 +138,7 @@ header{
 
 /* Responsive behavior */
 @media (max-width: $collapse) {
+  
   .nav-toggle {
     display: block;
   }

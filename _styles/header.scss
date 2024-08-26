@@ -139,28 +139,34 @@ header{
 
 /* Responsive behavior */
 
-@media (max-width: $collapse) {
-  justify-content: center;
+  @media (max-width: $collapse) {
+    
+    .nav-toggle {
+      display: flex;
+    }
 
-  .nav-toggle {
-    display: flex;
-  }
+  /* Hide the navigation by default */
+    .nav-toggle:not(:checked) + nav {
+      display: none;
+    }
 
-  .nav-toggle:not(:checked) + nav {
-    display: none;
-  }
+    nav {
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+    }
 
-  nav {
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
+    .home {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .logo {
+      height: $logo-big;
+      align-items: center;
+      vertical-align: middle;
+    }
   }
-
-  .home {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-}
 
 }
