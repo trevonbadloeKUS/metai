@@ -1,0 +1,139 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  vertical-align: middle;
+  position: sticky !important;
+  top: 0;
+  z-index: 10 !important;
+}
+
+header a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.background {
+  position: relative;
+  background: var(--header_colour);
+  color: var(--text);
+  z-index: 1;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.logo {
+  height: 80px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.logo > * {
+  height: 100%;
+  align-items: center;
+}
+
+.title-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+  font-family: var(--title);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: var(--xl);
+}
+
+.subtitle {
+  opacity: 0.65;
+  font-weight: var(--thin);
+}
+
+/* Hamburger Toggle */
+.hamburger {
+  display: none;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  color: var(--text);
+  appearance: none;
+  transition: background var(--transition);
+}
+
+.hamburger:after {
+  content: "\f0c9"; /* Font Awesome hamburger icon */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+}
+
+.hamburger:checked:after {
+  content: "\f00d"; /* Font Awesome close icon */
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: var(--heading);
+  text-transform: uppercase;
+}
+
+nav > a:hover {
+  color: var(--hover);
+}
+
+.active {
+  color: var(--hover);
+  border-bottom: 3px solid var(--hover);
+}
+
+/* Responsive behavior */
+@media (max-width: 800px) {
+  .hamburger {
+    display: block;
+  }
+  #nav-toggle:checked + .hamburger + .nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo {
+    height: 80px;
+    align-items: center;
+    vertical-align: middle;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
