@@ -1,20 +1,28 @@
+---
+---
+
+
 $logo-big: 80px;
 $logo: 50px;
+$big-padding: 100px;
 $collapse: 800px;
 $sticky: true;
 
 header {
+
   display: flex;
-  justify-content: space-between; /* Adjust this for centering the content */
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   padding: 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
 
   @if $sticky {
-    position: sticky;
+    position: sticky !important;
     top: 0;
-    z-index: 10;
+    z-index: 10 !important;
   }
 }
 
@@ -24,35 +32,47 @@ header a {
 }
 
 .background {
+  position: relative;
   background: var(--header_colour);
   color: var(--text);
+  z-index: 1;
+  align-items: center;
 }
 
 .home {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
   white-space: nowrap;
 }
 
 .logo {
-  height: $logo-big; /* Control logo size */
+  height: $logo-big;
+  align-items: center;
   vertical-align: middle;
 }
 
+
 .logo > * {
   height: 100%;
+  align-items: center;
 }
 
 .title-text {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
+  min-width: 0;
   font-family: var(--title);
   text-align: left;
+  vertical-align: middle;
+
 }
 
 .title {
@@ -64,53 +84,35 @@ header a {
   font-weight: var(--thin);
 }
 
-/* Hide checkbox */
-#nav-toggle {
-  display: none;
-}
-
-/* Hamburger Menu */
+/* Hamburger Toggle */
 .hamburger {
   display: none;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
   position: relative;
-}
-
-.hamburger:before, .hamburger:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  width: 30px;
-  height: 3px;
-  background-color: var(--text);
-  transition: all 0.3s ease-in-out;
-}
-
-.hamburger:before {
-  top: 12px;
-  transform: translateX(-50%);
+  width: 160px;;
+  height: 160px;;
+  margin: 0;
+  color: var(--text);
+  appearance: none;
+  transition: background var(--transition);
 }
 
 .hamburger:after {
-  bottom: 12px;
-  transform: translateX(-50%);
-}
-
-#nav-toggle:checked + .hamburger:before {
+  content: "\f0c9";  /* Font Awesome hamburger icon */
+  position: absolute;
+  left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
 }
 
-#nav-toggle:checked + .hamburger:after {
-  top: 50%;
-  bottom: auto;
-  transform: translate(-50%, -50%) rotate(-45deg);
+.hamburger:checked:after {
+  content: "\f00d"; /* Font Awesome close icon */
 }
 
-/* Navigation */
-.nav {
+nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -120,7 +122,7 @@ header a {
   text-transform: uppercase;
 }
 
-nav a:hover {
+nav > a:hover {
   color: var(--hover);
 }
 
@@ -129,32 +131,32 @@ nav a:hover {
   border-bottom: 3px solid var(--hover);
 }
 
+
 /* Responsive behavior */
+
 @media (max-width: $collapse) {
+  
   .hamburger {
     display: block;
   }
 
-  .nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
-    background-color: var(--header_colour);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 9;
-    padding: 10px 0;
-  }
-
-  #nav-toggle:checked ~ .nav {
+  #nav-toggle:checked + .hamburger + .nav {
     display: flex;
+    flex-direction: row;
+
   }
 
-  .nav a {
-    padding: 10px 20px;
+  nav {
+    display: none;
+    flex-direction: row;
     width: 100%;
-    text-align: left;
   }
+
+  .logo {
+    height: $logo-big;
+    align-items: center;
+    vertical-align: middle;
+  }
+}
+
 }
