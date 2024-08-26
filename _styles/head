@@ -1,5 +1,5 @@
----
----
+
+
 
 
 $logo-big: 80px;
@@ -70,7 +70,6 @@ header a {
   font-family: var(--title);
   text-align: left;
   vertical-align: middle;
-
 }
 
 .title {
@@ -86,8 +85,8 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: $logo-big;;
-  height: $logo-big;;
+  width: $logo-big;
+  height: $logo-big;
   margin: 0;
   color: var(--text);
   appearance: none;
@@ -95,19 +94,19 @@ header a {
 }
 
 .nav-toggle:after {
-  content: "\f0c9";
+  content: "\f0c9"; /* Font Awesome hamburger icon */
   position: absolute;
   left: 50%;
   top: 50%;
   color: var(--text);
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
 }
 
 .nav-toggle:checked:after {
-  content: "\f00d";
+  content: "\f00d"; /* Font Awesome close icon */
 }
 
 nav {
@@ -119,7 +118,6 @@ nav {
   font-family: var(--heading);
   text-transform: uppercase;
 }
-
 
 nav > a:hover {
   color: var(--hover);
@@ -137,23 +135,28 @@ header{
     vertical-align: middle;
   }
 
+
 /* Responsive behavior */
-
 @media (max-width: $collapse) {
-  justify-content: center;
-
   .nav-toggle {
-    display: flex;
+    display: block;
   }
 
+  /* Hide the navigation by default */
   .nav-toggle:not(:checked) + nav {
     display: none;
   }
 
   nav {
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    background-color: var(--header_colour);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    box-shadow: var(--shadow);
   }
 
   .home {
@@ -161,6 +164,10 @@ header{
     align-items: center;
     width: 100%;
   }
-}
 
+  .logo {
+    height: $logo-big;
+    align-items: center;
+    vertical-align: middle;
+  }
 }
