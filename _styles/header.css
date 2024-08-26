@@ -130,6 +130,9 @@ nav > a:hover {
     display: flex;
     flex-direction: column;
   }
+  #nav-toggle:checked + .hamburger:after {
+    content: "\f00d"; /* Font Awesome close icon */
+  }
   .nav {
     display: none;
     flex-direction: column;
@@ -140,9 +143,6 @@ nav > a:hover {
     align-items: center;
     vertical-align: middle;
   }
-}
-#nav-toggle:checked ~ .nav {
-  display: flex; /* Display the nav menu when checked */
 }
 
 /*# sourceMappingURL=header.css.map */
