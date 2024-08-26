@@ -51,9 +51,11 @@ header a {
 }
 
 .logo {
-  height: $logo;
+  height: $logo-big;
   align-items: center;
+  vertical-align: middle;
 }
+
 
 .logo > * {
   height: 100%;
@@ -83,19 +85,19 @@ header a {
 }
 
 /* Hamburger Toggle */
-.nav-toggle {
+.hamburger {
   display: none;
   position: relative;
-  width: $logo-big;;
-  height: $logo-big;;
+  width: 160px;;
+  height: 160px;;
   margin: 0;
   color: var(--text);
   appearance: none;
   transition: background var(--transition);
 }
 
-.nav-toggle:after {
-  content: "\f0c9";
+.hamburger:after {
+  content: "\f0c9";  /* Font Awesome hamburger icon */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -106,8 +108,8 @@ header a {
   transform: translate(-50%, -50%);
 }
 
-.nav-toggle:checked:after {
-  content: "\f00d";
+.hamburger:checked:after {
+  content: "\f00d"; /* Font Awesome close icon */
 }
 
 nav {
@@ -120,7 +122,6 @@ nav {
   text-transform: uppercase;
 }
 
-
 nav > a:hover {
   color: var(--hover);
 }
@@ -130,43 +131,29 @@ nav > a:hover {
   border-bottom: 3px solid var(--hover);
 }
 
-header{
+
+/* Responsive behavior */
+
+@media (max-width: $collapse) {
+  
+  .hamburger {
+    display: block;
+  }
+
+  #nav-toggle:checked + .hamburger + .nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: row;
+    width: 100%;
+  }
+
   .logo {
     height: $logo-big;
     align-items: center;
     vertical-align: middle;
   }
-
-/* Responsive behavior */
-
-  @media (max-width: $collapse) {
-    
-    .nav-toggle {
-      display: flex;
-    }
-
-  /* Hide the navigation by default */
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
-    nav {
-      align-items: center;
-      flex-direction: row;
-      width: 100%;
-    }
-
-    .home {
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    
-    .logo {
-      height: $logo-big;
-      align-items: center;
-      vertical-align: middle;
-    }
-  }
-
 }
