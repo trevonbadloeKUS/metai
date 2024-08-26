@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const navToggle = document.getElementById('nav-toggle');
+    const nav = document.querySelector('.nav');
     const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
 
     hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        navToggle.checked = !navToggle.checked;
     });
 });
