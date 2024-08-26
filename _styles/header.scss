@@ -92,6 +92,7 @@ header a {
 
 /* Hamburger Toggle */
 .hamburger {
+  display: none;
   position: relative;
   width: $logo-big;
   height: $logo-big;
@@ -162,4 +163,8 @@ nav > a:hover {
     align-items: center;
     vertical-align: middle;
   }
+}
+
+#nav-toggle:checked ~ .nav {
+  display: flex; /* Display the nav menu when checked */
 }
