@@ -8,6 +8,12 @@ $big-padding: 100px;
 $collapse: 800px;
 $sticky: true;
 
+
+/* hide the checkbox */
+#nav-toggle {
+  display: none;
+}
+
 header {
 
   display: flex;
@@ -86,14 +92,14 @@ header a {
 
 /* Hamburger Toggle */
 .hamburger {
-  display: none;
   position: relative;
-  width: 160px;;
-  height: 160px;;
+  width: $logo-big;
+  height: $logo-big;
   margin: 0;
   color: var(--text);
   appearance: none;
   transition: background var(--transition);
+  cursor: pointer; /* Add cursor pointer for interactivity */
 }
 
 .hamburger:after {
@@ -102,7 +108,7 @@ header a {
   left: 50%;
   top: 50%;
   color: var(--text);
-  font-size: 15px;
+  font-size: 24px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
@@ -142,7 +148,7 @@ nav > a:hover {
 
   #nav-toggle:checked + .hamburger + .nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .nav {
