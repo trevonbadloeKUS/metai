@@ -2,6 +2,7 @@ p {
   margin: 0px 0;
   text-align: justify;
   line-height: var(--compact);
+  margin-top: 20px;
 }
 
 p.main {
