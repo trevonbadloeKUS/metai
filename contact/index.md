@@ -18,7 +18,7 @@ size=full
 
   <div class="contact-info">
 
-  <h3>Find us here</h3>
+  <h3 style="text-align:left;">Find us here</h3>
     <h4>Trevon Badloe</h4>
     <ul >
         <li class="contact-list"> Korea University Sejong Campus, 2511 Sejong-ro, Sejong-si, Republic of Korea</li>
