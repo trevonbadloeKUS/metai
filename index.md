@@ -2,9 +2,8 @@
 ---
 
 <div>
-<img align="center" height="30" src="/trevons-lab-website/images/cheer.gif"> 
 <h3> Welcome to Trevon's nanophotonics lab </h3>
-<img align="center" height="30" src="/trevons-lab-website/images/wave.gif"> 
+<img align="center" height="80" src="/trevons-lab-website/images/wave.gif"> 
 </div>
 
 Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**.
