@@ -1,7 +1,11 @@
 ---
 ---
 
-# Welcome to Trevon's nanophotonics lab
+<h3>
+<img align="center" height="30" src="cheer.gif"> 
+Welcome to Trevon's nanophotonics lab </h3>
+<img align="center" height="30" src="wave.gif"> 
+</h3>
 
 Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**.
 Welcome to a space where creativity meets precision, and where your contributions will help shape the future of nanotechnology and optical engineering!
