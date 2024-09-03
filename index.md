@@ -2,12 +2,15 @@
 ---
 
 <div>
-<h3> Welcome to Trevon's nanophotonics lab </h3>
+<h3> Welcome to The METAi lab at Korea University Sejong Campus </h3>
+<h3> Welcome to The MET(Ai) lab at Korea University Sejong Campus </h3>
+<h3> Welcome to The MET[Ai] lab at Korea University Sejong Campus </h3>
+
 <img align="center" height="80" src="/trevons-lab-website/images/wave.gif"> 
 </div>
 
-Welcome to the **Advanced Metamaterials and Nanophotonics Lab** at **Korea University's Sejong Campus**, nestled within the **Department of Electronics and Information Engineering**.
-Welcome to a space where creativity meets precision, and where your contributions will help shape the future of nanotechnology and optical engineering!
+Welcome to the **METAi Lab** at **Korea University's Sejong Campus**, in the **Department of Electronics and Information Engineering**.
+Exploring the convergence of next generation flat optics through metaphotonics (META) and artificial intelligence (Ai).
 
 
 {% include section.html %}
