@@ -2,20 +2,17 @@
 ---
 
 <div>
-<h3> Welcome to The METAi lab at Korea University Sejong Campus </h3>
-<h3> Welcome to The MET(Ai) lab at Korea University Sejong Campus </h3>
-<h3> Welcome to The MET[Ai] lab at Korea University Sejong Campus </h3>
-<h3> Welcome to The METAI lab at Korea University Sejong Campus </h3>
+
 <h3> Welcome to The MetAI lab at Korea University Sejong Campus </h3>
-<h3> Welcome to The METAi lab at Korea University Sejong Campus </h3>
-<h3> Welcome to The metAI lab at Korea University Sejong Campus </h3>
+
+*** IN PROGRESS ***
 
 
 <img align="center" height="80" src="/trevons-lab-website/images/wave.gif"> 
 </div>
 
-Welcome to the **METAi Lab** at **Korea University's Sejong Campus**, in the **Department of Electronics and Information Engineering**.
-Exploring the convergence of next generation flat optics through metaphotonics (META) and artificial intelligence (Ai).
+Welcome to the **MetAI Lab** at **Korea University's Sejong Campus**, in the **Department of Electronics and Information Engineering**.
+Exploring the convergence of next generation flat optics through metaphotonics (META) and artificial intelligence (AI).
 
 
 {% include section.html %}
