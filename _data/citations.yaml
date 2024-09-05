@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/advs.202403143
+  title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
+    \ of Dispersive Refractive Index"
+  authors:
+  - Trevon Badloe
+  - Younghwan Yang
+  - Seokho Lee
+  - Dongmin Jeon
+  - Jaeseung Youn
+  - Dong Sung Kim
+  - Junsuk Rho
+  publisher: Advanced Science
+  date: '2024-09-03'
+  link: https://doi.org/gt9zh3
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.60692/f2deq-96n45
   title: Roadmap on electromagnetic metamaterials and metasurfaces
   authors:
