@@ -8,7 +8,7 @@
 *** IN PROGRESS ***
 
 
-<img align="center" height="80" src="/trevons-lab-website/images/wave.gif"> 
+<img align="center" height="80" src="/metai/images/wave.gif"> 
 </div>
 
 Welcome to the **MetAI Lab** at **Korea University's Sejong Campus**, in the **Department of Electronics and Information Engineering**.

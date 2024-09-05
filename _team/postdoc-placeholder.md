@@ -43,7 +43,7 @@ bachelor:
     date: '2024/09 - current'
 
 links:
-  home-page: https://trevonbadloekus.github.io/trevons-lab-website
+  home-page: https://trevonbadloekus.github.io/metai
   orcid:
   google-scholar: aVP_G7oAAAAJ
   instagram: kimchi_and_tea
