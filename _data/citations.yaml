@@ -4,9 +4,9 @@
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
   authors:
-  - Trevon Badloe
-  - Younghwan Yang
-  - Seokho Lee
+  - Trevon Badloe*
+  - Younghwan Yang*
+  - Seokho Lee*
   - Dongmin Jeon
   - Jaeseung Youn
   - Dong Sung Kim
@@ -15,8 +15,16 @@
   date: '2024-09-03'
   link: https://doi.org/gt9zh3
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  image: https://onlinelibrary.wiley.com/cms/asset/da3ebd13-b017-4f8b-b4c9-db654f89769b/advs9096-fig-0004-m.jpg
+  tags:
+  - structural colour
+  - machine learning
+  - biosensor
+  type: research
+  highlight: We employ machine learning alongside colourimetric metasurfaces for the
+    dispersive refractive index sensing of glucose.
 - id: doi:10.60692/f2deq-96n45
   title: Roadmap on electromagnetic metamaterials and metasurfaces
   authors:
