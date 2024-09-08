@@ -53,7 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function updatePublicationText(pub) {
-        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><ul><li>${pub.highlight}</li></ul>`;
+        let highlight = pub.highlight ? `<li>${pub.highlight}</li>` : ''; // Check if highlight exists
+        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><ul>${highlight}</ul>`;
     }
 
     // Second Carousel for "What do we do?" section

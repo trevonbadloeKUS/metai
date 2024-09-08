@@ -22,7 +22,6 @@
     - biosensor
   type: research
   highlight: We employ machine learning alongside colourimetric metasurfaces for the dispersive refractive index sensing of glucose.
-
 - id: doi:10.60692/f2deq-96n45
   authors:
   - ' Tie Jun Cui'
@@ -214,7 +213,7 @@
   first authors:
   - Harit Keawmuang
   - Trevon Badloe
-  highlight: Employing deep neural networks for the inverse design of coloured daytime radiative coolers.
+  highlight: We employ deep neural networks for the on-demand inverse design of coloured daytime radiative coolers with high cooling power
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0927024824001600-gr1.jpg
   link: https://doi.org/gt6675
   orcid: 0000-0001-9458-6062
@@ -240,7 +239,7 @@
   - Guoqiang Li+
   date: '2024-04-29'
   file: orcid_PI.yaml
-  highlight: Polarization-independent edge detection using the spin-orbit interaction of light. 
+  highlight: We employ the spin-Hall effect of light to produce edge-enhanced images with any input linear polarisation
   image: https://opg.optica.org/getimagev2.cfm?img=scIlxj5Pxzk1Lz%2F639%2FcaXLq%2Bg2Q6hzQdoRQsHM6DVk%3D&size=full&uri=oe-32-10-17560-g004
   link: https://doi.org/gt6676
   orcid: 0000-0001-9458-6062
