@@ -1,1 +1,1 @@
-Sitemap: http://metai.korea.ac.kr/sitemap.xml
+Sitemap: https://trevonbadloekus.github.io/metai/sitemap.xml
