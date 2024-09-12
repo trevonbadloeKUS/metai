@@ -7,7 +7,7 @@ nav:
 
 {% 
 include section.html 
-background="images/KUS.jpeg"
+background="images/share.jpg"
 size=full
 %}
 
@@ -26,7 +26,7 @@ size=full
         <li class="contact-list"> Tel: +82-44-860-1424</li>
         <li class="contact-list">E-mail: <a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a></li>
     </ul>
-    <p>Please feel free to get in touch at any time.</p>
+    <p>Please feel free to get in touch!</p>
 
   </div>
 </div>

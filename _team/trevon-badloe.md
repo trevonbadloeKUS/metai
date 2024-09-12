@@ -50,7 +50,7 @@ links:
   home-page: https://trevonbadloekus.github.io/metai
   orcid: 0000-0001-9458-6062
   google-scholar: aVP_G7oAAAAJ
-  instagram: kimchi_and_tea
+  instagram: 
   linkedin: trevonbadloe
   email: trevon@korea.ac.kr
 ---
