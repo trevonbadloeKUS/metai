@@ -6,7 +6,7 @@ nav:
 ---
 
 
-At the **MetaAI Lab** at **Korea University - Sejong Campus** we research the convergence of **next-generation optical devices and systems** using **metaphotonics (Metㅁ)** and **artificial intelligence (AI)**. Metamaterials are engineered to manipulate the optical properties of light at the subwavelength scale - ***beyond what is possible in nature***. 
+At the **MetaAI Lab** at **Korea University - Sejong Campus** we research the convergence of **next-generation optical devices and systems** using **metaphotonics (Meta)** and **artificial intelligence (AI)**. Metamaterials are engineered to manipulate the optical properties of light at the subwavelength scale - ***beyond what is possible in nature***. 
 
 {% include section.html %}
 
@@ -16,8 +16,8 @@ The field of metaphotonics combines metamaterials - artifical materials with uni
 
 {%
   include figure.html
-  image= "/images/metaphotonics.jpeg"
-  width="400px"
+  image= "/images/research/metaphotonics.jpeg"
+  width="100%"
 %}
 
 
@@ -30,8 +30,8 @@ The field of metaphotonics combines metamaterials - artifical materials with uni
 
 {%
   include figure.html
-  image= "/images/ai-meta.jpeg"
-  width="400px"
+  image= "/images/research/ai-meta.jpeg"
+  width="100%"
 %}
 
 
@@ -45,6 +45,6 @@ The field of metaphotonics combines metamaterials - artifical materials with uni
 
 {%
   include figure.html
-  image= "/images/meta-ai.jpeg"
-  width="400px"
+  image= "/images/research/meta-ai.jpeg"
+  width="100%"
 %}
