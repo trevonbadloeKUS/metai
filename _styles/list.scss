@@ -28,3 +28,9 @@ li {
 .contact-list {
  line-height: var(--compact)
 }
+
+
+.main-list {
+  line-height: var(--compact)
+  list-style-type: none !important;
+ }

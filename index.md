@@ -8,7 +8,9 @@
 <img align="center" height="80" src="/metai/images/wave.gif"> 
 </div>
 
-At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through metaphotonics (MetA) and artificial intelligence (AI). Check out our research and recent publications below!
+At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
+
+Check out our research topics and recent publications below!
 
 
 {% include section.html %}
@@ -18,9 +20,9 @@ At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring t
     <div class="swiper-container-2">
       <div class="swiper-wrapper swiper-wrapper-2">
                 <!-- Manually added Swiper slides -->
-        <div class="swiper-slide"><img src="{{ '/images/metaphotonics.jpeg' | relative_url }}" alt="Metaphotonics"></div>
-        <div class="swiper-slide"><img src="{{ '/images/meta-ai.jpg' | relative_url }}" alt="Metaphotonics for AI"></div>
-        <div class="swiper-slide"><img src="{{ '/images/ai-meta.jpg' | relative_url }}" alt="AI for Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/metaphotonics.jpeg' | relative_url }}" alt="Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/meta-ai.jpeg' | relative_url }}" alt="Metaphotonics for AI"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/ai-meta.jpeg' | relative_url }}" alt="AI for Metaphotonics"></div>
       </div>
       <div class="swiper-pagination swiper-pagination-2"></div>
     </div>

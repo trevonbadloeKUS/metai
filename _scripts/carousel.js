@@ -53,8 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function updatePublicationText(pub) {
-        let highlight = pub.highlight ? `<li>${pub.highlight}</li>` : ''; // Check if highlight exists
-        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><p>${highlight}</p>`;
+        let highlight = pub.highlight ? `<p>${pub.highlight}</p>` : ''; // Check if highlight exists
+        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6>${highlight}`;
     }
 
     // Second Carousel for "What do we do?" section
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateCustomText(index) {
         const slideData = customSlides[index];
-        customText.innerHTML = `<h6><a href="${slideData.link}" target="_blank">${slideData.title}</a></h6><p>${slideData.description}</p>`;
+        customText.innerHTML = `<h6><a href="${slideData.link}">${slideData.title}</a></h6><p class="p.main">${slideData.description}</p>`;
     }
 
     // Initialize Swiper for News & Events
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update news text
         const textDiv = document.createElement('div');
-        textDiv.innerHTML = `<ul><li><p class="p.main"><a href="${news.link}" target="_blank">${news.title}</a></p></li></ul>`;
+        textDiv.innerHTML = `<ul class="main-list"><li><p class="p.main"><a href="${news.link}">${news.title}</a></p></li></ul>`;
         document.getElementById('news-text').appendChild(textDiv);
     });
 
