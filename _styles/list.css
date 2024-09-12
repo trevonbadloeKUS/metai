@@ -25,4 +25,9 @@ li ol {
   line-height: var(--compact);
 }
 
+.main-list {
+  line-height: var(--compact);
+  list-style-type: none !important;
+}
+
 /*# sourceMappingURL=list.css.map */
