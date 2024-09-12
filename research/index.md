@@ -6,18 +6,25 @@ nav:
 ---
 
 
-At Trevon's reseach lab we study light and its interactions with matter at the nanoscale. We use the latest computational methods such as AI to design and enhance our nano-optical devices. Metamaterials are...
-
-{% include search-info.html %}
+At the **MetaAI Lab** at **Korea University - Sejong Campus** we research the convergence of **next-generation optical devices and systems** using **metamaphotonics (MetA)** and **artificial intelligence (AI)**. Metamaterials are engineered to manipulate the optical properties of light at the subwavelength scale - *beyond* what is possible in nature. 
 
 {% include section.html %}
 
-## Featured
+## Metaphotonics
 
-{% include list.html component="card" data="research" filters="group: featured" %}
+The field of metaphotonics combines metamaterials - artifical materials with unique optical properties - and photonics - the study and application of light - to create groundbreaking new ways to manipulate electromagnetic waves. With the potential to bring science fiction to reality, metaphotonics promises to transform conventional bulky optical devices into flat metasurfaces. 
+
+<video width="400" height="533" controls>
+  <source src="/metai/videos/TIR.MOV">  type="video/mp4">
+</video>
 
 {% include section.html %}
 
-## More
+## AI for Metaphotonics
 
-{% include list.html component="card" data="research" filters="group: " style="small" %}
+
+
+{% include section.html %}
+
+## Metaphotonics for AI
+

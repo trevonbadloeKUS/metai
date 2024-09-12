@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updatePublicationText(pub) {
         let highlight = pub.highlight ? `<li>${pub.highlight}</li>` : ''; // Check if highlight exists
-        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><ul>${highlight}</ul>`;
+        publicationText.innerHTML = `<h6><a href="${pub.link}" target="_blank">${pub.title}</a></h6><p>${highlight}</p>`;
     }
 
     // Second Carousel for "What do we do?" section
@@ -74,19 +74,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // Define custom text for each slide in the second carousel
     const customSlides = [
         {
-            title: "Metamaterials",
-            description: "Some description about Highlight 1.",
-            link: "https://example.com/highlight1",
+            title: "Metaphotonics",
+            description: "Pushing the boundaries of light with optical metamaterials - engineered with nature-defying properties",
+            link: "https://trevonbadloekus.github.io/metai/research/",
         },
         {
-            title: "Photonic Crystals",
-            description: "Some description about Highlight 2.",
-            link: "https://example.com/highlight2",
+            title: "AI for Metaphotonics",
+            description: "Applying state-of-the-art AI techniques for the inverse design and enhancement of metaphotonic systems",
+            link: "https://trevonbadloekus.github.io/metai/research/",
         },
         {
-            title: "Nanotechnology",
-            description: "Some description about Highlight 3.",
-            link: "https://example.com/highlight3",
+            title: "Metaphotonics for AI",
+            description: "Boosting the potential of AI with metaphotonics for optical computing",
+            link: "https://trevonbadloekus.github.io/metai/research/",
         },
     ];
 

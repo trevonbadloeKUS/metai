@@ -7,7 +7,7 @@ nav:
 
 {% 
 include section.html 
-background="images/share.jpg"
+background="images/KUS.jpg"
 size=full
 %}
 

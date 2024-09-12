@@ -3,16 +3,12 @@
 
 <div>
 
-<h3> Welcome to The MetAI lab at Korea University Sejong Campus </h3>
-
-*** IN PROGRESS ***
-
+<h3> Welcome to the MetAI Lab </h3>
 
 <img align="center" height="80" src="/metai/images/wave.gif"> 
 </div>
 
-Welcome to the **MetAI Lab** at **Korea University's Sejong Campus**, in the **Department of Electronics and Information Engineering**.
-Exploring the convergence of next generation flat optics through metaphotonics (META) and artificial intelligence (AI).
+At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through metaphotonics (MetA) and artificial intelligence (AI). Check out our research and recent publications below!
 
 
 {% include section.html %}
@@ -22,15 +18,15 @@ Exploring the convergence of next generation flat optics through metaphotonics (
     <div class="swiper-container-2">
       <div class="swiper-wrapper swiper-wrapper-2">
                 <!-- Manually added Swiper slides -->
-        <div class="swiper-slide"><img src="{{ '/images/KUS.jpeg' | relative_url }}" alt="Highlight 1"></div>
-        <div class="swiper-slide"><img src="{{ '/images/photo.jpg' | relative_url }}" alt="Highlight 2"></div>
-        <div class="swiper-slide"><img src="{{ '/images/share.jpg' | relative_url }}" alt="Highlight 3"></div>
+        <div class="swiper-slide"><img src="{{ '/images/metaphotonics.jpeg' | relative_url }}" alt="Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/meta-ai.jpg' | relative_url }}" alt="Metaphotonics for AI"></div>
+        <div class="swiper-slide"><img src="{{ '/images/ai-meta.jpg' | relative_url }}" alt="AI for Metaphotonics"></div>
       </div>
       <div class="swiper-pagination swiper-pagination-2"></div>
     </div>
   </div>
   <div class="feature-text">
-    <p class="feature-title">What do we do?</p>
+    <p class="feature-title">What do we do at MetAI Lab?</p>
     <div id="custom-text">
     </div>
     {%
@@ -83,7 +79,7 @@ Exploring the convergence of next generation flat optics through metaphotonics (
     </div>
   </div>
   <div class="feature-text">
-    <p class="feature-title">News & Events</p>
+    <p class="feature-title">Recent News & Events</p>
     <div id="news-text">
       <!-- News text will be updated here by JavaScript -->
     </div>
