@@ -2,7 +2,7 @@
 title: Research
 nav:
   order: 2
-  tooltip: Overview of the research topics
+  tooltip: Overview of our research topics
 ---
 
 
@@ -12,11 +12,11 @@ At the **MetaAI Lab** at **Korea University - Sejong Campus** we research the co
 
 ## Metaphotonics
 
-The field of metaphotonics combines metamaterials - artifical materials with unique optical properties - and photonics - the study and application of light - to create groundbreaking new ways to manipulate electromagnetic waves. With the potential to bring science fiction to reality, metaphotonics promises to transform conventional bulky optical devices into flat metasurfaces. 
+The field of metaphotonics combines **metamaterials** - artifical materials with unique optical properties - and **photonics** - the study and application of light - to create groundbreaking new ways to manipulate electromagnetic waves. With the potential to bring **science fiction to reality**, metaphotonics promises to transform conventional bulky optical devices into **flat metasurfaces**. 
 
 {%
   include figure.html
-  image= "/images/research/metaphotonics.jpeg"
+  image= "/images/research/metaphotonics.png"
   width="100%"
 %}
 
@@ -25,12 +25,12 @@ The field of metaphotonics combines metamaterials - artifical materials with uni
 
 ## AI for Metaphotonics
 
-
+We harness the power of AI for the **inverse design** and **optimisation** of metamaterials using deep neural networks and state-of-the-art algorithms and creating **AI-enhanced metaphotonic systems** for applications such as optical sensors.
 
 
 {%
   include figure.html
-  image= "/images/research/ai-meta.jpeg"
+  image= "/images/research/ai-meta.png"
   width="100%"
 %}
 
@@ -40,11 +40,10 @@ The field of metaphotonics combines metamaterials - artifical materials with uni
 
 ## Metaphotonics for AI
 
-
-
+Leveraging advanced metasurfaces to enhance optical computation and quantum optics, we aim to drive significant advancements in AI technology, enabling faster, more efficient data processing and analysis.
 
 {%
   include figure.html
-  image= "/images/research/meta-ai.jpeg"
+  image= "/images/research/meta-ai.png"
   width="100%"
 %}

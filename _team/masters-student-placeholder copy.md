@@ -1,7 +1,7 @@
 ---
 name: Masters student 2
 image: https://w7.pngwing.com/pngs/618/649/png-transparent-pokemon-pikachu-hey-you-pikachu-ash-ketchum-pokemon-pikachu-mammal-dog-like-mammal-vertebrate-thumbnail.png
-role: masters
+role: masters++
 
 current:
   - position: Masters Student

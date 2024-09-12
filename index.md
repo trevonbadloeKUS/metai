@@ -20,9 +20,9 @@ Check out our research topics and recent publications below!
     <div class="swiper-container-2">
       <div class="swiper-wrapper swiper-wrapper-2">
                 <!-- Manually added Swiper slides -->
-        <div class="swiper-slide"><img src="{{ '/images/research/metaphotonics.jpeg' | relative_url }}" alt="Metaphotonics"></div>
-        <div class="swiper-slide"><img src="{{ '/images/research/ai-meta.jpeg' | relative_url }}" alt="AI for Metaphotonics"></div>
-        <div class="swiper-slide"><img src="{{ '/images/research/meta-ai.jpeg' | relative_url }}" alt="Metaphotonics for AI"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/metaphotonics.png' | relative_url }}" alt="Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/ai-meta.png' | relative_url }}" alt="AI for Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/meta-ai.png' | relative_url }}" alt="Metaphotonics for AI"></div>
       </div>
       <div class="swiper-pagination swiper-pagination-2"></div>
     </div>

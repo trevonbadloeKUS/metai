@@ -1,7 +1,7 @@
 ---
 name: Undergraduate student 1
 image: https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png
-role: undergrad
+role: undergrad++
 
 current:
   - position: Undergraduate Researcher

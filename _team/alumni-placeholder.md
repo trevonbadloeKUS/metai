@@ -1,7 +1,7 @@
 ---
 name: Trevon Badloe
 image: team/photos/professor/trevon_photo.jpeg
-role: alumni
+role: alumni++
 
 current:
   - position: Postdoctoral Researcher
