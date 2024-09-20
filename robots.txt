@@ -1,1 +1,1 @@
-Sitemap: http://metai.korea.ac.kr/sitemap.xml
+Sitemap: https://metai.korea.ac.kr/sitemap.xml
