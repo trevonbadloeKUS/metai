@@ -5,7 +5,7 @@
 
 <h3> Welcome to the MetAI Lab </h3>
 
-<img align="center" height="80" src="/metai/images/wave.gif"> 
+<img align="center" height="80" src="/images/wave.gif"> 
 </div>
 
 At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
