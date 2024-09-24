@@ -16,7 +16,7 @@
   longitude: 12.5768
   date: "2019-06-23"
   etc: Poster
-  website: https://www.spp9.dk
+  website: https://spp11.tokyo
   type: international
 
 - name: SPIE Optics and Photonics
@@ -55,7 +55,7 @@
   longitude: 21.0070
   date: "2021-07-20"
   etc: Oral presentation
-  website: https://metaconferences.org/2021/
+  website: https://metaconferences.org
   type: international
 
 - name: A3 Metamaterials Forum
@@ -75,7 +75,7 @@
   longitude: 126.6400
   date: "2017-07-25"
   etc: Poster
-  website: https://metaconferences.org/2017/
+  website: https://metaconferences.org
   type: international
 
 - name: Department of Physics, Korea University
