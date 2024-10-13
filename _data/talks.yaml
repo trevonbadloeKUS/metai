@@ -8,6 +8,7 @@
   date: '2024-04-25'
   etc: Invited oral presentation x2
   website: http://www.piers.org/piers2024Chengdu/
+  type: international
 
 - name: The 9th International Conference on Surface Plasmon Photonics (SPP9)
   location: Copenhagen, Denmark
@@ -37,6 +38,8 @@
   date: "2022-05-08"
   etc: Oral presentation
   website: https://www.mrs.org/meetings-events/spring-meetings-exhibits
+  type: international
+
 
 - name: Materials Research Society (MRS) Fall Meeting
   location: Boston, USA
@@ -121,6 +124,8 @@
   longitude: 127.0002
   date: "2023-06-01"
   website: https://physics.dongguk.edu
+  type: talk
+
 
 - name: Department of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST)
   location: Gwangju, South Korea
@@ -148,3 +153,13 @@
   date: "2024-05-01"
   website: https://ice.inha.ac.kr
   type: talk
+
+- name: 2024 Photonics Conference (PC2024)
+  location: Pyeongchang, South Korea
+  venue: Phoenix Pyeongchang
+  latitude: 37.5812
+  longitude: 128.3273
+  date: "2024-11-27"
+  etc: Invited oral presentation
+  website: https://www.osk.or.kr/conference/event/
+  type: domestic
