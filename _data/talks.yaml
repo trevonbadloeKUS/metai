@@ -163,3 +163,23 @@
   etc: Invited oral presentation
   website: https://www.osk.or.kr/conference/event/
   type: domestic
+
+- name: Winter College on Optics - Theoretical and Applied Aspects of Metamaterials and Metasurfaces
+  location: Trieste, Italy
+  venue: International Centre for Theoretical Physics (ICTP)
+  latitude: 45.7071 
+  longitude: 113.7228 
+  date: "2025-02-24"
+  etc: Invited lecture
+  website: https://indico.ictp.it/event/10823/overview
+  type: international
+
+- name: Nanjing University of Science and Technology (NJUST)
+  location: Nanjing, China
+  venue: Online
+  latitude: 32.0956
+  longitude: 118.9125
+  date: "2024-11-27"
+  etc: Invited oral presentation
+  website: https://english.njust.edu.cn
+  type: international
