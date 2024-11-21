@@ -17,7 +17,7 @@
   flex: 1 1 100%; /* Full width on small screens */
   max-width: 100%; /* Prevent overflow */
   text-align: justify; /* Justify text alignment */
-  margin: 0 auto; /* Center contact info */
+  margin: 0 0; /* Center contact info */
 }
 
 @media (min-width: 801px) {
