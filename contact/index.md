@@ -2,7 +2,7 @@
 title: Contact
 nav:
   order: 6
-  tooltip: Email, address, and location
+  tooltip: Email, location, and recruitment
 ---
 
 {% 
@@ -27,6 +27,13 @@ size=full
         <li class="contact-list">E-mail: <a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a></li>
     </ul>
     <p>Please feel free to get in touch!</p>
+    <p>언제든 편하게 문의해 주세요!</p>
+
+    <h4> Recruitment </h4>
+    <p> Candidates interested in joining the team, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion </p>
+
+    <h4> 대학원생 / 학부연구생 모집 </h4>
+    <p> 간단한 자기 소개, 이력소 e-mail 보내주시면, 검토 후 답변 드리겠습니다 </p>
 
   </div>
 </div>
