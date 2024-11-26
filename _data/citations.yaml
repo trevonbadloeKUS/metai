@@ -1,5 +1,23 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acsphotonics.4c01058
+  title: Spin Hall Effect of Light in a Dichroic Polarizer for Multifunctional Edge
+    Detection
+  authors:
+  - Peng Tang
+  - Xiaotong Li
+  - Yeseul Kim
+  - Linlin Xiao
+  - Hupeng Wu
+  - Trevon Badloe
+  - Guoqiang Li
+  - Junsuk Rho
+  publisher: ACS Photonics
+  date: '2024-10-02'
+  link: https://doi.org/g8rx8n
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
@@ -136,6 +154,24 @@
   - review
   - roadmap
   type: review
+- id: doi:10.29026/oea.2024.240085
+  title: Cascaded metasurfaces enabling adaptive aberration corrections for focus
+    scanning
+  authors:
+  - Xiaotong Li
+  - Xiaodong Cai
+  - Chang Liu
+  - Yeseul Kim
+  - Trevon Badloe
+  - Huanhuan Liu
+  - Junsuk Rho
+  - Shiyi Xiao
+  publisher: Opto-Electronic Advances
+  date: '2024-01-01'
+  link: https://doi.org/g8rx8p
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1007/s40684-023-00580-x
   title: "Cost-Effective and Environmentally\_Friendly Mass Manufacturing of Optical\
     \ Metasurfaces Towards Practical Applications and Commercialization"
