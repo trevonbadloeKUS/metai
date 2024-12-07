@@ -1,3 +1,28 @@
+- id: doi:10.1021/acsphotonics.4c01058
+  title: Spin Hall Effect of Light in a Dichroic Polarizer for Multifunctional Edge
+    Detection
+  authors:
+  - Peng Tang
+  - Xiaotong Li
+  - Yeseul Kim
+  - Linlin Xiao
+  - Hupeng Wu
+  - Trevon Badloe
+  - Guoqiang Li
+  - Junsuk Rho
+  publisher: ACS Photonics
+  date: '2024-10-02'
+  link: https://doi.org/g8rx8n
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsphotonics.4c01058/asset/images/large/ph4c01058_0004.jpeg
+  tags: 
+    - edge-detection
+    - SHEL
+    - optical image processing
+  type: research
+  highlight: The spin Hall effect of light in a dichroic polariser is utilised for all optical imaging, second-order edge detection, and 2D edge-detection.
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
@@ -454,7 +479,6 @@
   remove: true
   title: 'Inverse design meets nanophotonics: From computational optimization to artificial
     neural network'
-
 
 - id: doi:10.1002/adma.202208520
   authors:
