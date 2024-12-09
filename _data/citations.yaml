@@ -1800,6 +1800,19 @@
   - review
   - metasurface
   type: review
+- id: doi:10.1039/c9cp05621a
+  title: Biomimetic ultra-broadband perfect absorbers optimised with reinforcement
+    learning
+  authors:
+  - Trevon Badloe
+  - Inki Kim
+  - Junsuk Rho
+  publisher: Physical Chemistry Chemical Physics
+  date: '2020-01-01'
+  link: https://doi.org/ghtkfw
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1039/d0nr05624c
   title: Full and gradient structural colouration by lattice amplified gallium nitride
     Mie-resonators
