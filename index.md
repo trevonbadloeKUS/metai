@@ -10,8 +10,14 @@
 
 At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
 
-Check out our research topics and recent publications below!
+<h3> JOIN US </h3>
+<h4> 대학원생 / 학부연구생 모집 </h4>
+<p> 간단한 자기 소개, 이력소 email 보내주시면, 검토 후 답변 드리겠습니다 </p>
+<a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a>
 
+<p> Candidates interested in joining our research group, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion </p>
+
+Check out our research topics and recent publications below!
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
