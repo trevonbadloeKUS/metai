@@ -40,7 +40,6 @@
   website: https://www.mrs.org/meetings-events/spring-meetings-exhibits
   type: international
 
-
 - name: Materials Research Society (MRS) Fall Meeting
   location: Boston, USA
   venue: Hynes Convention Center
@@ -126,7 +125,6 @@
   website: https://physics.dongguk.edu
   type: talk
 
-
 - name: Department of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST)
   location: Gwangju, South Korea
   venue: Department of Mechanical Engineering
@@ -164,15 +162,15 @@
   website: https://www.osk.or.kr/conference/event/
   type: domestic
 
-- name: Winter College on Optics - Theoretical and Applied Aspects of Metamaterials and Metasurfaces
-  location: Trieste, Italy
-  venue: International Centre for Theoretical Physics (ICTP)
-  latitude: 45.7071 
-  longitude: 13.719042
-  date: "2025-02-24"
+- name: CISS-Global Webinar
+  location: Lahore, Pakistan
+  venue: Information Technology University (ITU)
+  latitude: 31.4756 
+  longitude: 74.3420
+  date: "2024-12-12"
   etc: Invited lecture
-  website: https://indico.ictp.it/event/10823/overview
-  type: international
+  website: https://www.youtube.com/watch?v=VQIfsEPY4Ec
+  type: talk
 
 - name: International Symposium on Light-matter Interactions in Nano (ISLIN2024)
   location: Nanjing University of Science and Technology (NJUST), China
@@ -182,4 +180,14 @@
   date: "2024-11-28"
   etc: Invited oral presentation
   website: https://english.njust.edu.cn
+  type: international
+
+- name: The 15th International Conference on Metamaterials, Photonic Crystals, and Plasmonics (META'25)
+  location: Malaga, Spain
+  venue: Costa del Sol Conference and Exhibition Centre of Torremolinos
+  latitude: 36.6250
+  longitude: -4.4995
+  date: "2025-07-22"
+  etc: Invited oral presentation
+  website: https://metaconferences.org/META25/index.php/META
   type: international
