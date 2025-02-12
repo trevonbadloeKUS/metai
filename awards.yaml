@@ -1,0 +1,32 @@
+---
+
+- name: "Advanced Photonics Young Innovator Award 2024"
+  date: '2025-02-01'
+  awarder: Advanced Photonics
+  etc:
+
+
+- name: "PIURI: POSTECH Initiative for fostering Unicorn of Research & Innovation, PostDoc Fellowship"
+  date: '2022-12-01'
+  awarder: POSTECH
+  etc: "71,000,000 KRW per year for 2 years"
+
+- name: "2022 Proud Postechian Award"
+  date: '2022-12-01'
+  awarder: POSTECH
+  etc: "3,000,000 KRW"
+
+- name: "SPIE Optics and Photonics Education Scholarship"
+  date: '2022-06-01'
+  awarder: SPIE
+  etc: "3,000 USD"
+
+- name: "BK21+ Best paper award, Department of Mechanical Engineering, Fall 2022"
+  date: '2022-11-01'
+  awarder: POSTECH
+  etc: "3,000,000 KRW"
+
+- name: "Best presentation award - MRS Fall Meeting, 2021"
+  date: '2021-12-01'
+  awarder: MRS
+  etc: "300 USD"
