@@ -18,7 +18,7 @@ The workshop was held at 소노펠리체 for networking and communication betwee
 
 {%
   include figure.html
-  image="/images/news/2025/02/KUS-workshop.jpeg"
+  image="/images/news/2025/02/KUS-workshop2.jpeg"
   width="400px"
 %}
 
