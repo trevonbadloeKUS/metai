@@ -20,4 +20,4 @@ Welcome Changhyeon and Minsung to the lab as undergraduate student researchers!
   width="400px"
 %}
 
-Thank you guys so much for helping to move the furniture from the lab for rennovations!! 
+Thank you both so much for helping to move the furniture from the lab for renovations!

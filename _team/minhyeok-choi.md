@@ -1,6 +1,6 @@
 ---
 name: Minhyeok Choi (최민혁)
-image: team/photos/undergraduate/minhyeok-choi.jpeg
+image: /team/photos/undergraduate/minhyeok_choi.jpeg
 role: undergrad
 
 current:
@@ -46,5 +46,5 @@ links:
   google-scholar:
   instagram:
   linkedin:
-  email: 
+  email: no_email@korea.ac.kr
 ---
