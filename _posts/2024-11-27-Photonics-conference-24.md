@@ -5,6 +5,9 @@ author: trevon-badloe
 tags: conference, 평창, Korea, OSK
 date: '2024-11-27'
 ---
+
+Trevon gave an invited talk and chaired a session at the OSK Photonics Conference~
+
 {%
   include figure.html
   image="/images/news/2024/11/PhotonicsConference1.jpeg"

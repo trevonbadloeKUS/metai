@@ -1,0 +1,17 @@
+---
+title:  Minhyeok join MetAI lab as an undergraduate student researcher!~
+image: "team/photos/undergraduate/minhyeok_choi.jpeg"
+author: changhyeon-lim, minsung-kang
+tags: welcome, undergraduate researcher
+date: '2025-02-13'
+---
+
+Welcome Minhyeok to the lab as an undergraduate student researcher!
+
+{%
+  include figure.html
+  image="/team/photos/undergraduate/minhyeok_choi.jpeg"
+  width="400px"
+%}
+
+Thank you for joining in time to help move the furniture back to the lab!! ㅎㅎㅎ 
