@@ -1,7 +1,7 @@
 ---
 title:  Trevon and Changhyeon attend 제14회 과학기술의 소통 워크샵!~
 image: "images/news/2025/02/KUS-workshop1.jpeg"
-author: trevon-badloe, changhyeon-lim
+author: trevon-badloe
 tags: workshop, KUS, 강원도
 date: '2025-02-03'
 ---
