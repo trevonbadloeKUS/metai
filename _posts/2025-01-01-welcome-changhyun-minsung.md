@@ -1,7 +1,7 @@
 ---
 title:  Changhyeon and Minsung join MetAI lab as undergraduate student researchers!~
 image: "team/photos/undergraduate/changhyeon_lim.jpeg"
-authors: changhyeon-lim, minsung-kang
+author: changhyeon-lim
 tags: welcome, undergraduate researcher
 date: '2025-01-01'
 ---
