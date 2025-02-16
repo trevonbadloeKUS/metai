@@ -1,5 +1,26 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acsami.4c16216
+  title: "12\u2033 Wafer-Scale Mass-Manufactured Metal\u2013Insulator\u2013Metal Reflective\
+    \ Metaholograms by Nanotransfer Printing"
+  authors:
+  - Chanwoong Park
+  - Eunji Lee
+  - Joohoon Kim
+  - Wonjoong Kim
+  - Hyoin Song
+  - Hansang Sung
+  - Seungyeon Lee
+  - Jaein Park
+  - Trevon Badloe
+  - Junsuk Rho
+  - Heon Lee
+  publisher: ACS Applied Materials &amp; Interfaces
+  date: '2025-01-03'
+  link: https://doi.org/g847qq
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
