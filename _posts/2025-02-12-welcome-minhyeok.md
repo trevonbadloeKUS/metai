@@ -1,5 +1,5 @@
 ---
-title:  Minhyeok join MetAI lab as an undergraduate student researcher!~
+title:  Minhyeok joins MetAI Lab as an undergraduate student researcher!~
 image: "team/photos/undergraduate/minhyeok_choi.jpeg"
 author: minhyeok-choi
 tags: welcome, undergraduate researcher
