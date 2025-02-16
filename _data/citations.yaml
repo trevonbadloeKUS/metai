@@ -19,8 +19,16 @@
   date: '2025-01-03'
   link: https://doi.org/g847qq
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  tags:
+  - nanofabrication
+  - mteahologram
+  type: research
+  highlight: A scalable, low-cost fabrication method is demonstrated for the high-yield
+    production of metasurfaces, advancing their use in imaging, sensing, and optical
+    communications.
+  image: https://pubs.acs.org/cms/10.1021/acsami.4c16216/asset/images/medium/am4c16216_0007.gif
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
