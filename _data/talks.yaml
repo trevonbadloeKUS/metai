@@ -1,5 +1,25 @@
 ---
 
+- name: The 4th AI Photonics Technology Symposium (AIPS2025)
+  location: Wuhan, China
+  venue: Wuhan
+  latitude: 30.5928
+  longitude: 114.3055
+  date: '2025-05-15'
+  etc: Invited oral presentation, Academic committee
+  website: https://www.htcis.net/MeetingMain/Index/2025APTS
+  type: international
+
+- name: The 9th A3 Metamaterials Forum 2025
+  location: Daejeon, Korea
+  venue: KAIST
+  latitude: 30.6528
+  longitude: 104.0668
+  date: '2025-07-08'
+  etc: Invited oral presentation
+  website: https://a3meta.net/2025/main.htm
+  type: international
+
 - name: The 45th Photonics and Electromagnetics Research Symposium (PIERS-2024)
   location: Chengdu, China
   venue: Sichuan Jinjiang Hotel
