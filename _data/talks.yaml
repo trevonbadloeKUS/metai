@@ -2,7 +2,7 @@
 
 - name: The 4th AI Photonics Technology Symposium (AIPS2025)
   location: Wuhan, China
-  venue: Wuhan
+  venue: China Optics Valley Convention & Exhibition Center
   latitude: 30.5928
   longitude: 114.3055
   date: '2025-05-15'
@@ -202,12 +202,22 @@
   website: https://english.njust.edu.cn
   type: international
 
-- name: The 15th International Conference on Metamaterials, Photonic Crystals, and Plasmonics (META'25)
-  location: Malaga, Spain
-  venue: Costa del Sol Conference and Exhibition Centre of Torremolinos
-  latitude: 36.6250
-  longitude: -4.4995
-  date: "2025-07-22"
+- name: New Frontiers of Bio-Electromagnetics and Bio-Photonics
+  location: Suzhou, China
+  venue: Soochow University
+  latitude: 31.21 
+  longitude: 120.59
+  date: "2025-07-04"
   etc: Invited oral presentation
-  website: https://metaconferences.org/META25/index.php/META
+  website: https://eng.suda.edu.cn/
+  type: international
+
+- name: Sustainable Photonics Conference
+  location: Hangzhou, China
+  venue: Hangzhou International Innovation Institute, Beihang University
+  latitude: 30.18
+  longitude: 120.21
+  date: "2025-07-04"
+  etc: Invited oral presentation, Co-Chair for Nanophotonics session
+  website: https://www.optoin.org/SPC/
   type: international
