@@ -1,6 +1,6 @@
 ---
 name: Zhe Xu	(徐喆)
-image: team/photos/undergraduate/kaixi-fu.jpeg
+image: team/photos/undergraduate/zhe-xu.jpeg
 role: undergrad
 
 current:
