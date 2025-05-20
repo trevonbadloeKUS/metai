@@ -1,6 +1,6 @@
 ---
 title:  Our lab members take a trip to Suwon!~
-image: "images/news/2025/05/triptoSuwon3.jpg"
+image: "images/news/2025/05/triptoSuwon3.jpeg"
 author: trevon-badloe
 tags: trip, Suwon
 date: '2025-05-06'
