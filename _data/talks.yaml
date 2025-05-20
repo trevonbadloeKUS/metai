@@ -1,5 +1,15 @@
 ---
 
+- name: SPIE-CLP Conference on Advanced Photonics 2025
+  location: Hong Kong
+  venue: The Hong Kong Polytechnic University
+  latitude: 22.305
+  longitude: 114.180
+  date: '2025-11-14'
+  etc: Invited oral presentation
+  website: https://www.researching.cn/conference/AP2025
+  type: international
+
 - name: The 4th AI Photonics Technology Symposium (AIPS2025)
   location: Wuhan, China
   venue: China Optics Valley Convention & Exhibition Center

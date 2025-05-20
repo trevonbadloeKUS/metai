@@ -12,6 +12,12 @@ current:
     link: https://kueie.korea.ac.kr
     date: '2024/09 - current'
 
+  - position: 
+    department: Division of Smart Energy Convergence Engineering
+    school: Korea University - Sejong Campus, South Korea
+    link: https://kueie.korea.ac.kr
+    date: '2025/03 - current'
+
 experience:
   - position: Postdoctoral Researcher
     department: Graduate School of AI
