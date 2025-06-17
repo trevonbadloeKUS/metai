@@ -1,5 +1,40 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acsami.5c03196
+  title: Hybrid Frameworks Integrating Deep Learning and Optimization Methods for
+    Inverse Design in Nanophotonics
+  authors:
+  - Harit Keawmuang
+  - Shiqi Hu
+  - Trevon Badloe
+  - Sunae So
+  - Junsuk Rho
+  publisher: ACS Applied Materials &amp; Interfaces
+  date: '2025-05-30'
+  link: https://doi.org/g9qjj9
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+- id: doi:10.1021/acs.nanolett.5c01831
+  title: Rapid Polarization-Controlled Depth Sensing and Imaging with an Electrically
+    Tunable Metalens
+  authors:
+  - Yeseul Kim
+  - Jihae Lee
+  - Wei-Hong Yeo
+  - Xiaotong Li
+  - Won-Sik Kim
+  - Young-Ki Kim
+  - Trevon Badloe
+  - Cheng Sun
+  - Hao F. Zhang
+  - Junsuk Rho
+  publisher: Nano Letters
+  date: '2025-06-02'
+  link: https://doi.org/g9qjkb
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1021/acsami.4c16216
   title: "12\u2033 Wafer-Scale Mass-Manufactured Metal\u2013Insulator\u2013Metal Reflective\
     \ Metaholograms by Nanotransfer Printing"
