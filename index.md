@@ -17,6 +17,13 @@ At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring t
 
 <p> Candidates interested in joining our research group, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion </p>
 
+<!-- Kakaotalk Button -->
+<p>
+  <a href="https://open.kakao.com/o/sCvTrjCh" target="_blank" rel="noopener noreferrer" class="kakao-button">
+    Join our KakaoTalk Open Chat
+  </a>
+</p>
+
 Check out our research topics and recent publications below!
 
 {% include section.html %}
