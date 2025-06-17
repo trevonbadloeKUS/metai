@@ -99,8 +99,16 @@
   date: '2025-05-01'
   link: https://doi.org/g9qjkh
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  tags:
+  - tunable metasurface
+  - liquid crystal
+  - beam splitting
+  type: research
+  highlight: Electrically tunable metasurfaces are developed for broadband beam splitting
+    across the visible spectrum, enhancing optical device performance and versatility.
+  image: https://www.researchgate.net/publication/391742218/figure/fig1/AS:11431281475302479@1748559480264/a-Schematic-of-the-liquid-crystal-LC-integrated-metasurface-beam-splitter-b-LC-for_W640.jpg
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
