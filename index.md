@@ -12,10 +12,10 @@ At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring t
 
 <h3> JOIN US </h3>
 <h4> 대학원생 / 학부연구생 모집 </h4>
-<p> 간단한 자기 소개 및 이력서를 이메일로 보내주시면 검토 후 답변드리겠습니다. </p>
+<p> 간단한 자기 소개 및 이력서를 이메일로 보내주시면 검토 후 답변드리겠습니다. 1:1 채팅을 원하시면 카카오톡 오픈채팅 링크를 클릭하세요. </p>
 <a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a>
 
-<p> Candidates interested in joining our research group, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion </p>
+<p> Candidates interested in joining our research group, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion. Or click the KakaoTalk open chat link to chat 1 on 1. </p>
 
 <!-- Kakaotalk Button -->
 <p>
