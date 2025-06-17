@@ -13,8 +13,17 @@
   date: '2025-05-30'
   link: https://doi.org/g9qjj9
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  tags:
+  - inverse design
+  - machine learning
+  - nanophotonics
+  type: perspective
+  highlight: Hybrid frameworks combining deep learning and optimisation methods are
+    discussed for the inverse design of nanophotonic structures, enhancing design
+    efficiency and performance.
+  image: https://pubs.acs.org/cms/10.1021/acsami.5c03196/asset/images/medium/am5c03196_0006.gif
 - id: doi:10.1021/acs.nanolett.5c01831
   title: Rapid Polarization-Controlled Depth Sensing and Imaging with an Electrically
     Tunable Metalens
@@ -33,8 +42,16 @@
   date: '2025-06-02'
   link: https://doi.org/g9qjkb
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  tags:
+  - metalens
+  - depth sensing
+  - biomedical imaging
+  type: research
+  highlight: Depth sensing and imaging are achieved with a polarization-controlled
+    metalens, enabling rapid and accurate 3D imaging in biomedical applications.
+  image: https://pubs.acs.org/cms/10.1021/acs.nanolett.5c01831/asset/images/medium/nl5c01831_0006.gif
 - id: doi:10.1021/acsami.4c16216
   title: "12\u2033 Wafer-Scale Mass-Manufactured Metal\u2013Insulator\u2013Metal Reflective\
     \ Metaholograms by Nanotransfer Printing"
@@ -58,12 +75,32 @@
   file: sources_fixed.yaml
   tags:
   - nanofabrication
-  - mteahologram
+  - metahologram
   type: research
   highlight: A scalable, low-cost fabrication method is demonstrated for the high-yield
     production of metasurfaces, advancing their use in imaging, sensing, and optical
     communications.
   image: https://pubs.acs.org/cms/10.1021/acsami.4c16216/asset/images/medium/am4c16216_0007.gif
+- id: doi:10.1002/adom.202403413
+  title: Electrically Tunable Metasurfaces for Broadband Beam Splitting Across the
+    Visible Spectrum
+  authors:
+  - Junkyeong Park
+  - Younghwan Yang
+  - Yujin Park
+  - Hyunjung Kang
+  - Jehyeon Shin
+  - Harit Keawmuang
+  - "Won\u2010Sik Kim"
+  - Trevon Badloe
+  - "Young\u2010Ki Kim"
+  - Junsuk Rho
+  publisher: Advanced Optical Materials
+  date: '2025-05-01'
+  link: https://doi.org/g9qjkh
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
