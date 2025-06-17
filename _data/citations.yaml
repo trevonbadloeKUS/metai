@@ -81,6 +81,7 @@
     production of metasurfaces, advancing their use in imaging, sensing, and optical
     communications.
   image: https://pubs.acs.org/cms/10.1021/acsami.4c16216/asset/images/medium/am4c16216_0007.gif
+  
 - id: doi:10.1002/adom.202403413
   title: Electrically Tunable Metasurfaces for Broadband Beam Splitting Across the
     Visible Spectrum
@@ -101,6 +102,16 @@
   orcid: 0000-0001-9458-6062
   plugin: orcid.py
   file: orcid_PI.yaml
+  tags:
+  - tunable metasurface
+  - beam splitting
+  type: research
+  highlight: A novel electrically tunable metasurface is developed for broadband beam splitting
+    across the visible spectrum, enabling dynamic control of light propagation.
+  image: https://www.researchgate.net/publication/391742218/figure/fig1/AS:11431281475302479@1748559480264/a-Schematic-of-the-liquid-crystal-LC-integrated-metasurface-beam-splitter-b-LC-for_W640.jpg
+
+
+
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
