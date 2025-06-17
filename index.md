@@ -20,7 +20,7 @@ At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring t
 <!-- Kakaotalk Button -->
 <p>
   <a href="https://open.kakao.com/o/sCvTrjCh" target="_blank" rel="noopener noreferrer" class="kakao-button">
-    Kakaotalk Open Chat
+    KakaoTalk Open Chat
   </a>
 </p>
 
