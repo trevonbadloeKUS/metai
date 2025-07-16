@@ -1,9 +1,38 @@
+- id: doi:10.1002/lpor.202500581
+  title: Topological Vortex Transition Induced by Spin Hall Effect of Light for Tunable
+    Humidity Sensing and Imaging
+  authors:
+  - Yeseul Kim*
+  - Peng Tang*
+  - Chunghwan Jung
+  - Jaekyung Kim
+  - Jihae Lee
+  - Xiaotong Li
+  - Harit Keawmuang
+  - Shiqi Hu
+  - Guoqiang Li
+  - Trevon Badloe+
+  - Junsuk Rho+
+  publisher: Laser &amp; Photonics Reviews
+  date: '2025-06-19'
+  link: https://doi.org/g9tdgk
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags: 
+    - spin Hall effect
+    - vortex beam
+    - humidity sensing
+  type: research
+  highlight:  A topological vortex transition induced by the spin Hall effect of light is demonstrated for tunable humidity sensing and imaging, enhancing sensitivity and resolution.
+  image: https://onlinelibrary.wiley.com/cms/asset/0a0e4654-0a19-4b17-9337-197b9790405e/lpor70129-fig-0001-m.jpg
+
 - id: doi:10.1002/adom.202403413
   title: Electrically Tunable Metasurfaces for Broadband Beam Splitting Across the
     Visible Spectrum
   authors:
-  - Junkyeong Park
-  - Younghwan Yang
+  - Junkyeong Park*
+  - Younghwan Yang*
   - Yujin Park
   - Hyunjung Kang
   - Jehyeon Shin
