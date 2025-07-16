@@ -48,17 +48,17 @@ After spending some time in Nanjing, we visited Suzhou, a beautiful city...
 
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST/Suzhou_2.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou2.jpeg"
   width="400px"
 %}
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST/Suzhou_1.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou1.jpeg"
   width="400px"
 %}
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST/Suzhou_3.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou3.jpeg"
   width="400px"
 %}
 
