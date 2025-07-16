@@ -45,6 +45,4 @@ All of the students from the lab were able to attend and (hopefully...) learned 
   width="400px"
 %}
 
-/Users/trevonbadloe/metai/images/news/2025/07/A3 Metamaterials 05/A3_CMH.jpeg
-
 Next time let's go together...ㅠㅠ and present your research at the international conference!!
