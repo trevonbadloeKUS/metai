@@ -1,6 +1,6 @@
 ---
 title: Trevon visited Nanjing and Suzhou in China!~
-image: "images/news/2025/06/NJUST_sign.jpeg"
+image: "images/news/2025/06/NJUST/NJUST_sign.jpeg"
 author: trevon-badloe
 tags: symposium, research, China
 date: '2025-06-28'
@@ -10,7 +10,7 @@ Trevon spent 10 days at Nanjing University of Science and Technology (NJUST), Ch
 
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST_symposium.jpeg"
+  image="/images/news/2025/06/NJUST/NJUST_symposium.jpeg"
   width="400px"
 %}
 
@@ -18,7 +18,7 @@ Professors from around the world were invited to give talks and hold discussions
 
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST_group.jpeg"
+  image="/images/news/2025/06/NJUST/NJUST_group.jpeg"
   width="400px"
 %}
 
@@ -26,21 +26,21 @@ The weather was really crazy... Over 30 degrees at 8am, and near 40 degrees thro
 
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST_hotmorning.jpeg"
+  image="/images/news/2025/06/NJUST/NJUST_hotmorning.jpeg"
   width="400px"
 %}
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST_hot.jpeg"
+  image="/images/news/2025/06/NJUST/NJUST_hot.jpeg"
   width="400px"
 %}
 
 One of Trevon's favourite Chinese dishes was served at dinner—La Zi Ji (Sichuan Mala Chicken, 辣子鸡)...
-However, the "chicken" was actually frog...
+However, the "chicken" was actually frog...haaa
 
 {%
   include figure.html
-  image="/images/news/2025/06/NJUST_dinner.jpeg"
+  image="/images/news/2025/06/NJUST/NJUST_dinner.jpeg"
   width="400px"
 %}
 
@@ -48,17 +48,17 @@ After spending some time in Nanjing, we visited Suzhou, a beautiful city...
 
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_2.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou_2.jpeg"
   width="400px"
 %}
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_1.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou_1.jpeg"
   width="400px"
 %}
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_3.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou_3.jpeg"
   width="400px"
 %}
 
@@ -66,19 +66,19 @@ We also participated in the International Symposium on Metamaterials and Nanopho
 
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_presentation2.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou_presentation2.jpeg"
   width="400px"
 %}
 
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_group.jpeg"
+  image="/images/news/2025/06/NJUST/Suzhou_group.jpeg"
   width="400px"
 %}
 
 {%
   include figure.html
-  image="/images/news/2025/06/Suzhou_certificate.jpg"
+  image="/images/news/2025/06/NJUST/Suzhou_certificate.jpg"
   width="400px"
 %}
 
