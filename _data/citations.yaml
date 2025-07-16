@@ -1,5 +1,26 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/lpor.202500581
+  title: Topological Vortex Transition Induced by Spin Hall Effect of Light for Tunable
+    Humidity Sensing and Imaging
+  authors:
+  - Yeseul Kim
+  - Peng Tang
+  - Chunghwan Jung
+  - Jaekyung Kim
+  - Jihae Lee
+  - Xiaotong Li
+  - Harit Keawmuang
+  - Shiqi Hu
+  - Guoqiang Li
+  - Trevon Badloe
+  - Junsuk Rho
+  publisher: Laser &amp; Photonics Reviews
+  date: '2025-06-19'
+  link: https://doi.org/g9tdgk
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1021/acsami.5c03196
   title: Hybrid Frameworks Integrating Deep Learning and Optimization Methods for
     Inverse Design in Nanophotonics
