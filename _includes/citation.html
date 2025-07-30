@@ -71,7 +71,7 @@
 
       {% if citation.type != "book chapter" %}
         {% assign journal_key = citation.publisher %}
-        {% assign journal_data = site.data.journal_details_24 | where: "Journal", journal_key | first %}
+        {% assign journal_data = site.data.journal_details_25 | where: "Journal", journal_key | first %}
 
         {% if journal_data %}
 

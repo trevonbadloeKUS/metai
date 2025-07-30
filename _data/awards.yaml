@@ -1,5 +1,10 @@
 ---
 
+- name: "SPC Early Career Award"
+  date: '2025-07-22'
+  awarder: Sustainable Photonics Conference
+  etc:
+
 - name: "Advanced Photonics Young Innovator Award 2024"
   date: '2025-02-01'
   awarder: Advanced Photonics
