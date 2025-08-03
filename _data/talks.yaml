@@ -212,14 +212,14 @@
   website: https://english.njust.edu.cn
   type: international
 
-- name: New Frontiers of Bio-Electromagnetics and Bio-Photonics
+- name: International Symposium on Metamaterials and Nanophotonics (ISMN2025)
   location: Suzhou, China
-  venue: Soochow University
+  venue: Suzhou City University
   latitude: 31.21 
   longitude: 120.59
-  date: "2025-07-04"
+  date: "2025-07-05"
   etc: Invited oral presentation
-  website: https://eng.suda.edu.cn/
+  website: https://www.szcu.edu.cn/2025/0620/c3880a74134/page.htm
   type: international
 
 - name: Sustainable Photonics Conference
@@ -227,7 +227,17 @@
   venue: Hangzhou International Innovation Institute, Beihang University
   latitude: 30.18
   longitude: 120.21
-  date: "2025-07-04"
+  date: "2025-07-21"
   etc: Invited oral presentation, Co-Chair for Nanophotonics session
   website: https://www.optoin.org/SPC/
+  type: international
+
+- name: International Symposium on Nanophotonics, Acoustics and Electromagnetic Innovations: From Materials and Devices to Systems
+  location: Nanjing, China
+  venue: Nanjing University of Science and Technology (NJUST)
+  latitude: 32.03
+  longitude: 118.86
+  date: "2025-07-03"
+  etc: Invited oral presentation
+  website: https://english.njust.edu.cn
   type: international
