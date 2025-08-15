@@ -241,3 +241,13 @@
   etc: Invited oral presentation
   website: https://english.njust.edu.cn
   type: international
+
+- name: The Korean Physical Society (KPS) Fall Meeting 2025 
+  location: Gwangju, South Korea
+  venue: Kimdaejung Convention Center
+  latitude: 35.1595
+  longitude: 126.8526
+  date: "2025-10-22"
+  etc: Invited oral presentation
+  website: https://www.kps.or.kr/conference/event/
+  type: domestic
