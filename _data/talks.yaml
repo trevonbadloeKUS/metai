@@ -251,3 +251,23 @@
   etc: Invited oral presentation
   website: https://www.kps.or.kr/conference/event/
   type: domestic
+
+- name: 2025 Photonics Conference (PC2025)
+  location: Pyeongchang, South Korea
+  venue: Phoenix Pyeongchang
+  latitude: 37.5812
+  longitude: 128.3273
+  date: "2025-11-26"
+  etc: Oral presentation
+  website: https://www.kps.or.kr/conference/event/
+  type: domestic
+
+- name: The 15th Korea-Japan workshop on Digital Holography and Information Photonics (DHIP2025)
+  location: Ishigaki, Japan
+  venue: Ishigaki Civic Hall
+  latitude: 24.3442
+  longitude: 124.1536
+  date: "2025-12-18"
+  etc: Invited oral presentation
+  website: https://sites.google.com/view/dhip2025
+  type: international
