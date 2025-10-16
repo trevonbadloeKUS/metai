@@ -25,7 +25,36 @@
     - humidity sensing
   type: research
   highlight:  A topological vortex transition induced by the spin Hall effect of light is demonstrated for tunable humidity sensing and imaging, enhancing sensitivity and resolution.
-  image: https://onlinelibrary.wiley.com/cms/asset/0a0e4654-0a19-4b17-9337-197b9790405e/lpor70129-fig-0001-m.jpg
+  image: https://www.researchgate.net/publication/392827158/figure/fig2/AS:11431281562536357@1753703365062/a-Schematic-of-experiment-showing-the-optical-setup-for-humidity-dependent-tunable-edge_W640.jpg
+
+- id: doi:10.1002/adom.202500981
+  title: "Switchable Bright\u2010Field Imaging and Corner Detection with an Electrically\
+    \ Tunable Metalens"
+  authors:
+  - Peng Tang*
+  - Youngsun Jeon*
+  - Xiaotong Li*
+  - Yeseul Kim
+  - Junhwa Seong
+  - Shiqi Hu
+  - Kyungtae Kim
+  - Guoqiang Li+
+  - Trevon Badloe+
+  - Junsuk Rho+
+  publisher: Advanced Optical Materials
+  date: '2025-06-10'
+  link: https://doi.org/g963hj
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags: 
+    - metalens
+    - edge detection
+    - liquid crystal
+  type: research
+  highlight:  An electrically tunable metalens is developed for switchable bright-field imaging and corner detection, enhancing imaging versatility and edge detection capabilities.
+  image: https://www.researchgate.net/publication/392555379/figure/fig4/AS:11431281574838644@1754455778150/Imaging-using-the-metalens-in-bright-field-and-corner-detection-modes-a-and-b-show_W640.jpg
+
 
 - id: doi:10.1002/adom.202403413
   title: Electrically Tunable Metasurfaces for Broadband Beam Splitting Across the
