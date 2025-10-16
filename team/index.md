@@ -47,5 +47,11 @@ nav:
 {% if alumni_team.size > 0 %}
   {% include section.html %}
   <h2>Alumni</h2>
-  {% include list.html data="team" component="portrait" filters="role: alumni" %}
+  <ul>
+    {% for member in alumni_team %}
+      {% if member.current[0] %}
+        <li>{{ member.name }} - {{ member.current[0].position }} ({{ member.current[0].date }})</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endif %}
