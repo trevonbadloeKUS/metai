@@ -139,6 +139,26 @@
   highlight: Electrically tunable metasurfaces are developed for broadband beam splitting
     across the visible spectrum, enhancing optical device performance and versatility.
   image: https://www.researchgate.net/publication/391742218/figure/fig1/AS:11431281475302479@1748559480264/a-Schematic-of-the-liquid-crystal-LC-integrated-metasurface-beam-splitter-b-LC-for_W640.jpg
+- id: doi:10.1002/adom.202500981
+  title: "Switchable Bright\u2010Field Imaging and Corner Detection with an Electrically\
+    \ Tunable Metalens"
+  authors:
+  - Peng Tang
+  - Youngsun Jeon
+  - Xiaotong Li
+  - Yeseul Kim
+  - Junhwa Seong
+  - Shiqi Hu
+  - Kyungtae Kim
+  - Guoqiang Li
+  - Trevon Badloe
+  - Junsuk Rho
+  publisher: Advanced Optical Materials
+  date: '2025-06-10'
+  link: https://doi.org/g963hj
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.1002/advs.202403143
   title: "Artificial Intelligence\u2010Enhanced Metasurfaces for Instantaneous Measurements\
     \ of Dispersive Refractive Index"
