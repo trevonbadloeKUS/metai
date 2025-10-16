@@ -1,14 +1,14 @@
 ---
 name: Kaixi Fu (付开熙)
 image: team/photos/undergraduate/kaixi-fu.jpeg
-role: undergrad
+role: alumni
 
 current:
   - position: Undergraduate Researcher
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    date: '2025/03 - current'
+    date: '2024/03 - 2025/03'
 
 bachelor:
   - degree:
