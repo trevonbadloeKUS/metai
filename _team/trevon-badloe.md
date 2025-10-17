@@ -18,6 +18,12 @@ current:
     link: https://kueie.korea.ac.kr
     date: '2025/03 - current'
 
+  - position: 
+    department: Digital Healthcare Center, Sejong Institute for Business and Technology
+    school: Korea University - Sejong Campus, South Korea
+    link: https://kueie.korea.ac.kr
+    date: '2025/09 - current'
+
 experience:
   - position: Postdoctoral Researcher
     department: Graduate School of AI
