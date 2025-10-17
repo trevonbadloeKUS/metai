@@ -58,8 +58,8 @@
   title: Rapid Polarization-Controlled Depth Sensing and Imaging with an Electrically
     Tunable Metalens
   authors:
-  - Yeseul Kim
-  - Jihae Lee
+  - Yeseul Kim*
+  - Jihae Lee*
   - Wei-Hong Yeo
   - Xiaotong Li
   - Won-Sik Kim
@@ -86,17 +86,17 @@
   title: "12\u2033 Wafer-Scale Mass-Manufactured Metal\u2013Insulator\u2013Metal Reflective\
     \ Metaholograms by Nanotransfer Printing"
   authors:
-  - Chanwoong Park
-  - Eunji Lee
-  - Joohoon Kim
+  - Chanwoong Park*
+  - Eunji Lee*
+  - Joohoon Kim*
   - Wonjoong Kim
   - Hyoin Song
   - Hansang Sung
   - Seungyeon Lee
   - Jaein Park
   - Trevon Badloe
-  - Junsuk Rho
-  - Heon Lee
+  - Junsuk Rho+
+  - Heon Lee+
   publisher: ACS Applied Materials &amp; Interfaces
   date: '2025-01-03'
   link: https://doi.org/g847qq
