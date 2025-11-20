@@ -1,5 +1,5 @@
 ---
-title: Trevon gave an invited talk at the Korean Physical Society Fall Meeting 2025!~
+title: Trevon gave an invited talk at the SPIE-CLP Conference on Advanced Photonics 2025 conference in Hong Kong!~
 image: "images/news/2025/11/Advanced Photonics SPIE/award.jpeg"
 author: trevon-badloe
 tags: conference, invitedtalk, award, HongKong
