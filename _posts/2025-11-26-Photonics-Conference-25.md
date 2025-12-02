@@ -1,6 +1,6 @@
 ---
 title: Trevon, Minsung, Minhyeok, and Changhyeon attend Photonics Conference 2025!~
-image: "images/news/2025/11/Photonics Conference 25/group-poster.jpeg"
+image: "images/news/2025/11/Photonics-Conference-25/group-poster.jpeg"
 author: trevon-badloe
 tags: conference, invitedtalk, 평창, poster
 date: '2025-11-22'
@@ -10,7 +10,7 @@ Trevon gave an invited talk in the 광소자 section of OSK Photonics Conference
 
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/group-poster.jpeg"
+  image="/images/news/2025/11/Photonics-Conference-25/group-poster.jpeg"
   width="400px"
 %}
 
@@ -23,7 +23,7 @@ Trevon gave an invited talk in the 광소자 section of OSK Photonics Conference
 Thanks for your hard work!
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/minsung-poster.jpeg"
+  image="/images/news/2025/11/Photonics-Conference-25/minsung-poster.jpeg"
   width="400px"
 %}
 
@@ -31,7 +31,7 @@ There was interest in our research from other attendees, so Minsung got to discu
 
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/poster-discussion.jpeg"
+  image="/images/news/2025/11/Photonics-Conference-25/poster-discussion.jpeg"
   width="400px"
 %}
 
@@ -40,13 +40,13 @@ However, travel from Sejong to Pyeongchang is not easy without a car...so someon
 
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/minhyeok-poster-session.jpeg"
+  image="/images/news/2025/11/Photonics-Conference-25/minhyeok-poster-session.jpeg"
   width="400px"
 %}
 
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/changhyeon-poster-session.jpeg"
+  image="/images/news/2025/11/Photonics-Conference-25/changhyeon-poster-session.jpeg"
   width="400px"
 %}
 
@@ -54,6 +54,6 @@ Compared to last year, there was only a little bit of snow (/rain(?))...so we di
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/small-snow.webp"
+  image="/images/2025/11/Photonics-Conference-25/small-snow.webp"
   width="400px"
 %}
