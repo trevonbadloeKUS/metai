@@ -70,8 +70,7 @@ layout: default
 <!-- =========================
      EDUCATION
      ========================= -->
-
-<!-- Show education if data exists (removed role check to allow students to show degrees) -->
+<!-- Displays section if any degree information exists, regardless of role -->
 {% if page.phd[0].degree or page.master[0].degree or page.bachelor[0].degree %}
   {% include section.html %}
 
@@ -112,13 +111,14 @@ layout: default
 
 
 <!-- =========================
-     FILTERING LOGIC SETUP
+     FILTERING VARIABLES
      ========================= -->
 <!-- 
-  We define 'search_name'. If the front matter has 'pub_name' (e.g. "Minsung Kang"), 
-  we use that. Otherwise, we use the 'name' field. 
+  search_name: The name to look for in data files. Uses 'pub_name' if defined, else 'name'. 
+  pi_name: The hardcoded PI name to use as a default for missing fields.
 -->
 {% assign search_name = page.pub_name | default: page.name %}
+{% assign pi_name = "Trevon Badloe" %}
 {% assign is_pi = false %}
 {% if page.role == "pi" %}
   {% assign is_pi = true %}
@@ -132,14 +132,15 @@ layout: default
 {% assign sorted_pubs = site.data.citations | sort: 'date' %}
 {% assign pub_count = 0 %}
 
-<!-- COUNT LOGIC: UPDATED FOR ASTERISKS -->
+<!-- Count Publications First -->
 {% for pub in sorted_pubs %}
   {% assign show_pub = false %}
   
   {% if is_pi %}
+    <!-- PI usually wants to show all lab publications -->
     {% assign show_pub = true %}
   {% else %}
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     {% for author in pub.authors %}
       {% if author contains search_name %}
         {% assign show_pub = true %}
@@ -147,18 +148,15 @@ layout: default
     {% endfor %}
   {% endif %}
   
-  {% if show_pub %}
-    {% assign pub_count = pub_count | plus: 1 %}
-  {% endif %}
+  {% if show_pub %}{% assign pub_count = pub_count | plus: 1 %}{% endif %}
 {% endfor %}
 
 {% if pub_count > 0 %}
   <div class="bio-heading">Publications</div>
-  
   <ol reversed>
     {% for pub in sorted_pubs reversed %}
       
-      <!-- DISPLAY LOGIC: UPDATED FOR ASTERISKS -->
+      <!-- Determine visibility again -->
       {% assign show_pub = false %}
       {% if is_pi %}
         {% assign show_pub = true %}
@@ -177,13 +175,10 @@ layout: default
           
           {% for author in pub.authors %}
             {% assign formatted_author = author %}
-            
-            <!-- HIGHLIGHT LOGIC -->
-            <!-- This works fine with asterisks because it checks if the string contains the name -->
+            <!-- Highlight current user's name -->
             {% if author contains search_name or (is_pi and author contains "Trevon") %}
               {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
             {% endif %}
-            
             {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
           {% endfor %},
           
@@ -196,33 +191,37 @@ layout: default
   </ol>
 {% endif %}
 
+
 <!-- =========================
      TALKS & PRESENTATIONS
      ========================= -->
+{% include section.html %}
 {% assign sorted_talks = site.data.talks | sort: 'date' %}
 {% assign talk_count = 0 %}
 
+<!-- Count Talks -->
 {% for talk in sorted_talks %}
   {% assign show_talk = false %}
-  {% if is_pi %}
-    {% assign show_talk = true %}
-  <!-- Check if the 'presenters' list in talks.yaml contains this student -->
-  {% elsif talk.presenters contains search_name %}
+  
+  <!-- Default to PI if presenter is missing -->
+  {% assign talk_presenter = talk.presenter | default: pi_name %}
+  
+  {% if talk_presenter contains search_name %}
     {% assign show_talk = true %}
   {% endif %}
+  
   {% if show_talk %}{% assign talk_count = talk_count | plus: 1 %}{% endif %}
 {% endfor %}
 
 {% if talk_count > 0 %}
-  {% include section.html %}
   <div class="bio-heading">Talks & Presentations</div>
   
   <ol reversed>
     {% for talk in sorted_talks reversed %}
       {% assign show_talk = false %}
-      {% if is_pi %}
-        {% assign show_talk = true %}
-      {% elsif talk.presenters contains search_name %}
+      {% assign talk_presenter = talk.presenter | default: pi_name %}
+      
+      {% if talk_presenter contains search_name %}
         {% assign show_talk = true %}
       {% endif %}
 
@@ -241,30 +240,33 @@ layout: default
 <!-- =========================
      AWARDS
      ========================= -->
+{% include section.html %}
 {% assign sorted_awards = site.data.awards | sort: 'date' %}
 {% assign award_count = 0 %}
 
+<!-- Count Awards -->
 {% for award in sorted_awards %}
   {% assign show_award = false %}
-  {% if is_pi %}
-    {% assign show_award = true %}
-  <!-- Check if 'recipient' in awards.yaml matches this student -->
-  {% elsif award.recipient contains search_name %}
+  
+  <!-- Default to PI if recipient is missing -->
+  {% assign recipient = award.recipient | default: pi_name %}
+  
+  {% if recipient contains search_name %}
     {% assign show_award = true %}
   {% endif %}
+  
   {% if show_award %}{% assign award_count = award_count | plus: 1 %}{% endif %}
 {% endfor %}
 
 {% if award_count > 0 %}
-  {% include section.html %}
   <div class="bio-heading">Awards</div>
   
   <ol reversed>
     {% for award in sorted_awards reversed %}
       {% assign show_award = false %}
-      {% if is_pi %}
-        {% assign show_award = true %}
-      {% elsif award.recipient contains search_name %}
+      {% assign recipient = award.recipient | default: pi_name %}
+      
+      {% if recipient contains search_name %}
         {% assign show_award = true %}
       {% endif %}
 
@@ -286,7 +288,9 @@ layout: default
 
   {% include section.html %}
   
+  <!-- Display Service Roles -->
   {% assign services = site.data.service %}
+  
   <div class="bio-heading">Service</div>
 
   <ul>
