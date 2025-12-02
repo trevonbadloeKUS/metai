@@ -80,7 +80,7 @@ locations.forEach(function(location) {
 <!-- =========================================
      SECTION 1: PI TALKS
      ========================================= -->
-<div class="bio-heading">Invited Talks & Seminars</div>
+<div class="bio-heading">Talks & Seminars</div>
 
 <!-- 1. Group by Year -->
 {% assign pi_talks_by_year = pi_talks | group_by_exp: "item", "item.date | date: '%Y'" %}
@@ -104,32 +104,25 @@ locations.forEach(function(location) {
 
 {% endfor %}
 
-
 <!-- =========================================
      SECTION 2: GROUP PRESENTATIONS (STUDENTS)
      ========================================= -->
 {% if student_talks.size > 0 %}
-  {% include section.html %}
-  <div class="bio-heading">Group Presentations</div>
+{% include section.html %}
+<div class="bio-heading">Group Presentations</div>
 
-  <!-- 1. Group by Year -->
-  {% assign student_talks_by_year = student_talks | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign student_talks_by_year = student_talks | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign current_count = student_talks.size %}
 
-  <!-- 2. Set Counter -->
-  {% assign current_count = student_talks.size %}
+{% for year_group in student_talks_by_year %}
+<h3>{{ year_group.name }}</h3>
 
-  {% for year_group in student_talks_by_year %}
-    
-    <h3>{{ year_group.name }}</h3>
-    
-    <ol reversed start="{{ current_count }}">
-      {% for talk in year_group.items %}
-        {% include talks.html lookup=talk.id name=talk.name website=talk.website location=talk.location date=talk.date etc=talk.etc presenter=talk.presenter %}
-      {% endfor %}
-    </ol>
+<ol reversed start="{{ current_count }}">
+{% for talk in year_group.items %}
+{% include talks.html lookup=talk.id name=talk.name website=talk.website location=talk.location date=talk.date etc=talk.etc presenter=talk.presenter %}
+{% endfor %}
+</ol>
 
-    <!-- 4. Update Counter -->
-    {% assign current_count = current_count | minus: year_group.items.size %}
-
-  {% endfor %}
+{% assign current_count = current_count | minus: year_group.items.size %}
+{% endfor %}
 {% endif %}
