@@ -271,3 +271,12 @@
   etc: Invited oral presentation
   website: https://sites.google.com/view/dhip2025
   type: international
+
+- name: James Watt School of Engineering, University of Glasgow
+  location: Glasgow, United Kingdom
+  venue: James Watt School of Engineering
+  latitude: 55.8720
+  longitude: -4.2880
+  date: "2026-01-19"
+  website: https://www.gla.ac.uk/schools/engineering/
+  type: talk

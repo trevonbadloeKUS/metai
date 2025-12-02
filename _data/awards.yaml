@@ -1,5 +1,10 @@
 ---
 
+- name: "KUS Granite Tower Research Award (석탑연구상)"
+  date: '2025-12-15'
+  awarder: Korea University Sejong Campus
+  etc:
+
 - name: "SPC Early Career Award"
   date: '2025-07-22'
   awarder: Sustainable Photonics Conference

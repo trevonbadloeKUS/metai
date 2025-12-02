@@ -3,7 +3,7 @@ title: Trevon gave an invited talk at the SPIE-CLP Conference on Advanced Photon
 image: "images/news/2025/11/Advanced Photonics SPIE/award.jpeg"
 author: trevon-badloe
 tags: conference, invitedtalk, award, HongKong
-date: '2025-08-22'
+date: '2025-11-14'
 ---
 
 Trevon was invited to give a talk at the SPIE-CLP Conference on Advanced Photonics 2025 conference in Hong Kong!
