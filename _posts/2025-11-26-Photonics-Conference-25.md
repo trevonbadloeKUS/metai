@@ -54,6 +54,6 @@ Compared to last year, there was only a little bit of snow (/rain(?))...so we di
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics-Conference-25/small-snow.webp"
+  image="/images/news/2025/11/Photonics-Conference-25/small-snow.webp"
   width="400px"
 %}
