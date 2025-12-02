@@ -16,7 +16,7 @@ Trevon gave an invited talk in the 광소자 section of OSK Photonics Conference
 
 {%
   include figure.html
-  image="/images/news/2025/11/Photonics Conference 25/cheer.gif"
+  image="/images/cheer.gif"
   width="400px"
 %}
 
