@@ -22,7 +22,7 @@
   plugin: sources.py
   file: sources_fixed.yaml
   tags:
-  - spin Hall effect
+  - SHEL
   - vortex beam
   - humidity sensing
   type: research
