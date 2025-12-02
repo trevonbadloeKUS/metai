@@ -280,3 +280,14 @@
   date: "2026-01-19"
   website: https://www.gla.ac.uk/schools/engineering/
   type: talk
+
+- name: 2025 Photonics Conference (PC2025)
+  location: Pyeongchang, South Korea
+  venue: Phoenix Pyeongchang
+  latitude: 37.5812
+  longitude: 128.3273
+  date: "2025-11-26"
+  etc: Poster presentation
+  website: https://www.kps.or.kr/conference/event/
+  type: domestic
+  presenter: Minsung Kang

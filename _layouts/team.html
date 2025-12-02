@@ -11,7 +11,6 @@ layout: default
 <div style="text-align:center;">
   {% for link in page.links %}
     {% if link[1] %}
-
       {% assign key = link[0] %}
       {% assign value = link[1] %}
       {% include button.html type=key link=value style="bare" %}<br>
@@ -23,13 +22,17 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
+<!-- =========================
+     BIO & POSITIONS
+     ========================= -->
+
 {% if page.bio %}
   BIO
   <div class = "bio" > {{ page.bio }} </div>
 {% endif %}
 
+<!-- ACADEMIC APPOINTMENTS (PI) -->
 {% if page.role ==  "pi" %}
-
   <div class = "bio-heading"> Academic Appointments </div>
   {% for current in page.current %}
     <ul> 
@@ -38,8 +41,8 @@ layout: default
   {% endfor %}
 {% endif %}
 
+<!-- CURRENT POSITION (Student/Postdoc) -->
 {% if page.role !=  "pi" %}
-
   <div class = "bio-heading"> Current Position </div>
   {% for current in page.current %}
     <ul> 
@@ -48,8 +51,7 @@ layout: default
   {% endfor %}
 {% endif %}
 
-
-
+<!-- EXPERIENCE -->
 {% if page.experience[0].position %}
   {% include section.html %}
 
@@ -64,15 +66,19 @@ layout: default
   {% endfor %}  
 {% endif %}
 
-{% if page.role !=  "undergrad" %}
+
+<!-- =========================
+     EDUCATION
+     ========================= -->
+
+<!-- Show education if data exists (removed role check to allow students to show degrees) -->
+{% if page.phd[0].degree or page.master[0].degree or page.bachelor[0].degree %}
   {% include section.html %}
 
   <div class = "bio-heading"> Education </div>
 
   {% if page.phd[0].degree %}
-
       {% for phd in page.phd %}
-      
         <ul> 
           <li> <div class = "bio-info"> {{ phd.degree }} <a href="{{ phd.link }}">{{ phd.department }}</a>, {{ phd.school }}</li>
         <span class = "bio-info-etc" > {% if phd.etc %} [ {{ phd.etc }} ] {% endif %}({{ phd.date }})</span>
@@ -83,9 +89,7 @@ layout: default
     {% endif %}
 
   {% if page.master[0].degree %}
-
     {% for master in page.master %}
-
       <ul> 
         <li> <div class = "bio-info"> {{ master.degree }} <a href="{{ master.link }}">{{ master.department }}</a>, {{ master.school }}
           <span class = "bio-info-etc" >{% if master.etc %} [ {{ master.etc }} ] {% endif %} ({{ master.date }})</span>
@@ -95,10 +99,7 @@ layout: default
     {% endfor %}
   {% endif %}
 
-   
-
   {% if page.bachelor[0].degree %}
-
     {% for bachelor in page.bachelor %}
     <ul> 
       <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</li>
@@ -109,26 +110,80 @@ layout: default
 
 {% endif %}
 
-{% if page.role == "pi" %}
 
-  {% include section.html %}
+<!-- =========================
+     FILTERING LOGIC SETUP
+     ========================= -->
+<!-- 
+  We define 'search_name'. If the front matter has 'pub_name' (e.g. "Minsung Kang"), 
+  we use that. Otherwise, we use the 'name' field. 
+-->
+{% assign search_name = page.pub_name | default: page.name %}
+{% assign is_pi = false %}
+{% if page.role == "pi" %}
+  {% assign is_pi = true %}
+{% endif %}
+
+
+<!-- =========================
+     PUBLICATIONS
+     ========================= -->
+{% include section.html %}
+{% assign sorted_pubs = site.data.citations | sort: 'date' %}
+{% assign pub_count = 0 %}
+
+<!-- COUNT LOGIC: UPDATED FOR ASTERISKS -->
+{% for pub in sorted_pubs %}
+  {% assign show_pub = false %}
   
-  <!-- Sort and Display Publications -->
-  {% assign sorted_pubs = site.data.citations | sort: 'date' %}
+  {% if is_pi %}
+    {% assign show_pub = true %}
+  {% else %}
+    <!-- Check every author string individually for partial match -->
+    {% for author in pub.authors %}
+      {% if author contains search_name %}
+        {% assign show_pub = true %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
   
+  {% if show_pub %}
+    {% assign pub_count = pub_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if pub_count > 0 %}
   <div class="bio-heading">Publications</div>
   
   <ol reversed>
     {% for pub in sorted_pubs reversed %}
+      
+      <!-- DISPLAY LOGIC: UPDATED FOR ASTERISKS -->
+      {% assign show_pub = false %}
+      {% if is_pi %}
+        {% assign show_pub = true %}
+      {% else %}
+        {% for author in pub.authors %}
+          {% if author contains search_name %}
+            {% assign show_pub = true %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if show_pub %}
       <li>
         <div class="bio-info-etc">
           <a href="{{ pub.link }}">{{ pub.title }}</a>,
           
           {% for author in pub.authors %}
             {% assign formatted_author = author %}
-            {% if author contains "Trevon" %}
+            
+            <!-- HIGHLIGHT LOGIC -->
+            <!-- This works fine with asterisks because it checks if the string contains the name -->
+            {% if author contains search_name or (is_pi and author contains "Trevon") %}
               {% assign formatted_author = "<strong>" | append: formatted_author | append: "</strong>" %}
             {% endif %}
+            
             {{ formatted_author }}{% if forloop.last == false %}, {% endif %}
           {% endfor %},
           
@@ -136,47 +191,102 @@ layout: default
           {{ pub.id }}.
         </div>
       </li>
+      {% endif %}
     {% endfor %}
   </ol>
-  
+{% endif %}
+
+<!-- =========================
+     TALKS & PRESENTATIONS
+     ========================= -->
+{% assign sorted_talks = site.data.talks | sort: 'date' %}
+{% assign talk_count = 0 %}
+
+{% for talk in sorted_talks %}
+  {% assign show_talk = false %}
+  {% if is_pi %}
+    {% assign show_talk = true %}
+  <!-- Check if the 'presenters' list in talks.yaml contains this student -->
+  {% elsif talk.presenters contains search_name %}
+    {% assign show_talk = true %}
+  {% endif %}
+  {% if show_talk %}{% assign talk_count = talk_count | plus: 1 %}{% endif %}
+{% endfor %}
+
+{% if talk_count > 0 %}
   {% include section.html %}
-  
-  <!-- Sort and Display Talks -->
-  {% assign sorted_talks = site.data.talks | sort: 'date' %}
-  
-  <div class="bio-heading">Talks</div>
+  <div class="bio-heading">Talks & Presentations</div>
   
   <ol reversed>
     {% for talk in sorted_talks reversed %}
+      {% assign show_talk = false %}
+      {% if is_pi %}
+        {% assign show_talk = true %}
+      {% elsif talk.presenters contains search_name %}
+        {% assign show_talk = true %}
+      {% endif %}
+
+      {% if show_talk %}
       <li class="bio-info-etc">
         <span class="bio-info-etc"><a href="{{ talk.website }}">{{ talk.name }}</a>,</span>
         {{ talk.location }} ({{ talk.date | date: "%b %Y" }})
         {% if talk.etc %} [{{ talk.etc }}] {% endif %}
       </li>
+      {% endif %}
     {% endfor %}
   </ol>
-  
+{% endif %}
+
+
+<!-- =========================
+     AWARDS
+     ========================= -->
+{% assign sorted_awards = site.data.awards | sort: 'date' %}
+{% assign award_count = 0 %}
+
+{% for award in sorted_awards %}
+  {% assign show_award = false %}
+  {% if is_pi %}
+    {% assign show_award = true %}
+  <!-- Check if 'recipient' in awards.yaml matches this student -->
+  {% elsif award.recipient contains search_name %}
+    {% assign show_award = true %}
+  {% endif %}
+  {% if show_award %}{% assign award_count = award_count | plus: 1 %}{% endif %}
+{% endfor %}
+
+{% if award_count > 0 %}
   {% include section.html %}
-  
-  <!-- Sort and Display Awards -->
-  {% assign sorted_awards = site.data.awards | sort: 'date' %}
-  
   <div class="bio-heading">Awards</div>
   
   <ol reversed>
     {% for award in sorted_awards reversed %}
+      {% assign show_award = false %}
+      {% if is_pi %}
+        {% assign show_award = true %}
+      {% elsif award.recipient contains search_name %}
+        {% assign show_award = true %}
+      {% endif %}
+
+      {% if show_award %}
       <li class="bio-info-etc">
         <span class="bio-info">{{ award.name }},</span>
         {{ award.awarder }} ({{ award.date | date: "%b %Y" }})
       </li>
+      {% endif %}
     {% endfor %}
   </ol>
-  
+{% endif %}
+
+
+<!-- =========================
+     SERVICE (PI ONLY)
+     ========================= -->
+{% if page.role == "pi" %}
+
   {% include section.html %}
   
-  <!-- Display Service Roles -->
   {% assign services = site.data.service %}
-  
   <div class="bio-heading">Service</div>
 
   <ul>

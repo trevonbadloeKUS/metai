@@ -2,6 +2,7 @@
 name: Minsung Kang (강민성)
 image: team/photos/undergraduate/minsung_kang.jpeg
 role: undergrad
+pub_name: Minsung Kang
 
 current:
   - position: Undergraduate Researcher
