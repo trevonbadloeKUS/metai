@@ -10,20 +10,20 @@ Trevon gave an invited talk in the 광소자 section of OSK Photonics Conference
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/group-poster.jpeg"
+  image="/images/news/2025/11/Photonics Conference 25/group-poster.jpeg"
   width="400px"
 %}
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/cheer.gif"
+  image="/images/news/2025/11/Photonics Conference 25/cheer.gif"
   width="400px"
 %}
 
 Thanks for your hard work!
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/minsung-poster.jpeg"
+  image="/images/news/2025/11/Photonics Conference 25/minsung-poster.jpeg"
   width="400px"
 %}
 
@@ -31,7 +31,7 @@ There was interest in our research from other attendees, so Minsung got to discu
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/poster-discussion.jpeg"
+  image="/images/news/2025/11/Photonics Conference 25/poster-discussion.jpeg"
   width="400px"
 %}
 
@@ -40,13 +40,13 @@ However, travel from Sejong to Pyeongchang is not easy without a car...so someon
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/minhyeok-poster-session.jpeg"
+  image="/images/news/2025/11/Photonics Conference 25/minhyeok-poster-session.jpeg"
   width="400px"
 %}
 
 {%
   include figure.html
-  image="/images/2025/11/Photonics Conference 25/changhyeon-poster-session.jpeg"
+  image="/images/news/2025/11/Photonics Conference 25/changhyeon-poster-session.jpeg"
   width="400px"
 %}
 
