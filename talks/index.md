@@ -58,7 +58,7 @@ locations.forEach(function(location) {
         if (location.etc) { popupContent += "<br><i>" + location.etc + "</i>"; }
 
         if (isStudent) {
-            popupContent += "<br><strong style='color: #d63e2d;'>Presenter: " + location.presenter + "</strong>";
+            popupContent += "<br><strong style='color: #872535;'>Presenter: " + location.presenter + "</strong>";
         }
 
         marker.bindPopup(popupContent);
