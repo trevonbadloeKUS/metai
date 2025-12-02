@@ -613,8 +613,7 @@
 <!-- =========================
      EDUCATION
      ========================= -->
-
-<!-- Show education if data exists (removed role check to allow students to show degrees) -->
+<!-- Displays section if any degree information exists, regardless of role -->
   </section>
 
   
@@ -650,12 +649,13 @@
 
 
 <!-- =========================
-     FILTERING LOGIC SETUP
+     FILTERING VARIABLES
      ========================= -->
 <!-- 
-  We define 'search_name'. If the front matter has 'pub_name' (e.g. "Minsung Kang"), 
-  we use that. Otherwise, we use the 'name' field. 
+  search_name: The name to look for in data files. Uses 'pub_name' if defined, else 'name'. 
+  pi_name: The hardcoded PI name to use as a default for missing fields.
 -->
+
 
 
 
@@ -680,12 +680,12 @@
 
 
 
-<!-- COUNT LOGIC: UPDATED FOR ASTERISKS -->
+<!-- Count Publications First -->
 
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -694,7 +694,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -703,7 +703,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -712,7 +712,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -721,7 +721,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -730,7 +730,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -739,7 +739,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -748,7 +748,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -757,7 +757,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -766,7 +766,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -775,7 +775,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -784,7 +784,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -793,7 +793,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -802,7 +802,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -811,7 +811,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -820,7 +820,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -829,7 +829,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -838,7 +838,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -847,7 +847,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -856,7 +856,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -865,7 +865,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -874,7 +874,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -883,7 +883,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -892,7 +892,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -901,7 +901,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -910,7 +910,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -919,7 +919,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -928,7 +928,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -937,7 +937,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -946,7 +946,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -955,7 +955,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -964,7 +964,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -973,7 +973,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -982,7 +982,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -991,7 +991,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1000,7 +1000,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1009,7 +1009,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1018,7 +1018,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1027,7 +1027,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1036,7 +1036,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1045,7 +1045,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1054,7 +1054,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1063,7 +1063,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1072,7 +1072,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1081,7 +1081,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1090,7 +1090,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1099,7 +1099,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1108,7 +1108,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1117,7 +1117,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1126,7 +1126,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1135,7 +1135,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1144,7 +1144,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1153,7 +1153,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1162,7 +1162,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1171,7 +1171,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1180,7 +1180,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1189,7 +1189,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1198,7 +1198,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1207,7 +1207,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1216,7 +1216,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1225,7 +1225,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1234,7 +1234,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1243,7 +1243,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1252,7 +1252,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1261,7 +1261,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1270,7 +1270,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1279,7 +1279,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1288,7 +1288,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1297,7 +1297,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1306,7 +1306,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1315,7 +1315,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1324,7 +1324,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1333,7 +1333,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1342,7 +1342,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1351,7 +1351,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1360,7 +1360,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1369,7 +1369,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1378,7 +1378,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1387,7 +1387,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1396,7 +1396,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1405,7 +1405,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1414,7 +1414,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1423,7 +1423,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1432,7 +1432,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1441,7 +1441,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1450,7 +1450,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1459,7 +1459,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1468,7 +1468,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1477,7 +1477,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1486,7 +1486,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1495,7 +1495,7 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
@@ -1504,11 +1504,12 @@
   
   
   
-    <!-- Check every author string individually for partial match -->
+    <!-- For students: check if ANY author string contains their name (handles asterisks) -->
     
   
   
   
+
 
 
 
@@ -1516,126 +1517,290 @@
 <!-- =========================
      TALKS & PRESENTATIONS
      ========================= -->
-
-
-
+  </section>
 
   
   
   
 
-  
-  
-  
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+
+<!-- Count Talks -->
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
-  
-  
-  
-
-  
-  
-  
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if presenter is missing -->
   
   
-
   
   
   
 
   
   
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
   
 
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if presenter is missing -->
+  
+  
   
   
   
@@ -1647,38 +1812,92 @@
 <!-- =========================
      AWARDS
      ========================= -->
-
-
-
+  </section>
 
   
   
   
 
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+
+<!-- Count Awards -->
+
+  
+  
+  <!-- Default to PI if recipient is missing -->
+  
+  
   
   
   
 
   
   
-  
-
-  
+  <!-- Default to PI if recipient is missing -->
   
   
-
   
   
   
 
   
   
+  <!-- Default to PI if recipient is missing -->
+  
+  
+  
+  
   
 
   
   
+  <!-- Default to PI if recipient is missing -->
+  
+  
+  
+  
   
 
+  
+  
+  <!-- Default to PI if recipient is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if recipient is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if recipient is missing -->
+  
+  
+  
+  
+  
+
+  
+  
+  <!-- Default to PI if recipient is missing -->
+  
+  
   
   
   
