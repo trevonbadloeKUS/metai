@@ -20,7 +20,7 @@
   plugin: orcid.py
   file: orcid_PI.yaml
   tags: 
-    - spin Hall effect
+    - SHEL
     - vortex beam
     - humidity sensing
   type: research
