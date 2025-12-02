@@ -8,22 +8,24 @@
   {% assign talks = include %}
 {% endif %}
 
-<ul>
-  <li class="bio-info-etc"> 
-    <a href="{{ talks.website }}">{{ talks.name }}</a>, 
-    {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
-    
-    {% if talks.etc %} 
-      [{{ talks.etc }}] 
-    {% endif %} 
-
-    <!-- New Logic: Display Presenter Name if it exists and isn't the PI -->
-    {% if talks.presenter and talks.presenter != "Trevon Badloe" %}
-       <br>
-       <span style="font-size: 0.9em; font-style: italic; color: #666;">
-         Presenter: {{ talks.presenter }}
-       </span>
-    {% endif %}
+<li class="bio-info-etc"> 
+  <a href="{{ talks.website }}">{{ talks.name }}</a>, 
+  {{ talks.location }}, {{ talks.date | date: "%b %Y" }} 
   
-  </li>
-</ul>
+  {% if talks.etc %} 
+    [{{ talks.etc }}] 
+  {% endif %} 
+
+  <!-- Presenter Link Logic -->
+  {% if talks.presenter and talks.presenter != "Trevon Badloe" %}
+     <br>
+     <span style="font-size: 0.9em; font-style: italic; color: #666;">
+       Presenter: 
+       <!-- Creates link: /team/presenter.html -->
+       <a href="/team/{{ talks.presenter | slugify }}.html" style="color: #d63e2d; text-decoration: none;">
+         {{ talks.presenter }}
+       </a>
+     </span>
+  {% endif %}
+
+</li>
