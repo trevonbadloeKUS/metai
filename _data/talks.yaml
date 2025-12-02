@@ -259,8 +259,19 @@
   longitude: 128.3273
   date: "2025-11-26"
   etc: Invited oral presentation
-  website: https://www.kps.or.kr/conference/event/
+  website: https://www.osk.or.kr/conference/event/index.php?cfrid=134
   type: domestic
+
+- name: 2025 Photonics Conference (PC2025)
+  location: Pyeongchang, South Korea
+  venue: Phoenix Pyeongchang
+  latitude: 37.5812
+  longitude: 128.3273
+  date: "2025-11-26"
+  etc: Poster presentation
+  website: https://www.osk.or.kr/conference/event/index.php?cfrid=134
+  type: domestic
+  presenter: Minsung Kang
 
 - name: The 15th Korea-Japan workshop on Digital Holography and Information Photonics (DHIP2025)
   location: Ishigaki, Japan
@@ -280,14 +291,3 @@
   date: "2026-01-19"
   website: https://www.gla.ac.uk/schools/engineering/
   type: talk
-
-- name: 2025 Photonics Conference (PC2025)
-  location: Pyeongchang, South Korea
-  venue: Phoenix Pyeongchang
-  latitude: 37.5812
-  longitude: 128.3273
-  date: "2025-11-26"
-  etc: Poster presentation
-  website: https://www.kps.or.kr/conference/event/
-  type: domestic
-  presenter: Minsung Kang
