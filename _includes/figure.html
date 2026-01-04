@@ -4,22 +4,17 @@
       href="{{ include.link | relative_url }}"
     {% endif %}
     class="figure-image"
-    aria-label="{{ include.caption | default: "figure link" }}"
   >
-    <img
-      src="{{ include.image | relative_url }}"
-      style="
-        width: {{ include.width | default: "auto" }};
-        max-height: {{ include.height | default: "unset" }};
-      "
-      alt="{{ include.caption | default: "figure image" }}"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    {% if include.image contains ".webm" or include.image contains ".mp4" %}
+      <!-- It's a video file -->
+      <video src="{{ include.image | relative_url }}" style="width: {{ include.width | default: '100%' }};" autoplay loop muted playsinline></video>
+    {% else %}
+      <!-- It's a standard image (jpg, png, webp) -->
+      <img src="{{ include.image | relative_url }}" style="width: {{ include.width | default: 'auto' }};" alt="{{ include.caption }}" loading="lazy">
+    {% endif %}
   </a>
+  
   {% if include.caption %}
-    <figcaption class="figure-caption">
-      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
-    </figcaption>
+    <figcaption class="figure-caption">{{ include.caption | markdownify }}</figcaption>
   {% endif %}
 </figure>
