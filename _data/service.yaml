@@ -1,3 +1,8 @@
+- role: Early Career Editor
+  journals:
+  - Advanced Photonics
+  - PIER
+
 - role: Guest Editor
   journals:
   - Nanophotonics
@@ -8,6 +13,7 @@
   - Nature Communications
   - Photonix
   - Laser & Photonics Reviews
+  - Advanced Science
   - ACS Photonics
   - Materials Today Electronics
   - Advanced Composites and Hybrid Materials

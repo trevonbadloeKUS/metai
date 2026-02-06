@@ -1,14 +1,14 @@
 ---
-name: Hoseong Lee (이호성)
+name: Hyunseong Song (송현성)
 image: /team/photos/undergraduate/hoseong-lee.jpeg
-role: undergrad
+role: alumni
 
 current:
   - position: Undergraduate Researcher
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    date: '2025/08 - current'
+    date: '2025/09 - 2026/02'
 
 bachelor:
   - degree:
@@ -46,5 +46,5 @@ links:
   google-scholar:
   instagram:
   linkedin:
-  email: ho021213@korea.ac.kr
+  email: 
 ---

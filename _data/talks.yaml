@@ -291,3 +291,47 @@
   date: "2026-01-19"
   website: https://www.gla.ac.uk/schools/engineering/
   type: talk
+
+- name: OptoWin 2026
+  location: Busan, South Korea
+  venue: BEXCO
+  latitude: 35.1796
+  longitude: 129.0756
+  date: "2026-02-04"
+  etc: Poster presentation
+  website: https://www.osk.or.kr/conference/event/index.php?cfrid=136
+  type: domestic
+  presenter: Minsung Kang
+
+- name: SPIE Optics + Photonics 2026
+  location: San Diego, USA
+  venue: San Diego Convention Center
+  latitude: 32.7067
+  longitude: -117.1611
+  date: "2026-08-17"
+  etc: Invited oral presentation
+  website: https://spie.org/conferences-and-exhibitions/optics-and-photonics
+  type: international
+
+- name: ASEAN Plus Photonics Symposium 2026
+  location: Quy Nhon, Vietnam
+  venue: International Centre for Science and Education (ICSE)
+  latitude: 13.7824
+  longitude: 109.2191
+  date: "2026-04-08"
+  etc: Invited oral presentation
+  website: https://icisequynhon.com/conferences/2026/photonics-symposium/
+  type: international
+
+- name: The 3rd International Conference on AI Sensors and Transducers
+  location: Jeju, South Korea
+  venue: Jeju International Convention Center (JICC)
+  latitude: 33.5125
+  longitude: 126.4930
+  date: "2026-07-02"
+  etc: Invited oral presentation
+  website: https://sciforum.net/event/AIS2026
+  type: international
+
+
+
