@@ -333,5 +333,12 @@
   website: https://sciforum.net/event/AIS2026
   type: international
 
-
-
+- name: The 48th Photonics and Electromagnetics Research Symposium (PIERS-2026)
+  location: Suzhou, China
+  venue: Suzhou Longemont Conference Center
+  latitude: 31.3041
+  longitude: 120.5842
+  date: "2026-07-27"
+  etc: Invited oral presentation
+  website: https://suzhou2026.piers.org
+  type: international
