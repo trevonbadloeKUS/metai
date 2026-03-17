@@ -1,6 +1,6 @@
 ---
 name: Myung Chan Sung (성명찬)
-image: /team/photos/undergraduate/myung-chan-sung.jpeg
+image: team/photos/undergraduate/myung-chan-sung.jpeg
 role: undergrad
 
 current:

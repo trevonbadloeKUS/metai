@@ -1,6 +1,6 @@
 ---
 name: Minhyeok Choi (최민혁)
-image: /team/photos/undergraduate/minhyeok_choi.jpeg
+image: team/photos/undergraduate/minhyeok_choi.jpeg
 role: masters
 
 current:
@@ -16,7 +16,7 @@ bachelor:
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
     date: '2021/09 - 2026/02'
-    etc: 'Undergraduate researcher at MetAI lab 25/03-26/02
+    etc: 'Undergraduate researcher at MetAI lab 25/03-26/02'
 
 master:
   - degree:
