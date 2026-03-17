@@ -5,7 +5,7 @@ role: combined
 pub_name: Minsung Kang
 
 current:
-  - position: Combined Masters & Ph.D. Student
+  - position: Integrated Masters & Ph.D. Student
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
@@ -17,6 +17,7 @@ bachelor:
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
     date: '2021/09 - 2026/02'
+    etc: 'Undergraduate researcher at MetAI lab 25/03-26/02
 
 master:
   - degree:

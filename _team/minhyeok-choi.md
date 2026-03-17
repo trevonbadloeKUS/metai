@@ -16,6 +16,7 @@ bachelor:
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
     date: '2021/09 - 2026/02'
+    etc: 'Undergraduate researcher at MetAI lab 25/03-26/02
 
 master:
   - degree:
