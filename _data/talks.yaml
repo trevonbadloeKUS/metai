@@ -342,3 +342,13 @@
   etc: Invited oral presentation
   website: https://suzhou2026.piers.org
   type: international
+
+
+- name: Program in Energy Process Innovation Convergence, Inha University
+  location: Incheon, South Korea
+  venue: Program in Energy Process Innovation Convergence
+  latitude: 37.4509
+  longitude: 126.6534
+  date: "2026-03-10"
+  website: https://epc.inha.ac.kr
+  type: talk

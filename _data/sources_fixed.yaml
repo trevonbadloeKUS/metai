@@ -1,3 +1,33 @@
+- id: doi:10.29026/OEA.2026.250216
+  title: Millisecond-level electrically switchable metalens for adaptive rotational
+    depth mapping and diffraction-limited imaging
+  authors:
+  - Yeseul Kim*
+  - Jihae Lee*
+  - Won-Sik Kim
+  - Hyeonsu Heo
+  - Dongmin Jeon
+  - Beomha Yang
+  - Xiaotong Li
+  - Harit Keawmuang
+  - Shiqi Hu
+  - Young-Ki Kim
+  - Trevon Badloe+
+  - Junsuk Rho+
+  publisher: Opto-Electronic Advances
+  date: '2026-01-01'
+  link: https://doi.org/hbswc3
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags: 
+    - metalens
+    - depth mapping
+    - tunable
+  type: research
+  highlight:  A millisecond-level electrically switchable metalens is developed for adaptive rotational depth mapping and diffraction-limited imaging, enabling rapid and precise 3D imaging.
+  image: https://www.oejournal.org/fileOEJ/journal/article/gdjz/2026/2/OEA-2025-0216JunsukRho-1.jpg
+
 - id: doi:10.1002/lpor.202500581
   title: Topological Vortex Transition Induced by Spin Hall Effect of Light for Tunable
     Humidity Sensing and Imaging
