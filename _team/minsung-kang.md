@@ -1,11 +1,11 @@
 ---
 name: Minsung Kang (강민성)
 image: team/photos/undergraduate/minsung_kang.jpeg
-role: masters
+role: combined
 pub_name: Minsung Kang
 
 current:
-  - position: Masters Student
+  - position: Combined Masters & Ph.D. Student
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
