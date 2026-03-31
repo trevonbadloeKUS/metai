@@ -102,7 +102,7 @@ layout: default
     {% for bachelor in page.bachelor %}
     <ul> 
       <li> <div class = "bio-info"> {{ bachelor.degree }}  <a href="{{ bachelor.link }}">{{ bachelor.department }}</a>, {{ bachelor.school }}</li>
-    <span class = "bio-info-etc" > {% if bachelor.etc %} [ {{ bachelor.etc }} ] {% endif %}({{ bachelor.date }})</span>
+    <span class = "bio-info-etc" > {% if bachelor.etc %} [{{ bachelor.etc }}] {% endif %}({{ bachelor.date }})</span>
     </div></ul>
     {% endfor %}
   {% endif %}
