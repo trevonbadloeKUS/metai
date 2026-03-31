@@ -1,5 +1,45 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.29026/oea.2026.250263
+  title: AI-assisted metaphotonics
+  authors:
+  - Minsung Kang
+  - Seokju Choi
+  - Kaixi Fu
+  - Xiaoyuan Liu
+  - Zhun Wei
+  - Lei Jin
+  - Hao Wang
+  - Olivier J. F. Martin
+  - Joel K. W. Yang
+  - Sunae So
+  - Trevon Badloe
+  publisher: Opto-Electronic Advances
+  date: '2026-01-01'
+  link: https://doi.org/hbvgp2
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+- id: doi:10.37188/lam.2026.022
+  title: Dual-functional metasurfaces enabling high-efficiency holography and triple-color
+    printing for enhanced optical security platforms
+  authors:
+  - Harit Keawmuang
+  - Dohyun Kang
+  - Xiaotong Li
+  - Shiqi Hu
+  - Yeseul Kim
+  - Minsu Jeong
+  - Chanbeom Jeon
+  - Peng Tang
+  - Trevon Badloe
+  - Junsuk Rho
+  publisher: 'Light: Advanced Manufacturing'
+  date: '2026-01-01'
+  link: https://doi.org/hbvgp3
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.29026/OEA.2026.250216
   title: Millisecond-level electrically switchable metalens for adaptive rotational
     depth mapping and diffraction-limited imaging
