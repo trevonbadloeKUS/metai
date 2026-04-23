@@ -1,7 +1,7 @@
 ---
 title:  Hoseong and Myung Chan join MetAI Lab as undergraduate student researchers!~
-image: "team/photos/undergraduate/hoseong-lee.jpeg"
-author: hoseong-lee
+image: "team/photos/undergraduate/myung-chan-sung.jpeg"
+author: myung-chan-sung
 tags: welcome, undergraduate researcher
 date: '2025-08-01'
 ---
