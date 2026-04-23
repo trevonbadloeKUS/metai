@@ -92,10 +92,10 @@
       {% endif %}
 
       {% if include.style == "rich" %}
-        {% if citation.description %}
+        {% if citation.highlight %}
           <div class="citation-description">
             {{
-              citation.description
+              citation.highlight
               | markdownify
               | remove: "<p>"
               | remove: "</p>"
@@ -120,6 +120,14 @@
 
         {% if citation.tags.size > 0 or citation.repo %}
           {% include tags.html tags=citation.tags repo=citation.repo %}
+        {% endif %}
+
+        {% if citation.news %}
+          <div class="citation-news">
+            {% for article in citation.news %}
+              [<a href="{{ article.link }}">{{ article.name }}</a>]{% if forloop.last == false %} {% endif %}
+            {% endfor %}
+          </div>
         {% endif %}
       {% endif %}
     </div> <!-- Closing for .citation-text -->

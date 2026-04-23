@@ -98,6 +98,14 @@ $wrap: 900px;
   margin: 0;
 }
 
+.citation-news {
+  font-family: var(--heading);
+  line-height: var(--compact);
+  text-align: left;
+  font-weight: var(--regular);
+  color: var(--gray);
+}
+
 .journal-details {
   color: var(--primary)
 }
