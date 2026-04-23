@@ -98,6 +98,16 @@
     link: https://gpa.korea.ac.kr/koreaSejong/8220/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa29yZWFTZWpvbmclMkY1NiUyRjI2Nzc0MyUyRmFydGNsVmlldy5kbyUzRg%3D%3D
   - name: KUS [Eng]
     link: https://gpa.korea.ac.kr/eng/10472/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZW5nJTJGODg5JTJGMjY4MTk3JTJGYXJ0Y2xWaWV3LmRvJTNGcGFnZSUzRDElMjZmaW5kVHlwZSUzRCUyNmZpbmRXb3JkJTNEJTI2ZmluZENsU2VxJTNEJTI2ZmluZE9wbndyZCUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZwYXNzd29yZCUzRCUyNg%3D%3D
+  - name: "\uAD50\uC218\uC2E0\uBB38"
+    link: https://www.kyosu.net/news/articleView.html?idxno=201055
+  - name: "\uAD7F\uBAA8\uB2DD\uCDA9\uCCAD"
+    link: https://www.goodmorningcc.com/news/articleView.html?idxno=443199
+  - name: Veritas-A
+    link: https://www.veritas-a.com/news/articleView.html?idxno=602028
+  - name: "\uD55C\uAD6D\uAC15\uC0AC\uC2E0\uBB38"
+    link: https://www.lecturernews.com/news/articleView.html?idxno=199078
+  - name: "\uACBD\uD5A5\uC2E0\uBB38"
+    link: https://www.khan.co.kr/article/202603181022001/?utm_source=urlCopy&utm_medium=social&utm_campaign=sharing#ENT
 - id: doi:10.37188/lam.2026.022
   title: Dual-functional metasurfaces enabling high-efficiency holography and triple-color
     printing for enhanced optical security platforms
@@ -726,15 +736,6 @@
   - quantum
   - OAM
   type: research
-- id: wosuid:PPRN:73543722
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:73543722
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
 - id: doi:10.1021/acsnano.3c02471
   title: Bright-Field and Edge-Enhanced Imaging Using an Electrically Tunable Dual-Mode
     Metalens
@@ -1166,15 +1167,6 @@
   - review
   - metahologram
   type: review
-- id: wosuid:PPRN:10377446
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:10377446
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
 - id: doi:10.1021/acsami.1c19223
   title: Multilevel Absorbers via the Integration of Undoped and Tungsten-Doped Multilayered
     Vanadium Dioxide Thin Films
@@ -2330,15 +2322,6 @@
   - nanowires
   - transparent electrode
   type: research
-- id: wosuid:PPRN:22619459
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:22619459
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
 - id: doi:10.1021/acsphotonics.7b01182
   title: Realization of Wafer-Scale Hyperlens Device for Sub-diffractional Biomolecular
     Imaging
