@@ -186,7 +186,7 @@ layout: default
           {{ pub.id }}.
           {% if pub.news %}
             <br>
-            <span class="bio-info-etc">News:
+            <span class="bio-info-etc">
               {% for article in pub.news %}
                 [<a href="{{ article.link }}">{{ article.name }}</a>]{% if forloop.last == false %} {% endif %}
               {% endfor %}

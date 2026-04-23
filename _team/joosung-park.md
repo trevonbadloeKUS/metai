@@ -1,6 +1,6 @@
 ---
-name: Ju-Sung Park (박주성)
-image: team/photos/undergraduate/jusung-park.jpeg
+name: Joosung Park (박주성)
+image: team/photos/undergraduate/joosung-park.jpeg
 role: undergrad
 
 current:
