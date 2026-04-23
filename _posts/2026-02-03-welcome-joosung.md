@@ -1,5 +1,5 @@
 ---
-title:  Joosung join MetAI Lab as an undergraduate student researcher!~
+title:  Joosung joins MetAI Lab as an undergraduate student researcher!~
 image: "team/photos/undergraduate/joosung-park.jpeg"
 author: joosung-park
 tags: welcome, undergraduate researcher
