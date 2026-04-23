@@ -1,3 +1,84 @@
+- id: doi:10.1021/acsami.6c00074
+  title: 'Recent Advances in Radiative Cooling: From Fundamentals to Commercial Applications'
+  authors:
+  - Harit Keawmuang
+  - Junkyeong Park
+  - Heon Lee
+  - Seokju Choi
+  - Sunae So
+  - Changhyeon Lim
+  - Trevon Badloe
+  - Changhwan Hyeon
+  - Minseo Jeong
+  - Dasol Lee
+  - Ya Huang
+  - Siming Zhao
+  - Rufan Zhang
+  - Juhoon Baek
+  - Minkyung Kim
+  - Fei Xie
+  - Longnan Li
+  - Wei Li
+  - Xuzhe Zhao
+  - Jiachen Li
+  - Kaichen Dong
+  - Saichao Dang
+  - Qiaoqiang Gan
+  - Shaowen Cao
+  - Yi Long
+  - Hyunkyu Kwak
+  - Do Hyeon Kim
+  - Young Min Song
+  - Jung Bin Yang
+  - Dong Rip Kim
+  - Yansu Hou
+  - Jia Zhu
+  - Bin Zhu
+  - Shengxi Bai
+  - Kaixin Lin
+  - Chi Yan Tso
+  - Seonggon Kim
+  - Yong Tae Kang
+  - Qingsong Fan
+  - Qizhang Li
+  - Po-Chun Hsu
+  - Junsuk Rho
+  publisher: ACS Applied Materials &amp; Interfaces
+  date: '2026-04-12'
+  link: https://doi.org/hbx8f4
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags:
+    - radiative cooling
+    - review
+  type: review
+  highlight: A comprehensive review of recent advances in radiative cooling, covering fundamental principles, materials, and commercial applications for energy-efficient cooling solutions.
+  image: https://pubs.acs.org/cms/10.1021/acsami.6c00074/asset/images/medium/am6c00074_0020.gif
+
+
+- id: doi:10.1002/nap2.70079
+  title: "Hybrid Metalens\u2013Compressive Sensing Imaging System for Ultra\u2010\
+    Low\u2010Power Edge Detection"
+  authors:
+  - Sejin Yoon
+  - Hasung Kim
+  - Hyunkeun Lee+
+  - Trevon Badloe+
+  publisher: Nanophotonics
+  date: '2026-04-01'
+  link: https://doi.org/hbx8f5
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags: 
+    - metalens
+    - compressive sensing
+    - edge detection
+  type: research
+  highlight: A hybrid imaging system combining a metalens and compressive sensing is developed for ultra-low-power edge detection, enabling efficient image processing with minimal energy consumption. **Selected for the Front Cover!!**
+  image: https://onlinelibrary.wiley.com/cms/asset/983dc256-0541-416a-9768-d3132cd62142/nap270079-fig-0001-m.jpg
+  
 - id: doi:10.29026/oea.2026.250263
   title: AI-assisted metaphotonics
   authors:
