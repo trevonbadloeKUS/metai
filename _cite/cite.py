@@ -95,13 +95,19 @@ for plugin in plugins:
 
 log("Merging sources by id")
 
+# normalize ids for consistent deduplication (case-insensitive DOI matching)
+for source in sources:
+    _id = get_safe(source, "id", "")
+    if _id:
+        source["id"] = _id.strip()
+
 # merge sources with matching (non-blank) ids
 for a in range(0, len(sources)):
-    a_id = get_safe(sources, f"{a}.id", "")
+    a_id = get_safe(sources, f"{a}.id", "").strip().lower()
     if not a_id:
         continue
     for b in range(a + 1, len(sources)):
-        b_id = get_safe(sources, f"{b}.id", "")
+        b_id = get_safe(sources, f"{b}.id", "").strip().lower()
         if b_id == a_id:
             log(f"Found duplicate {b_id}", 2)
             sources[a].update(sources[b])

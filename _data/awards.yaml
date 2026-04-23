@@ -1,5 +1,11 @@
 ---
 
+- name: "World Top 2% Scientist (2024, 2025), Stanford University"
+  date: '2026-01-01'
+  awarder: Elsevier / Stanford University
+  etc:
+
+
 - name: "KUS Granite Tower Research Award (석탑연구상)"
   date: '2025-12-15'
   awarder: Korea University Sejong Campus

@@ -24,7 +24,12 @@
     - nanophotonics
   type: review
   highlight:  A comprehensive review of AI-assisted metaphotonics, covering recent advances in machine learning and inverse design for nanophotonic applications.
-  image: https://www.oejournal.org/fileOEJ/journal/article/gdjz/newcreate/OEA-2025-0263TrevonBadloe-1.jpg
+  image: https://www.oejournal.org/fileOEJ/journal/article/gdjz/2026/4/OEA-2025-0263TrevonBadloe-1.jpg
+  news: 
+    - name: "KUS [Kor]"
+      link: https://gpa.korea.ac.kr/koreaSejong/8220/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa29yZWFTZWpvbmclMkY1NiUyRjI2Nzc0MyUyRmFydGNsVmlldy5kbyUzRg%3D%3D
+    - name: "KUS [Eng]"
+      link: https://gpa.korea.ac.kr/eng/10472/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZW5nJTJGODg5JTJGMjY4MTk3JTJGYXJ0Y2xWaWV3LmRvJTNGcGFnZSUzRDElMjZmaW5kVHlwZSUzRCUyNmZpbmRXb3JkJTNEJTI2ZmluZENsU2VxJTNEJTI2ZmluZE9wbndyZCUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZwYXNzd29yZCUzRCUyNg%3D%3D
 
 - id: doi:10.37188/lam.2026.022
   title: Dual-functional metasurfaces enabling high-efficiency holography and triple-color
