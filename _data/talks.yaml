@@ -335,9 +335,31 @@
 
 
 - name: UK-Korea Focal Point Workshop on Flat Optics for Structured and Entangled Light
-  location: Hariot-Watt University, United Kingdon
-  vanue: Online
+  location: Hariot-Watt University, United Kingdom
+  venue: Online
   latitude: 55.8781
   longitude: -4.0286
   date: "2026-03-27"
   type: talk
+
+
+- name: International Symposium on Nanomaterials and Optoelectronic Technology Applications (2026)
+  location: Nanjing, China
+  venue: Nanjing University of Science and Technology (NJUST)
+  latitude: 32.03
+  longitude: 118.86
+  date: "2026-04-17"
+  etc: Invited oral presentation
+  website: https://english.njust.edu.cn
+  type: international
+
+
+- name: The 5th AI Photonics Technology Symposium (AIPS2026)
+  location: Wuhan, China
+  venue: China Optics Valley Convention & Exhibition Center
+  latitude: 30.5928
+  longitude: 114.3055
+  date: '2026-05-18'
+  etc: Invited oral presentation, Academic committee
+  website: https://www.htcis.net/MeetingMain/Index/2026APTS
+  type: international

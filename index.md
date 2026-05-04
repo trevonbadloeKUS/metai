@@ -11,11 +11,12 @@
 At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
 
 <h3> JOIN US </h3>
-<h4> 대학원생 / 학부연구생 모집 </h4>
+<h3> 대학원생 / 학부연구생 모집 </h3>
 <p> 간단한 자기 소개 및 이력서를 이메일로 보내주시면 검토 후 답변드리겠습니다. 1:1 채팅을 원하시면 카카오톡 오픈채팅 링크를 클릭하세요. </p>
+<p> If you are interested in joining our group, please feel free to send an email! Include your CV and a short description of your research interests and we can arrange a meeting and discussion. </p>
 <a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a>
 
-<p> Candidates interested in joining our research group, please send an email with your CV and a short description of your research interests to arrange a meeting and discussion. Or click the KakaoTalk open chat link to chat 1 on 1. </p>
+<p> Or click the KakaoTalk link below to access our open chatting room~ </p>
 
 <!-- Kakaotalk Button -->
 <p>
@@ -24,63 +25,7 @@ At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring t
   </a>
 </p>
 
-Check out our research topics and recent publications below!
-
-{% include section.html %}
-<!-- SwiperJS Carousel and Text for "What do we do?" section -->
-<div class="feature" data-flip >
-  <div class="feature-image">
-    <div class="swiper-container-2">
-      <div class="swiper-wrapper swiper-wrapper-2">
-                <!-- Manually added Swiper slides -->
-        <div class="swiper-slide"><img src="{{ '/images/research/metaphotonics.png' | relative_url }}" alt="Metaphotonics"></div>
-        <div class="swiper-slide"><img src="{{ '/images/research/ai-meta.png' | relative_url }}" alt="AI for Metaphotonics"></div>
-        <div class="swiper-slide"><img src="{{ '/images/research/meta-ai.png' | relative_url }}" alt="Metaphotonics for AI"></div>
-      </div>
-      <div class="swiper-pagination swiper-pagination-2"></div>
-    </div>
-  </div>
-  <div class="feature-text">
-    <p class="feature-title">What do we do at MetAI Lab?</p>
-    <div id="custom-text">
-    </div>
-    {%
-    include button.html
-    link="research"
-    text="Find out more"
-    %}
-  </div>
-</div>
-
-{% include section.html %}
-
-<!-- SwiperJS Carousel and Text for Recent Publications -->
-<div class="feature">
-  <div class="feature-image">
-    <div class="swiper-container-1">
-      <div class="swiper-wrapper swiper-wrapper-1">
-        <!-- Swiper slides will be populated by JavaScript -->
-      </div>
-      <div class="swiper-pagination swiper-pagination-1"></div>
-    </div>
-  </div>
-  <div class="feature-text">
-    <p class="feature-title">Our Recent Publications</p>
-    <div id="publication-text">
-      <!-- Publication text will be updated by JavaScript -->
-    </div>
-    {%
-    include button.html
-    link="publications"
-    text="See all publications"
-    %}
-  </div>
-</div>
-
-<script id="data" type="application/json">
-  {{ site.data.citations | jsonify }}
-</script>
-
+Check out our research activities, topics, and recent publications below!
 
 {% include section.html %}
 
@@ -118,3 +63,62 @@ Check out our research topics and recent publications below!
     {% endfor %}
     ]
 </script>
+
+
+{% include section.html %}
+
+<!-- SwiperJS Carousel and Text for Recent Publications -->
+<div class="feature">
+  <div class="feature-image">
+    <div class="swiper-container-1">
+      <div class="swiper-wrapper swiper-wrapper-1">
+        <!-- Swiper slides will be populated by JavaScript -->
+      </div>
+      <div class="swiper-pagination swiper-pagination-1"></div>
+    </div>
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">Our Recent Publications</p>
+    <div id="publication-text">
+      <!-- Publication text will be updated by JavaScript -->
+    </div>
+    {%
+    include button.html
+    link="publications"
+    text="See all publications"
+    %}
+  </div>
+</div>
+
+<script id="data" type="application/json">
+  {{ site.data.citations | jsonify }}
+</script>
+
+
+
+
+{% include section.html %}
+<!-- SwiperJS Carousel and Text for "What do we do?" section -->
+<div class="feature" data-flip >
+  <div class="feature-image">
+    <div class="swiper-container-2">
+      <div class="swiper-wrapper swiper-wrapper-2">
+                <!-- Manually added Swiper slides -->
+        <div class="swiper-slide"><img src="{{ '/images/research/metaphotonics.png' | relative_url }}" alt="Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/ai-meta.png' | relative_url }}" alt="AI for Metaphotonics"></div>
+        <div class="swiper-slide"><img src="{{ '/images/research/meta-ai.png' | relative_url }}" alt="Metaphotonics for AI"></div>
+      </div>
+      <div class="swiper-pagination swiper-pagination-2"></div>
+    </div>
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">What do we do at MetAI Lab?</p>
+    <div id="custom-text">
+    </div>
+    {%
+    include button.html
+    link="research"
+    text="Find out more"
+    %}
+  </div>
+</div>
