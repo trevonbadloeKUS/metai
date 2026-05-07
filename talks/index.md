@@ -1,7 +1,7 @@
 ---
 title: Talks
 nav:
-  order: 5
+  order: 6
   tooltip: List of invited talks and presentations
 ---
 
