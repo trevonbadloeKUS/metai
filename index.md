@@ -2,9 +2,10 @@
 ---
 
 <!-- size: full; -->
-<div class="homepage-hero">
+<div class="homepage-hero" id="top">
   <aside class="hero-section-nav">
     <nav>
+      <a href="#top">Home</a>
       <a href="#join-us">Join Us</a>
       <a href="#news-events">News</a>
       <a href="#publications">Publications</a>
@@ -15,11 +16,12 @@
   <div class="hero-copy">
     <p class="hero-eyebrow">Welcome to</p>
     <h1 class="hero-title">MetAI Lab</h1>
-    <svg class="hero-wave" viewBox="0 0 800 60" preserveAspectRatio="none">
-      <path d="M0,30 Q50,10 100,30 T200,30 T300,30 T400,30 T500,30 T600,30 T700,30 T800,30" fill="none" stroke="#872535" stroke-width="3" stroke-linecap="round"/>
-    </svg>
     <p class="hero-subtitle">@ Korea University - Sejong Campus</p>
-    <img class="hero-graphic" src="/images/wave.gif" alt="Animated wave graphic">
+    <svg class="hero-wave" viewBox="0 0 800 70" preserveAspectRatio="none">
+      <path class="wave-red" d="M0,38 Q90,12 180,38 T360,38 T540,38 T720,38 T800,38" fill="none" stroke="#872535" stroke-width="3" stroke-linecap="round"/>
+      <path class="wave-green" d="M0,42 Q72,18 144,42 T288,42 T432,42 T576,42 T720,42 T800,42" fill="none" stroke="#8ccf60" stroke-width="2.2" stroke-linecap="round"/>
+      <path class="wave-blue" d="M0,46 Q54,24 108,46 T216,46 T324,46 T432,46 T540,46 T648,46 T756,46 T800,46" fill="none" stroke="#4ea5f7" stroke-width="2" stroke-linecap="round"/>
+    </svg>
     <p class="hero-tagline">Exploring the convergence of Metaphotonics (Meta) and Artificial Intelligence (AI)</p>
   </div>
 </div>

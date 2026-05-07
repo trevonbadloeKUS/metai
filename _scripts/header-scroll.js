@@ -35,14 +35,18 @@ function initSectionNav() {
   if (!sections.length) return;
 
   const updateActiveLink = () => {
-    const scrollPosition = window.scrollY + (window.innerHeight / 3);
+    const scrollPosition = window.scrollY + window.innerHeight * 0.18;
     let activeId = sections[0].id;
 
-    sections.forEach(section => {
-      if (section.offsetTop <= scrollPosition) {
-        activeId = section.id;
-      }
-    });
+    if (sections.length > 1 && window.scrollY < sections[1].offsetTop - 120) {
+      activeId = sections[0].id;
+    } else {
+      sections.forEach(section => {
+        if (section.offsetTop <= scrollPosition) {
+          activeId = section.id;
+        }
+      });
+    }
 
     links.forEach(link => {
       const isActive = link.hash === `#${activeId}`;
