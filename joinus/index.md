@@ -38,22 +38,22 @@ size=full
 
 <div style="margin-bottom: 20px;">
   <h2 style="color: #800000;">• Fundamentals</h2>
-  <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, <i>etc.</i></p>
+  <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, etc.</p>
 </div>
 
 <div style="margin-bottom: 20px;">
   <h2 style="color: #800000;">• Nanophotonics Design & Analysis</h2>
-  <p>FDTD, FEM, RCWA, topological optimization, machine learning, optical measurements, <i>etc.</i></p>
+  <p>FDTD, FEM, RCWA, topological optimisation, machine learning, optical measurements, <i>etc.</i></p>
 </div>
 
 <div style="margin-bottom: 20px;">
-  <h2 style="color: #800000;">• Nanofabrications</h2>
-  <p>E-beam and (deep) UV lithography, deposition, etching, scanning electron microscope (SEM), focused ion beam (FIB), <i>etc.</i></p>
+  <h2 style="color: #800000;">• Nanofabrication</h2>
+  <p>E-beam lithography, deposition, etching, scanning electron microscope (SEM), focused ion beam (FIB), <i>etc.</i></p>
 </div>
 
 <div style="margin-bottom: 40px;">
-  <h2 style="color: #800000;">• Nanotechnologies</h2>
-  <p>Augmented/virtual reality (AR/VR), LiDAR, laser, biomedical imaging, computational imaging, quantum entanglement, <i>etc.</i></p>
+  <h2 style="color: #800000;">• Nanotechnology / Metaphotonics</h2>
+  <p>Augmented/virtual reality (AR/VR), LiDAR, computational imaging, biomedical imaging,quantum optics, <i>etc.</i></p>
 </div>
 
 <hr>
