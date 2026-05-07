@@ -5,13 +5,22 @@ nav:
   tooltip: Join our team!
 ---
 
+{% 
+include section.html 
+background="images/meta-optics.jpeg"
+size=full
+%}
+
 {% include section.html %}
 
 <h3 id="join-us"> JOIN US </h3>
 <h3> 대학원생 / 학부연구생 모집 </h3>
+<div style="text-align: center;">
+  <a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a>
+</div>
+
 <p> 간단한 자기 소개 및 이력서를 이메일로 보내주시면 검토 후 답변드리겠습니다. 1:1 채팅을 원하시면 카카오톡 오픈채팅 링크를 클릭하세요. </p>
 <p> If you are interested in joining our group, please feel free to send an email! Include your CV and a short description of your research interests and we can arrange a meeting and discussion. </p>
-<a href="mailto:trevon@korea.ac.kr">trevon@korea.ac.kr</a>
 
 <p> Or click the KakaoTalk link below to access our open chatting room~ </p>
 
@@ -21,3 +30,30 @@ nav:
     KakaoTalk Open Chat
   </a>
 </p>
+
+
+{% include section.html %}
+
+<h3> What you will learn & do? </h3>
+
+<div style="margin-bottom: 20px;">
+  <h2 style="color: #800000;">• Fundamentals</h2>
+  <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, <i>etc.</i></p>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <h2 style="color: #800000;">• Nanophotonics Design & Analysis</h2>
+  <p>FDTD, FEM, RCWA, topological optimization, machine learning, optical measurements, <i>etc.</i></p>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <h2 style="color: #800000;">• Nanofabrications</h2>
+  <p>E-beam and (deep) UV lithography, deposition, etching, scanning electron microscope (SEM), focused ion beam (FIB), <i>etc.</i></p>
+</div>
+
+<div style="margin-bottom: 40px;">
+  <h2 style="color: #800000;">• Nanotechnologies</h2>
+  <p>Augmented/virtual reality (AR/VR), LiDAR, laser, biomedical imaging, computational imaging, quantum entanglement, <i>etc.</i></p>
+</div>
+
+<hr>
