@@ -1,19 +1,31 @@
 ---
 ---
 
+<!-- size: full; -->
 <div class="homepage-hero">
+  <aside class="hero-section-nav">
+    <nav>
+      <a href="#join-us">Join Us</a>
+      <a href="#news-events">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#research">Research</a>
+    </nav>
+  </aside>
+
   <div class="hero-copy">
     <p class="hero-eyebrow">Welcome to</p>
     <h1 class="hero-title">MetAI Lab</h1>
     <p class="hero-subtitle">@ Korea University - Sejong Campus</p>
-    <p class="hero-tagline">Exploring the convergence of Metaphotonics (Meta) and Artificial Intelligence (AI).</p>
     <img class="hero-graphic" src="/images/wave.gif" alt="Animated wave graphic">
+    <p class="hero-tagline">Exploring the convergence of Metaphotonics (Meta) and Artificial Intelligence (AI)</p>
   </div>
 </div>
 
-At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
+<!-- section break -->
 
-<h3> JOIN US </h3>
+{% include section.html %}
+
+<h3 id="join-us"> JOIN US </h3>
 <h3> 대학원생 / 학부연구생 모집 </h3>
 <p> 간단한 자기 소개 및 이력서를 이메일로 보내주시면 검토 후 답변드리겠습니다. 1:1 채팅을 원하시면 카카오톡 오픈채팅 링크를 클릭하세요. </p>
 <p> If you are interested in joining our group, please feel free to send an email! Include your CV and a short description of your research interests and we can arrange a meeting and discussion. </p>
@@ -32,7 +44,7 @@ Check out our research activities, topics, and recent publications below!
 
 {% include section.html %}
 
-<div class="feature" data-flip>
+<div class="feature" id="news-events" data-flip>
   <div class="feature-image">
       <div class="swiper-container-news">
         <div class="swiper-wrapper swiper-wrapper-news">
@@ -71,7 +83,7 @@ Check out our research activities, topics, and recent publications below!
 {% include section.html %}
 
 <!-- SwiperJS Carousel and Text for Recent Publications -->
-<div class="feature">
+<div class="feature" id="publications">
   <div class="feature-image">
     <div class="swiper-container-1">
       <div class="swiper-wrapper swiper-wrapper-1">
@@ -102,7 +114,7 @@ Check out our research activities, topics, and recent publications below!
 
 {% include section.html %}
 <!-- SwiperJS Carousel and Text for "What do we do?" section -->
-<div class="feature" data-flip >
+<div class="feature" id="research" data-flip >
   <div class="feature-image">
     <div class="swiper-container-2">
       <div class="swiper-wrapper swiper-wrapper-2">
