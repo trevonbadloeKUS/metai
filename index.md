@@ -1,11 +1,14 @@
 ---
 ---
 
-<div>
-
-<h3> Welcome to the MetAI Lab </h3>
-
-<img align="center" height="80" src="/images/wave.gif"> 
+<div class="homepage-hero">
+  <div class="hero-copy">
+    <p class="hero-eyebrow">Welcome to</p>
+    <h1 class="hero-title">MetAI Lab</h1>
+    <p class="hero-subtitle">@ Korea University - Sejong Campus</p>
+    <p class="hero-tagline">Exploring the convergence of Metaphotonics (Meta) and Artificial Intelligence (AI).</p>
+    <img class="hero-graphic" src="/images/wave.gif" alt="Animated wave graphic">
+  </div>
 </div>
 
 At the **MetAI Lab** at **Korea University - Sejong Campus**, we are exploring the convergence of next generation flat optics through **metaphotonics (Meta)** and **artificial intelligence (AI)**. 
