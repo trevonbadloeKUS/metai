@@ -4,16 +4,16 @@
 .homepage-hero {
   position: relative;
   width: 100%;
-  min-height: 72vh;
+  min-height: 50vh;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
-  padding: 80px 0 24px;
+  padding: 56px 0 18px;
   color: #ffffff;
   text-align: center;
   overflow: hidden;
   background-color: #111;
-  background-image: url('/images/headerbg.jpg');
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.24), rgba(0,0,0,0.72)), url('/images/headerbg.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -33,13 +33,14 @@
   z-index: 1;
   width: min(100%, 950px);
   margin: 0 auto;
+  padding: 16px 24px 0;
 }
 
 .hero-section-nav {
-  position: absolute;
+  position: fixed;
   right: 32px;
-  top: 32px;
-  z-index: 2;
+  top: 108px;
+  z-index: 20;
   display: block;
   text-align: right;
 }
@@ -48,7 +49,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(135, 37, 53, 0.95);
   padding: 14px 18px;
   border-radius: 999px;
   backdrop-filter: blur(8px);
@@ -79,6 +80,7 @@
   font-size: clamp(3.2rem, 6vw, 5.8rem);
   line-height: 0.95;
   letter-spacing: -0.04em;
+  text-transform: none;
   opacity: 0;
   transform: translateY(18px);
   animation: hero-title-fade 0.85s ease-out 0.15s forwards;
@@ -88,7 +90,7 @@
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -0.4em;
+  bottom: -0.9em;
   width: 0;
   height: 4px;
   background: #f7e18d;
@@ -107,7 +109,7 @@
 }
 
 .hero-subtitle {
-  margin: 1rem auto 1.5rem;
+  margin: 2rem auto 1.5rem;
   max-width: 720px;
   font-size: clamp(1.2rem, 2vw, 1.8rem);
   color: rgba(255, 255, 255, 0.92);
@@ -125,7 +127,7 @@
   display: inline-block;
   max-height: 110px;
   width: auto;
-  margin: 1.8rem auto 0;
+  margin: 0.8rem auto 0;
   filter: drop-shadow(0 18px 36px rgba(0, 0, 0, 0.35));
 }
 
