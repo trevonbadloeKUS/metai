@@ -31,9 +31,9 @@
 }
 
 :root {
-  --title: "Roboto Slab", "Noto Sans KR", sans-serif;
-  --heading: "Roboto Slab", "Noto Sans KR", sans-serif;
-  --body: "Roboto Slab", "Noto Sans KR", sans-serif;
+  --title: "Roboto Slab", "Noto Sans KR", serif;
+  --heading: "Roboto Slab", "Noto Sans KR", serif;
+  --body: "Noto Sans KR", "Roboto Slab", sans-serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
