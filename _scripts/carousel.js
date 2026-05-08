@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
         img.src = pub.image;
         img.alt = pub.title;
         img.style.width = '100%';
-        img.style.height = 'auto';
+        img.style.height = '100%';
+        img.style.objectFit = 'cover';
         slide.appendChild(img);
 
         // Attach the index to the slide
@@ -135,7 +136,8 @@ document.addEventListener('DOMContentLoaded', function () {
         img.src = news.image;
         img.alt = news.title;
         img.style.width = '100%'; // Ensure the image fits the container
-        img.style.height = 'auto'; // Maintain aspect ratio
+        img.style.height = '100%'; // Maintain aspect ratio
+        img.style.objectFit = 'cover';
         slide.appendChild(img);
         swiperWrapperNews.appendChild(slide);
 

@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="feature-text">
-    <p class="feature-title">Recent News & Events</p>
+    <p class="feature-title"> News & Events</p>
     <div id="news-text">
       <!-- News text will be updated here by JavaScript -->
     </div>

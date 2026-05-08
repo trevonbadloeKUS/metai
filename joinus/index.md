@@ -33,27 +33,53 @@ size=full
 
 
 {% include section.html %}
+<h3> What will you learn & do? </h3>
 
-<h3> What you will learn & do? </h3>
-
-<div style="margin-bottom: 20px;">
-  <h2 style="color: #800000;">• Fundamentals</h2>
-  <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, etc.</p>
+<div class="feature" id="fundamentals" >
+  <div class="feature-image">
+    <img src="{{ '/images/research/metaphotonics.png' | relative_url }}" alt="Fundamentals">
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">What you will learn & do?</p>
+    <h2 style="color: #800000;">Fundamentals</h2>
+    <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, etc.</p>
+  </div>
 </div>
 
-<div style="margin-bottom: 20px;">
-  <h2 style="color: #800000;">• Nanophotonics Design & Analysis</h2>
-  <p>FDTD, FEM, RCWA, topological optimisation, machine learning, optical measurements, <i>etc.</i></p>
+{% include section.html %}
+
+<div class="feature" id="design-analysis" data-flip>
+  <div class="feature-image">
+    <img src="{{ '/images/research/ai-meta.png' | relative_url }}" alt="Design & Analysis">
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">Nanophotonics Design & Analysis</p>
+    <p>FDTD, FEM, RCWA, topological optimisation, machine learning, optical measurements, <i>etc.</i></p>
+  </div>
 </div>
 
-<div style="margin-bottom: 20px;">
-  <h2 style="color: #800000;">• Nanofabrication</h2>
-  <p>E-beam lithography, deposition, etching, scanning electron microscope (SEM), focused ion beam (FIB), <i>etc.</i></p>
+{% include section.html %}
+
+<div class="feature" id="nanofabrication">
+  <div class="feature-image">
+    <img src="{{ '/images/wave.gif' | relative_url }}" alt="Nanofabrication">
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">Nanofabrication</p>
+    <p>E-beam lithography, deposition, etching, scanning electron microscope (SEM), focused ion beam (FIB), <i>etc.</i></p>
+  </div>
 </div>
 
-<div style="margin-bottom: 40px;">
-  <h2 style="color: #800000;">• Nanotechnology / Metaphotonics</h2>
-  <p>Augmented/virtual reality (AR/VR), LiDAR, computational imaging, biomedical imaging,quantum optics, <i>etc.</i></p>
+{% include section.html %}
+
+<div class="feature" id="applications" data-flip>
+  <div class="feature-image">
+    <img src="{{ '/images/research/meta-ai.png' | relative_url }}" alt="Applications">
+  </div>
+  <div class="feature-text">
+    <p class="feature-title">Nanotechnology / Metaphotonics</p>
+    <p>Augmented/virtual reality (AR/VR), LiDAR, computational imaging, biomedical imaging, quantum optics, <i>etc.</i></p>
+  </div>
 </div>
 
 <hr>
