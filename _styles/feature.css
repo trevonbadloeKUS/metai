@@ -21,6 +21,13 @@
   align-items: center;
 }
 
+.feature-image iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border: none;
+}
+
 .feature-text {
   flex-grow: 1;
 }
@@ -32,6 +39,34 @@
   font-weight: var(--semi-bold);
 }
 
+.scroll-indicator {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--primary);
+}
+
+.scroll-indicator i {
+  font-size: 24px;
+  animation: bounce 2s infinite;
+}
+
+.scroll-indicator span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
 .feature[data-flip] {
   flex-direction: row-reverse;
 }
