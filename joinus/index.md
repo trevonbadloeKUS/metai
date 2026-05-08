@@ -38,14 +38,13 @@ size=full
 
 <div class="feature" id="fundamentals" >
   <div class="feature-image">
-    ![](https://youtu.be/wl4wJDC0Lck?si=BtKaqwAK4fZc8A30)    
+    <iframe src="https://www.youtube.com/embed/wl4wJDC0Lck" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Fundamentals</h2>
     <p>Flat optics, metasurfaces, nanophotonics, physical optics, wave optics, metamaterials, plasmonics, etc.</p>
     <div class="scroll-indicator">
       <i class="fas fa-chevron-down"></i>
-      <span>More sections below</span>
     </div>
   </div>
 </div>
@@ -58,7 +57,10 @@ size=full
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Nanophotonics Design & Analysis</h2>
-    <p>FDTD, FEM, RCWA, topological optimisation, machine learning, optical measurements,</p>
+    <p>FDTD, FEM, RCWA, topological optimisation, machine learning, optical measurements, etc. </p>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
   </div>
 </div>
 
@@ -71,6 +73,9 @@ size=full
   <div class="feature-text">
     <h2 style="color: #800000;">Nanofabrication</h2>
     <p>E-beam lithography, deposition, etching, scanning electron microscope (SEM), etc.</p>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
   </div>
 </div>
 
@@ -83,6 +88,9 @@ size=full
   <div class="feature-text">
     <h2 style="color: #800000;">Nanotechnology / Metaphotonics</h2>
     <p>Augmented/virtual reality (AR/VR), LiDAR, computational imaging, biomedical imaging, quantum optics, etc.</p>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
   </div>
 </div>
 
