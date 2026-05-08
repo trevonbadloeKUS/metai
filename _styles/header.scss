@@ -21,7 +21,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 0px;
-  padding: 20px;
+  padding: 16px 20px;
   box-shadow: var(--shadow);
   vertical-align: middle;
   transition: transform 0.28s ease, opacity 0.28s ease;
@@ -170,19 +170,43 @@ nav > a:hover {
   }
 
   .logo {
-    height: $logo-big;
+    height: $logo;
     align-items: center;
     vertical-align: middle;
   }
 
   .home {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
-    max-width: 100%;
+    gap: 8px;
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
+  .title-text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .hamburger {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+  }
 
 
 }

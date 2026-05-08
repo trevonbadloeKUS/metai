@@ -25,11 +25,13 @@ size=full
 <p> Or click the KakaoTalk link below to access our open chatting room~ </p>
 
 <!-- Kakaotalk Button -->
+<div style="center">
 <p>
   <a href="https://open.kakao.com/o/sCvTrjCh" target="_blank" rel="noopener noreferrer" class="kakao-button">
     KakaoTalk Open Chat
   </a>
 </p>
+</div>
 
 {% include section.html %}
 <h3> What will you learn & do? </h3>

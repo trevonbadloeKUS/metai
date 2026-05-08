@@ -22,7 +22,9 @@
 
 @media (max-width: 760px) {
   .homepage-hero {
-    background-size: cover;
+    padding: 28px 0 20px;
+    background-size: 120%;
+    background-position: top center;
     background-attachment: scroll;
   }
 }
