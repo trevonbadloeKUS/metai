@@ -2,6 +2,7 @@
 name: Minhyeok Choi (최민혁)
 image: team/photos/undergraduate/minhyeok_choi.jpeg
 role: masters
+pub_name: Minhyeok Choi
 
 current:
   - position: Masters Student

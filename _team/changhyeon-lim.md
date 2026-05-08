@@ -2,6 +2,7 @@
 name: Changhyeon Lim (임창현)
 image: team/photos/undergraduate/changhyeon_lim.jpeg
 role: undergrad
+pub_name: Changhyeon Lim
 
 current:
   - position: Undergraduate Researcher

@@ -2,6 +2,7 @@
 name: Joosung Park (박주성)
 image: team/photos/undergraduate/joosung-park.jpeg
 role: undergrad
+pub_name: Joosung Park
 
 current:
   - position: Undergraduate Researcher

@@ -2,6 +2,7 @@
 name: Myung Chan Sung (성명찬)
 image: team/photos/undergraduate/myung-chan-sung.jpeg
 role: undergrad
+pub_name: Myung Chan Sung
 
 current:
   - position: Undergraduate Researcher
