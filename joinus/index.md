@@ -25,13 +25,11 @@ size=full
 <p> Or click the KakaoTalk link below to access our open chatting room~ </p>
 
 <!-- Kakaotalk Button -->
-<div style="center">
-<p>
+<p style="text-align: center;">
   <a href="https://open.kakao.com/o/sCvTrjCh" target="_blank" rel="noopener noreferrer" class="kakao-button">
     KakaoTalk Open Chat
   </a>
 </p>
-</div>
 
 {% include section.html %}
 <h3> What will you learn & do? </h3>
@@ -88,9 +86,6 @@ size=full
   <div class="feature-text">
     <h2 style="color: #800000;">Nanotechnology / Metaphotonics</h2>
     <p>Augmented/virtual reality (AR/VR), LiDAR, computational imaging, biomedical imaging, quantum optics, etc.</p>
-    <div class="scroll-indicator">
-      <i class="fas fa-chevron-down"></i>
-    </div>
   </div>
 </div>
 
