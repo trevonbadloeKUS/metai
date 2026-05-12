@@ -363,3 +363,13 @@
   etc: Invited oral presentation, Academic committee
   website: https://www.htcis.net/MeetingMain/Index/2026APTS
   type: international
+
+
+- name: International Day of Light (IDL) 2026 Colloquium
+  location: University of Jordan, Jordan
+  venue: Online
+  latitude: 31.9516
+  longitude: 35.9239
+  date: '2026-05-12'
+  website: 
+  type: talk

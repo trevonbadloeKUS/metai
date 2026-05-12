@@ -36,7 +36,7 @@ size=full
 
 <div class="feature" id="fundamentals" >
   <div class="feature-image">
-    <iframe src="https://www.youtube.com/embed/wl4wJDC0Lck" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/rGG4CygDs3I" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Fundamentals</h2>
@@ -51,7 +51,7 @@ size=full
 
 <div class="feature" id="design-analysis" data-flip>
   <div class="feature-image">
-    <img src="{{ '/images/research/ai-meta.png' | relative_url }}" alt="Design & Analysis">
+    <iframe src="https://www.youtube.com/embed/3rjcFAwiyvM" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Nanophotonics Design & Analysis</h2>
@@ -66,7 +66,7 @@ size=full
 
 <div class="feature" id="nanofabrication">
   <div class="feature-image">
-    <img src="{{ '/images/wave.gif' | relative_url }}" alt="Nanofabrication">
+    <img src="{{ '/images/nanofab.jpg' | relative_url }}" alt="Nanofabrication">
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Nanofabrication</h2>
@@ -81,7 +81,7 @@ size=full
 
 <div class="feature" id="applications" data-flip>
   <div class="feature-image">
-    <img src="{{ '/images/research/meta-ai.png' | relative_url }}" alt="Applications">
+    <img src="{{ '/images/applications.png' | relative_url }}" alt="Applications">
   </div>
   <div class="feature-text">
     <h2 style="color: #800000;">Nanotechnology / Metaphotonics</h2>
