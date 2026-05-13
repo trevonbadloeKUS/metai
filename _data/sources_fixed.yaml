@@ -79,9 +79,8 @@
   highlight: A hybrid imaging system combining a metalens and compressive sensing is developed for ultra-low-power edge detection, enabling efficient image processing with minimal energy consumption. Selected for the Front Cover!!
   image: https://onlinelibrary.wiley.com/cms/asset/983dc256-0541-416a-9768-d3132cd62142/nap270079-fig-0001-m.jpg
   news:
-    - name: "KUS [Kor]"
-      link: https://gpa.korea.ac.kr/koreaSejong/8220/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa29yZWFTZWpvbmclMkY1NiUyRjI2Nzc0MyUyRmFydGNsVmlldy5kbyUzRg%3D%3D
-
+    - name: "Front Cover"
+      link: https://doi.org/10.1002/nap2.70126
 
 - id: doi:10.29026/oea.2026.250263
   title: AI-assisted metaphotonics
