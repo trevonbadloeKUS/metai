@@ -28,7 +28,7 @@ This paper is a collaboration with Prof. Hyunkeun Lee and the CICS lab at Korea 
 
 {%
   include figure.html
-  image="/images/news/2026/05/Nanophotonics/nanophotonics/fig1.jpg"
+  image="/images/news/2026/05/Nanophotonics/nanophotonics-fig1.jpg"
   width="400px"
 %}
 
