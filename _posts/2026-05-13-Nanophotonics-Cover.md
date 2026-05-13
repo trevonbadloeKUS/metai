@@ -13,6 +13,8 @@ Our paper is featured on the **Front Cover of Nanophotonics!**
 - Cover story: [https://doi.org/10.1002/nap2.70126](https://doi.org/10.1002/nap2.70126)
 - Full paper: [https://doi.org/10.1002/nap2.70079](https://doi.org/10.1002/nap2.70079)
 
+{% include section.html %}
+
 {%
   include figure.html
   image="/images/news/2026/05/Nanophotonics/nanophotonics-cover.jpg"
