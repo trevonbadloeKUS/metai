@@ -1,6 +1,6 @@
 ---
 title: Trevon gave an invited talk at AIPS2026, Wuhan, China!~
-image: "images/news/2026/05/AIPhotonics1.jpeg"
+image: "images/news/2026/05/AIPhotonics/AIPhotonics1.jpeg"
 author: trevon-badloe
 tags: conference, invitedtalk, China
 date: '2026-05-19'
