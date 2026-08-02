@@ -24,6 +24,7 @@ We started at the beautiful international campus of Beihang University in Hangzh
 %}
 
 There was a sudden shower on the way to the conference... so please forgive the wet hair... 😅😅
+
 학회장으로 가는 길에 갑작스러운 소나기가 내리는 바람에... 머리가 젖은 점 양해 부탁드립니다... 😅😅
 {%
   include figure.html
@@ -40,6 +41,7 @@ There was a sudden shower on the way to the conference... so please forgive the 
 {% include section.html %}
 
 It is always a pleasure to spend time with familiar faces and also meet some new ones...
+
 반가운 얼굴들과 시간을 보내고, 새로운 분들을 만나는 일은 언제나 즐겁습니다...
 {%
   include figure.html
@@ -48,6 +50,7 @@ It is always a pleasure to spend time with familiar faces and also meet some new
 %}
 
 and for the first time, our lab members were able to join the international conference and AI Photonics summer school at Beihang University... Thank you to all the hard work from Prof Hao Wang, all of the professors, and all of the 'volunteers'!~ 
+
 그리고 처음으로 우리 연구실도 베이항대학교에서 열린 국제 학회 및 AI 포토닉스 여름학교에 함께 참가할 수 있었습니다...
 
 {%
@@ -59,6 +62,7 @@ and for the first time, our lab members were able to join the international conf
 {% include section.html %}
 
 **Congratulations to Minsung!** Thanks to his hard work, he was selected as a recipient of a **best poster award!!** 🎉🎉🎉
+
 **민성 학생 축하합니다!** 열심한 노력 덕분에 우수 포스터상(Best Poster Award) 수상자로 선정되었습니다!! 🎉🎉🎉
 
 {%
@@ -73,8 +77,9 @@ and for the first time, our lab members were able to join the international conf
   width="1200px"
 %}
 
-Our lab students attended the AI Photonics summmer school ([https://metai.korea.ac.kr/2026/07/26/BISS.html] (see Minsung's post))
-우리 연구실 학생들이 AI 포토닉스 여름학교에 참가했습니다 ([https://metai.korea.ac.kr/2026/07/26/BISS.html] (민성 학생의 게시글 참조))
+Our lab students attended the AI Photonics summmer school [see Minsung's post](https://metai.korea.ac.kr/2026/07/26/BISS.html)
+
+우리 연구실 학생들이 AI 포토닉스 여름학교에 참가했습니다 [민성 학생의 게시글 참조](https://metai.korea.ac.kr/2026/07/26/BISS.html)
 
 {%
   include figure.html
@@ -95,6 +100,7 @@ Our lab students attended the AI Photonics summmer school ([https://metai.korea.
 {% include section.html %}
 
 After the events in Hangzhou, we moved onto Nanjing, where we visited Prof Xiong at NJUST and get an invited talk at OICIA2026~
+
 항저우에서의 일정을 마친 후 난징으로 이동하여 NJUST의 웅(Xiong) 교수님 연구실을 방문하고, OICIA2026에서 초청 강연을 진행했습니다~
 {%
   include figure.html
@@ -120,6 +126,7 @@ There were talks from researchers from all around the world, from China, Egypt, 
 
 {% include section.html %}
 Being July... Nanjing and the NJUST campus was as hot as ever...
+
 7월이라 역시... 난징 + NJUST 캠퍼스는 변함없이 뜨거웠습니다...
 
 {%
@@ -132,15 +139,9 @@ Being July... Nanjing and the NJUST campus was as hot as ever...
 
 매일... 체감 온도 39도... 🥵🥵🥵
 
-{%
-  include figure.html
-  image="/images/news/2026/07/SPC-NJUST-CIOP/NJUST4.jpeg"
-  width="1200px"
-%}
-
 {% include section.html %}
 
-As always it was a great pleasure to catch up with [https://scholar.google.com/citations?hl=en&user=aYDfdl0AAAAJ](Prof Qasim Mehmood of ITU)~ After meeting many years ago at POSTECH and publishing a number of papers together, his hard work is always inspiring~
+As always it was a great pleasure to catch up with [Prof Qasim Mehmood of ITU](https://scholar.google.com/citations?hl=en&user=aYDfdl0AAAAJ)~ After meeting many years ago at POSTECH and publishing a number of papers together, his hard work is always inspiring~
 
 언제나 그렇듯 ITU의 카심 메흐무드(Qasim Mehmood) 교수님과 안부를 나누게 되어 정말 반가웠습니다~ 수년 전 포스텍에서 처음 만난 이후 함께 여러 편의 논문을 출판해 왔는데, 교수님의 끊임없는 열정은 언제나 큰 영감을 줍니다~
 
@@ -152,7 +153,7 @@ As always it was a great pleasure to catch up with [https://scholar.google.com/c
 
 {% include section.html %}
 
-The final leg of the trip was to give an invited talk at [https://www.researching.cn/conference/CIOP2026](The 17th International Conference on Information Optics and Photonics (CIOP2026))! 
+The final leg of the trip was to give an invited talk at [The 17th International Conference on Information Optics and Photonics (CIOP2026)](https://www.researching.cn/conference/CIOP2026)! 
 
 이번 출장의 마지막 일정은 제17회 정보 광학 및 포토닉스 국제 학회(CIOP2026)에서 초청 강연을 하는 것이었습니다!
 
@@ -214,6 +215,7 @@ CIOP2026 also held an offline editorial meeting for Advanced Photonics, and Adva
 %}
 
 I finally got to pick up some Advanced Photonics, Advanced Imaging, and ThorLabs t-shirts!! ...It is 1 small dream come true 😂😂 
+
 드디어 Advanced Photonics, Advanced Imaging, 그리고 ThorLabs 티셔츠를 얻었습니다!! ...소소한 꿈 하나를 이뤘네요 😂😂
 
 {% include section.html %}
@@ -226,7 +228,7 @@ One extremely simple but inspiring comment he made when asked about what could h
 
 아토초(attosecond) 스케일에서 어떤 일이 일어날 수 있는지에 대한 질문을 받으셨을 때, 그분이 남긴 매우 단순하면서도 영감을 주는 한마디: "나도 모릅니다, 누군가 실험을 해봐야 알 수 있겠죠." 정말 대단합니다~
 
-[https://doi.org/10.1038/s41377-023-01082-w](Light People: Prof. Sir John Pendry, father of metamaterials, spoke about the future of meta | Light: Sci. Appl.)
+[Light People: Prof. Sir John Pendry, father of metamaterials, spoke about the future of meta | Light: Sci. Appl.](https://doi.org/10.1038/s41377-023-01082-w)
 
 {%
   include figure.html
