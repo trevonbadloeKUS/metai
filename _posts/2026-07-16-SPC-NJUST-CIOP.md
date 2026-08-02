@@ -228,7 +228,7 @@ One extremely simple but inspiring comment he made when asked about what could h
 
 아토초(attosecond) 스케일에서 어떤 일이 일어날 수 있는지에 대한 질문을 받으셨을 때, 그분이 남긴 매우 단순하면서도 영감을 주는 한마디: "나도 모릅니다, 누군가 실험을 해봐야 알 수 있겠죠." 정말 대단합니다~
 
-[Light People: Prof. Sir John Pendry, father of metamaterials, spoke about the future of meta | Light: Sci. Appl.](https://doi.org/10.1038/s41377-023-01082-w)
+[Light People: Prof. Sir John Pendry, father of metamaterials, spoke about the future of meta Light: Sci. Appl.](https://doi.org/10.1038/s41377-023-01082-w)
 
 {%
   include figure.html
