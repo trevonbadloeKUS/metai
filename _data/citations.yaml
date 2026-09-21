@@ -1,23 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1021/acsphotonics.6c02186
-  title: "Correction\nto \u201CDeep Learning-Enabled On-Demand\nInverse Design of\
-    \ Daytime Radiative Coolers with Dual-Polarization\nColor Control\u201D"
-  authors:
-  - Harit Keawmuang
-  - Xiaotong Li
-  - Shiqi Hu
-  - Yeseul Kim
-  - Junkyeong Park
-  - Le Dai
-  - Trevon Badloe
-  - Junsuk Rho
-  publisher: ACS Photonics
-  date: '2026-09-16'
-  link: https://doi.org/hcj9dz
-  orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
 - id: doi:10.1021/acsphotonics.6c00924
   title: 'Deep Learning-Enabled
 
@@ -37,8 +19,16 @@
   date: '2026-08-04'
   link: https://doi.org/hcj9d2
   orcid: 0000-0001-9458-6062
-  plugin: orcid.py
-  file: orcid_PI.yaml
+  plugin: sources.py
+  file: sources_fixed.yaml
+  tags:
+  - radiative cooling
+  - inverse design
+  type: research
+  highlight: A deep learning framework is developed for the on-demand inverse design
+    of daytime radiative coolers with dual-polarization color control, enabling efficient
+    and customizable cooling solutions.
+  image: https://acs.silverchair-cdn.com/acs/content_public/journal/apchd5/13/16/10.1021_acsphotonics.6c00924/1/m_ph6c00924_0006.png?Expires=1791303777&Signature=MMLGNQjze5rveS9qW9Pw8RZwP45li5VmmsnN8adCyG652j5yXdQTGLMUvhk32kA8sbOSurFoSRQg~zXCUK6yvj5gsT9EkdvAalEB97wbALE1iG7RFpzZRpXM9Z5VFxMGao~z1nVyBCmby8iJDyMUrZbdYmZGbuMEFUbzZ1PFroEM1rAAUzspaTG6wSkau3AX~OrydMMrq4Z6Yw17cDlW~10AXMu4~XQMSDPNd0t3-DVo-~hCJXQglv2Pdf6ozqLxyOeluiEP05tvJQRZffQRi5qOrXMfcZdN59nFR32T58QuZoPrcG3QBZmogT5dKtL5XtQgSeasBMZcGh0nfIUO2A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
 - id: doi:10.1021/acsami.6c00074
   title: 'Recent Advances in Radiative Cooling: From Fundamentals to Commercial Applications'
   authors:
