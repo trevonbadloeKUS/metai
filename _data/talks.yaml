@@ -378,3 +378,13 @@
   date: '2026-05-12'
   website: 
   type: talk
+
+- name: Sustainable Photonics Conference 2026 (SCP2026)
+  location: Hangzhou, China
+  venue: Hangzhou International Innovation Institute, Beihang University
+  latitude: 30.18
+  longitude: 120.21
+  date: "2026-07-18"
+  etc: Invited oral presentation, Chair for Nanophotonics and Nanofabrication session
+  website: https://www.spconf.org
+  type: international
