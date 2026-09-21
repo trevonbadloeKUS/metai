@@ -1,6 +1,6 @@
 ---
 name: Minsung Kang (강민성)
-image: team/photos/undergraduate/minsung_kang.jpeg
+image: team/photos/undergraduate/minsung-kang.png
 role: combined
 pub_name: Minsung Kang
 
