@@ -2,6 +2,8 @@
 name: Zhe Xu	(徐喆)
 image: team/photos/undergraduate/zhe-xu.jpeg
 role: alumni
+pub_name: Zhe Xu
+left_date: 2025-03-01
 
 current:
   - position: Undergraduate Researcher

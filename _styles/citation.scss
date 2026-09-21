@@ -82,6 +82,11 @@ $wrap: 900px;
   color: var(--gray);
 }
 
+.citation-author-student {
+  color: var(--student-highlight);
+  font-weight: var(--bold);
+}
+
 .citation-buttons {
   display: flex;
   flex-wrap: wrap;

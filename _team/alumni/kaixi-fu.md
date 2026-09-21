@@ -2,6 +2,8 @@
 name: Kaixi Fu (付开熙)
 image: team/photos/undergraduate/kaixi-fu.jpeg
 role: alumni
+pub_name: Kaixi Fu
+left_date: 2025-03-01
 
 current:
   - position: Undergraduate Researcher

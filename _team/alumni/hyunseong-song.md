@@ -2,6 +2,8 @@
 name: Hyunseong Song (송현성)
 image: /team/photos/undergraduate/hoseong-lee.jpeg
 role: alumni
+pub_name: Hyunseong Song
+left_date: 2026-02-01
 
 current:
   - position: Undergraduate Researcher

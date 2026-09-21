@@ -3,6 +3,7 @@ name: Myung Chan Sung (성명찬)
 image: team/photos/undergraduate/myung-chan-sung.jpeg
 role: alumni
 pub_name: Myung Chan Sung
+left_date: 2026-08-01
 
 current:
   - position: Undergraduate Researcher

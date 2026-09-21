@@ -47,8 +47,9 @@ nav:
 {% if alumni_team.size > 0 %}
   {% include section.html %}
   <h2>Alumni</h2>
+  {% assign alumni_sorted = alumni_team | sort: "left_date" | reverse %}
   <ul>
-    {% for member in alumni_team %}
+    {% for member in alumni_sorted %}
       {% if member.current[0] %}
         <li>{{ member.name }} - {{ member.current[0].position }} ({{ member.current[0].date }})</li>
       {% endif %}
