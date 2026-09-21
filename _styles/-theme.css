@@ -12,6 +12,7 @@
   --header_colour: #872535;
   --hover: #ddbd2f;
   --primary_lighter: #d55368;
+  --student-highlight: #4169e1;
 }
 
 [data-dark=true] {
@@ -28,6 +29,7 @@
   --header_colour: #872535;
   --hover: #ddbd2f;
   --primary_lighter: #d55368;
+  --student-highlight: #6e8dff;
 }
 
 :root {
