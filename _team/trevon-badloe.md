@@ -1,6 +1,6 @@
 ---
 name: Trevon Badloe
-image: team/photos/professor/trevon_photo.jpeg
+image: team/photos/professor/trevon_photo.png
 role: pi
 
 bio:
