@@ -1,15 +1,15 @@
 ---
-name: Myung Chan Sung (성명찬)
-image: team/photos/undergraduate/myung-chan-sung.jpeg
+name: Hyun Gyu Yoon (윤현규)
+image: team/photos/undergraduate/hyun-gyu-yoon.png
 role: undergrad
-pub_name: Myung Chan Sung
+pub_name: Hyun Gyu Yoon
 
 current:
   - position: Undergraduate Researcher
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    date: '2025/08 - current'
+    date: '2026/09 - current'
 
 bachelor:
   - degree:
@@ -47,5 +47,5 @@ links:
   google-scholar:
   instagram:
   linkedin:
-  email: smcleo321@korea.ac.kr
+  email: tom22625@korea.ac.kr
 ---
