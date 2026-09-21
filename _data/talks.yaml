@@ -303,26 +303,35 @@
   type: domestic
   presenter: Minsung Kang
 
-- name: SPIE Optics + Photonics 2026
-  location: San Diego, USA
-  venue: San Diego Convention Center
-  latitude: 32.7067
-  longitude: -117.1611
-  date: "2026-08-17"
+- name: International Symposium on Photonics, Quantum Systems, Metamaterials, and Intelligent Sensing (ISPMIS2026)
+  location: Nanjing, China
+  venue: Nanjing University of Science and Technology (NJUST)
+  latitude: 32.03
+  longitude: 118.86
+  date: "2026-07-21"
   etc: Invited oral presentation
-  website: https://spie.org/conferences-and-exhibitions/optics-and-photonics
+  website: https://english.njust.edu.cn
   type: international
 
-- name: The 48th Photonics and Electromagnetics Research Symposium (PIERS-2026)
-  location: Suzhou, China
-  venue: Suzhou Longemont Conference Center
-  latitude: 31.3041
-  longitude: 120.5842
-  date: "2026-07-27"
+- name: The 17th International Conference on Information Optics and Photonics (CIOP2026)
+  location: Nanjing, China
+  venue: Nanjing International Youth Convention Hotel
+  latitude: 32.03
+  longitude: 118.86
+  date: "2026-07-24"
   etc: Invited oral presentation
-  website: https://suzhou2026.piers.org
+  website: https://www.researching.cn/conference/CIOP2026
   type: international
 
+- name: The 6th International Conference on Photonics Solutions (ICPHS 2026)
+  location: Bangkok, Thailand
+  venue: Jasmine City Hotel
+  latitude: 13.7563
+  longitude: 100.5018
+  date: "2026-11-25"
+  etc: Invited oral presentation
+  website: https://icphs2026.science.swu.ac.th
+  type: international
 
 - name: Program in Energy Process Innovation Convergence, Inha University
   location: Incheon, South Korea
@@ -333,7 +342,6 @@
   website: https://epc.inha.ac.kr
   type: talk
 
-
 - name: UK-Korea Focal Point Workshop on Flat Optics for Structured and Entangled Light
   location: Hariot-Watt University, United Kingdom
   venue: Online
@@ -341,7 +349,6 @@
   longitude: -4.0286
   date: "2026-03-27"
   type: talk
-
 
 - name: International Symposium on Nanomaterials and Optoelectronic Technology Applications (2026)
   location: Nanjing, China
@@ -353,7 +360,6 @@
   website: https://english.njust.edu.cn
   type: international
 
-
 - name: The 5th AI Photonics Technology Symposium (AIPS2026)
   location: Wuhan, China
   venue: China Optics Valley Convention & Exhibition Center
@@ -363,7 +369,6 @@
   etc: Invited oral presentation, Academic committee
   website: https://www.htcis.net/MeetingMain/Index/2026APTS
   type: international
-
 
 - name: International Day of Light (IDL) 2026 Colloquium
   location: University of Jordan, Jordan
