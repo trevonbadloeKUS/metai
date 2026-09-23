@@ -1,8 +1,8 @@
 ---
-name: Jinwoo Bang (방진우)
-image: /images/wave.gif
+name: Jinwoo Pang (방진우)
+image: team/photos/undergraduate/jinwoo-pang.jpeg
 role: undergrad
-pub_name: Jinwoo Bang
+pub_name: Jinwoo Pang
 
 current:
   - position: Undergraduate Researcher
@@ -47,5 +47,5 @@ links:
   google-scholar:
   instagram:
   linkedin:
-  email: na@korea.ac.kr
+  email: pie0601@korea.ac.kr
 ---
