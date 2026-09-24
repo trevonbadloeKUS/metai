@@ -15,11 +15,16 @@ Also welcome Minhyuk back as an intern~!
   width="400px"
 %}
 
+Chae Eun Kim, 3rd grade undergraduate student of the Department of Electronics and Information Engineering, Korea University Sejong Campus
+
 {%
   include figure.html
   image="/team/photos/undergraduate/minseok-kim.jpeg"
   width="400px"
 %}
+
+Minseok Kim, 3rd grade undergraduate student of the Department of Electronics and Information Engineering, Korea University Sejong Campus
+
 
 {%
   include figure.html
@@ -27,10 +32,23 @@ Also welcome Minhyuk back as an intern~!
   width="400px"
 %}
 
+Hyun Gyu Yoon, 2nd grade undergraduate student of the Department of Electronics and Information Engineering, Korea University Sejong Campus
+
+{%
+  include figure.html
+  image="/team/photos/undergraduate/jinwoo-pang.jpeg"
+  width="400px"
+%}
+
+Jinwoo Pang, 2nd grade undergraduate student of the Department of Electronics and Information Engineering, Korea University Sejong Campus
+
 {%
   include figure.html
   image="/team/photos/undergraduate/minhyuk-moon.jpeg"
   width="400px"
 %}
+
+Finally, Minhyuk Moon, undergraduate graduate of the Department of Electronics and Information Engineering, Korea University Sejong Campus (July 2026)
+
 
 Let's do some great research together!!~

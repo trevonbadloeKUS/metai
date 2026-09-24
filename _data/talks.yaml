@@ -388,3 +388,22 @@
   etc: Invited oral presentation, Chair for Nanophotonics and Nanofabrication session
   website: https://www.spconf.org
   type: international
+
+- name: School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST)
+  location: Wuhan, China
+  venue: School of Optical and Electronic Information
+  latitude: 30.5928
+  longitude: 114.3055
+  date: "2026-11-09"
+  website: https://light.hust.edu.cn
+  type: talk
+
+- name: METAMAT 2027
+  location: Hangzhou, China
+  venue: Hangzhou International Innovation Institute, Beihang University 
+  latitude: 30.18
+  longitude: 120.21
+  date: "2027-07-16"
+  website: https://metamat2027.sciencesconf.org
+  etc: Invited oral presentation
+  type: international
