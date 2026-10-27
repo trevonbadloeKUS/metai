@@ -407,3 +407,13 @@
   website: https://metamat2027.sciencesconf.org
   etc: Invited oral presentation
   type: international
+
+- name: The 49th Photonics and Electromagnetics Research Symposium (PIERS-2027)
+  location: Daejeon, South Korea
+  venue: Daejeon Convention Center (DCC)
+  latitude: 36.3729
+  longitude: 127.3608
+  date: "2027-04-09"
+  website: https://www.piers.org/piers2027Daejeon/
+  etc: Invited oral presentation (Session Chair)
+  type: international
