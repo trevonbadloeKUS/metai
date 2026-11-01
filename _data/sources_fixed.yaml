@@ -1,3 +1,30 @@
+
+- id: doi:10.1002/lpor.72114
+  title: Weak Measurement for Characterizing Effective Jones Matrices of Phase Gradient
+    Metasurfaces
+  authors:
+  - Peng Tang
+  - Youngsun Jeon
+  - Xiaoyu Zhao
+  - Ting Wan
+  - Chengle Zhou
+  - Trevon Badloe
+  - Hao Deng
+  - Guoqiang Li
+  - Junsuk Rho
+  publisher: Laser &amp; Photonics Reviews
+  date: '2026-10-24'
+  link: https://doi.org/hcp3sp
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
+  tags: 
+    - weak measurement
+    - metasurface characterisation
+  type: research
+  highlight: A weak measurement technique is developed alongside AI for characterizing effective Jones matrices of phase gradient metasurfaces, enabling precise analysis of their optical properties.
+  image: https://onlinelibrary.wiley.com/cms/asset/87a4c33d-450d-441d-ac07-c6f05d13229a/lpor72114-fig-0001-m.jpg
+
 - id: doi:10.1021/acsphotonics.6c02186
   title: "Correction\nto \u201CDeep Learning-Enabled On-Demand\nInverse Design of\
     \ Daytime Radiative Coolers with Dual-Polarization\nColor Control\u201D"
@@ -20,11 +47,7 @@
 
 
 - id: doi:10.1021/acsphotonics.6c00924
-  title: 'Deep Learning-Enabled
-
-    On-Demand Inverse Design of
-
-    Daytime Radiative Coolers with Dual-Polarization Color Control'
+  title: 'Deep Learning-Enabled On-Demand Inverse Design of Daytime Radiative Coolers with Dual-Polarization Color Control'
   authors:
   - Harit Keawmuang
   - Xiaotong Li
