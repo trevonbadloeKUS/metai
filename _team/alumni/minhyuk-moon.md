@@ -1,15 +1,16 @@
 ---
 name: Minhyuk Moon (문민혁)
 image: team/photos/undergraduate/minhyuk-moon.jpeg
-role: undergrad
+role: alumni
 pub_name: Minhyuk Moon
+left_date: 2026-11-01
 
 current:
   - position: Intern
     department: Department of Electronics and Information Engineering
     school: Korea University - Sejong Campus
     link: https://kueie.korea.ac.kr
-    date: '2026/09 - current'
+    date: '2026/09 - 2026/11'
 
 bachelor:
   - degree: B.Sc
