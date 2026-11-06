@@ -138,6 +138,12 @@
   news:
   - name: Front Cover
     link: https://doi.org/10.1002/nap2.70126
+  - name: KUS [Kor]
+    link: https://gpa.korea.ac.kr/bbs/koreaSejong/56/270166/artclView.do
+  - name: "\uBE0C\uB9BF\uC9C0\uACBD\uC81C"
+    link: https://viva100.com/article/20260609500978
+  - name: KUS [Eng]
+    link: https://gpa.korea.ac.kr/bbs/eng/889/270978/artclView.do
 - id: doi:10.29026/oea.2026.250263
   title: AI-assisted metaphotonics
   authors:
@@ -183,6 +189,10 @@
     link: https://www.lecturernews.com/news/articleView.html?idxno=199078
   - name: "\uACBD\uD5A5\uC2E0\uBB38"
     link: https://www.khan.co.kr/article/202603181022001/?utm_source=urlCopy&utm_medium=social&utm_campaign=sharing#ENT
+  - name: AlphaGalileo
+    link: https://www.alphagalileo.org/en-gb/Item-Display/ItemId/272274
+  - name: BrightSurf
+    link: https://www.brightsurf.com/news/147Z02G1/revolutionizing-light-artificial-intelligence-unlocks-the-full-potential-of-flat-optics.html
 - id: doi:10.37188/lam.2026.022
   title: Dual-functional metasurfaces enabling high-efficiency holography and triple-color
     printing for enhanced optical security platforms
@@ -212,6 +222,9 @@
     and triple-color printing, enhancing optical security platforms with advanced
     anti-counterfeiting features.
   image: https://www.light-am.com/fileGXJZZ/cms/news/info/2b921c26-1e02-4973-83fd-3c76a8362189.jpg
+  news:
+  - name: EurekAlert!
+    link: https://www.eurekalert.org/news-releases/1142201
 - id: doi:10.29026/OES.2026.260044
   title: Electrically switchable bright-field and interference-synthesized edge-enhanced
     imaging with a polarization-multiplexed metalens
@@ -274,6 +287,11 @@
     adaptive rotational depth mapping and diffraction-limited imaging, enabling rapid
     and precise 3D imaging.
   image: https://www.oejournal.org/fileOEJ/journal/article/gdjz/2026/2/OEA-2025-0216JunsukRho-1.jpg
+  news:
+  - name: EurekAlert!
+    link: https://www.eurekalert.org/news-releases/1118070
+  - name: BrightSurf
+    link: https://www.brightsurf.com/news/LMJGD0EL/millisecond-switchable-flat-lens-that-sees-depth-and-detail-on-demand.html
 - id: doi:10.29026/OEA.2026.250306
   title: Parallel bright-field and multi-order edge imaging via wide field-of-view
     trichannel metalens
