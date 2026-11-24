@@ -1,5 +1,23 @@
 ---
 
+- name: "3MT KUS Competition (장려상)"
+  date: '2026-09-01'
+  awarder: Sejong, South Korea
+  etc:
+  recipient: Minsung Kang
+
+- name: "Best Team Award"
+  date: '2026-08-01'
+  awarder: Beihang Summer International School, Hangzhou, China
+  etc:
+  recipient: Minsung Kang
+
+- name: "Best Poster Award"
+  date: '2026-07-01'
+  awarder: Sustainable Photonics Conference, Hangzhou, China
+  etc:
+  recipient: Minsung Kang
+
 - name: "World Top 2% Scientist (2024, 2025), Stanford University"
   date: '2026-01-01'
   awarder: Elsevier / Stanford University

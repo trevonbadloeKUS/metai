@@ -389,6 +389,17 @@
   website: https://www.spconf.org
   type: international
 
+- name: Sustainable Photonics Conference 2026 (SCP2026)
+  location: Hangzhou, China
+  venue: Hangzhou International Innovation Institute, Beihang University
+  latitude: 30.18
+  longitude: 120.21
+  date: "2026-07-18"
+  etc: Poster presentation, Best Poster Award
+  website: https://www.spconf.org
+  type: international
+  presenter: Minsung Kang
+
 - name: School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST)
   location: Wuhan, China
   venue: School of Optical and Electronic Information
