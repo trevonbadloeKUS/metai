@@ -44,7 +44,7 @@ experience:
 links:
   home-page:
   orcid:
-  google-scholar: ZgFCa-FG274C
+  google-scholar: "https://scholar.google.com/citations?user=ZgFCa-FG274C&hl=ko"
   instagram:
   linkedin:
   email: rkdals856@korea.ac.kr
