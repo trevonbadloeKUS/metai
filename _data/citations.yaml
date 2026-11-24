@@ -225,6 +225,26 @@
   news:
   - name: EurekAlert!
     link: https://www.eurekalert.org/news-releases/1142201
+- id: doi:10.1109/JSEN.2026.3753384
+  title: 'EVSpectroscopy: Computational spectroscopy with event vision sensor for
+    data-efficient spectral acquisition'
+  authors:
+  - Gookseon Jeon
+  - Hasung Kim
+  - Woonkyeong Jung
+  - Sejin Yoon
+  - Minji Kim
+  - Trevon Badloe
+  - Sang-Gyun Gi
+  - Seongjin Hong
+  - Janghee Choi
+  - Hyunkeun Lee
+  publisher: IEEE Sensors Journal
+  date: '2026-01-01'
+  link: https://doi.org/hctr5k
+  orcid: 0000-0001-9458-6062
+  plugin: orcid.py
+  file: orcid_PI.yaml
 - id: doi:10.29026/OES.2026.260044
   title: Electrically switchable bright-field and interference-synthesized edge-enhanced
     imaging with a polarization-multiplexed metalens
